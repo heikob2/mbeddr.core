@@ -9171,6 +9171,85 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6hIoT_txZyP" role="jymVt" />
+    <node concept="3clFbW" id="6hIoT_txZJB" role="jymVt">
+      <node concept="3cqZAl" id="6hIoT_txZJC" role="3clF45" />
+      <node concept="3Tm1VV" id="6hIoT_txZJD" role="1B3o_S" />
+      <node concept="3clFbS" id="6hIoT_txZJE" role="3clF47">
+        <node concept="3SKdUt" id="6hIoT_txZJF" role="3cqZAp">
+          <node concept="3SKdUq" id="6hIoT_txZJG" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Refactor the API to URI." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6hIoT_txZJH" role="3cqZAp">
+          <node concept="37vLTI" id="6hIoT_txZJI" role="3clFbG">
+            <node concept="37vLTw" id="6hIoT_txZJJ" role="37vLTJ">
+              <ref role="3cqZAo" node="6TiIOkRA6CR" resolve="mdl" />
+            </node>
+            <node concept="37vLTw" id="6hIoT_txZJK" role="37vLTx">
+              <ref role="3cqZAo" node="6hIoT_txZJX" resolve="model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6hIoT_txZJL" role="3cqZAp">
+          <node concept="37vLTI" id="6hIoT_txZJM" role="3clFbG">
+            <node concept="2OqwBi" id="6hIoT_txZJN" role="37vLTJ">
+              <node concept="Xjq3P" id="6hIoT_txZJO" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6hIoT_txZJP" role="2OqNvi">
+                <ref role="2Oxat5" node="6TiIOkRA6CU" resolve="ecoreFileName" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="6hIoT_tylvl" role="37vLTx">
+              <ref role="37wK5l" to="hu10:~URI.createFileURI(java.lang.String):org.eclipse.emf.common.util.URI" resolve="createFileURI" />
+              <ref role="1Pybhc" to="hu10:~URI" resolve="URI" />
+              <node concept="37vLTw" id="6hIoT_tylHp" role="37wK5m">
+                <ref role="3cqZAo" node="6hIoT_txZK0" resolve="ecoreFileName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6hIoT_txZJR" role="3cqZAp">
+          <node concept="37vLTI" id="6hIoT_txZJS" role="3clFbG">
+            <node concept="2OqwBi" id="6hIoT_txZJU" role="37vLTJ">
+              <node concept="Xjq3P" id="6hIoT_txZJV" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6hIoT_txZJW" role="2OqNvi">
+                <ref role="2Oxat5" node="27QF9yGKuGZ" resolve="pathToInstance" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="6hIoT_tymH7" role="37vLTx">
+              <ref role="37wK5l" to="hu10:~URI.createFileURI(java.lang.String):org.eclipse.emf.common.util.URI" resolve="createFileURI" />
+              <ref role="1Pybhc" to="hu10:~URI" resolve="URI" />
+              <node concept="37vLTw" id="6hIoT_tymVd" role="37wK5m">
+                <ref role="3cqZAo" node="6hIoT_txZK3" resolve="pathToInstance" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6hIoT_txZJX" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="6hIoT_txZJY" role="1tU5fm" />
+        <node concept="2AHcQZ" id="6hIoT_txZJZ" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6hIoT_txZK0" role="3clF46">
+        <property role="TrG5h" value="ecoreFileName" />
+        <node concept="17QB3L" id="6hIoT_tykYe" role="1tU5fm" />
+        <node concept="2AHcQZ" id="6hIoT_txZK2" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6hIoT_txZK3" role="3clF46">
+        <property role="TrG5h" value="pathToInstance" />
+        <node concept="17QB3L" id="6hIoT_tylNc" role="1tU5fm" />
+        <node concept="2AHcQZ" id="6hIoT_txZK5" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6hIoT_tykL1" role="jymVt" />
+    <node concept="2tJIrI" id="6hIoT_txZDf" role="jymVt" />
   </node>
   <node concept="312cEu" id="6TiIOkRA79w">
     <property role="TrG5h" value="EcoreModelImporter" />
