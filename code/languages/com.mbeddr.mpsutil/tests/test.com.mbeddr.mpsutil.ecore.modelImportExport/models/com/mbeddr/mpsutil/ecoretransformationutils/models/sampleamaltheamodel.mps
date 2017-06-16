@@ -20,6 +20,11 @@
       <concept id="2833742720745012723" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.HWModel" flags="ng" index="2Tyoge">
         <child id="2833742720745013336" name="system" index="2Ty7A_" />
       </concept>
+      <concept id="2833742720745012349" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Time" flags="ng" index="2Tyom0" />
+      <concept id="2833742720745012346" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.AbstractTime" flags="ng" index="2Tyom7">
+        <property id="2833742720745012348" name="unit" index="2Tyom1" />
+        <property id="2833742720745012347" name="value" index="2Tyom6" />
+      </concept>
       <concept id="2833742720745012332" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.IReferable" flags="ng" index="2Tyomh">
         <property id="2833742720745012333" name="name" index="2Tyomg" />
       </concept>
@@ -27,6 +32,7 @@
         <child id="2833742720745013491" name="mappingModel" index="2Ty7$e" />
         <child id="2833742720745013485" name="hwModel" index="2Ty7$g" />
         <child id="2833742720745013484" name="swModel" index="2Ty7$h" />
+        <child id="2833742720745013487" name="stimuliModel" index="2Ty7$i" />
         <child id="2833742720745013486" name="osModel" index="2Ty7$j" />
       </concept>
       <concept id="2833742720745013099" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.InstructionsConstant" flags="ng" index="2Tyoqm">
@@ -53,6 +59,12 @@
         <child id="2833742720745013259" name="runnables" index="2Ty7BQ" />
         <child id="2833742720745013258" name="tasks" index="2Ty7BR" />
       </concept>
+      <concept id="2833742720745012943" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Single" flags="ng" index="2TyosM">
+        <child id="2833742720745013513" name="activation" index="2Ty7zO" />
+      </concept>
+      <concept id="2833742720745012934" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.StimuliModel" flags="ng" index="2TyosV">
+        <child id="2833742720745013471" name="stimuli" index="2Ty7$y" />
+      </concept>
       <concept id="2833742720745012896" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.TaskScheduler" flags="ng" index="2Tyott">
         <child id="2833742720745013153" name="schedulingAlgorithm" index="2Tyops" />
       </concept>
@@ -76,7 +88,7 @@
   <node concept="2Tyomr" id="gW2A13$iSn">
     <node concept="2Tyosk" id="Q_bvfAKBuM" role="2Ty7$h">
       <node concept="2TyorB" id="Q_bvfAKBvd" role="2Ty7BR">
-        <property role="2Tyomg" value="task_1" />
+        <property role="2Tyomg" value="task_priya" />
         <node concept="2Tyosc" id="Q_bvfAKBvg" role="2Tyooj">
           <node concept="2Tyose" id="Q_bvfAKBvm" role="2Ty7Bs">
             <node concept="2TyorE" id="Q_bvfAKBvt" role="2Tyopr">
@@ -146,6 +158,14 @@
         <ref role="2Ty7zR" node="Q_bvfAKBwr" />
         <ref role="2Ty7zL" node="Q_bvfAKBwr" />
         <ref role="309HB9" node="Q_bvfAKBw9" />
+      </node>
+    </node>
+    <node concept="2TyosV" id="1R0xx$rD_49" role="2Ty7$i">
+      <node concept="2TyosM" id="1R0xx$rD_4c" role="2Ty7$y">
+        <node concept="2Tyom0" id="1R0xx$rD_4f" role="2Ty7zO">
+          <property role="2Tyom6" value="1" />
+          <property role="2Tyom1" value="5" />
+        </node>
       </node>
     </node>
   </node>
