@@ -32,6 +32,7 @@
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -4223,6 +4224,7 @@
   </node>
   <node concept="AxPO7" id="2tjuvQuQJTK">
     <property role="TrG5h" value="MemoryAddressMappingType" />
+    <property role="PDuV0" value="true" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="2tjuvQuQJTG" role="M5hS2">
       <property role="1uS6qv" value="0" />
@@ -7006,6 +7008,7 @@
   </node>
   <node concept="AxPO7" id="2tjuvQuQJXN">
     <property role="TrG5h" value="Preemption" />
+    <property role="PDuV0" value="false" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="2tjuvQuQJXJ" role="M5hS2">
       <property role="1uS6qv" value="0" />

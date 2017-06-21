@@ -41,7 +41,10 @@
       <concept id="2833742720745013044" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Runnable" flags="ng" index="2Tyor9">
         <child id="2833742720745013209" name="runnableItems" index="2Tyoo$" />
       </concept>
-      <concept id="2833742720745013018" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Task" flags="ng" index="2TyorB" />
+      <concept id="2833742720745013018" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Task" flags="ng" index="2TyorB">
+        <property id="2833742720745013021" name="multipleTaskActivationLimit" index="2Tyorw" />
+        <property id="2833742720745013020" name="preemption" index="2Tyorx" />
+      </concept>
       <concept id="2833742720745013015" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.TaskRunnableCall" flags="ng" index="2TyorE">
         <reference id="2833742720745013384" name="runnable" index="2Ty7_P" />
         <reference id="2833742720745013386" name="runnableLinkInt" index="2Ty7_R" />
@@ -88,7 +91,9 @@
   <node concept="2Tyomr" id="gW2A13$iSn">
     <node concept="2Tyosk" id="Q_bvfAKBuM" role="2Ty7$h">
       <node concept="2TyorB" id="Q_bvfAKBvd" role="2Ty7BR">
-        <property role="2Tyomg" value="task_priya" />
+        <property role="2Tyomg" value="task_3" />
+        <property role="2Tyorw" value="1" />
+        <property role="2Tyorx" value="1" />
         <node concept="2Tyosc" id="Q_bvfAKBvg" role="2Tyooj">
           <node concept="2Tyose" id="Q_bvfAKBvm" role="2Ty7Bs">
             <node concept="2TyorE" id="Q_bvfAKBvt" role="2Tyopr">
@@ -100,6 +105,8 @@
       </node>
       <node concept="2TyorB" id="Q_bvfAKBvx" role="2Ty7BR">
         <property role="2Tyomg" value="task_2" />
+        <property role="2Tyorw" value="2" />
+        <property role="2Tyorx" value="1" />
         <node concept="2Tyosc" id="Q_bvfAKBvG" role="2Tyooj">
           <node concept="2Tyose" id="Q_bvfAKBvM" role="2Ty7Bs">
             <node concept="2TyorE" id="Q_bvfAKBvQ" role="2Tyopr">
