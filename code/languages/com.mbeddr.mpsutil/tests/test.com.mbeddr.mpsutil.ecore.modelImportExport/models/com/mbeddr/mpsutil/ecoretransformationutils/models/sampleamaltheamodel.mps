@@ -41,6 +41,7 @@
       <concept id="2833742720745013044" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Runnable" flags="ng" index="2Tyor9">
         <child id="2833742720745013209" name="runnableItems" index="2Tyoo$" />
       </concept>
+      <concept id="2833742720745013022" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.ISR" flags="ng" index="2Tyorz" />
       <concept id="2833742720745013018" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Task" flags="ng" index="2TyorB">
         <property id="2833742720745013021" name="multipleTaskActivationLimit" index="2Tyorw" />
         <property id="2833742720745013020" name="preemption" index="2Tyorx" />
@@ -59,6 +60,7 @@
         <child id="2833742720745013158" name="calls" index="2Tyopr" />
       </concept>
       <concept id="2833742720745012969" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.SWModel" flags="ng" index="2Tyosk">
+        <child id="2833742720745013257" name="isrs" index="2Ty7BO" />
         <child id="2833742720745013259" name="runnables" index="2Ty7BQ" />
         <child id="2833742720745013258" name="tasks" index="2Ty7BR" />
       </concept>
@@ -74,6 +76,7 @@
       <concept id="2833742720745012890" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.OperatingSystem" flags="ng" index="2TyotB">
         <child id="2833742720745013300" name="taskSchedulers" index="2Ty7B9" />
       </concept>
+      <concept id="2833742720745012880" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.PriorityBasedRoundRobin" flags="ng" index="2TyotH" />
       <concept id="2833742720745012867" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.OSEK" flags="ng" index="2TyotY" />
       <concept id="2833742720745012853" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.OSModel" flags="ng" index="2Tyou8">
         <child id="2833742720745013287" name="operatingSystems" index="2Ty7Bq" />
@@ -90,6 +93,17 @@
   </registry>
   <node concept="2Tyomr" id="gW2A13$iSn">
     <node concept="2Tyosk" id="Q_bvfAKBuM" role="2Ty7$h">
+      <node concept="2Tyorz" id="2JlO$qad1zD" role="2Ty7BO">
+        <property role="2Tyomg" value="isr1" />
+        <node concept="2Tyosc" id="2JlO$qad1zF" role="2Tyooj">
+          <node concept="2Tyose" id="2JlO$qad1zJ" role="2Ty7Bs">
+            <node concept="2TyorE" id="2JlO$qad1zM" role="2Tyopr">
+              <ref role="2Ty7_P" node="Q_bvfAKBuP" />
+              <ref role="2Ty7_R" node="Q_bvfAKBuP" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="2TyorB" id="Q_bvfAKBvd" role="2Ty7BR">
         <property role="2Tyomg" value="task_3" />
         <property role="2Tyorw" value="1" />
@@ -147,7 +161,7 @@
       <node concept="2TyotB" id="Q_bvfAKBwl" role="2Ty7Bq">
         <node concept="2Tyott" id="Q_bvfAKBwo" role="2Ty7B9">
           <property role="2Tyomg" value="scheduler_1" />
-          <node concept="2TyotY" id="2TNPI5rnRRn" role="2Tyops" />
+          <node concept="2TyotH" id="55hMS_6xDp9" role="2Tyops" />
         </node>
         <node concept="2Tyott" id="Q_bvfAKBwr" role="2Ty7B9">
           <property role="2Tyomg" value="scheduler_2" />

@@ -8451,40 +8451,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="177LIHt0egH" role="3cqZAp">
-              <node concept="2OqwBi" id="177LIHt0egI" role="3clFbG">
-                <node concept="10M0yZ" id="177LIHt0egJ" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                </node>
-                <node concept="liA8E" id="177LIHt0egK" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="3cpWs3" id="177LIHt0egL" role="37wK5m">
-                    <node concept="3cpWs3" id="177LIHt0egM" role="3uHU7B">
-                      <node concept="3cpWs3" id="177LIHt0egN" role="3uHU7B">
-                        <node concept="2OqwBi" id="177LIHt0egO" role="3uHU7w">
-                          <node concept="37vLTw" id="177LIHt0ehH" role="2Oq$k0">
-                            <ref role="3cqZAo" node="177LIHt0ehD" resolve="attribute" />
-                          </node>
-                          <node concept="liA8E" id="177LIHt0egQ" role="2OqNvi">
-                            <ref role="37wK5l" to="iuoz:~ENamedElement.getName():java.lang.String" resolve="getName" />
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="177LIHt0egR" role="3uHU7B">
-                          <property role="Xl_RC" value="Setting value of " />
-                        </node>
-                      </node>
-                      <node concept="37vLTw" id="177LIHt0egS" role="3uHU7w">
-                        <ref role="3cqZAo" node="177LIHt0eg_" resolve="literal" />
-                      </node>
-                    </node>
-                    <node concept="3cmrfG" id="177LIHt0egT" role="3uHU7w">
-                      <property role="3cmrfH" value="2" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="177LIHt0egU" role="3cqZAp">
               <node concept="3cpWsn" id="177LIHt0egV" role="3cpWs9">
                 <property role="TrG5h" value="propertyByName" />

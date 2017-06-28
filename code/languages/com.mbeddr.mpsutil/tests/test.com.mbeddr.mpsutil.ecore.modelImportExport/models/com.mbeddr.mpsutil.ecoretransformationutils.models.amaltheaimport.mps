@@ -50,10 +50,13 @@
         <property id="2833742720745012972" name="priority" index="2Tyosh" />
       </concept>
       <concept id="2833742720745012934" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.StimuliModel" flags="ng" index="2TyosV" />
-      <concept id="2833742720745012896" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.TaskScheduler" flags="ng" index="2Tyott" />
+      <concept id="2833742720745012896" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.TaskScheduler" flags="ng" index="2Tyott">
+        <child id="2833742720745013153" name="schedulingAlgorithm" index="2Tyops" />
+      </concept>
       <concept id="2833742720745012890" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.OperatingSystem" flags="ng" index="2TyotB">
         <child id="2833742720745013300" name="taskSchedulers" index="2Ty7B9" />
       </concept>
+      <concept id="2833742720745012880" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.PriorityBasedRoundRobin" flags="ng" index="2TyotH" />
       <concept id="2833742720745012863" name="com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure.Scheduler" flags="ng" index="2Tyou2">
         <property id="2833742720745012864" name="scheduleUnitPriority" index="2TyotX" />
       </concept>
@@ -120,6 +123,7 @@
           <property role="2Tyomg" value="scheduler_1" />
           <property role="2Tyomj" value="scheduler_1?type=TaskScheduler" />
           <property role="2TyotX" value="0" />
+          <node concept="2TyotH" id="55hMS_6xDp7" role="2Tyops" />
         </node>
         <node concept="2Tyott" id="177LIHsY4A0" role="2Ty7B9">
           <property role="2Tyomg" value="scheduler_2" />
@@ -133,142 +137,6 @@
       <property role="2Tyouy" value="cooperative" />
       <node concept="2Tyout" id="177LIHsY4A6" role="2Ty7Bi" />
       <node concept="2Tyout" id="177LIHsY4A7" role="2Ty7Bi" />
-    </node>
-  </node>
-  <node concept="2Tyomr" id="177LIHsZtRm">
-    <node concept="2Tyosk" id="177LIHsZtRn" role="2Ty7$h">
-      <node concept="2TyorB" id="177LIHsZtRo" role="2Ty7BR">
-        <property role="2TyorA" value="0" />
-        <property role="2Tyorx" value="2" />
-        <property role="2Tyorw" value="5" />
-        <property role="2Tyomg" value="task_3" />
-        <property role="2Tyomj" value="task_3?type=Task" />
-        <property role="2Tyosh" value="0" />
-      </node>
-      <node concept="2Tyor9" id="177LIHsZtRs" role="2Ty7BQ">
-        <property role="2Tyor8" value="false" />
-        <property role="2Tyorb" value="false" />
-        <property role="2Tyomg" value="runnable_1" />
-        <property role="2Tyomj" value="runnable_1?type=Runnable" />
-      </node>
-      <node concept="2Tyor9" id="177LIHsZtRu" role="2Ty7BQ">
-        <property role="2Tyor8" value="false" />
-        <property role="2Tyorb" value="false" />
-        <property role="2Tyomg" value="runnable_2" />
-        <property role="2Tyomj" value="runnable_2?type=Runnable" />
-      </node>
-    </node>
-    <node concept="2Tyoge" id="177LIHsZtRw" role="2Ty7$g">
-      <node concept="2Tyog8" id="177LIHsZtRx" role="2Ty7A_">
-        <property role="2Tyomj" value="no-name?type=HwSystem" />
-        <node concept="2Tyogb" id="177LIHsZtRy" role="2Ty7AO">
-          <property role="2Tyomj" value="no-name?type=ECU" />
-          <node concept="2Tyoga" id="177LIHsZtRz" role="2Ty7_F">
-            <property role="2Tyomg" value="processor_1" />
-            <property role="2Tyomj" value="processor_1?type=Microcontroller" />
-            <node concept="2Tyog5" id="177LIHsZtR$" role="2Ty7BW">
-              <property role="2Tyog4" value="0" />
-              <property role="2Tyomj" value="no-name?type=Core" />
-            </node>
-          </node>
-          <node concept="2Tyoga" id="177LIHsZtR_" role="2Ty7_F">
-            <property role="2Tyomg" value="processor_2" />
-            <property role="2Tyomj" value="processor_2?type=Microcontroller" />
-            <node concept="2Tyog5" id="177LIHsZtRA" role="2Ty7BW">
-              <property role="2Tyog4" value="0" />
-              <property role="2Tyomj" value="no-name?type=Core" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Tyou8" id="177LIHsZtRB" role="2Ty7$j">
-      <node concept="2TyotB" id="177LIHsZtRC" role="2Ty7Bq">
-        <node concept="2Tyott" id="177LIHsZtRD" role="2Ty7B9">
-          <property role="2Tyomg" value="scheduler_1" />
-          <property role="2Tyomj" value="scheduler_1?type=TaskScheduler" />
-          <property role="2TyotX" value="0" />
-        </node>
-        <node concept="2Tyott" id="177LIHsZtRF" role="2Ty7B9">
-          <property role="2Tyomg" value="scheduler_2" />
-          <property role="2Tyomj" value="scheduler_2?type=TaskScheduler" />
-          <property role="2TyotX" value="0" />
-        </node>
-      </node>
-    </node>
-    <node concept="2TyosV" id="177LIHsZtRH" role="2Ty7$i" />
-    <node concept="2Tyouz" id="177LIHsZtRK" role="2Ty7$e">
-      <property role="2Tyouy" value="2" />
-      <node concept="2Tyout" id="177LIHsZtRL" role="2Ty7Bi" />
-      <node concept="2Tyout" id="177LIHsZtRM" role="2Ty7Bi" />
-    </node>
-  </node>
-  <node concept="2Tyomr" id="177LIHt0cHA">
-    <node concept="2Tyosk" id="177LIHt0cHB" role="2Ty7$h">
-      <node concept="2TyorB" id="177LIHt0cHC" role="2Ty7BR">
-        <property role="2TyorA" value="0" />
-        <property role="2Tyorx" value="1" />
-        <property role="2Tyorw" value="5" />
-        <property role="2Tyomg" value="task_3" />
-        <property role="2Tyomj" value="task_3?type=Task" />
-        <property role="2Tyosh" value="0" />
-      </node>
-      <node concept="2Tyor9" id="177LIHt0cHG" role="2Ty7BQ">
-        <property role="2Tyor8" value="false" />
-        <property role="2Tyorb" value="false" />
-        <property role="2Tyomg" value="runnable_1" />
-        <property role="2Tyomj" value="runnable_1?type=Runnable" />
-      </node>
-      <node concept="2Tyor9" id="177LIHt0cHI" role="2Ty7BQ">
-        <property role="2Tyor8" value="false" />
-        <property role="2Tyorb" value="false" />
-        <property role="2Tyomg" value="runnable_2" />
-        <property role="2Tyomj" value="runnable_2?type=Runnable" />
-      </node>
-    </node>
-    <node concept="2Tyoge" id="177LIHt0cHK" role="2Ty7$g">
-      <node concept="2Tyog8" id="177LIHt0cHL" role="2Ty7A_">
-        <property role="2Tyomj" value="no-name?type=HwSystem" />
-        <node concept="2Tyogb" id="177LIHt0cHM" role="2Ty7AO">
-          <property role="2Tyomj" value="no-name?type=ECU" />
-          <node concept="2Tyoga" id="177LIHt0cHN" role="2Ty7_F">
-            <property role="2Tyomg" value="processor_1" />
-            <property role="2Tyomj" value="processor_1?type=Microcontroller" />
-            <node concept="2Tyog5" id="177LIHt0cHO" role="2Ty7BW">
-              <property role="2Tyog4" value="0" />
-              <property role="2Tyomj" value="no-name?type=Core" />
-            </node>
-          </node>
-          <node concept="2Tyoga" id="177LIHt0cHP" role="2Ty7_F">
-            <property role="2Tyomg" value="processor_2" />
-            <property role="2Tyomj" value="processor_2?type=Microcontroller" />
-            <node concept="2Tyog5" id="177LIHt0cHQ" role="2Ty7BW">
-              <property role="2Tyog4" value="0" />
-              <property role="2Tyomj" value="no-name?type=Core" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Tyou8" id="177LIHt0cHR" role="2Ty7$j">
-      <node concept="2TyotB" id="177LIHt0cHS" role="2Ty7Bq">
-        <node concept="2Tyott" id="177LIHt0cHT" role="2Ty7B9">
-          <property role="2Tyomg" value="scheduler_1" />
-          <property role="2Tyomj" value="scheduler_1?type=TaskScheduler" />
-          <property role="2TyotX" value="0" />
-        </node>
-        <node concept="2Tyott" id="177LIHt0cHV" role="2Ty7B9">
-          <property role="2Tyomg" value="scheduler_2" />
-          <property role="2Tyomj" value="scheduler_2?type=TaskScheduler" />
-          <property role="2TyotX" value="0" />
-        </node>
-      </node>
-    </node>
-    <node concept="2TyosV" id="177LIHt0cHX" role="2Ty7$i" />
-    <node concept="2Tyouz" id="177LIHt0cI0" role="2Ty7$e">
-      <property role="2Tyouy" value="0" />
-      <node concept="2Tyout" id="177LIHt0cI1" role="2Ty7Bi" />
-      <node concept="2Tyout" id="177LIHt0cI2" role="2Ty7Bi" />
     </node>
   </node>
 </model>
