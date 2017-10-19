@@ -240,6 +240,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="63dx_CyfPW5">
+    <property role="3GE5qa" value="annotations" />
     <ref role="1XX52x" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
     <node concept="3EZMnI" id="63dx_CyfPW7" role="2wV5jI">
       <node concept="3F0ifn" id="63dx_CyfPWh" role="3EZMnx">
@@ -283,6 +284,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="63dx_CygDD3">
+    <property role="3GE5qa" value="generation" />
     <ref role="1XX52x" to="dnyj:63dx_CygDD1" resolve="ExportProfileReference" />
     <node concept="1iCGBv" id="63dx_CygDD4" role="2wV5jI">
       <ref role="1NtTu8" to="dnyj:63dx_CygDD2" resolve="exportProfile" />
@@ -295,6 +297,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="63dx_Cylv3_">
+    <property role="3GE5qa" value="generation" />
     <ref role="1XX52x" to="dnyj:63dx_CygDCo" resolve="ChildExport" />
     <node concept="3EZMnI" id="63dx_Cylv3B" role="2wV5jI">
       <node concept="1iCGBv" id="63dx_Cylv3L" role="3EZMnx">
@@ -846,6 +849,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2gPgfGV1VWs">
+    <property role="3GE5qa" value="annotations" />
     <ref role="1XX52x" to="dnyj:2gPgfGV1VW8" resolve="ChildAnnotation" />
     <node concept="3EZMnI" id="2gPgfGV1VWu" role="2wV5jI">
       <node concept="1QoScp" id="2gPgfGV1VWC" role="3EZMnx">
@@ -920,6 +924,7 @@
   </node>
   <node concept="1Xs25n" id="2gPgfGV2Hbl">
     <property role="TrG5h" value="SelectExportProfile" />
+    <property role="3GE5qa" value="annotations" />
     <ref role="1XX52x" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
     <node concept="OXEIz" id="2gPgfGV2Hbm" role="1XvlXI">
       <node concept="1ou48o" id="2gPgfGV2Hbq" role="OY2wv">
@@ -1068,6 +1073,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5WjlrMgQZ1W">
+    <property role="3GE5qa" value="annotations" />
     <ref role="1XX52x" to="dnyj:5WjlrMgQZ1B" resolve="PropertyAnnotation" />
     <node concept="3EZMnI" id="5WjlrMgQZ1Y" role="2wV5jI">
       <node concept="3F0A7n" id="5WjlrMgQZ2c" role="3EZMnx">
@@ -1078,6 +1084,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5WjlrMgR_DY">
+    <property role="3GE5qa" value="annotations" />
     <ref role="1XX52x" to="dnyj:5WjlrMgR_DG" resolve="ReferenceAnnotation" />
     <node concept="3EZMnI" id="5WjlrMgR_E0" role="2wV5jI">
       <node concept="3F0A7n" id="5WjlrMgR_Ee" role="3EZMnx">

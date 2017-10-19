@@ -224,6 +224,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="63dx_CyfSAZ">
+    <property role="3GE5qa" value="annotations" />
     <ref role="13h7C2" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
     <node concept="13i0hz" id="5WjlrMgM2kx" role="13h7CS">
       <property role="TrG5h" value="attachAnnotations" />
@@ -970,6 +971,48 @@
               <ref role="3cqZAo" node="5WjlrMgM8JY" resolve="queue" />
             </node>
             <node concept="3GX2aA" id="5WjlrMgNKfX" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="5WjlrMgSBm5" role="13h7CS">
+      <property role="TrG5h" value="test" />
+      <node concept="3Tm1VV" id="5WjlrMgSBm6" role="1B3o_S" />
+      <node concept="3cqZAl" id="5WjlrMgSCR7" role="3clF45" />
+      <node concept="3clFbS" id="5WjlrMgSBm8" role="3clF47">
+        <node concept="2Gpval" id="5WjlrMgSFnk" role="3cqZAp">
+          <node concept="2GrKxI" id="5WjlrMgSFns" role="2Gsz3X">
+            <property role="TrG5h" value="prop" />
+          </node>
+          <node concept="2OqwBi" id="5WjlrMgSFOL" role="2GsD0m">
+            <node concept="2JrnkZ" id="5WjlrMgSFFo" role="2Oq$k0">
+              <node concept="13iPFW" id="5WjlrMgSFoO" role="2JrQYb" />
+            </node>
+            <node concept="liA8E" id="5WjlrMgSG7j" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.getProperties():java.lang.Iterable" resolve="getProperties" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="5WjlrMgSFnG" role="2LFqv$">
+            <node concept="3clFbF" id="5WjlrMgSH60" role="3cqZAp">
+              <node concept="2OqwBi" id="5WjlrMgSHOQ" role="3clFbG">
+                <node concept="2OqwBi" id="5WjlrMgSHeq" role="2Oq$k0">
+                  <node concept="13iPFW" id="5WjlrMgSH5V" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="5WjlrMgSHrr" role="2OqNvi">
+                    <node concept="3CFTII" id="5WjlrMgSHvx" role="3CFYIz">
+                      <ref role="3CFTIH" to="dnyj:5WjlrMgQZ1B" resolve="PropertyAnnotation" />
+                      <node concept="25Kdxt" id="5WjlrMgSHA4" role="3CFTIG">
+                        <node concept="2GrUjf" id="5WjlrMgSHEy" role="25KhWn">
+                          <ref role="2Gs0qQ" node="5WjlrMgSFns" resolve="prop" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="5WjlrMgSIpj" role="2OqNvi">
+                  <ref role="3TsBF5" to="dnyj:5WjlrMgQZ1L" resolve="visibility" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

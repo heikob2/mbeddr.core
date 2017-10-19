@@ -13,6 +13,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
@@ -72,6 +75,7 @@
   <node concept="1TIwiD" id="63dx_CyfN5T">
     <property role="EcuMT" value="6975379119546511737" />
     <property role="TrG5h" value="DependencyAnnotation" />
+    <property role="3GE5qa" value="annotations" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="63dx_CyfN5U" role="lGtFl">
       <property role="Hh88m" value="dependency" />
@@ -100,35 +104,16 @@
   <node concept="1TIwiD" id="63dx_CygDB_">
     <property role="EcuMT" value="6975379119546735077" />
     <property role="TrG5h" value="ExportProfile" />
-    <property role="34LRSv" value="profile" />
+    <property role="34LRSv" value="export profile" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="generation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="63dx_CygDCr" role="1TKVEi">
-      <property role="IQ2ns" value="6975379119546735131" />
+    <node concept="1TJgyj" id="5WjlrMgWqFp" role="1TKVEi">
+      <property role="IQ2ns" value="6850913726534626009" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="propertyExports" />
+      <property role="20kJfa" value="groups" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="63dx_CygDCp" resolve="PropertyExport" />
-    </node>
-    <node concept="1TJgyj" id="63dx_CygDCu" role="1TKVEi">
-      <property role="IQ2ns" value="6975379119546735134" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="childExports" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="63dx_CygDCo" resolve="ChildExport" />
-    </node>
-    <node concept="1TJgyj" id="63dx_CygDCz" role="1TKVEi">
-      <property role="IQ2ns" value="6975379119546735139" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="referenceExports" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="63dx_CygDCq" resolve="ReferenceExport" />
-    </node>
-    <node concept="1TJgyj" id="63dx_CygDCE" role="1TKVEi">
-      <property role="IQ2ns" value="6975379119546735146" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="nodeToExport" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="20lvS9" node="5WjlrMgWqDc" resolve="RoledGroup" />
     </node>
     <node concept="PrWs8" id="63dx_CylT5t" role="PzmwI">
       <ref role="PrY4T" node="63dx_CylT5p" resolve="IExportProfile" />
@@ -137,14 +122,8 @@
   <node concept="1TIwiD" id="63dx_CygDCo">
     <property role="EcuMT" value="6975379119546735128" />
     <property role="TrG5h" value="ChildExport" />
-    <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ElementExport" />
-    <node concept="1TJgyj" id="63dx_CygKac" role="1TKVEi">
-      <property role="IQ2ns" value="6975379119546761868" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="childToExport" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <property role="3GE5qa" value="generation" />
+    <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ExportElement" />
     <node concept="1TJgyj" id="63dx_Cyluyv" role="1TKVEi">
       <property role="IQ2ns" value="6975379119548000415" />
       <property role="20lmBu" value="aggregation" />
@@ -152,34 +131,45 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="63dx_CylT5p" resolve="IExportProfile" />
     </node>
+    <node concept="1TJgyi" id="5WjlrMgWqFj" role="1TKVEl">
+      <property role="IQ2nx" value="6850913726534626003" />
+      <property role="TrG5h" value="possibleName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="t5JxF" id="5WjlrMgWqFm" role="lGtFl">
+      <property role="t5JxN" value="possibleName: set to name if available, else concept.name." />
+    </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDCp">
     <property role="EcuMT" value="6975379119546735129" />
     <property role="TrG5h" value="PropertyExport" />
-    <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ElementExport" />
+    <property role="3GE5qa" value="generation" />
+    <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ExportElement" />
     <node concept="1TJgyi" id="63dx_CygKaf" role="1TKVEl">
       <property role="IQ2nx" value="6975379119546761871" />
-      <property role="TrG5h" value="propertiesNameToExport" />
+      <property role="TrG5h" value="propertyValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDCq">
     <property role="EcuMT" value="6975379119546735130" />
     <property role="TrG5h" value="ReferenceExport" />
-    <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ElementExport" />
+    <property role="3GE5qa" value="generation" />
+    <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ExportElement" />
     <node concept="1TJgyj" id="63dx_CygKa9" role="1TKVEi">
       <property role="IQ2ns" value="6975379119546761865" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="refToExport" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDCN">
     <property role="EcuMT" value="6975379119546735155" />
-    <property role="TrG5h" value="ElementExport" />
+    <property role="TrG5h" value="ExportElement" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="generation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="63dx_CygDCY" role="1TKVEl">
       <property role="IQ2nx" value="6975379119546735166" />
@@ -206,6 +196,7 @@
   <node concept="1TIwiD" id="63dx_CygDD1">
     <property role="EcuMT" value="6975379119546735169" />
     <property role="TrG5h" value="ExportProfileReference" />
+    <property role="3GE5qa" value="generation" />
     <node concept="1TJgyj" id="63dx_CygDD2" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20lbJX" value="1" />
@@ -220,6 +211,7 @@
   <node concept="PlHQZ" id="63dx_CylT5p">
     <property role="EcuMT" value="6975379119548109145" />
     <property role="TrG5h" value="IExportProfile" />
+    <property role="3GE5qa" value="generation" />
     <node concept="PrWs8" id="63dx_CylT5q" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -351,6 +343,7 @@
   <node concept="1TIwiD" id="2gPgfGV1VW8">
     <property role="EcuMT" value="2609063006902402824" />
     <property role="TrG5h" value="ChildAnnotation" />
+    <property role="3GE5qa" value="annotations" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="2gPgfGV1VW9" role="lGtFl">
       <property role="Hh88m" value="export" />
@@ -376,6 +369,7 @@
   <node concept="1TIwiD" id="5WjlrMgQZ1B">
     <property role="EcuMT" value="6850913726533202023" />
     <property role="TrG5h" value="PropertyAnnotation" />
+    <property role="3GE5qa" value="annotations" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDm" resolve="PropertyAttribute" />
     <node concept="M6xJ_" id="5WjlrMgQZ1C" role="lGtFl">
       <property role="Hh88m" value="export" />
@@ -392,6 +386,7 @@
   <node concept="1TIwiD" id="5WjlrMgR_DG">
     <property role="EcuMT" value="6850913726533360236" />
     <property role="TrG5h" value="ReferenceAnnotation" />
+    <property role="3GE5qa" value="annotations" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDh" resolve="LinkAttribute" />
     <node concept="M6xJ_" id="5WjlrMgR_DH" role="lGtFl">
       <property role="Hh88m" value="export" />
@@ -403,6 +398,104 @@
       <property role="IQ2nx" value="6850913726533360243" />
       <property role="TrG5h" value="visibility" />
       <ref role="AX2Wp" node="63dx_CygDCO" resolve="ExportVisibility" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WjlrMgWqDc">
+    <property role="EcuMT" value="6850913726534625868" />
+    <property role="3GE5qa" value="generation" />
+    <property role="TrG5h" value="RoledGroup" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5WjlrMgWqDd" role="1TKVEl">
+      <property role="IQ2nx" value="6850913726534625869" />
+      <property role="TrG5h" value="role" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5WjlrMgWqDg" role="1TKVEl">
+      <property role="IQ2nx" value="6850913726534625872" />
+      <property role="TrG5h" value="modelTag" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5WjlrMgWqDl" role="1TKVEl">
+      <property role="IQ2nx" value="6850913726534625877" />
+      <property role="TrG5h" value="structureType" />
+      <ref role="AX2Wp" node="5WjlrMgWqDs" resolve="StructureType" />
+    </node>
+    <node concept="1TJgyi" id="5WjlrMgWqEF" role="1TKVEl">
+      <property role="IQ2nx" value="6850913726534625963" />
+      <property role="TrG5h" value="mpsType" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="5WjlrMgWqEO" role="1TKVEi">
+      <property role="IQ2ns" value="6850913726534625972" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="63dx_CygDCN" resolve="ExportElement" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="5WjlrMgWqDs">
+    <property role="3GE5qa" value="generation" />
+    <property role="TrG5h" value="StructureType" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="5WjlrMgWqDt" role="M5hS2">
+      <property role="1uS6qv" value="Property" />
+      <property role="1uS6qo" value="Property" />
+    </node>
+    <node concept="M4N5e" id="5WjlrMgWqEg" role="M5hS2">
+      <property role="1uS6qo" value="Child" />
+      <property role="1uS6qv" value="Child" />
+    </node>
+    <node concept="M4N5e" id="5WjlrMgWqEl" role="M5hS2">
+      <property role="1uS6qo" value="Reference" />
+      <property role="1uS6qv" value="Reference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WjlrMgWqER">
+    <property role="EcuMT" value="6850913726534625975" />
+    <property role="3GE5qa" value="concepts" />
+    <property role="TrG5h" value="AtomicConceptExportProfile" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5WjlrMgWqES" role="PzmwI">
+      <ref role="PrY4T" node="63dx_CypeWU" resolve="IConceptExportProfile" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WjlrMgWqEV">
+    <property role="EcuMT" value="6850913726534625979" />
+    <property role="3GE5qa" value="generation" />
+    <property role="TrG5h" value="AtomicExportProfile" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5WjlrMgWqEW" role="PzmwI">
+      <ref role="PrY4T" node="63dx_CylT5p" resolve="IExportProfile" />
+    </node>
+    <node concept="1TJgyj" id="5WjlrMgWqEZ" role="1TKVEi">
+      <property role="IQ2ns" value="6850913726534625983" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="nodeToGenerate" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WjlrMgWqFQ">
+    <property role="EcuMT" value="6850913726534626038" />
+    <property role="3GE5qa" value="generation" />
+    <property role="TrG5h" value="ExportProfileToReduce" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5WjlrMgWqFR" role="PzmwI">
+      <ref role="PrY4T" node="63dx_CylT5p" resolve="IExportProfile" />
+    </node>
+    <node concept="1TJgyj" id="5WjlrMgWqFU" role="1TKVEi">
+      <property role="IQ2ns" value="6850913726534626042" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="nodeToReduce" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="5WjlrMgWqFX" role="1TKVEi">
+      <property role="IQ2ns" value="6850913726534626045" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="usedConceptExportProfile" />
+      <ref role="20lvS9" node="63dx_CypeWU" resolve="IConceptExportProfile" />
     </node>
   </node>
 </model>
