@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:f3a257a0-e721-4cf0-a59b-98ec756ca2e4(DependencyManagement.build)">
+<model ref="r:94ebe805-d19a-4f47-a642-6cd141ff8a5f(DependencyManagement.build)">
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
@@ -9,7 +9,6 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="70gl" ref="r:5013e48d-f50f-4c61-81d9-26b38bfff94a(ExportProfiles.profiles)" />
-    <import index="7hi0" ref="r:f3a257a0-e721-4cf0-a59b-98ec756ca2e4(DependencyManagement.build)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -76,6 +75,7 @@
         <reference id="2609063006902493987" name="exportProfile" index="vf6fo" />
       </concept>
       <concept id="6850913726533202023" name="DependencyAnnotation.structure.PropertyAnnotation" flags="ng" index="3fManr">
+        <property id="6850913726540683324" name="dataType" index="3enkQ0" />
         <property id="6850913726533202033" name="visibility" index="3fMand" />
       </concept>
     </language>
@@ -124,195 +124,201 @@
       </concept>
     </language>
   </registry>
-  <node concept="1l3spW" id="5WjlrMgSTjf">
+  <node concept="1l3spW" id="5WjlrMhldtF">
     <property role="TrG5h" value="DependencyManagement" />
     <property role="2DA0ip" value="../../" />
-    <node concept="10PD9b" id="5WjlrMgSTjg" role="10PD9s">
-      <node concept="vcJZN" id="5WjlrMgSTqK" role="lGtFl">
+    <node concept="10PD9b" id="5WjlrMhldtG" role="10PD9s">
+      <node concept="vcJZN" id="5WjlrMhld_i" role="lGtFl">
         <property role="vcJZO" value="IGNORED" />
       </node>
     </node>
-    <node concept="3b7kt6" id="5WjlrMgSTjh" role="10PD9s">
-      <node concept="vcJZN" id="5WjlrMgSTqL" role="lGtFl">
+    <node concept="3b7kt6" id="5WjlrMhldtH" role="10PD9s">
+      <node concept="vcJZN" id="5WjlrMhld_j" role="lGtFl">
         <property role="vcJZO" value="IGNORED" />
       </node>
     </node>
-    <node concept="398rNT" id="5WjlrMgSTji" role="1l3spd">
+    <node concept="398rNT" id="5WjlrMhldtI" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="vcJZN" id="5WjlrMgSTqN" role="lGtFl">
+      <node concept="vcJZN" id="5WjlrMhld_l" role="lGtFl">
         <property role="vcJZO" value="IGNORED" />
       </node>
     </node>
-    <node concept="2sgV4H" id="5WjlrMgSTjj" role="1l3spa">
+    <node concept="2sgV4H" id="5WjlrMhldtJ" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
-      <node concept="398BVA" id="5WjlrMgSTjk" role="2JcizS">
-        <ref role="398BVh" node="5WjlrMgSTji" resolve="mps_home" />
+      <node concept="398BVA" id="5WjlrMhldtK" role="2JcizS">
+        <ref role="398BVh" node="5WjlrMhldtI" resolve="mps_home" />
       </node>
-      <node concept="vcJZN" id="5WjlrMgSTqM" role="lGtFl">
+      <node concept="vcJZN" id="5WjlrMhld_k" role="lGtFl">
         <property role="vcJZO" value="IGNORED" />
       </node>
     </node>
-    <node concept="1l3spV" id="5WjlrMgSTjL" role="1l3spN">
-      <node concept="3981dG" id="5WjlrMgSTjM" role="39821P">
-        <node concept="3_J27D" id="5WjlrMgSTjN" role="Nbhlr">
-          <node concept="3Mxwew" id="5WjlrMgSTjO" role="3MwsjC">
+    <node concept="1l3spV" id="5WjlrMhldud" role="1l3spN">
+      <node concept="3981dG" id="5WjlrMhldue" role="39821P">
+        <node concept="3_J27D" id="5WjlrMhlduf" role="Nbhlr">
+          <node concept="3Mxwew" id="5WjlrMhldug" role="3MwsjC">
             <property role="3MwjfP" value="DependencyManagement.zip" />
           </node>
         </node>
-        <node concept="m$_wl" id="5WjlrMgSTjP" role="39821P">
-          <ref role="m_rDy" node="5WjlrMgSTjC" resolve="DependencyManagement" />
+        <node concept="m$_wl" id="5WjlrMhlduh" role="39821P">
+          <ref role="m_rDy" node="5WjlrMhldu4" resolve="DependencyManagement" />
         </node>
       </node>
-      <node concept="vcJZN" id="5WjlrMgSTqQ" role="lGtFl">
+      <node concept="vcJZN" id="5WjlrMhld_o" role="lGtFl">
         <property role="vcJZO" value="IGNORED" />
       </node>
     </node>
-    <node concept="m$_wf" id="5WjlrMgSTjC" role="3989C9">
+    <node concept="m$_wf" id="5WjlrMhldu4" role="3989C9">
       <property role="m$_wk" value="DependencyManagement" />
-      <node concept="3_J27D" id="5WjlrMgSTjD" role="m$_yQ">
-        <node concept="3Mxwew" id="5WjlrMgSTjE" role="3MwsjC">
+      <node concept="3_J27D" id="5WjlrMhldu5" role="m$_yQ">
+        <node concept="3Mxwew" id="5WjlrMhldu6" role="3MwsjC">
           <property role="3MwjfP" value="DependencyManagement" />
         </node>
       </node>
-      <node concept="3_J27D" id="5WjlrMgSTjF" role="m$_w8">
-        <node concept="3Mxwew" id="5WjlrMgSTjG" role="3MwsjC">
+      <node concept="3_J27D" id="5WjlrMhldu7" role="m$_w8">
+        <node concept="3Mxwew" id="5WjlrMhldu8" role="3MwsjC">
           <property role="3MwjfP" value="1.0" />
         </node>
       </node>
-      <node concept="m$f5U" id="5WjlrMgSTjH" role="m$_yh">
-        <ref role="m$f5T" node="5WjlrMgSTjB" resolve="DependencyManagement" />
+      <node concept="m$f5U" id="5WjlrMhldu9" role="m$_yh">
+        <ref role="m$f5T" node="5WjlrMhldu3" resolve="DependencyManagement" />
       </node>
-      <node concept="m$_yC" id="5WjlrMgSTjI" role="m$_yJ">
+      <node concept="m$_yC" id="5WjlrMhldua" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="3_J27D" id="5WjlrMgSTjJ" role="m_cZH">
-        <node concept="3Mxwew" id="5WjlrMgSTjK" role="3MwsjC">
+      <node concept="3_J27D" id="5WjlrMhldub" role="m_cZH">
+        <node concept="3Mxwew" id="5WjlrMhlduc" role="3MwsjC">
           <property role="3MwjfP" value="DependencyManagement" />
         </node>
       </node>
-      <node concept="vcJZN" id="5WjlrMgSTqO" role="lGtFl">
+      <node concept="vcJZN" id="5WjlrMhld_m" role="lGtFl">
         <property role="vcJZO" value="IGNORED" />
       </node>
     </node>
-    <node concept="2G$12M" id="5WjlrMgSTjB" role="3989C9">
+    <node concept="2G$12M" id="5WjlrMhldu3" role="3989C9">
       <property role="TrG5h" value="DependencyManagement" />
-      <node concept="1E1JtA" id="5WjlrMgSTjq" role="2G$12L">
+      <node concept="1E1JtA" id="5WjlrMhldtQ" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="ExportProfiles" />
+        <property role="3LESm3" value="1aa3a629-18b1-44e8-a5b9-913354528d3e" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="5WjlrMhldtL" role="3LF7KH">
+          <node concept="2Ry0Ak" id="5WjlrMhldtM" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="5WjlrMhldtN" role="2Ry0An">
+              <property role="2Ry0Am" value="ExportProfiles" />
+              <node concept="2Ry0Ak" id="5WjlrMhldtO" role="2Ry0An">
+                <property role="2Ry0Am" value="ExportProfiles.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5WjlrMhldui" role="3bR37C">
+          <node concept="3bR9La" id="5WjlrMhlduj" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:3X9rC2XIG0s" resolve="jetbrains.mps.build.mps.tests" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5WjlrMhlduk" role="3bR37C">
+          <node concept="3bR9La" id="5WjlrMhldul" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5WjlrMhldum" role="3bR37C">
+          <node concept="3bR9La" id="5WjlrMhldun" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7pdFgzxlDoP" resolve="jetbrains.mps.build.mps" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5WjlrMhlduo" role="3bR37C">
+          <node concept="3bR9La" id="5WjlrMhldup" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1Vi5mb_o9f_" resolve="jetbrains.mps.build.mps.runner" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="5WjlrMhldtW" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="util" />
         <property role="3LESm3" value="c56534c9-d390-4ac2-b0e4-7517c19d079c" />
         <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="5WjlrMgSTjl" role="3LF7KH">
-          <node concept="2Ry0Ak" id="5WjlrMgSTjm" role="iGT6I">
+        <node concept="55IIr" id="5WjlrMhldtR" role="3LF7KH">
+          <node concept="2Ry0Ak" id="5WjlrMhldtS" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="5WjlrMgSTjn" role="2Ry0An">
+            <node concept="2Ry0Ak" id="5WjlrMhldtT" role="2Ry0An">
               <property role="2Ry0Am" value="util" />
-              <node concept="2Ry0Ak" id="5WjlrMgSTjo" role="2Ry0An">
+              <node concept="2Ry0Ak" id="5WjlrMhldtU" role="2Ry0An">
                 <property role="2Ry0Am" value="util.msd" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5WjlrMgSTjQ" role="3bR37C">
-          <node concept="3bR9La" id="5WjlrMgSTjR" role="1SiIV1">
+        <node concept="1SiIV0" id="5WjlrMhlduu" role="3bR37C">
+          <node concept="3bR9La" id="5WjlrMhlduv" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>
-      <node concept="1E1JtD" id="5WjlrMgSTjw" role="2G$12L">
+      <node concept="1E1JtD" id="5WjlrMhldu2" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="DependencyAnnotation" />
         <property role="3LESm3" value="aa2a0a96-4f86-4df2-84ec-54941b1a2d95" />
         <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="5WjlrMgSTjr" role="3LF7KH">
-          <node concept="2Ry0Ak" id="5WjlrMgSTjs" role="iGT6I">
+        <node concept="55IIr" id="5WjlrMhldtX" role="3LF7KH">
+          <node concept="2Ry0Ak" id="5WjlrMhldtY" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="5WjlrMgSTjt" role="2Ry0An">
+            <node concept="2Ry0Ak" id="5WjlrMhldtZ" role="2Ry0An">
               <property role="2Ry0Am" value="DependencyAnnotation" />
-              <node concept="2Ry0Ak" id="5WjlrMgSTju" role="2Ry0An">
+              <node concept="2Ry0Ak" id="5WjlrMhldu0" role="2Ry0An">
                 <property role="2Ry0Am" value="DependencyAnnotation.mpl" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5WjlrMgSTjW" role="3bR37C">
-          <node concept="3bR9La" id="5WjlrMgSTjX" role="1SiIV1">
+        <node concept="1SiIV0" id="5WjlrMhldu$" role="3bR37C">
+          <node concept="3bR9La" id="5WjlrMhldu_" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5WjlrMgSTjY" role="3bR37C">
-          <node concept="3bR9La" id="5WjlrMgSTjZ" role="1SiIV1">
+        <node concept="1SiIV0" id="5WjlrMhlduA" role="3bR37C">
+          <node concept="3bR9La" id="5WjlrMhlduB" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
-        <node concept="1yeLz9" id="5WjlrMgSTk0" role="1TViLv">
+        <node concept="1yeLz9" id="5WjlrMhlduC" role="1TViLv">
           <property role="TrG5h" value="DependencyAnnotation#6975379119546502399" />
           <property role="3LESm3" value="16b86994-1210-4aee-9800-8cd1e4a22416" />
           <property role="2GAjPV" value="false" />
-          <node concept="1SiIV0" id="5WjlrMgSTk1" role="3bR37C">
-            <node concept="3bR9La" id="5WjlrMgSTk2" role="1SiIV1">
+          <node concept="1SiIV0" id="5WjlrMhlduD" role="3bR37C">
+            <node concept="3bR9La" id="5WjlrMhlduE" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="1E1JtA" id="5WjlrMgSTjA" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="ExportProfiles" />
-        <property role="3LESm3" value="1aa3a629-18b1-44e8-a5b9-913354528d3e" />
-        <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="5WjlrMgSTjx" role="3LF7KH">
-          <node concept="2Ry0Ak" id="5WjlrMgSTjy" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="5WjlrMgSTjz" role="2Ry0An">
-              <property role="2Ry0Am" value="ExportProfiles" />
-              <node concept="2Ry0Ak" id="5WjlrMgSTj$" role="2Ry0An">
-                <property role="2Ry0Am" value="ExportProfiles.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5WjlrMgSTkc" role="3bR37C">
-          <node concept="3bR9La" id="5WjlrMgSTkd" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:3X9rC2XIG0s" resolve="jetbrains.mps.build.mps.tests" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5WjlrMgSTke" role="3bR37C">
-          <node concept="3bR9La" id="5WjlrMgSTkf" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5WjlrMgSTkg" role="3bR37C">
-          <node concept="3bR9La" id="5WjlrMgSTkh" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7pdFgzxlDoP" resolve="jetbrains.mps.build.mps" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5WjlrMgSTki" role="3bR37C">
-          <node concept="3bR9La" id="5WjlrMgSTkj" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1Vi5mb_o9f_" resolve="jetbrains.mps.build.mps.runner" />
-          </node>
-        </node>
-      </node>
-      <node concept="vcJZN" id="5WjlrMgSTqP" role="lGtFl">
+      <node concept="vcJZN" id="5WjlrMhld_n" role="lGtFl">
         <property role="vcJZO" value="IGNORED" />
       </node>
     </node>
-    <node concept="12WFsz" id="5WjlrMgSTqs" role="lGtFl">
+    <node concept="12WFsz" id="5WjlrMhld$Y" role="lGtFl">
       <property role="12WHBz" value="dependencies" />
       <property role="12WHyw" value="../../" />
-      <ref role="vf6fo" to="70gl:5WjlrMgS0fK" resolve="export_BuildProject" />
+      <ref role="vf6fo" to="70gl:5WjlrMhldsT" resolve="new profile2" />
     </node>
-    <node concept="3fManr" id="5WjlrMgSTqR" role="lGtFl">
+    <node concept="3fManr" id="5WjlrMhld_p" role="lGtFl">
       <property role="P4ACc" value="798100da-4f0a-421a-b991-71f8c50ce5d2/5617550519002745363/5204048710541015587" />
       <property role="2qtEX9" value="internalBaseDirectory" />
-      <property role="3fMand" value="IGNORED" />
+      <property role="3fMand" value="PUBLIC" />
+      <property role="3enkQ0" value="string" />
+    </node>
+    <node concept="3fManr" id="5WjlrMhldA4" role="lGtFl">
+      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+      <property role="2qtEX9" value="name" />
+      <property role="3fMand" value="PRIVATE" />
     </node>
   </node>
 </model>
