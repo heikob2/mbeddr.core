@@ -13,6 +13,7 @@
     <import index="3ior" ref="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -407,6 +408,12 @@
     <property role="3GE5qa" value="concepts" />
     <ref role="1XX52x" to="dnyj:63dx_CypeWN" resolve="ConceptReferenceExport" />
     <node concept="3EZMnI" id="63dx_Cyrqyv" role="2wV5jI">
+      <node concept="3F0ifn" id="5EFBDSWBSYh" role="3EZMnx">
+        <property role="3F0ifm" value="REF" />
+        <node concept="VechU" id="5EFBDSWBSYv" role="3F10Kt">
+          <property role="Vb096" value="orange" />
+        </node>
+      </node>
       <node concept="1iCGBv" id="63dx_CyrqyD" role="3EZMnx">
         <ref role="1NtTu8" to="dnyj:63dx_CypeX4" resolve="refToExport" />
         <node concept="1sVBvm" id="63dx_CyrqyF" role="1sWHZn">
@@ -1336,6 +1343,57 @@
         <ref role="1NtTu8" to="dnyj:63dx_CygKaf" resolve="propertyValue" />
       </node>
       <node concept="l2Vlx" id="5WjlrMh4E9N" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EFBDSWB_Ze">
+    <property role="3GE5qa" value="generation" />
+    <ref role="1XX52x" to="dnyj:63dx_CygDCq" resolve="ReferenceExport" />
+    <node concept="3EZMnI" id="5EFBDSWB_Zg" role="2wV5jI">
+      <node concept="3F0ifn" id="5EFBDSWB_Zq" role="3EZMnx">
+        <property role="3F0ifm" value="ref.-to-export:" />
+      </node>
+      <node concept="1iCGBv" id="5EFBDSWB_Zz" role="3EZMnx">
+        <ref role="1NtTu8" to="dnyj:63dx_CygKa9" resolve="refToExport" />
+        <node concept="1sVBvm" id="5EFBDSWB_Z_" role="1sWHZn">
+          <node concept="1HlG4h" id="5EFBDSWB_ZL" role="2wV5jI">
+            <node concept="1HfYo3" id="5EFBDSWB_ZN" role="1HlULh">
+              <node concept="3TQlhw" id="5EFBDSWB_ZP" role="1Hhtcw">
+                <node concept="3clFbS" id="5EFBDSWB_ZR" role="2VODD2">
+                  <node concept="Jncv_" id="5EFBDSWBA8p" role="3cqZAp">
+                    <ref role="JncvD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                    <node concept="pncrf" id="5EFBDSWBAh8" role="JncvB" />
+                    <node concept="3clFbS" id="5EFBDSWBA8r" role="Jncv$">
+                      <node concept="3cpWs6" id="5EFBDSWBANy" role="3cqZAp">
+                        <node concept="2OqwBi" id="5EFBDSWBDJC" role="3cqZAk">
+                          <node concept="Jnkvi" id="5EFBDSWBB4O" role="2Oq$k0">
+                            <ref role="1M0zk5" node="5EFBDSWBA8s" resolve="named" />
+                          </node>
+                          <node concept="3TrcHB" id="5EFBDSWBE1L" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="JncvC" id="5EFBDSWBA8s" role="JncvA">
+                      <property role="TrG5h" value="named" />
+                      <node concept="2jxLKc" id="5EFBDSWBA8t" role="1tU5fm" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="5EFBDSWBEnb" role="3cqZAp">
+                    <node concept="2OqwBi" id="5EFBDSWBF8h" role="3cqZAk">
+                      <node concept="pncrf" id="5EFBDSWBEGH" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="5EFBDSWBFqW" role="2OqNvi">
+                        <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5EFBDSWB_Zj" role="2iSdaV" />
     </node>
   </node>
 </model>

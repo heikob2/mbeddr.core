@@ -540,5 +540,68 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5EFBDSWIKj3">
+    <property role="EcuMT" value="6533490086891947203" />
+    <property role="3GE5qa" value="generation" />
+    <property role="TrG5h" value="RoledChildGroupToReduce" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5EFBDSWIKol" role="1TKVEl">
+      <property role="IQ2nx" value="6533490086891947541" />
+      <property role="TrG5h" value="role" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5EFBDSWIKoo" role="1TKVEl">
+      <property role="IQ2nx" value="6533490086891947544" />
+      <property role="TrG5h" value="mpsType" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="5EFBDSWIKot" role="1TKVEi">
+      <property role="IQ2ns" value="6533490086891947549" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5EFBDSWIKyV" resolve="BaseConceptRef" />
+    </node>
+    <node concept="1TJgyj" id="5EFBDSWIKyZ" role="1TKVEi">
+      <property role="IQ2ns" value="6533490086891948223" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="exportProfile" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="63dx_CypeWU" resolve="IConceptExportProfile" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5EFBDSWIKyV">
+    <property role="EcuMT" value="6533490086891948219" />
+    <property role="3GE5qa" value="generation" />
+    <property role="TrG5h" value="BaseConceptRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5EFBDSWIKyW" role="1TKVEi">
+      <property role="IQ2ns" value="6533490086891948220" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="baseRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5EFBDSWJYbL">
+    <property role="EcuMT" value="6533490086892266225" />
+    <property role="3GE5qa" value="generation" />
+    <property role="TrG5h" value="ChildToReduce" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5EFBDSWJYbM" role="1TKVEi">
+      <property role="IQ2ns" value="6533490086892266226" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="nodeToReduce" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="5EFBDSWJYbP" role="1TKVEi">
+      <property role="IQ2ns" value="6533490086892266229" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="usedConceptExportProfile" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="63dx_CypeWU" resolve="IConceptExportProfile" />
+    </node>
+  </node>
 </model>
 
