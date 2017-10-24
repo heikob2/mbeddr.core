@@ -40,68 +40,6 @@
       <concept id="6850913726531931584" name="DependencyAnnotation.structure.ConceptExportProfileIgnore" flags="ng" index="3fQXxW" />
     </language>
   </registry>
-  <node concept="12Em_F" id="5WjlrMgS0fK">
-    <property role="TrG5h" value="export_BuildProject" />
-    <ref role="12Em$l" to="3ior:4RPz6WoY4Cj" resolve="BuildProject" />
-    <node concept="12Em_I" id="5WjlrMgS0fM" role="12Em$8">
-      <property role="TrG5h" value="fileName" />
-    </node>
-    <node concept="12Em_I" id="5WjlrMh1TST" role="12Em$8">
-      <property role="TrG5h" value="name" />
-    </node>
-    <node concept="12Em_I" id="5WjlrMh6pPK" role="12Em$8">
-      <property role="TrG5h" value="internalBaseDirectory" />
-    </node>
-    <node concept="12Em_C" id="5WjlrMgS0fN" role="12Em$d">
-      <property role="TrG5h" value="plugins" />
-      <ref role="12Em$g" to="3ior:5KZfyKsUo6u" resolve="BuildPlugin" />
-      <node concept="12Em_x" id="5WjlrMgS0gr" role="12Em$t">
-        <ref role="12Em_A" node="5WjlrMgS0gc" resolve="export_BuildPlugin" />
-      </node>
-    </node>
-    <node concept="12Em_C" id="5WjlrMgS0fO" role="12Em$d">
-      <property role="TrG5h" value="dependencies" />
-      <ref role="12Em$g" to="3ior:4RPz6WoY4Cz" resolve="BuildDependency" />
-      <node concept="12Em_x" id="5WjlrMgS0hf" role="12Em$t">
-        <ref role="12Em_A" node="5WjlrMgS0gu" resolve="export_BuildDependency" />
-      </node>
-    </node>
-    <node concept="12Em_C" id="5WjlrMgS0fP" role="12Em$d">
-      <property role="TrG5h" value="macros" />
-      <ref role="12Em$g" to="3ior:4RPz6WoY4Cv" resolve="BuildMacro" />
-      <node concept="3fQXxW" id="5WjlrMgS0hi" role="12Em$t">
-        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
-      </node>
-    </node>
-    <node concept="12Em_C" id="5WjlrMgS0fQ" role="12Em$d">
-      <property role="TrG5h" value="parts" />
-      <ref role="12Em$g" to="3ior:6qcrfIJFdK8" resolve="BuildProjectPart" />
-      <node concept="12Em_x" id="5WjlrMgZK_Q" role="12Em$t">
-        <ref role="12Em_A" node="5WjlrMgZKn7" resolve="export_BuildProjectPart" />
-      </node>
-    </node>
-    <node concept="12Em_C" id="5WjlrMgS0fR" role="12Em$d">
-      <property role="TrG5h" value="aspects" />
-      <ref role="12Em$g" to="3ior:34DbxDwRlgt" resolve="BuildAspect" />
-      <node concept="3fQXxW" id="5WjlrMgS0hk" role="12Em$t">
-        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
-      </node>
-    </node>
-    <node concept="12Em_C" id="5WjlrMgS0fS" role="12Em$d">
-      <property role="TrG5h" value="layout" />
-      <ref role="12Em$g" to="3ior:4RPz6WoY4Ck" resolve="BuildLayout" />
-      <node concept="3fQXxW" id="5WjlrMgS0hl" role="12Em$t">
-        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
-      </node>
-    </node>
-    <node concept="12Em_C" id="5WjlrMgS0fT" role="12Em$d">
-      <property role="TrG5h" value="scriptsDir" />
-      <ref role="12Em$g" to="3ior:6mpuAlRavrV" resolve="BuildRelativePath" />
-      <node concept="3fQXxW" id="5WjlrMgS0hm" role="12Em$t">
-        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
-      </node>
-    </node>
-  </node>
   <node concept="12Em_F" id="5WjlrMgS0gc">
     <property role="TrG5h" value="export_BuildPlugin" />
     <ref role="12Em$l" to="3ior:5KZfyKsUo6u" resolve="BuildPlugin" />
@@ -883,6 +821,73 @@
       <node concept="3fQXxW" id="5WjlrMhldts" role="12Em$t">
         <property role="TrG5h" value="Profile is ignored for sub-nodes" />
       </node>
+    </node>
+  </node>
+  <node concept="12Em_F" id="5EFBDSWAY2Z">
+    <property role="TrG5h" value="export_BuildProject" />
+    <ref role="12Em$l" to="3ior:4RPz6WoY4Cj" resolve="BuildProject" />
+    <node concept="12Em_I" id="5EFBDSWAY30" role="12Em$8">
+      <property role="TrG5h" value="internalBaseDirectory" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PRIVATE" />
+    </node>
+    <node concept="12Em_I" id="5EFBDSWAY31" role="12Em$8">
+      <property role="TrG5h" value="fileName" />
+      <property role="3enqAb" value="string" />
+    </node>
+    <node concept="12Em_C" id="5EFBDSWAY32" role="12Em$d">
+      <property role="TrG5h" value="plugins" />
+      <ref role="12Em$g" to="3ior:5KZfyKsUo6u" resolve="BuildPlugin" />
+      <node concept="3fQXxW" id="5EFBDSWAZoq" role="12Em$t">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="5EFBDSWAY33" role="12Em$d">
+      <property role="TrG5h" value="dependencies" />
+      <ref role="12Em$g" to="3ior:4RPz6WoY4Cz" resolve="BuildDependency" />
+      <node concept="3fQXxW" id="5EFBDSWAZor" role="12Em$t">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="5EFBDSWAY34" role="12Em$d">
+      <property role="TrG5h" value="macros" />
+      <ref role="12Em$g" to="3ior:4RPz6WoY4Cv" resolve="BuildMacro" />
+      <node concept="3fQXxW" id="5EFBDSWAZos" role="12Em$t">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="5EFBDSWAY35" role="12Em$d">
+      <property role="TrG5h" value="parts" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdK8" resolve="BuildProjectPart" />
+      <node concept="3fQXxW" id="5EFBDSWAZot" role="12Em$t">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="5EFBDSWAY36" role="12Em$d">
+      <property role="TrG5h" value="aspects" />
+      <ref role="12Em$g" to="3ior:34DbxDwRlgt" resolve="BuildAspect" />
+      <node concept="3fQXxW" id="5EFBDSWAZou" role="12Em$t">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="5EFBDSWAY37" role="12Em$d">
+      <property role="TrG5h" value="layout" />
+      <ref role="12Em$g" to="3ior:4RPz6WoY4Ck" resolve="BuildLayout" />
+      <node concept="3fQXxW" id="5EFBDSWAZov" role="12Em$t">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="5EFBDSWAY38" role="12Em$d">
+      <property role="TrG5h" value="scriptsDir" />
+      <ref role="12Em$g" to="3ior:6mpuAlRavrV" resolve="BuildRelativePath" />
+      <node concept="3fQXxW" id="5EFBDSWAZow" role="12Em$t">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
+      </node>
+    </node>
+    <node concept="12Em_I" id="5EFBDSWAY39" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
     </node>
   </node>
 </model>
