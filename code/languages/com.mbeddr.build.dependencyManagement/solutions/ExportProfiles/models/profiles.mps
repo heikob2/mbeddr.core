@@ -841,6 +841,7 @@
     </node>
     <node concept="12Em_C" id="5EFBDSWAY32" role="12Em$d">
       <property role="TrG5h" value="plugins" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="3ior:5KZfyKsUo6u" resolve="BuildPlugin" />
       <node concept="3fQXxW" id="5EFBDSWAZoq" role="12Em$t">
         <property role="TrG5h" value="Profile is ignored for sub-nodes" />
@@ -848,6 +849,7 @@
     </node>
     <node concept="12Em_C" id="5EFBDSWAY33" role="12Em$d">
       <property role="TrG5h" value="dependencies" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="3ior:4RPz6WoY4Cz" resolve="BuildDependency" />
       <node concept="12Em_x" id="5EFBDSWDb3l" role="12Em$t">
         <ref role="12Em_A" node="5EFBDSWDb2S" resolve="export_BuildDependency_new" />

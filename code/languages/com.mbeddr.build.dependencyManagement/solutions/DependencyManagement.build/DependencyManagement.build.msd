@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="DependencyManagement.build" uuid="a6643982-4e66-40dd-996e-4110d29b1e59" moduleVersion="0" compileInMPS="true">
+<solution name="DependencyManagement.build" uuid="87f2f927-4cff-4a43-8c9f-ea8826244221" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -17,7 +17,7 @@
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="a6643982-4e66-40dd-996e-4110d29b1e59(DependencyManagement.build)" version="0" />
+    <module reference="87f2f927-4cff-4a43-8c9f-ea8826244221(DependencyManagement.build)" version="0" />
     <module reference="1aa3a629-18b1-44e8-a5b9-913354528d3e(ExportProfiles)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
   </dependencyVersions>

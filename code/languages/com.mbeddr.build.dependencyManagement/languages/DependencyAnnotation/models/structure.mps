@@ -125,6 +125,7 @@
     <property role="EcuMT" value="6975379119546735128" />
     <property role="TrG5h" value="ChildExport" />
     <property role="3GE5qa" value="generation" />
+    <property role="34LRSv" value="child-export" />
     <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ExportElement" />
     <node concept="1TJgyj" id="63dx_Cyluyv" role="1TKVEi">
       <property role="IQ2ns" value="6975379119548000415" />
@@ -554,6 +555,11 @@
       <property role="IQ2nx" value="6533490086891947544" />
       <property role="TrG5h" value="mpsType" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7v323Fw8GIJ" role="1TKVEl">
+      <property role="IQ2nx" value="8629750359933504431" />
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" node="63dx_CygDCO" resolve="ExportVisibility" />
     </node>
     <node concept="1TJgyj" id="5EFBDSWIKot" role="1TKVEi">
       <property role="IQ2ns" value="6533490086891947549" />
