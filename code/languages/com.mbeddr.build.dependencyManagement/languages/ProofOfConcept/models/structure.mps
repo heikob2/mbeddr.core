@@ -449,14 +449,14 @@
       <property role="IQ2ns" value="8629750359935085807" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="child_IBeta" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="7v323FweIMC" resolve="Gamma" />
     </node>
     <node concept="1TJgyj" id="7v323FweINM" role="1TKVEi">
       <property role="IQ2ns" value="8629750359935085810" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="child_IBeta_Many" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7v323FweIMC" resolve="Gamma" />
     </node>
     <node concept="1TJgyj" id="7v323FweINR" role="1TKVEi">
@@ -488,14 +488,14 @@
       <property role="IQ2ns" value="8629750359935085746" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="child_Beta" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="7v323FweIMC" resolve="Gamma" />
     </node>
     <node concept="1TJgyj" id="7v323FweIMP" role="1TKVEi">
       <property role="IQ2ns" value="8629750359935085749" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="child_Beta_many" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7v323FweIMC" resolve="Gamma" />
     </node>
     <node concept="1TJgyj" id="7v323FweIMU" role="1TKVEi">

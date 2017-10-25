@@ -147,6 +147,7 @@
     <property role="EcuMT" value="6975379119546735129" />
     <property role="TrG5h" value="PropertyExport" />
     <property role="3GE5qa" value="generation" />
+    <property role="34LRSv" value="property-export" />
     <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ExportElement" />
     <node concept="1TJgyi" id="63dx_CygKaf" role="1TKVEl">
       <property role="IQ2nx" value="6975379119546761871" />
@@ -158,21 +159,22 @@
     <property role="EcuMT" value="6975379119546735130" />
     <property role="TrG5h" value="ReferenceExport" />
     <property role="3GE5qa" value="generation" />
+    <property role="34LRSv" value="reference-export" />
     <ref role="1TJDcQ" node="63dx_CygDCN" resolve="ExportElement" />
-    <node concept="1TJgyj" id="63dx_CygKa9" role="1TKVEi">
-      <property role="IQ2ns" value="6975379119546761865" />
+    <node concept="1TJgyj" id="7v323FwuLJK" role="1TKVEi">
+      <property role="IQ2ns" value="8629750359939292144" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="refToExport" />
-      <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDCN">
     <property role="EcuMT" value="6975379119546735155" />
     <property role="TrG5h" value="ExportElement" />
-    <property role="R5$K7" value="true" />
+    <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="generation" />
+    <property role="34LRSv" value="export-element" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="63dx_CygDCY" role="1TKVEl">
       <property role="IQ2nx" value="6975379119546735166" />
@@ -443,7 +445,7 @@
       <property role="IQ2ns" value="6850913726534625972" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="elements" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="63dx_CygDCN" resolve="ExportElement" />
     </node>
   </node>
