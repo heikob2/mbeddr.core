@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/DependencyAnnotation/DependencyAnnotation.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ProofOfConcept/ProofOfConcept.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DependencyManagement.build/DependencyManagement.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ExportProfiles/ExportProfiles.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/util/util.msd" folder="" />
