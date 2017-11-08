@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -155,6 +156,27 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+    </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA" />
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1204834851141" name="jetbrains.mps.lang.smodel.structure.PoundExpression" flags="ng" index="25Kdxt">
@@ -854,8 +876,8 @@
                                     <node concept="2GrUjf" id="5WjlrMgPECR" role="2Oq$k0">
                                       <ref role="2Gs0qQ" node="5WjlrMgNPR7" resolve="profileChild" />
                                     </node>
-                                    <node concept="3TrEf2" id="5WjlrMgPGbF" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="dnyj:63dx_CypeX7" resolve="exportProfile" />
+                                    <node concept="3TrEf2" id="6qYR9ryhJZA" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
                                     </node>
                                   </node>
                                 </node>
@@ -2355,7 +2377,7 @@
       <property role="TrG5h" value="getExportProfiles" />
       <node concept="3Tm1VV" id="5fqw8$FGibp" role="1B3o_S" />
       <node concept="2I9FWS" id="5fqw8$FGibO" role="3clF45">
-        <ref role="2I9WkF" to="dnyj:63dx_CypeWL" resolve="ConceptExportProfile" />
+        <ref role="2I9WkF" to="dnyj:63dx_CypeWU" resolve="IConceptExportProfile" />
       </node>
       <node concept="3clFbS" id="5fqw8$FGibr" role="3clF47">
         <node concept="3cpWs8" id="5fqw8$FGie9" role="3cqZAp">
@@ -2390,12 +2412,12 @@
           <node concept="3cpWsn" id="5fqw8$FGu8S" role="3cpWs9">
             <property role="TrG5h" value="profiles" />
             <node concept="2I9FWS" id="5fqw8$FGu8N" role="1tU5fm">
-              <ref role="2I9WkF" to="dnyj:63dx_CypeWL" resolve="ConceptExportProfile" />
+              <ref role="2I9WkF" to="dnyj:63dx_CypeWU" resolve="IConceptExportProfile" />
             </node>
             <node concept="2ShNRf" id="5fqw8$FGuiq" role="33vP2m">
               <node concept="2T8Vx0" id="5fqw8$FGuio" role="2ShVmc">
                 <node concept="2I9FWS" id="5fqw8$FGuip" role="2T96Bj">
-                  <ref role="2I9WkF" to="dnyj:63dx_CypeWL" resolve="ConceptExportProfile" />
+                  <ref role="2I9WkF" to="dnyj:63dx_CypeWU" resolve="IConceptExportProfile" />
                 </node>
               </node>
             </node>
@@ -2441,7 +2463,7 @@
                   </node>
                   <node concept="3clFbS" id="5fqw8$FGwdm" role="2LFqv$">
                     <node concept="Jncv_" id="5fqw8$FGxCk" role="3cqZAp">
-                      <ref role="JncvD" to="dnyj:63dx_CypeWL" resolve="ConceptExportProfile" />
+                      <ref role="JncvD" to="dnyj:63dx_CypeWU" resolve="IConceptExportProfile" />
                       <node concept="2GrUjf" id="5fqw8$FGxDc" role="JncvB">
                         <ref role="2Gs0qQ" node="5fqw8$FGwdk" resolve="root" />
                       </node>
@@ -2501,6 +2523,19 @@
         <node concept="3Tqbb2" id="5fqw8$FGz1j" role="1tU5fm">
           <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
         </node>
+      </node>
+      <node concept="P$JXv" id="6qYR9ryfMqN" role="lGtFl">
+        <node concept="TZ5HA" id="6qYR9ryfMqO" role="TZ5H$">
+          <node concept="1dT_AC" id="6qYR9ryfMqP" role="1dT_Ay">
+            <property role="1dT_AB" value="TODO: move to IHasExportProfile" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6qYR9ryfMqQ" role="3nqlJM">
+          <node concept="zr_55" id="6qYR9ryfMqS" role="zr_5Q">
+            <ref role="zr_51" node="5fqw8$FGz1k" resolve="cte" />
+          </node>
+        </node>
+        <node concept="x79VA" id="6qYR9ryfMqT" role="3nqlJM" />
       </node>
     </node>
     <node concept="13hLZK" id="5fqw8$FGibe" role="13h7CW">
@@ -2621,8 +2656,8 @@
               <node concept="37vLTw" id="7v323Fwe2HX" role="2Oq$k0">
                 <ref role="3cqZAo" node="5EFBDSWIKA6" resolve="childCep" />
               </node>
-              <node concept="3TrEf2" id="7v323Fwe4vg" role="2OqNvi">
-                <ref role="3Tt5mk" to="dnyj:63dx_CypeX7" resolve="exportProfile" />
+              <node concept="3TrEf2" id="6qYR9ryhqob" role="2OqNvi">
+                <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
               </node>
             </node>
             <node concept="2OqwBi" id="7v323Fwe19j" role="37vLTJ">

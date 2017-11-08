@@ -14,12 +14,14 @@
       </concept>
     </language>
     <language id="aa2a0a96-4f86-4df2-84ec-54941b1a2d95" name="DependencyAnnotation">
+      <concept id="7403597378042616461" name="DependencyAnnotation.structure.IHasExportProfile" flags="ng" index="24w8or">
+        <child id="7403597378042616462" name="exportProfile" index="24w8oo" />
+      </concept>
       <concept id="6975379119548985147" name="DependencyAnnotation.structure.ConceptExportProfileReference" flags="ng" index="12Em_x">
         <reference id="6975379119548985148" name="conceptExportProfile" index="12Em_A" />
       </concept>
       <concept id="6975379119548985138" name="DependencyAnnotation.structure.ConceptChildExport" flags="ng" index="12Em_C">
         <reference id="6975379119548985162" name="childToExport" index="12Em$g" />
-        <child id="6975379119548985159" name="exportProfile" index="12Em$t" />
       </concept>
       <concept id="6975379119548985139" name="DependencyAnnotation.structure.ConceptReferenceExport" flags="ng" index="12Em_D">
         <reference id="6975379119548985156" name="refToExport" index="12Em$u" />
@@ -52,65 +54,62 @@
       <property role="12Em_G" value="PUBLIC" />
     </node>
   </node>
-  <node concept="12Em_F" id="7v323Fwnjac">
+  <node concept="12Em_F" id="6qYR9ryi9zp">
     <property role="TrG5h" value="export_Beta" />
     <ref role="12Em$l" to="xtqs:7v323FweILF" resolve="Beta" />
-    <node concept="12Em_I" id="7v323Fwnjad" role="12Em$8">
+    <node concept="12Em_I" id="6qYR9ryi9zq" role="12Em$8">
       <property role="TrG5h" value="prop_Beta" />
       <property role="3enqAb" value="string" />
-      <property role="12Em_G" value="PUBLIC" />
     </node>
-    <node concept="12Em_C" id="7v323Fwnjae" role="12Em$d">
+    <node concept="12Em_C" id="6qYR9ryi9zr" role="12Em$d">
       <property role="TrG5h" value="child_Beta" />
-      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
-      <node concept="12Em_x" id="7v323FwnjaD" role="12Em$t">
+      <node concept="12Em_x" id="6qYR9ryi9zT" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
       </node>
     </node>
-    <node concept="12Em_C" id="7v323Fwnjaf" role="12Em$d">
+    <node concept="12Em_C" id="6qYR9ryi9zs" role="12Em$d">
       <property role="TrG5h" value="child_Beta_many" />
-      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
-      <node concept="12Em_x" id="7v323FwnjaH" role="12Em$t">
+      <node concept="12Em_x" id="6qYR9ryi9A1" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
       </node>
     </node>
-    <node concept="12Em_D" id="7v323Fwnjag" role="12Em$4">
+    <node concept="12Em_D" id="6qYR9ryi9zt" role="12Em$4">
       <property role="TrG5h" value="ref_Beta" />
-      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$u" to="xtqs:7v323FweIMC" resolve="Gamma" />
+      <node concept="12Em_x" id="6qYR9ryi9Aa" role="24w8oo">
+        <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
+      </node>
     </node>
-    <node concept="12Em_I" id="7v323Fwnjah" role="12Em$8">
+    <node concept="12Em_I" id="6qYR9ryi9zu" role="12Em$8">
       <property role="TrG5h" value="prop_IBeta" />
       <property role="3enqAb" value="string" />
-      <property role="12Em_G" value="PUBLIC" />
     </node>
-    <node concept="12Em_C" id="7v323Fwnjai" role="12Em$d">
+    <node concept="12Em_C" id="6qYR9ryi9zv" role="12Em$d">
       <property role="TrG5h" value="child_IBeta" />
-      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
-      <node concept="12Em_x" id="7v323FwnjaL" role="12Em$t">
+      <node concept="12Em_x" id="6qYR9ryi9A4" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
       </node>
     </node>
-    <node concept="12Em_C" id="7v323Fwnjaj" role="12Em$d">
+    <node concept="12Em_C" id="6qYR9ryi9zw" role="12Em$d">
       <property role="TrG5h" value="child_IBeta_Many" />
-      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
-      <node concept="12Em_x" id="7v323FwnjaP" role="12Em$t">
+      <node concept="12Em_x" id="6qYR9ryi9A7" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
       </node>
     </node>
-    <node concept="12Em_D" id="7v323Fwnjak" role="12Em$4">
+    <node concept="12Em_D" id="6qYR9ryi9zx" role="12Em$4">
       <property role="TrG5h" value="ref_IBeta" />
-      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$u" to="xtqs:7v323FweIMC" resolve="Gamma" />
+      <node concept="12Em_x" id="6qYR9ryi9Ad" role="24w8oo">
+        <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
+      </node>
     </node>
-    <node concept="12Em_I" id="7v323Fwnjal" role="12Em$8">
+    <node concept="12Em_I" id="6qYR9ryi9zy" role="12Em$8">
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
-      <property role="12Em_G" value="PUBLIC" />
     </node>
   </node>
 </model>

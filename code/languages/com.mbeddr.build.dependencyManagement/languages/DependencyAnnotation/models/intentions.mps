@@ -66,6 +66,12 @@
       <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
         <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
       </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
@@ -342,8 +348,8 @@
                       <node concept="Jnkvi" id="5WjlrMgMuVi" role="2Oq$k0">
                         <ref role="1M0zk5" node="5WjlrMgMuRz" resolve="cce" />
                       </node>
-                      <node concept="3TrEf2" id="5WjlrMgMvj7" role="2OqNvi">
-                        <ref role="3Tt5mk" to="dnyj:63dx_CypeX7" resolve="exportProfile" />
+                      <node concept="3TrEf2" id="6qYR9ryh70X" role="2OqNvi">
+                        <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
                       </node>
                     </node>
                     <node concept="3w_OXm" id="5WjlrMgMw6L" role="2OqNvi" />
@@ -355,8 +361,8 @@
                           <node concept="Jnkvi" id="5WjlrMgMw98" role="2Oq$k0">
                             <ref role="1M0zk5" node="5WjlrMgMuRz" resolve="cce" />
                           </node>
-                          <node concept="3TrEf2" id="5WjlrMgMwJH" role="2OqNvi">
-                            <ref role="3Tt5mk" to="dnyj:63dx_CypeX7" resolve="exportProfile" />
+                          <node concept="3TrEf2" id="6qYR9ryh7jQ" role="2OqNvi">
+                            <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
                           </node>
                         </node>
                         <node concept="2oxUTD" id="5WjlrMgMxnB" role="2OqNvi">
@@ -383,8 +389,8 @@
                               <node concept="Jnkvi" id="5WjlrMgMGJr" role="2Oq$k0">
                                 <ref role="1M0zk5" node="5WjlrMgMuRz" resolve="cce" />
                               </node>
-                              <node concept="3TrEf2" id="5WjlrMgMHCI" role="2OqNvi">
-                                <ref role="3Tt5mk" to="dnyj:63dx_CypeX7" resolve="exportProfile" />
+                              <node concept="3TrEf2" id="6qYR9ryh7Cz" role="2OqNvi">
+                                <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
                               </node>
                             </node>
                           </node>
@@ -397,6 +403,59 @@
               <node concept="JncvC" id="5WjlrMgMuRz" role="JncvA">
                 <property role="TrG5h" value="cce" />
                 <node concept="2jxLKc" id="5WjlrMgMuR$" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="Jncv_" id="6qYR9ryfd8X" role="3cqZAp">
+              <ref role="JncvD" to="dnyj:63dx_CypeWN" resolve="ConceptReferenceExport" />
+              <node concept="37vLTw" id="6qYR9ryfdas" role="JncvB">
+                <ref role="3cqZAo" node="5WjlrMgMhZV" resolve="front" />
+              </node>
+              <node concept="3clFbS" id="6qYR9ryfd91" role="Jncv$">
+                <node concept="3clFbJ" id="6qYR9ryfdcj" role="3cqZAp">
+                  <node concept="2OqwBi" id="6qYR9ryfe1H" role="3clFbw">
+                    <node concept="2OqwBi" id="6qYR9ryfdmU" role="2Oq$k0">
+                      <node concept="Jnkvi" id="6qYR9ryfdcI" role="2Oq$k0">
+                        <ref role="1M0zk5" node="6qYR9ryfd93" resolve="cre" />
+                      </node>
+                      <node concept="3TrEf2" id="6qYR9ryh84m" role="2OqNvi">
+                        <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
+                      </node>
+                    </node>
+                    <node concept="3w_OXm" id="6qYR9ryfer0" role="2OqNvi" />
+                  </node>
+                  <node concept="3clFbS" id="6qYR9ryfdcl" role="3clFbx">
+                    <node concept="3clFbF" id="6qYR9ryfetF" role="3cqZAp">
+                      <node concept="2OqwBi" id="6qYR9ryffvl" role="3clFbG">
+                        <node concept="2OqwBi" id="6qYR9ryfe_Y" role="2Oq$k0">
+                          <node concept="Jnkvi" id="6qYR9ryfetE" role="2Oq$k0">
+                            <ref role="1M0zk5" node="6qYR9ryfd93" resolve="cre" />
+                          </node>
+                          <node concept="3TrEf2" id="6qYR9ryh8nf" role="2OqNvi">
+                            <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
+                          </node>
+                        </node>
+                        <node concept="2oxUTD" id="6qYR9ryffV2" role="2OqNvi">
+                          <node concept="2ShNRf" id="6qYR9ryfg4V" role="2oxUTC">
+                            <node concept="3zrR0B" id="6qYR9ryfggC" role="2ShVmc">
+                              <node concept="3Tqbb2" id="6qYR9ryfggE" role="3zrR0E">
+                                <ref role="ehGHo" to="dnyj:5WjlrMgM8R0" resolve="ConceptExportProfileIgnore" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="6qYR9ryfgnE" role="3cqZAp">
+                  <node concept="3SKdUq" id="6qYR9ryfgnG" role="3SKWNk">
+                    <property role="3SKdUp" value="references have no children, so do not add!" />
+                  </node>
+                </node>
+              </node>
+              <node concept="JncvC" id="6qYR9ryfd93" role="JncvA">
+                <property role="TrG5h" value="cre" />
+                <node concept="2jxLKc" id="6qYR9ryfd94" role="1tU5fm" />
               </node>
             </node>
           </node>
