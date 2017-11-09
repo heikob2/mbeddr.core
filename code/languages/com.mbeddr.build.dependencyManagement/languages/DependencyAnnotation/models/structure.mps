@@ -113,7 +113,7 @@
     <node concept="1TJgyj" id="5WjlrMgWqFp" role="1TKVEi">
       <property role="IQ2ns" value="6850913726534626009" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="groups" />
+      <property role="20kJfa" value="groups_" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5WjlrMgWqDc" resolve="RoledGroup" />
     </node>

@@ -60,10 +60,11 @@
     <node concept="12Em_I" id="6qYR9ryi9zq" role="12Em$8">
       <property role="TrG5h" value="prop_Beta" />
       <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
     </node>
     <node concept="12Em_C" id="6qYR9ryi9zr" role="12Em$d">
       <property role="TrG5h" value="child_Beta" />
-      <property role="12Em_G" value="PRIVATE" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
       <node concept="12Em_x" id="6qYR9ryi9zT" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
@@ -79,6 +80,7 @@
     </node>
     <node concept="12Em_D" id="6qYR9ryi9zt" role="12Em$4">
       <property role="TrG5h" value="ref_Beta" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$u" to="xtqs:7v323FweIMC" resolve="Gamma" />
       <node concept="12Em_x" id="6qYR9ryi9Aa" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
@@ -87,9 +89,11 @@
     <node concept="12Em_I" id="6qYR9ryi9zu" role="12Em$8">
       <property role="TrG5h" value="prop_IBeta" />
       <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
     </node>
     <node concept="12Em_C" id="6qYR9ryi9zv" role="12Em$d">
       <property role="TrG5h" value="child_IBeta" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
       <node concept="12Em_x" id="6qYR9ryi9A4" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
@@ -97,6 +101,7 @@
     </node>
     <node concept="12Em_C" id="6qYR9ryi9zw" role="12Em$d">
       <property role="TrG5h" value="child_IBeta_Many" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
       <node concept="12Em_x" id="6qYR9ryi9A7" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
@@ -104,6 +109,7 @@
     </node>
     <node concept="12Em_D" id="6qYR9ryi9zx" role="12Em$4">
       <property role="TrG5h" value="ref_IBeta" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$u" to="xtqs:7v323FweIMC" resolve="Gamma" />
       <node concept="12Em_x" id="6qYR9ryi9Ad" role="24w8oo">
         <ref role="12Em_A" node="7v323FwfASn" resolve="export_Gamma" />
@@ -112,6 +118,7 @@
     <node concept="12Em_I" id="6qYR9ryi9zy" role="12Em$8">
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
     </node>
   </node>
 </model>
