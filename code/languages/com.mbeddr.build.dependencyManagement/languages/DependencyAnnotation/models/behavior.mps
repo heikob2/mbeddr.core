@@ -20,6 +20,7 @@
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="6496299201655527393" name="jetbrains.mps.lang.behavior.structure.LocalBehaviorMethodCall" flags="nn" index="BsUDl" />
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
         <reference id="1225194240799" name="concept" index="13h7C2" />
         <child id="1225194240805" name="method" index="13h7CS" />
@@ -310,8 +311,31 @@
   <node concept="13h7C7" id="63dx_CyfSAZ">
     <property role="3GE5qa" value="annotations" />
     <ref role="13h7C2" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
-    <node concept="13i0hz" id="5WjlrMgM2kx" role="13h7CS">
+    <node concept="13i0hz" id="1Lv$utl$EfX" role="13h7CS">
       <property role="TrG5h" value="attachAnnotations" />
+      <node concept="3Tm1VV" id="1Lv$utl$EfY" role="1B3o_S" />
+      <node concept="3cqZAl" id="1Lv$utl$GVr" role="3clF45" />
+      <node concept="3clFbS" id="1Lv$utl$Eg0" role="3clF47">
+        <node concept="3clFbF" id="1Lv$utl$GWK" role="3cqZAp">
+          <node concept="BsUDl" id="1Lv$utl$GWJ" role="3clFbG">
+            <ref role="37wK5l" node="5WjlrMgM2kx" resolve="attachAnnotations_" />
+            <node concept="2OqwBi" id="1Lv$utl$H5n" role="37wK5m">
+              <node concept="13iPFW" id="1Lv$utl$GX3" role="2Oq$k0" />
+              <node concept="1mfA1w" id="1Lv$utl$HjI" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="1Lv$utl$Hva" role="37wK5m">
+              <node concept="13iPFW" id="1Lv$utl$Hmj" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1Lv$utl$HUq" role="2OqNvi">
+                <ref role="3Tt5mk" to="dnyj:2gPgfGV2icz" resolve="exportProfile" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="5WjlrMgM2kx" role="13h7CS">
+      <property role="TrG5h" value="attachAnnotations_" />
+      <property role="2Ki8OM" value="true" />
       <node concept="3Tm1VV" id="5WjlrMgM2ky" role="1B3o_S" />
       <node concept="3cqZAl" id="5WjlrMgM3uj" role="3clF45" />
       <node concept="3clFbS" id="5WjlrMgM2k$" role="3clF47">
@@ -321,11 +345,8 @@
             <node concept="3Tqbb2" id="5WjlrMgM3vf" role="1tU5fm">
               <ref role="ehGHo" to="dnyj:63dx_CypeWU" resolve="IConceptExportProfile" />
             </node>
-            <node concept="2OqwBi" id="5WjlrMgM3EA" role="33vP2m">
-              <node concept="13iPFW" id="5WjlrMgM3wp" role="2Oq$k0" />
-              <node concept="3TrEf2" id="5WjlrMgM449" role="2OqNvi">
-                <ref role="3Tt5mk" to="dnyj:2gPgfGV2icz" resolve="exportProfile" />
-              </node>
+            <node concept="37vLTw" id="1Lv$utl$L1Y" role="33vP2m">
+              <ref role="3cqZAo" node="1Lv$utl$CM3" resolve="expProfile" />
             </node>
           </node>
         </node>
@@ -335,9 +356,8 @@
             <node concept="3Tqbb2" id="5WjlrMgM49d" role="1tU5fm">
               <ref role="ehGHo" to="tpck:gw2VY9q" resolve="BaseConcept" />
             </node>
-            <node concept="2OqwBi" id="5WjlrMgM4mk" role="33vP2m">
-              <node concept="13iPFW" id="5WjlrMgM4cX" role="2Oq$k0" />
-              <node concept="1mfA1w" id="5WjlrMgM4zo" role="2OqNvi" />
+            <node concept="37vLTw" id="1Lv$utl$MUH" role="33vP2m">
+              <ref role="3cqZAo" node="1Lv$utl$BxE" resolve="parent_" />
             </node>
           </node>
         </node>
@@ -1552,6 +1572,16 @@
             </node>
             <node concept="3GX2aA" id="5WjlrMgNKfX" role="2OqNvi" />
           </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1Lv$utl$BxE" role="3clF46">
+        <property role="TrG5h" value="parent_" />
+        <node concept="3Tqbb2" id="1Lv$utl$BxD" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1Lv$utl$CM3" role="3clF46">
+        <property role="TrG5h" value="expProfile" />
+        <node concept="3Tqbb2" id="1Lv$utl$Ecc" role="1tU5fm">
+          <ref role="ehGHo" to="dnyj:63dx_CypeWU" resolve="IConceptExportProfile" />
         </node>
       </node>
     </node>
