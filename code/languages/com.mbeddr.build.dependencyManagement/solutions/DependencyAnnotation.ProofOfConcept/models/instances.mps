@@ -148,7 +148,7 @@
       <node concept="3fManr" id="1Lv$utlMs6p" role="lGtFl">
         <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
         <property role="2qtEX9" value="name" />
-        <property role="24Wu3u" value="PUBLIC" />
+        <property role="24Wu3u" value="PRIVATE" />
         <property role="3enkQ0" value="string" />
       </node>
     </node>
@@ -167,7 +167,7 @@
       <node concept="3fManr" id="1Lv$utlMs6t" role="lGtFl">
         <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
         <property role="2qtEX9" value="name" />
-        <property role="24Wu3u" value="PUBLIC" />
+        <property role="24Wu3u" value="IGNORED" />
         <property role="3enkQ0" value="string" />
       </node>
     </node>
