@@ -615,7 +615,13 @@
     <node concept="3aamgX" id="1Lv$utlB1vp" role="3acgRq">
       <ref role="30HIoZ" to="dnyj:5WjlrMgWqFQ" resolve="ExportProfileToReduce" />
       <node concept="j$656" id="1Lv$utlBUZs" role="1lVwrX">
-        <ref role="v9R2y" node="1Lv$utlB4_2" resolve="testreduce" />
+        <ref role="v9R2y" node="1Lv$utlB4_2" resolve="reduce_inner_ExportProfileToReduce" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="1Lv$utlFokQ" role="3acgRq">
+      <ref role="30HIoZ" to="dnyj:63dx_CygDB_" resolve="ExportProfile" />
+      <node concept="j$656" id="1Lv$utlFN0b" role="1lVwrX">
+        <ref role="v9R2y" node="1Lv$utlFpB7" resolve="reduce_inner_ExportProfile" />
       </node>
     </node>
     <node concept="3lhOvk" id="63dx_Cyg5oW" role="3lj3bC">
@@ -644,7 +650,7 @@
     <node concept="3lhOvk" id="5WjlrMgWo4N" role="3lj3bC">
       <property role="13Pg2o" value="true" />
       <ref role="30HIoZ" to="dnyj:5WjlrMgWqFQ" resolve="ExportProfileToReduce" />
-      <ref role="3lhOvi" node="5WjlrMh2C9T" resolve="reduce ExportProfileToReduce" />
+      <ref role="3lhOvi" node="1Lv$utlC_ZR" resolve="reduce_root_ExportProfileToReduce" />
       <node concept="30G5F_" id="5WjlrMh39Sd" role="30HLyM">
         <node concept="3clFbS" id="5WjlrMh39Se" role="2VODD2">
           <node concept="Jncv_" id="5WjlrMh3cvE" role="3cqZAp">
@@ -2515,7 +2521,7 @@
     </node>
   </node>
   <node concept="13MO4I" id="1Lv$utlB4_2">
-    <property role="TrG5h" value="testreduce" />
+    <property role="TrG5h" value="reduce_inner_ExportProfileToReduce" />
     <ref role="3gUMe" to="dnyj:5WjlrMgWqFQ" resolve="ExportProfileToReduce" />
     <node concept="12zLYZ" id="1Lv$utlB4DF" role="13RCb5">
       <property role="TrG5h" value="testReduce" />
@@ -3829,6 +3835,110 @@
         </node>
       </node>
       <node concept="raruj" id="1Lv$utlB4DI" role="lGtFl" />
+      <node concept="17Uvod" id="1Lv$utlE6wG" role="lGtFl">
+        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+        <property role="2qtEX9" value="name" />
+        <node concept="3zFVjK" id="1Lv$utlE8NV" role="3zH0cK">
+          <node concept="3clFbS" id="1Lv$utlE8NW" role="2VODD2">
+            <node concept="Jncv_" id="1Lv$utlE8NX" role="3cqZAp">
+              <ref role="JncvD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+              <node concept="30H73N" id="1Lv$utlE8NY" role="JncvB" />
+              <node concept="3clFbS" id="1Lv$utlE8NZ" role="Jncv$">
+                <node concept="3cpWs6" id="1Lv$utlE8O0" role="3cqZAp">
+                  <node concept="2OqwBi" id="1Lv$utlE8O1" role="3cqZAk">
+                    <node concept="Jnkvi" id="1Lv$utlE8O2" role="2Oq$k0">
+                      <ref role="1M0zk5" node="1Lv$utlE8O4" resolve="named" />
+                    </node>
+                    <node concept="3TrcHB" id="1Lv$utlE8O3" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="JncvC" id="1Lv$utlE8O4" role="JncvA">
+                <property role="TrG5h" value="named" />
+                <node concept="2jxLKc" id="1Lv$utlE8O5" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="1X3_iC" id="1Lv$utlE8O6" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="Jncv_" id="1Lv$utlE8O7" role="8Wnug">
+                <ref role="JncvD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                <node concept="2OqwBi" id="1Lv$utlE8O8" role="JncvB">
+                  <node concept="30H73N" id="1Lv$utlE8O9" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1Lv$utlE8Oa" role="2OqNvi">
+                    <ref role="3Tt5mk" to="dnyj:5WjlrMgWqFU" resolve="nodeToReduce" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="1Lv$utlE8Ob" role="Jncv$">
+                  <node concept="3cpWs6" id="1Lv$utlE8Oc" role="3cqZAp">
+                    <node concept="2OqwBi" id="1Lv$utlE8Od" role="3cqZAk">
+                      <node concept="Jnkvi" id="1Lv$utlE8Oe" role="2Oq$k0">
+                        <ref role="1M0zk5" node="1Lv$utlE8Og" resolve="named" />
+                      </node>
+                      <node concept="3TrcHB" id="1Lv$utlE8Of" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="JncvC" id="1Lv$utlE8Og" role="JncvA">
+                  <property role="TrG5h" value="named" />
+                  <node concept="2jxLKc" id="1Lv$utlE8Oh" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="1Lv$utlE8Oi" role="3cqZAp">
+              <node concept="Xl_RD" id="1Lv$utlE8Oj" role="3cqZAk">
+                <property role="Xl_RC" value="no node-name available" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="12zLYZ" id="1Lv$utlC_ZR">
+    <property role="TrG5h" value="reduce_root_ExportProfileToReduce" />
+    <node concept="n94m4" id="1Lv$utlC_ZS" role="lGtFl">
+      <ref role="n9lRv" to="dnyj:5WjlrMgWqFQ" resolve="ExportProfileToReduce" />
+    </node>
+    <node concept="5jKBG" id="1Lv$utlCA00" role="lGtFl">
+      <ref role="v9R2y" node="1Lv$utlB4_2" resolve="reduce_inner_ExportProfileToReduce" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="1Lv$utlFpB7">
+    <property role="TrG5h" value="reduce_inner_ExportProfile" />
+    <ref role="3gUMe" to="dnyj:63dx_CygDB_" resolve="ExportProfile" />
+    <node concept="2pMbU2" id="1Lv$utlID4Q" role="13RCb5">
+      <property role="TrG5h" value="dummy" />
+      <node concept="3rIKKV" id="1Lv$utlID4T" role="2pMbU3">
+        <node concept="2pNNFK" id="1Lv$utlID4Z" role="2pNm8H">
+          <property role="2pNNFO" value="rootDumm" />
+          <node concept="2pNNFK" id="1Lv$utlID52" role="3o6s8t">
+            <property role="2pNNFO" value="innerElement" />
+            <node concept="raruj" id="1Lv$utlID55" role="lGtFl" />
+            <node concept="1WS0z7" id="1Lv$utlID59" role="lGtFl">
+              <node concept="3JmXsc" id="1Lv$utlID5c" role="3Jn$fo">
+                <node concept="3clFbS" id="1Lv$utlID5d" role="2VODD2">
+                  <node concept="3clFbF" id="1Lv$utlID5j" role="3cqZAp">
+                    <node concept="2OqwBi" id="1Lv$utlID5e" role="3clFbG">
+                      <node concept="3Tsc0h" id="1Lv$utlID5h" role="2OqNvi">
+                        <ref role="3TtcxE" to="dnyj:5WjlrMgWqFp" resolve="groups_" />
+                      </node>
+                      <node concept="30H73N" id="1Lv$utlID5i" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="5jKBG" id="1Lv$utlIDKK" role="lGtFl">
+              <ref role="v9R2y" node="6qYR9rysydT" resolve="reduce_RoledGroup" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
