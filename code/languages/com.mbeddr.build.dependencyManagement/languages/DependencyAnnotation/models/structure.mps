@@ -95,6 +95,11 @@
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="1Lv$utmi6gu" role="1TKVEl">
+      <property role="IQ2nx" value="2044513178620552222" />
+      <property role="TrG5h" value="dependencies_file_name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="2gPgfGV2icz" role="1TKVEi">
       <property role="IQ2ns" value="2609063006902493987" />
       <property role="20lmBu" value="reference" />
@@ -279,7 +284,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="subConcepts" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="63dx_CypeWL" resolve="ConceptExportProfile" />
+      <ref role="20lvS9" node="63dx_CypeWU" resolve="IConceptExportProfile" />
     </node>
     <node concept="PrWs8" id="63dx_CyqT6J" role="PzmwI">
       <ref role="PrY4T" node="63dx_CypeWU" resolve="IConceptExportProfile" />
@@ -365,6 +370,11 @@
     </node>
     <node concept="PrWs8" id="63dx_CyqT6M" role="PzmwI">
       <ref role="PrY4T" node="63dx_CypeWU" resolve="IConceptExportProfile" />
+    </node>
+    <node concept="1TJgyi" id="1Lv$utmixfo" role="1TKVEl">
+      <property role="IQ2nx" value="2044513178620662744" />
+      <property role="TrG5h" value="conceptName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="2gPgfGV1VW8">

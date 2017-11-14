@@ -545,11 +545,50 @@
       <property role="TrG5h" value="gammaCounter" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="1Lv$utmfAg3" role="1TKVEl">
+      <property role="IQ2nx" value="2044513178619896835" />
+      <property role="TrG5h" value="omegaCounter" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="PlHQZ" id="7v323FwfpKC">
     <property role="EcuMT" value="8629750359935261736" />
     <property role="3GE5qa" value="concepts" />
     <property role="TrG5h" value="IExportable" />
+  </node>
+  <node concept="1TIwiD" id="1Lv$utmfAen">
+    <property role="EcuMT" value="2044513178619896727" />
+    <property role="3GE5qa" value="concepts" />
+    <property role="TrG5h" value="Omega" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Lv$utmfAeo" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1Lv$utmnx7w" role="PzmwI">
+      <ref role="PrY4T" node="7v323FwfpKC" resolve="IExportable" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmfAer" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178619896731" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_subAlphaAsSuper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmfAeu" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178619896734" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_subAlphaAsSuper_Many" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7v323FweIKD" resolve="SubAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmfAez" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178619896739" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref_subAlphaAsSuper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
   </node>
 </model>
 
