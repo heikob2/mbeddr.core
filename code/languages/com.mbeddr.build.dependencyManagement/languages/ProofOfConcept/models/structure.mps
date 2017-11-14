@@ -648,6 +648,13 @@
       <property role="IQ2ns" value="2044513178627264838" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="child_subAsSub" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIKD" resolve="SubAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmObBx" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178629487073" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_subAsSub_Many" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="7v323FweIKD" resolve="SubAlpha" />
     </node>

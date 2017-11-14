@@ -773,28 +773,117 @@
       </node>
     </node>
   </node>
-  <node concept="12Em_F" id="1Lv$utmObfr">
-    <property role="TrG5h" value="testgamma" />
+  <node concept="12Em_F" id="1Lv$utmR7gN">
+    <property role="TrG5h" value="export_Omega" />
+    <ref role="12Em$l" to="xtqs:1Lv$utmfAen" resolve="Omega" />
+    <node concept="12Em_C" id="1Lv$utmR7iG" role="12Em$d">
+      <property role="TrG5h" value="child_superAsSuper" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iH" role="12Em$d">
+      <property role="TrG5h" value="child_superAsSuper_Many" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iI" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsSuper" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iJ" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsSuper_Many" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iK" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSuper" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iL" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSuper_Many" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iM" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsAlpha" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iN" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsAlpha_Many" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iO" role="12Em$d">
+      <property role="TrG5h" value="child_subAsAlpha" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iP" role="12Em$d">
+      <property role="TrG5h" value="child_subAsAlpha_Many" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iQ" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSub" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKD" resolve="SubAlpha" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmR7iR" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSub_Many" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKD" resolve="SubAlpha" />
+    </node>
+    <node concept="12Em_D" id="1Lv$utmR7iS" role="12Em$4">
+      <property role="TrG5h" value="ref_superAsSuper" />
+      <ref role="12Em$u" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_D" id="1Lv$utmR7iT" role="12Em$4">
+      <property role="TrG5h" value="ref_alphaAsSuper" />
+      <ref role="12Em$u" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_D" id="1Lv$utmR7iU" role="12Em$4">
+      <property role="TrG5h" value="ref_subAsSuper" />
+      <ref role="12Em$u" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="12Em_D" id="1Lv$utmR7iV" role="12Em$4">
+      <property role="TrG5h" value="ref_alphaAsAlpha" />
+      <ref role="12Em$u" to="xtqs:7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="12Em_D" id="1Lv$utmR7iW" role="12Em$4">
+      <property role="TrG5h" value="ref_subAsAlpha" />
+      <ref role="12Em$u" to="xtqs:7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="12Em_D" id="1Lv$utmR7iX" role="12Em$4">
+      <property role="TrG5h" value="ref_subAsSub" />
+      <ref role="12Em$u" to="xtqs:7v323FweIKD" resolve="SubAlpha" />
+    </node>
+    <node concept="12Em_I" id="1Lv$utmR7iY" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+    </node>
+  </node>
+  <node concept="12Em_F" id="1Lv$utmR7j_">
+    <property role="TrG5h" value="reference_export_Gamma" />
     <ref role="12Em$l" to="xtqs:7v323FweIMC" resolve="Gamma" />
-    <node concept="12Em_I" id="1Lv$utmObju" role="12Em$8">
+    <node concept="12Em_I" id="1Lv$utmR7jA" role="12Em$8">
       <property role="TrG5h" value="prop_Gamma" />
       <property role="3enqAb" value="string" />
     </node>
-    <node concept="12Em_C" id="1Lv$utmObjv" role="12Em$d">
+    <node concept="12Em_C" id="1Lv$utmR7jB" role="12Em$d">
       <property role="TrG5h" value="myNamed" />
       <ref role="12Em$g" to="tpck:h0TrEE$" resolve="INamedConcept" />
-      <node concept="12Em_F" id="1Lv$utmObjB" role="24w8oo">
+      <node concept="12Em_F" id="1Lv$utmR7jY" role="24w8oo">
         <property role="TrG5h" value="NEW_PROFILE" />
         <ref role="12Em$l" to="tpck:h0TrEE$" resolve="INamedConcept" />
-        <node concept="12Em_I" id="1Lv$utmObjC" role="12Em$8">
+        <node concept="12Em_I" id="1Lv$utmR7jZ" role="12Em$8">
           <property role="TrG5h" value="name" />
           <property role="3enqAb" value="string" />
         </node>
       </node>
     </node>
-    <node concept="12Em_I" id="1Lv$utmObjw" role="12Em$8">
+    <node concept="12Em_I" id="1Lv$utmR7jC" role="12Em$8">
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
+    </node>
+  </node>
+  <node concept="12Em_F" id="1Lv$utmR7jJ">
+    <property role="TrG5h" value="export_Epsilon" />
+    <ref role="12Em$l" to="xtqs:1Lv$utmFH8H" resolve="EpsilonNamed" />
+    <node concept="12Em_I" id="1Lv$utmR7jK" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
     </node>
   </node>
 </model>
