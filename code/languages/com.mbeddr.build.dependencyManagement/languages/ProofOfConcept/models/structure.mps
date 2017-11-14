@@ -524,6 +524,12 @@
       <property role="TrG5h" value="prop_Gamma" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyj" id="1Lv$utmFH8L" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627265073" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="myNamed" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7v323FweIPE">
     <property role="EcuMT" value="8629750359935085930" />
@@ -562,6 +568,34 @@
     <property role="TrG5h" value="Omega" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1Lv$utmFH36" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264710" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_superAsSuper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH3f" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264719" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_superAsSuper_Many" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH3q" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264730" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_alphaAsSuper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH3B" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264743" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_alphaAsSuper_Many" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
     <node concept="PrWs8" id="1Lv$utmfAeo" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -571,23 +605,102 @@
     <node concept="1TJgyj" id="1Lv$utmfAer" role="1TKVEi">
       <property role="IQ2ns" value="2044513178619896731" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="child_subAlphaAsSuper" />
+      <property role="20kJfa" value="child_subAsSuper" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
     </node>
     <node concept="1TJgyj" id="1Lv$utmfAeu" role="1TKVEi">
       <property role="IQ2ns" value="2044513178619896734" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="child_subAlphaAsSuper_Many" />
+      <property role="20kJfa" value="child_subAsSuper_Many" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH3Q" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264758" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_alphaAsAlpha" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH47" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264775" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_alphaAsAlpha_Many" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH4q" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264794" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_subAsAlpha" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH4J" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264815" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_subAsAlpha_Many" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH56" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264838" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child_subAsSub" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="7v323FweIKD" resolve="SubAlpha" />
     </node>
     <node concept="1TJgyj" id="1Lv$utmfAez" role="1TKVEi">
       <property role="IQ2ns" value="2044513178619896739" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="ref_subAlphaAsSuper" />
+      <property role="20kJfa" value="ref_superAsSuper" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH6i" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264914" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref_alphaAsSuper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH6H" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264941" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref_subAsSuper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIK$" resolve="SuperAlpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH7a" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627264970" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref_alphaAsAlpha" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH7D" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627265001" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref_subAsAlpha" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIKC" resolve="Alpha" />
+    </node>
+    <node concept="1TJgyj" id="1Lv$utmFH8a" role="1TKVEi">
+      <property role="IQ2ns" value="2044513178627265034" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref_subAsSub" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7v323FweIKD" resolve="SubAlpha" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Lv$utmFH8H">
+    <property role="EcuMT" value="2044513178627265069" />
+    <property role="3GE5qa" value="concepts" />
+    <property role="TrG5h" value="TestNamed" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Lv$utmFH8I" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

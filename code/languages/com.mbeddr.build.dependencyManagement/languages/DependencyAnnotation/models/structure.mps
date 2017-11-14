@@ -284,7 +284,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="subConcepts" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="63dx_CypeWU" resolve="IConceptExportProfile" />
+      <ref role="20lvS9" node="63dx_CypeWL" resolve="ConceptExportProfile" />
     </node>
     <node concept="PrWs8" id="63dx_CyqT6J" role="PzmwI">
       <ref role="PrY4T" node="63dx_CypeWU" resolve="IConceptExportProfile" />

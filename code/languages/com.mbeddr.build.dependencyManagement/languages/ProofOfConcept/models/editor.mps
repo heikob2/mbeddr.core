@@ -93,6 +93,9 @@
       <node concept="3F0ifn" id="7v323Fwi$Nn" role="3EZMnx">
         <property role="3F0ifm" value="}" />
       </node>
+      <node concept="3F1sOY" id="1Lv$utmFH9n" role="3EZMnx">
+        <ref role="1NtTu8" to="xtqs:1Lv$utmFH8L" resolve="myNamed" />
+      </node>
       <node concept="l2Vlx" id="7v323Fwigy3" role="2iSdaV" />
     </node>
   </node>
@@ -1277,7 +1280,7 @@
               <property role="3F0ifm" value=":" />
             </node>
             <node concept="3F1sOY" id="1Lv$utmgwZR" role="3EZMnx">
-              <ref role="1NtTu8" to="xtqs:1Lv$utmfAer" resolve="child_subAlphaAsSuper" />
+              <ref role="1NtTu8" to="xtqs:1Lv$utmfAer" resolve="child_subAsSuper" />
             </node>
             <node concept="l2Vlx" id="1Lv$utmgwZS" role="2iSdaV" />
           </node>
@@ -1293,7 +1296,7 @@
               <property role="3F0ifm" value=":" />
             </node>
             <node concept="3F2HdR" id="1Lv$utmgx04" role="3EZMnx">
-              <ref role="1NtTu8" to="xtqs:1Lv$utmfAeu" resolve="child_subAlphaAsSuper_Many" />
+              <ref role="1NtTu8" to="xtqs:1Lv$utmfAeu" resolve="child_subAsSuper_Many" />
               <node concept="2EHx9g" id="1Lv$utmgx05" role="2czzBx" />
             </node>
             <node concept="l2Vlx" id="1Lv$utmgx06" role="2iSdaV" />
@@ -1310,7 +1313,7 @@
               <property role="3F0ifm" value="-&gt;" />
             </node>
             <node concept="1iCGBv" id="1Lv$utmgx0j" role="3EZMnx">
-              <ref role="1NtTu8" to="xtqs:1Lv$utmfAez" resolve="ref_subAlphaAsSuper" />
+              <ref role="1NtTu8" to="xtqs:1Lv$utmfAez" resolve="ref_superAsSuper" />
               <node concept="1sVBvm" id="1Lv$utmgx0k" role="1sWHZn">
                 <node concept="3F0A7n" id="1Lv$utmgx0l" role="2wV5jI">
                   <property role="1Intyy" value="true" />

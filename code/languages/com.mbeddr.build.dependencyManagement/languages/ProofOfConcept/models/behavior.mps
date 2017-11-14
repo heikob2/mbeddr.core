@@ -3454,7 +3454,7 @@
                 <ref role="3cqZAo" node="1Lv$utmg8mX" resolve="omega" />
               </node>
               <node concept="3TrEf2" id="1Lv$utmg9vG" role="2OqNvi">
-                <ref role="3Tt5mk" to="xtqs:1Lv$utmfAez" resolve="ref_subAlphaAsSuper" />
+                <ref role="3Tt5mk" to="xtqs:1Lv$utmfAez" resolve="ref_superAsSuper" />
               </node>
             </node>
           </node>
@@ -3476,7 +3476,7 @@
                 <ref role="3cqZAo" node="1Lv$utmg8mX" resolve="omega" />
               </node>
               <node concept="3TrEf2" id="1Lv$utmgb3r" role="2OqNvi">
-                <ref role="3Tt5mk" to="xtqs:1Lv$utmfAer" resolve="child_subAlphaAsSuper" />
+                <ref role="3Tt5mk" to="xtqs:1Lv$utmfAer" resolve="child_subAsSuper" />
               </node>
             </node>
           </node>
@@ -3489,7 +3489,7 @@
                 <ref role="3cqZAo" node="1Lv$utmg8mX" resolve="omega" />
               </node>
               <node concept="3Tsc0h" id="1Lv$utmgdiZ" role="2OqNvi">
-                <ref role="3TtcxE" to="xtqs:1Lv$utmfAeu" resolve="child_subAlphaAsSuper_Many" />
+                <ref role="3TtcxE" to="xtqs:1Lv$utmfAeu" resolve="child_subAsSuper_Many" />
               </node>
             </node>
             <node concept="TSZUe" id="1Lv$utmglL8" role="2OqNvi">
@@ -3512,7 +3512,7 @@
                 <ref role="3cqZAo" node="1Lv$utmg8mX" resolve="omega" />
               </node>
               <node concept="3Tsc0h" id="1Lv$utmgnOb" role="2OqNvi">
-                <ref role="3TtcxE" to="xtqs:1Lv$utmfAeu" resolve="child_subAlphaAsSuper_Many" />
+                <ref role="3TtcxE" to="xtqs:1Lv$utmfAeu" resolve="child_subAsSuper_Many" />
               </node>
             </node>
             <node concept="TSZUe" id="1Lv$utmgnOc" role="2OqNvi">
