@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="xtqs" ref="r:98cb149c-315c-458f-9434-b3014ea5f2c6(ProofOfConcept.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -770,6 +771,30 @@
         <property role="TrG5h" value="ref_ISubAlpha_Fourth" />
         <ref role="12Em$u" to="xtqs:7v323FweILF" resolve="Beta" />
       </node>
+    </node>
+  </node>
+  <node concept="12Em_F" id="1Lv$utmObfr">
+    <property role="TrG5h" value="testgamma" />
+    <ref role="12Em$l" to="xtqs:7v323FweIMC" resolve="Gamma" />
+    <node concept="12Em_I" id="1Lv$utmObju" role="12Em$8">
+      <property role="TrG5h" value="prop_Gamma" />
+      <property role="3enqAb" value="string" />
+    </node>
+    <node concept="12Em_C" id="1Lv$utmObjv" role="12Em$d">
+      <property role="TrG5h" value="myNamed" />
+      <ref role="12Em$g" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <node concept="12Em_F" id="1Lv$utmObjB" role="24w8oo">
+        <property role="TrG5h" value="NEW_PROFILE" />
+        <ref role="12Em$l" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        <node concept="12Em_I" id="1Lv$utmObjC" role="12Em$8">
+          <property role="TrG5h" value="name" />
+          <property role="3enqAb" value="string" />
+        </node>
+      </node>
+    </node>
+    <node concept="12Em_I" id="1Lv$utmObjw" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
     </node>
   </node>
 </model>

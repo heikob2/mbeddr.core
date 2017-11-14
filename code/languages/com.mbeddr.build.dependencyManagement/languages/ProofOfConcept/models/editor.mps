@@ -91,10 +91,13 @@
         <ref role="1NtTu8" to="xtqs:7v323FweIMG" resolve="prop_Gamma" />
       </node>
       <node concept="3F0ifn" id="7v323Fwi$Nn" role="3EZMnx">
-        <property role="3F0ifm" value="}" />
+        <property role="3F0ifm" value=", " />
       </node>
       <node concept="3F1sOY" id="1Lv$utmFH9n" role="3EZMnx">
         <ref role="1NtTu8" to="xtqs:1Lv$utmFH8L" resolve="myNamed" />
+      </node>
+      <node concept="3F0ifn" id="1Lv$utmOb5v" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
       </node>
       <node concept="l2Vlx" id="7v323Fwigy3" role="2iSdaV" />
     </node>
@@ -1328,6 +1331,16 @@
         <node concept="2iRfu4" id="1Lv$utmgx0w" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="1Lv$utmgx0x" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1Lv$utmNqWt">
+    <property role="3GE5qa" value="concepts" />
+    <ref role="1XX52x" to="xtqs:1Lv$utmFH8H" resolve="EpsilonNamed" />
+    <node concept="3EZMnI" id="1Lv$utmNqWv" role="2wV5jI">
+      <node concept="3F0A7n" id="1Lv$utmNqWH" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="1Lv$utmNqWy" role="2iSdaV" />
     </node>
   </node>
 </model>

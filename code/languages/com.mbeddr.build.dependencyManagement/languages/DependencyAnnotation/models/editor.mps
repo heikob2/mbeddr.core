@@ -1964,7 +1964,7 @@
               <node concept="3cpWsn" id="1Lv$utmprX$" role="3cpWs9">
                 <property role="TrG5h" value="myConcept" />
                 <node concept="3Tqbb2" id="1Lv$utmprXv" role="1tU5fm">
-                  <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                  <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
                 </node>
                 <node concept="10Nm6u" id="1Lv$utmpyWW" role="33vP2m" />
               </node>
@@ -2014,7 +2014,7 @@
                   <node concept="I4A8Y" id="1Lv$utmoTGq" role="2OqNvi" />
                 </node>
                 <node concept="3lApI0" id="1Lv$utmpesw" role="2OqNvi">
-                  <ref role="3lApI3" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                  <ref role="3lApI3" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
                 </node>
               </node>
             </node>

@@ -697,7 +697,7 @@
   <node concept="1TIwiD" id="1Lv$utmFH8H">
     <property role="EcuMT" value="2044513178627265069" />
     <property role="3GE5qa" value="concepts" />
-    <property role="TrG5h" value="TestNamed" />
+    <property role="TrG5h" value="EpsilonNamed" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1Lv$utmFH8I" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

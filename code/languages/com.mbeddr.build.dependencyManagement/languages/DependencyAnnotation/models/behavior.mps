@@ -2714,7 +2714,7 @@
       <node concept="37vLTG" id="5fqw8$FGz1k" role="3clF46">
         <property role="TrG5h" value="cte" />
         <node concept="3Tqbb2" id="5fqw8$FGz1j" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
       </node>
       <node concept="P$JXv" id="6qYR9ryfMqN" role="lGtFl">

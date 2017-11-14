@@ -256,7 +256,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="conceptToExport" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="1TJgyj" id="63dx_CypeXi" role="1TKVEi">
       <property role="IQ2ns" value="6975379119548985170" />
@@ -300,7 +300,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="childToExport" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="PrWs8" id="6qYR9ryf_Ej" role="PzmwI">
       <ref role="PrY4T" node="6qYR9ryf_Ed" resolve="IHasExportProfile" />
@@ -316,7 +316,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="refToExport" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="PrWs8" id="6qYR9ryf_Eg" role="PzmwI">
       <ref role="PrY4T" node="6qYR9ryf_Ed" resolve="IHasExportProfile" />
