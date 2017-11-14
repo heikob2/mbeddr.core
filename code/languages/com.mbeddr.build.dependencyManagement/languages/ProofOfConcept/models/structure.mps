@@ -53,8 +53,9 @@
     <property role="EcuMT" value="8629750359935085604" />
     <property role="TrG5h" value="SuperAlpha" />
     <property role="3GE5qa" value="concepts" />
-    <property role="R5$K7" value="true" />
+    <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7v323FweIK_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -391,7 +392,7 @@
       <property role="IQ2ns" value="8629750359935085882" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="child_ISubAlpha_Third_Many" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="7v323FweILF" resolve="Beta" />
     </node>
     <node concept="1TJgyj" id="7v323FweIOZ" role="1TKVEi">
