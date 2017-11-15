@@ -2431,5 +2431,176 @@
       </node>
     </node>
   </node>
+  <node concept="12Em_F" id="37UurxIiR4M">
+    <property role="TrG5h" value="export_Omega" />
+    <ref role="12Em$l" to="xtqs:1Lv$utmfAen" resolve="Omega" />
+    <node concept="12Em_C" id="37UurxIiR4N" role="12Em$d">
+      <property role="TrG5h" value="child_superAsSuper" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR5H" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIfOBm" resolve="export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4O" role="12Em$d">
+      <property role="TrG5h" value="child_superAsSuper_Many" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR5L" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIfOBm" resolve="export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4P" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsSuper" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR5P" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIfOBm" resolve="export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4Q" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsSuper_Many" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR5T" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIfOBm" resolve="export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4R" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSuper" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR5X" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIfOBm" resolve="export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4S" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSuper_Many" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR61" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIfOBm" resolve="export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4T" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsAlpha" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+      <node concept="12Em_x" id="37UurxIiR65" role="24w8oo">
+        <property role="1a5o8Z" value="Alpha" />
+        <ref role="12Em_A" node="37UurxIgQto" resolve="export_Alpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4U" role="12Em$d">
+      <property role="TrG5h" value="child_alphaAsAlpha_Many" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+      <node concept="12Em_x" id="37UurxIiR69" role="24w8oo">
+        <property role="1a5o8Z" value="Alpha" />
+        <ref role="12Em_A" node="37UurxIgQto" resolve="export_Alpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4V" role="12Em$d">
+      <property role="TrG5h" value="child_subAsAlpha" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+      <node concept="12Em_x" id="37UurxIiR6d" role="24w8oo">
+        <property role="1a5o8Z" value="Alpha" />
+        <ref role="12Em_A" node="37UurxIgQto" resolve="export_Alpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4W" role="12Em$d">
+      <property role="TrG5h" value="child_subAsAlpha_Many" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKC" resolve="Alpha" />
+      <node concept="12Em_x" id="37UurxIiR6h" role="24w8oo">
+        <property role="1a5o8Z" value="Alpha" />
+        <ref role="12Em_A" node="37UurxIgQto" resolve="export_Alpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4X" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSub" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKD" resolve="SubAlpha" />
+      <node concept="12Em_x" id="37UurxIiR6l" role="24w8oo">
+        <property role="1a5o8Z" value="SubAlpha" />
+        <ref role="12Em_A" node="37UurxIgQ$C" resolve="export_SubAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="37UurxIiR4Y" role="12Em$d">
+      <property role="TrG5h" value="child_subAsSub_Many" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="xtqs:7v323FweIKD" resolve="SubAlpha" />
+      <node concept="12Em_x" id="37UurxIiR6p" role="24w8oo">
+        <property role="1a5o8Z" value="SubAlpha" />
+        <ref role="12Em_A" node="37UurxIgQ$C" resolve="export_SubAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_D" id="37UurxIiR4Z" role="12Em$4">
+      <property role="TrG5h" value="ref_superAsSuper" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$u" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR6t" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIgQD6" resolve="reference_export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_D" id="37UurxIiR50" role="12Em$4">
+      <property role="TrG5h" value="ref_alphaAsSuper" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$u" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR6x" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIgQD6" resolve="reference_export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_D" id="37UurxIiR51" role="12Em$4">
+      <property role="TrG5h" value="ref_subAsSuper" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$u" to="xtqs:7v323FweIK$" resolve="SuperAlpha" />
+      <node concept="12Em_x" id="37UurxIiR6_" role="24w8oo">
+        <property role="1a5o8Z" value="SuperAlpha" />
+        <ref role="12Em_A" node="37UurxIgQD6" resolve="reference_export_SuperAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_D" id="37UurxIiR52" role="12Em$4">
+      <property role="TrG5h" value="ref_alphaAsAlpha" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$u" to="xtqs:7v323FweIKC" resolve="Alpha" />
+      <node concept="12Em_x" id="37UurxIiR6D" role="24w8oo">
+        <property role="1a5o8Z" value="Alpha" />
+        <ref role="12Em_A" node="37UurxIiR3y" resolve="reference_export_Alpha" />
+      </node>
+    </node>
+    <node concept="12Em_D" id="37UurxIiR53" role="12Em$4">
+      <property role="TrG5h" value="ref_subAsAlpha" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$u" to="xtqs:7v323FweIKC" resolve="Alpha" />
+      <node concept="12Em_x" id="37UurxIiR6H" role="24w8oo">
+        <property role="1a5o8Z" value="Alpha" />
+        <ref role="12Em_A" node="37UurxIiR3y" resolve="reference_export_Alpha" />
+      </node>
+    </node>
+    <node concept="12Em_D" id="37UurxIiR54" role="12Em$4">
+      <property role="TrG5h" value="ref_subAsSub" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$u" to="xtqs:7v323FweIKD" resolve="SubAlpha" />
+      <node concept="12Em_x" id="37UurxIiR6L" role="24w8oo">
+        <property role="1a5o8Z" value="SubAlpha" />
+        <ref role="12Em_A" node="37UurxIiR2j" resolve="reference_export_SubAlpha" />
+      </node>
+    </node>
+    <node concept="12Em_I" id="37UurxIiR55" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+  </node>
 </model>
 
