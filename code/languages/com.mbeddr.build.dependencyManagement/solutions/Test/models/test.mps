@@ -49,28 +49,28 @@
     <property role="2nYuim" value="myProp" />
     <node concept="1aWkfa" id="1Lv$utmG7jl" role="1aWkfm">
       <property role="TrG5h" value="myName" />
-      <node concept="vcJZN" id="1Lv$utmObjJ" role="lGtFl">
+      <node concept="vcJZN" id="37UurxIfO$L" role="lGtFl">
         <property role="24Wu3u" value="PUBLIC" />
       </node>
-      <node concept="3fManr" id="1Lv$utmObjK" role="lGtFl">
+      <node concept="3fManr" id="37UurxIfO$O" role="lGtFl">
         <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
         <property role="2qtEX9" value="name" />
         <property role="24Wu3u" value="PUBLIC" />
         <property role="3enkQ0" value="string" />
       </node>
     </node>
-    <node concept="12WFsz" id="1Lv$utmG7jo" role="lGtFl">
+    <node concept="12WFsz" id="37UurxIfO$I" role="lGtFl">
       <property role="12WHBz" value="dependencies" />
-      <property role="1a5ZnT" value="ignore_currently" />
-      <ref role="vf6fo" to="1k0k:1Lv$utmObfr" resolve="testgamma" />
+      <property role="1a5ZnT" value="test_file" />
+      <ref role="vf6fo" to="1k0k:37UurxIfOxv" resolve="export_Gamma" />
     </node>
-    <node concept="3fManr" id="1Lv$utmG7jr" role="lGtFl">
+    <node concept="3fManr" id="37UurxIfO$M" role="lGtFl">
       <property role="P4ACc" value="6c148a18-585e-4714-bdb6-1df953fa79f7/8629750359935085736/8629750359935085740" />
       <property role="2qtEX9" value="prop_Gamma" />
       <property role="24Wu3u" value="PUBLIC" />
       <property role="3enkQ0" value="string" />
     </node>
-    <node concept="3fManr" id="1Lv$utmG7js" role="lGtFl">
+    <node concept="3fManr" id="37UurxIfO$N" role="lGtFl">
       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
       <property role="2qtEX9" value="name" />
       <property role="24Wu3u" value="PUBLIC" />
