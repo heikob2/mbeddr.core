@@ -81,6 +81,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -106,6 +107,7 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -3266,6 +3268,100 @@
         <ref role="ehGHo" to="dnyj:1Lv$utlqvLI" resolve="RoledReferenceToReduce" />
       </node>
       <node concept="3clFbS" id="1Lv$utls188" role="3clF47">
+        <node concept="3clFbH" id="jZlUfOPzDl" role="3cqZAp" />
+        <node concept="3SKdUt" id="jZlUfOPzTA" role="3cqZAp">
+          <node concept="3SKdUq" id="jZlUfOPzTC" role="3SKWNk">
+            <property role="3SKdUp" value="check" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="jZlUfOP$i8" role="3cqZAp">
+          <node concept="3clFbS" id="jZlUfOP$ia" role="3clFbx">
+            <node concept="YS8fn" id="jZlUfOP_NY" role="3cqZAp">
+              <node concept="2ShNRf" id="jZlUfOP_Oo" role="YScLw">
+                <node concept="1pGfFk" id="jZlUfOPC4D" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="jZlUfOPCUx" role="37wK5m">
+                    <property role="Xl_RC" value="@RoledReferenceToReduce::createInstance: kind is missing" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="jZlUfOP$Xq" role="3clFbw">
+            <node concept="37vLTw" id="jZlUfOP$u_" role="2Oq$k0">
+              <ref role="3cqZAo" node="1Lv$utls7Ho" resolve="kind_" />
+            </node>
+            <node concept="17RlXB" id="jZlUfOP_Ny" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="jZlUfOPDIV" role="3cqZAp">
+          <node concept="3clFbS" id="jZlUfOPDIW" role="3clFbx">
+            <node concept="YS8fn" id="jZlUfOPDIX" role="3cqZAp">
+              <node concept="2ShNRf" id="jZlUfOPDIY" role="YScLw">
+                <node concept="1pGfFk" id="jZlUfOPDIZ" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="jZlUfOPDJ0" role="37wK5m">
+                    <property role="Xl_RC" value="@RoledReferenceToReduce::createInstance: parent is missing" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="jZlUfOPEpE" role="3clFbw">
+            <node concept="37vLTw" id="jZlUfOPE7T" role="2Oq$k0">
+              <ref role="3cqZAo" node="1Lv$utls7EK" resolve="parent_" />
+            </node>
+            <node concept="3w_OXm" id="jZlUfOPENo" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="jZlUfOPF74" role="3cqZAp">
+          <node concept="3clFbS" id="jZlUfOPF75" role="3clFbx">
+            <node concept="YS8fn" id="jZlUfOPF76" role="3cqZAp">
+              <node concept="2ShNRf" id="jZlUfOPF77" role="YScLw">
+                <node concept="1pGfFk" id="jZlUfOPF78" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="jZlUfOPF79" role="37wK5m">
+                    <property role="Xl_RC" value="@RoledReferenceToReduce::createInstance: ConceptReferenceExport is missing" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="jZlUfOPFxp" role="3clFbw">
+            <node concept="37vLTw" id="jZlUfOPFm8" role="2Oq$k0">
+              <ref role="3cqZAo" node="1Lv$utls7Ft" resolve="refCep" />
+            </node>
+            <node concept="3w_OXm" id="jZlUfOPGcQ" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="jZlUfOQ8TE" role="3cqZAp">
+          <node concept="3clFbS" id="jZlUfOQ8TF" role="3clFbx">
+            <node concept="YS8fn" id="jZlUfOQ8TG" role="3cqZAp">
+              <node concept="2ShNRf" id="jZlUfOQ8TH" role="YScLw">
+                <node concept="1pGfFk" id="jZlUfOQ8TI" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="jZlUfOQ8TJ" role="37wK5m">
+                    <property role="Xl_RC" value="@RoledReferenceToReduce::createInstance: ConceptReferenceExport::exportProfile is missing" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="jZlUfOQa1a" role="3clFbw">
+            <node concept="2OqwBi" id="jZlUfOQ8TK" role="2Oq$k0">
+              <node concept="37vLTw" id="jZlUfOQ8TL" role="2Oq$k0">
+                <ref role="3cqZAo" node="1Lv$utls7Ft" resolve="refCep" />
+              </node>
+              <node concept="3TrEf2" id="jZlUfOQ9Bi" role="2OqNvi">
+                <ref role="3Tt5mk" to="dnyj:6qYR9ryf_Ee" resolve="exportProfile" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="jZlUfOQaAa" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="jZlUfOQ8GV" role="3cqZAp" />
+        <node concept="3clFbH" id="jZlUfOPEUu" role="3cqZAp" />
+        <node concept="3clFbH" id="jZlUfOPzHo" role="3cqZAp" />
         <node concept="3clFbH" id="1Lv$utls7I_" role="3cqZAp" />
         <node concept="3cpWs8" id="1Lv$utls7Jw" role="3cqZAp">
           <node concept="3cpWsn" id="1Lv$utls7Jz" role="3cpWs9">
@@ -3363,7 +3459,18 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="jZlUfP1N2y" role="3cqZAp" />
+        <node concept="3cpWs8" id="jZlUfP1Nt7" role="3cqZAp">
+          <node concept="3cpWsn" id="jZlUfP1Nta" role="3cpWs9">
+            <property role="TrG5h" value="debug" />
+            <node concept="10P_77" id="jZlUfP1Nt5" role="1tU5fm" />
+            <node concept="3clFbT" id="jZlUfP1NP4" role="33vP2m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="1Lv$utlshdi" role="3cqZAp" />
+        <node concept="3clFbH" id="jZlUfP4om7" role="3cqZAp" />
         <node concept="2Gpval" id="1Lv$utlshln" role="3cqZAp">
           <node concept="2GrKxI" id="1Lv$utlshlp" role="2Gsz3X">
             <property role="TrG5h" value="child" />
@@ -3381,6 +3488,8 @@
                 <ref role="2Gs0qQ" node="1Lv$utlshlp" resolve="child" />
               </node>
               <node concept="3clFbS" id="1Lv$utlsipI" role="Jncv$">
+                <node concept="3clFbH" id="jZlUfP1Iac" role="3cqZAp" />
+                <node concept="3clFbH" id="jZlUfP1Im5" role="3cqZAp" />
                 <node concept="3clFbJ" id="1Lv$utlsiwm" role="3cqZAp">
                   <node concept="2OqwBi" id="1Lv$utlsnzD" role="3clFbw">
                     <node concept="2OqwBi" id="1Lv$utlsjgu" role="2Oq$k0">
@@ -3409,6 +3518,7 @@
                     </node>
                   </node>
                   <node concept="3clFbS" id="1Lv$utlsiwo" role="3clFbx">
+                    <node concept="3clFbH" id="jZlUfP2MMm" role="3cqZAp" />
                     <node concept="3cpWs8" id="1Lv$utlsq0K" role="3cqZAp">
                       <node concept="3cpWsn" id="1Lv$utlsq0N" role="3cpWs9">
                         <property role="TrG5h" value="visibility_kind" />
@@ -3507,13 +3617,52 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1Lv$utls7IP" role="3cqZAp" />
-        <node concept="YS8fn" id="1Lv$utlvL08" role="3cqZAp">
-          <node concept="2ShNRf" id="1Lv$utlvLaH" role="YScLw">
-            <node concept="1pGfFk" id="1Lv$utlvNx8" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="1Lv$utlvNyO" role="37wK5m">
-                <property role="Xl_RC" value="cannot create roled-reference" />
+        <node concept="3clFbH" id="jZlUfOTPtT" role="3cqZAp" />
+        <node concept="3clFbH" id="jZlUfOTPHI" role="3cqZAp" />
+        <node concept="3SKdUt" id="jZlUfP4qRP" role="3cqZAp">
+          <node concept="3SKdUq" id="jZlUfP4qRR" role="3SKWNk">
+            <property role="3SKdUp" value="no matching ReferenceAnnotation found." />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="jZlUfP4rnu" role="3cqZAp">
+          <node concept="10Nm6u" id="jZlUfP4rBs" role="3cqZAk" />
+        </node>
+        <node concept="3clFbH" id="jZlUfOQAnZ" role="3cqZAp" />
+        <node concept="1X3_iC" id="jZlUfP4pNC" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="YS8fn" id="1Lv$utlvL08" role="8Wnug">
+            <node concept="2ShNRf" id="1Lv$utlvLaH" role="YScLw">
+              <node concept="1pGfFk" id="1Lv$utlvNx8" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                <node concept="3cpWs3" id="jZlUfOOvKU" role="37wK5m">
+                  <node concept="3cpWs3" id="jZlUfOOus5" role="3uHU7B">
+                    <node concept="3cpWs3" id="jZlUfOO1Yu" role="3uHU7B">
+                      <node concept="Xl_RD" id="1Lv$utlvNyO" role="3uHU7B">
+                        <property role="Xl_RC" value="cannot create roled-reference -&gt; " />
+                      </node>
+                      <node concept="2OqwBi" id="jZlUfOO2dk" role="3uHU7w">
+                        <node concept="37vLTw" id="jZlUfOO20$" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1Lv$utls7Jz" resolve="roledRef" />
+                        </node>
+                        <node concept="3TrcHB" id="jZlUfOO2y1" role="2OqNvi">
+                          <ref role="3TsBF5" to="dnyj:1Lv$utls99U" resolve="mpsType" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="jZlUfOOuKQ" role="3uHU7w">
+                      <property role="Xl_RC" value=", " />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="jZlUfP3QZx" role="3uHU7w">
+                    <node concept="37vLTw" id="jZlUfP3QKE" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1Lv$utls7Jz" resolve="roledRef" />
+                    </node>
+                    <node concept="3TrcHB" id="jZlUfP3Rh0" role="2OqNvi">
+                      <ref role="3TsBF5" to="dnyj:1Lv$utls99R" resolve="role" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

@@ -179,7 +179,7 @@
     </node>
     <node concept="12Em_C" id="37UurxIfOz6" role="12Em$d">
       <property role="TrG5h" value="child_Beta" />
-      <property role="12Em_G" value="PRIVATE" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="xtqs:7v323FweIMC" resolve="Gamma" />
       <node concept="12Em_x" id="37UurxIfOzx" role="24w8oo">
         <property role="1a5o8Z" value="Gamma" />
@@ -1364,7 +1364,7 @@
     </node>
     <node concept="12Em_D" id="37UurxIgQDc" role="12Em$4">
       <property role="TrG5h" value="ref_SuperAlpha" />
-      <property role="12Em_G" value="PRIVATE" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$u" to="xtqs:7v323FweILF" resolve="Beta" />
       <node concept="12Em_x" id="37UurxIgQDd" role="24w8oo">
         <property role="1a5o8Z" value="Beta" />

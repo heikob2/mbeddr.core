@@ -53,8 +53,12 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
     </language>
@@ -225,6 +229,9 @@
             <node concept="2Sf5sV" id="1Lv$utm7ksk" role="2Oq$k0" />
             <node concept="2qgKlT" id="1Lv$utm7lo5" role="2OqNvi">
               <ref role="37wK5l" to="izwe:1Lv$utm6rDj" resolve="createFullInitializedSuperAlpha" />
+              <node concept="3clFbT" id="jZlUfOHsFW" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
             </node>
           </node>
         </node>
@@ -302,6 +309,62 @@
             <node concept="2Sf5sV" id="1Lv$utmgA$p" role="2Oq$k0" />
             <node concept="2qgKlT" id="1Lv$utmgAYO" role="2OqNvi">
               <ref role="37wK5l" to="izwe:1Lv$utmfZIc" resolve="createFullInitializedOmega" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="jZlUfOH4fi">
+    <property role="TrG5h" value="initModel_singleAlpha" />
+    <ref role="2ZfgGC" to="xtqs:7v323FweIPE" resolve="InitModel" />
+    <node concept="2S6ZIM" id="jZlUfOH4fj" role="2ZfVej">
+      <node concept="3clFbS" id="jZlUfOH4fk" role="2VODD2">
+        <node concept="3clFbF" id="jZlUfOH8Nx" role="3cqZAp">
+          <node concept="Xl_RD" id="jZlUfOH8Nw" role="3clFbG">
+            <property role="Xl_RC" value="Init Alpha" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="jZlUfOH4fl" role="2ZfgGD">
+      <node concept="3clFbS" id="jZlUfOH4fm" role="2VODD2">
+        <node concept="3clFbF" id="jZlUfOH9u4" role="3cqZAp">
+          <node concept="2OqwBi" id="jZlUfOH9Y$" role="3clFbG">
+            <node concept="2Sf5sV" id="jZlUfOH9u3" role="2Oq$k0" />
+            <node concept="2qgKlT" id="jZlUfOHahP" role="2OqNvi">
+              <ref role="37wK5l" to="izwe:1Lv$utm9_IP" resolve="createFullInitializedAlpha" />
+              <node concept="3clFbT" id="jZlUfOHalF" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="jZlUfOHas7">
+    <property role="TrG5h" value="initModel_singleSubAlpha" />
+    <ref role="2ZfgGC" to="xtqs:7v323FweIPE" resolve="InitModel" />
+    <node concept="2S6ZIM" id="jZlUfOHas8" role="2ZfVej">
+      <node concept="3clFbS" id="jZlUfOHas9" role="2VODD2">
+        <node concept="3clFbF" id="jZlUfOHa_o" role="3cqZAp">
+          <node concept="Xl_RD" id="jZlUfOHa_n" role="3clFbG">
+            <property role="Xl_RC" value="Init SubAlpha" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="jZlUfOHasa" role="2ZfgGD">
+      <node concept="3clFbS" id="jZlUfOHasb" role="2VODD2">
+        <node concept="3clFbF" id="jZlUfOHbDn" role="3cqZAp">
+          <node concept="2OqwBi" id="jZlUfOHbKn" role="3clFbG">
+            <node concept="2Sf5sV" id="jZlUfOHbDm" role="2Oq$k0" />
+            <node concept="2qgKlT" id="jZlUfOHc3C" role="2OqNvi">
+              <ref role="37wK5l" to="izwe:1Lv$utmb$GR" resolve="createFullInitializedSubAlpha" />
+              <node concept="3clFbT" id="jZlUfOHc7u" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
             </node>
           </node>
         </node>
