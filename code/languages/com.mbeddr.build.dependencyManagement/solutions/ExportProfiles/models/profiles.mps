@@ -1580,11 +1580,10 @@
       </node>
       <node concept="12Em_C" id="464rVAYh4VJ" role="12Em$d">
         <property role="TrG5h" value="parameters" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="3ior:7UAfeVQUc4$" resolve="BuildLayout_CopyParameter" />
-        <node concept="12Em_x" id="464rVAYmlqW" role="24w8oo">
-          <property role="1a5o8Z" value="BuildLayout_CopyParameter" />
-          <ref role="12Em_A" node="464rVAYmlqV" resolve="export_BuildLayout_CopyParameter" />
+        <node concept="3fQXxW" id="464rVAZ31VY" role="24w8oo">
+          <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
       <node concept="12Em_I" id="464rVAYh4VK" role="12Em$8">
@@ -1607,11 +1606,10 @@
       </node>
       <node concept="12Em_C" id="464rVAYh4VN" role="12Em$d">
         <property role="TrG5h" value="parameters" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="3ior:7UAfeVQUc4$" resolve="BuildLayout_CopyParameter" />
-        <node concept="12Em_x" id="464rVAYmlr4" role="24w8oo">
-          <property role="1a5o8Z" value="BuildLayout_CopyParameter" />
-          <ref role="12Em_A" node="464rVAYmlqV" resolve="export_BuildLayout_CopyParameter" />
+        <node concept="3fQXxW" id="464rVAZ31VR" role="24w8oo">
+          <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
     </node>
