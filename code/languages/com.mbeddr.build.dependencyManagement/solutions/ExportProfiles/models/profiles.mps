@@ -1455,9 +1455,8 @@
         <property role="TrG5h" value="target" />
         <property role="12Em_G" value="PUBLIC" />
         <ref role="12Em$u" to="3ior:450ejGzh8b3" resolve="BuildLayout_Container" />
-        <node concept="12Em_x" id="464rVAYmlpI" role="24w8oo">
-          <property role="1a5o8Z" value="BuildLayout_Container" />
-          <ref role="12Em_A" node="464rVAYmlpG" resolve="export_BuildLayout_Container" />
+        <node concept="3fQXxW" id="464rVAZ9vU3" role="24w8oo">
+          <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
       <node concept="12Em_C" id="464rVAYh4Vt" role="12Em$d">
