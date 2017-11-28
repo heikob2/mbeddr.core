@@ -42,6 +42,7 @@
         <child id="6975379119548985182" name="referenceExports" index="12Em$4" />
         <child id="6975379119548985170" name="propertyExports" index="12Em$8" />
         <child id="6975379119548985175" name="childExports" index="12Em$d" />
+        <child id="4721021152959253996" name="implementingProfiles" index="3YIq9l" />
       </concept>
       <concept id="6975379119548985140" name="DependencyAnnotation.structure.ConceptPropertyExport" flags="ng" index="12Em_I">
         <property id="6850913726540741687" name="dataType" index="3enqAb" />
@@ -50,6 +51,9 @@
         <property id="6975379119548985142" name="visibility" index="12Em_G" />
       </concept>
       <concept id="6850913726531931584" name="DependencyAnnotation.structure.ConceptExportProfileIgnore" flags="ng" index="3fQXxW" />
+      <concept id="4721021152967625997" name="DependencyAnnotation.structure.InterfaceCEP_Ref" flags="ng" index="3YeuaO">
+        <reference id="4721021152967625998" name="cepRef" index="3YeuaR" />
+      </concept>
     </language>
   </registry>
   <node concept="12Em_F" id="jZlUfPeKG0">
@@ -2184,6 +2188,13 @@
     <property role="TrG5h" value="export_BuildSource_FilesetProjectPart" />
     <property role="3GE5qa" value="fourth_BuildLayout_Node" />
     <ref role="12Em$l" to="3ior:6Iq8148fTg2" resolve="BuildSource_FilesetProjectPart" />
+    <node concept="3YeuaO" id="464rVB02sFM" role="3YIq9l">
+      <ref role="3YeuaR" node="464rVAYmlqM" resolve="export_BuildSource_FilesetProjectPart" />
+    </node>
+    <node concept="3YeuaO" id="464rVB02sFU" role="3YIq9l">
+      <ref role="3YeuaR" node="464rVAYmlqM" resolve="export_BuildSource_FilesetProjectPart" />
+    </node>
+    <node concept="3YeuaO" id="464rVB04sdz" role="3YIq9l" />
   </node>
   <node concept="12Em_F" id="464rVAYmlqV">
     <property role="TrG5h" value="export_BuildLayout_CopyParameter" />
@@ -3996,6 +4007,393 @@
       </node>
     </node>
     <node concept="12Em_I" id="464rVAYqgg7" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+  </node>
+  <node concept="12Em_F" id="464rVAZBsXb">
+    <property role="TrG5h" value="new profile" />
+    <ref role="12Em$l" to="3ior:6Iq8148fTg2" resolve="BuildSource_FilesetProjectPart" />
+    <node concept="3YeuaO" id="464rVB09$qU" role="3YIq9l">
+      <ref role="3YeuaR" node="464rVB07IKC" resolve="export_BuildMps_Branding" />
+    </node>
+  </node>
+  <node concept="12Em_F" id="464rVB07IKC">
+    <property role="TrG5h" value="export_BuildMps_Branding" />
+    <ref role="12Em$l" to="kdzh:6Iq8148eRud" resolve="BuildMps_Branding" />
+    <node concept="12Em_C" id="464rVB07IKD" role="12Em$d">
+      <property role="TrG5h" value="codename" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IMI" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKE" role="12Em$d">
+      <property role="TrG5h" value="company" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:FnaIS$F0fo" resolve="BuildMps_BrandingCompany" />
+      <node concept="12Em_x" id="464rVB07IMM" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_BrandingCompany" />
+        <ref role="12Em_A" node="464rVAYmlxy" resolve="export_BuildMps_BrandingCompany" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKF" role="12Em$d">
+      <property role="TrG5h" value="buildNumber" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07IMQ" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKG" role="12Em$d">
+      <property role="TrG5h" value="buildDate" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07IMU" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKH" role="12Em$d">
+      <property role="TrG5h" value="splashScreen" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07IMY" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKI" role="12Em$d">
+      <property role="TrG5h" value="textColor" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07IN2" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKJ" role="12Em$d">
+      <property role="TrG5h" value="progressColor" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IN6" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKK" role="12Em$d">
+      <property role="TrG5h" value="progressX" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07INa" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKL" role="12Em$d">
+      <property role="TrG5h" value="progressY" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07INe" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKM" role="12Em$d">
+      <property role="TrG5h" value="progressHeight" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07INi" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKN" role="12Em$d">
+      <property role="TrG5h" value="aboutScreen" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07INm" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKO" role="12Em$d">
+      <property role="TrG5h" value="foreground" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07INq" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKP" role="12Em$d">
+      <property role="TrG5h" value="copyrightForeground" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07INu" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKQ" role="12Em$d">
+      <property role="TrG5h" value="linkColor" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07INy" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKR" role="12Em$d">
+      <property role="TrG5h" value="logoX" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07INA" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKS" role="12Em$d">
+      <property role="TrG5h" value="logoY" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07INE" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKT" role="12Em$d">
+      <property role="TrG5h" value="logoW" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07INI" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKU" role="12Em$d">
+      <property role="TrG5h" value="logoH" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07INM" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKV" role="12Em$d">
+      <property role="TrG5h" value="icon16" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07INQ" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKW" role="12Em$d">
+      <property role="TrG5h" value="icon32" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07INU" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKX" role="12Em$d">
+      <property role="TrG5h" value="icon32opaque" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07INY" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKY" role="12Em$d">
+      <property role="TrG5h" value="icon128" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07IO2" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IKZ" role="12Em$d">
+      <property role="TrG5h" value="icon" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07IO6" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL0" role="12Em$d">
+      <property role="TrG5h" value="iconToolWindow" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07IOa" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL1" role="12Em$d">
+      <property role="TrG5h" value="shortName" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07IOe" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL2" role="12Em$d">
+      <property role="TrG5h" value="fullName" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="464rVB07IOi" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL3" role="12Em$d">
+      <property role="TrG5h" value="welcomeLogo" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07IOm" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL4" role="12Em$d">
+      <property role="TrG5h" value="editorBGUrl" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="464rVB07IOq" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL5" role="12Em$d">
+      <property role="TrG5h" value="plugins" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IOu" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL6" role="12Em$d">
+      <property role="TrG5h" value="updateWebsite" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:6Iq8148fiO7" resolve="BuildMps_BrandingUpdateSite" />
+      <node concept="12Em_x" id="464rVB07IOy" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_BrandingUpdateSite" />
+        <ref role="12Em_A" node="464rVAYmlzl" resolve="export_BuildMps_BrandingUpdateSite" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL7" role="12Em$d">
+      <property role="TrG5h" value="help" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:6Iq8148fiO8" resolve="BuildMps_BrandingHelp" />
+      <node concept="12Em_x" id="464rVB07IOA" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_BrandingHelp" />
+        <ref role="12Em_A" node="464rVAYmlzt" resolve="export_BuildMps_BrandingHelp" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL8" role="12Em$d">
+      <property role="TrG5h" value="documentation" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IOE" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07IL9" role="12Em$d">
+      <property role="TrG5h" value="support" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IOI" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07ILa" role="12Em$d">
+      <property role="TrG5h" value="feedbackUrl" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IOM" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07ILb" role="12Em$d">
+      <property role="TrG5h" value="whatsnew" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IOQ" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07ILc" role="12Em$d">
+      <property role="TrG5h" value="keymap" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:57dcfYPvT7f" resolve="BuildMps_BrandingKeymap" />
+      <node concept="12Em_x" id="464rVB07IOU" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_BrandingKeymap" />
+        <ref role="12Em_A" node="464rVAYmlzP" resolve="export_BuildMps_BrandingKeymap" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07ILd" role="12Em$d">
+      <property role="TrG5h" value="thirdparty" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:3NagsOfThPf" resolve="BuildString" />
+      <node concept="12Em_x" id="464rVB07IOY" role="24w8oo">
+        <property role="1a5o8Z" value="BuildString" />
+        <ref role="12Em_A" node="464rVAYmltD" resolve="export_BuildString" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07ILe" role="12Em$d">
+      <property role="TrG5h" value="customXmlElement" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
+      <node concept="12Em_x" id="464rVB07IP2" role="24w8oo">
+        <property role="1a5o8Z" value="XmlElement" />
+        <ref role="12Em_A" node="464rVAYml$n" resolve="export_XmlElement" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="464rVB07ILf" role="12Em$d">
+      <property role="TrG5h" value="stats" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:FnaIS$Et1J" resolve="BuildMps_BrandingStats" />
+      <node concept="12Em_x" id="464rVB07IP6" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_BrandingStats" />
+        <ref role="12Em_A" node="464rVAYml$w" resolve="export_BuildMps_BrandingStats" />
+      </node>
+    </node>
+    <node concept="12Em_I" id="464rVB07ILg" role="12Em$8">
+      <property role="TrG5h" value="major" />
+      <property role="3enqAb" value="integer" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_I" id="464rVB07ILh" role="12Em$8">
+      <property role="TrG5h" value="minor" />
+      <property role="3enqAb" value="integer" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_I" id="464rVB07ILi" role="12Em$8">
+      <property role="TrG5h" value="bugfixNr" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_I" id="464rVB07ILj" role="12Em$8">
+      <property role="TrG5h" value="eap" />
+      <property role="3enqAb" value="boolean" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_I" id="464rVB07ILk" role="12Em$8">
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
