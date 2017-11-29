@@ -17,6 +17,7 @@
       <dependencies>
         <dependency reexport="false">798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)</dependency>
         <dependency reexport="true">479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)</dependency>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:aa2a0a96-4f86-4df2-84ec-54941b1a2d95:DependencyAnnotation" version="0" />
