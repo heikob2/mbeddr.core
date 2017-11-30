@@ -58,7 +58,7 @@
   </registry>
   <node concept="12Em_F" id="jZlUfPeKG0">
     <property role="TrG5h" value="export_BuildProject" />
-    <property role="3GE5qa" value="first" />
+    <property role="3GE5qa" value="toplevel" />
     <ref role="12Em$l" to="3ior:4RPz6WoY4Cj" resolve="BuildProject" />
     <node concept="12Em_I" id="jZlUfPeKG1" role="12Em$8">
       <property role="TrG5h" value="internalBaseDirectory" />
@@ -1140,7 +1140,7 @@
   </node>
   <node concept="12Em_F" id="jZlUfPeROK">
     <property role="TrG5h" value="export_BuildLayout" />
-    <property role="3GE5qa" value="second" />
+    <property role="3GE5qa" value="toplevel.layout" />
     <ref role="12Em$l" to="3ior:4RPz6WoY4Ck" resolve="BuildLayout" />
     <node concept="12Em_C" id="jZlUfPeROL" role="12Em$d">
       <property role="TrG5h" value="children" />
@@ -1284,7 +1284,7 @@
   </node>
   <node concept="12Em_F" id="464rVAYh27g">
     <property role="TrG5h" value="export_BuildLayout_Node" />
-    <property role="3GE5qa" value="third" />
+    <property role="3GE5qa" value="toplevel.layout.children" />
     <ref role="12Em$l" to="3ior:6qcrfIJF4M5" resolve="BuildLayout_Node" />
     <node concept="12Em_F" id="464rVAYh4UW" role="12C$m$">
       <property role="TrG5h" value="Export_BuildLayout_AbstractContainer" />
@@ -1403,7 +1403,7 @@
           <ref role="12Em$u" to="kdzh:5HVSRHdUrHO" resolve="BuildMps_IdeaPlugin" />
           <node concept="12Em_x" id="464rVAYmlp9" role="24w8oo">
             <property role="1a5o8Z" value="BuildMps_IdeaPlugin" />
-            <ref role="12Em_A" node="464rVAYmloX" resolve="export_BuildMps_IdeaPlugin" />
+            <ref role="12Em_A" node="2oJQQRScDt4" resolve="export_referenced_BuildMps_IdeaPlugin" />
           </node>
         </node>
         <node concept="12Em_I" id="464rVAYh4Vk" role="12Em$8">
@@ -1880,7 +1880,7 @@
     </node>
     <node concept="12Em_C" id="464rVAYmlp4" role="12Em$d">
       <property role="TrG5h" value="pluginXml" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
       <node concept="12Em_x" id="464rVAYqgd_" role="24w8oo">
         <property role="1a5o8Z" value="BuildSourcePath" />
@@ -1889,7 +1889,7 @@
     </node>
     <node concept="12Em_C" id="464rVAYmlp5" role="12Em$d">
       <property role="TrG5h" value="vendor" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="kdzh:6MNA4JYmRbj" resolve="BuildMps_IdeaPluginVendor" />
       <node concept="12Em_x" id="464rVAYqgdD" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_IdeaPluginVendor" />
@@ -1898,7 +1898,7 @@
     </node>
     <node concept="12Em_C" id="464rVAYmlp6" role="12Em$d">
       <property role="TrG5h" value="xml" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
       <node concept="12Em_x" id="464rVAYqgdH" role="24w8oo">
         <property role="1a5o8Z" value="XmlElement" />
@@ -3197,7 +3197,7 @@
     </node>
     <node concept="12Em_C" id="464rVAYmlx5" role="12Em$d">
       <property role="TrG5h" value="path" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
       <node concept="12Em_x" id="464rVAYmlAM" role="24w8oo">
         <property role="1a5o8Z" value="BuildSourcePath" />
@@ -3215,11 +3215,11 @@
       <node concept="12Em_I" id="464rVAYmlx8" role="12Em$8">
         <property role="TrG5h" value="doNotCompile" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_C" id="464rVAYmlx9" role="12Em$d">
         <property role="TrG5h" value="sources" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
         <node concept="12Em_x" id="464rVAYmlAQ" role="24w8oo">
           <property role="1a5o8Z" value="BuildMps_ModuleSource" />
@@ -3228,7 +3228,7 @@
       </node>
       <node concept="12Em_C" id="464rVAYmlxa" role="12Em$d">
         <property role="TrG5h" value="dependencies" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="kdzh:4zCbl23d1MR" resolve="BuildMps_ModuleDependency" />
         <node concept="12Em_x" id="464rVAYmlAU" role="24w8oo">
           <property role="1a5o8Z" value="BuildMps_ModuleDependency" />
@@ -3238,7 +3238,7 @@
       <node concept="12Em_I" id="464rVAYmlxb" role="12Em$8">
         <property role="TrG5h" value="name" />
         <property role="3enqAb" value="string" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_F" id="464rVAYmlxc" role="12C$m$">
         <property role="TrG5h" value="Export_BuildMps_Solution" />
@@ -3246,7 +3246,7 @@
         <node concept="12Em_I" id="464rVAYmlxd" role="12Em$8">
           <property role="TrG5h" value="sourcesKind" />
           <property role="3enqAb" value="BuildMps_ModuleSourcesKind" />
-          <property role="12Em_G" value="PUBLIC" />
+          <property role="12Em_G" value="IGNORED" />
         </node>
       </node>
       <node concept="12Em_F" id="464rVAYmlxe" role="12C$m$">
@@ -3254,7 +3254,7 @@
         <ref role="12Em$l" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
         <node concept="12Em_C" id="464rVAYmlxf" role="12Em$d">
           <property role="TrG5h" value="runtime" />
-          <property role="12Em_G" value="PUBLIC" />
+          <property role="12Em_G" value="IGNORED" />
           <ref role="12Em$g" to="kdzh:2L4pT56gSBR" resolve="BuildMps_ModuleRuntime" />
           <node concept="12Em_x" id="464rVAYmlAY" role="24w8oo">
             <property role="1a5o8Z" value="BuildMps_ModuleRuntime" />
@@ -3263,7 +3263,7 @@
         </node>
         <node concept="12Em_C" id="464rVAYmlxg" role="12Em$d">
           <property role="TrG5h" value="generator" />
-          <property role="12Em_G" value="PUBLIC" />
+          <property role="12Em_G" value="IGNORED" />
           <ref role="12Em$g" to="kdzh:4LHG7OIlEyO" resolve="BuildMps_Generator" />
           <node concept="12Em_x" id="464rVAYmlB2" role="24w8oo">
             <property role="1a5o8Z" value="BuildMps_Generator" />
@@ -3272,7 +3272,7 @@
         </node>
         <node concept="12Em_C" id="464rVAYmlxh" role="12Em$d">
           <property role="TrG5h" value="managedGenerators" />
-          <property role="12Em_G" value="PUBLIC" />
+          <property role="12Em_G" value="IGNORED" />
           <ref role="12Em$g" to="kdzh:6OtXG9K2II1" resolve="BuildMps_GeneratorRef" />
           <node concept="12Em_x" id="464rVAYmlB6" role="24w8oo">
             <property role="1a5o8Z" value="BuildMps_GeneratorRef" />
@@ -3285,7 +3285,7 @@
         <ref role="12Em$l" to="kdzh:4LHG7OIlEyO" resolve="BuildMps_Generator" />
         <node concept="12Em_D" id="464rVAYmlxj" role="12Em$4">
           <property role="TrG5h" value="sourceLanguage" />
-          <property role="12Em_G" value="PUBLIC" />
+          <property role="12Em_G" value="IGNORED" />
           <ref role="12Em$u" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
           <node concept="12Em_x" id="464rVAYmlBa" role="24w8oo">
             <property role="1a5o8Z" value="BuildMps_Language" />
@@ -3299,7 +3299,7 @@
       <ref role="12Em$l" to="kdzh:hS0KzPOwoe" resolve="BuildMps_DevKit" />
       <node concept="12Em_C" id="464rVAYmlxl" role="12Em$d">
         <property role="TrG5h" value="extends" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="kdzh:hS0KzPOz4U" resolve="BuildMps_DevKitRef" />
         <node concept="12Em_x" id="464rVAYmlBg" role="24w8oo">
           <property role="1a5o8Z" value="BuildMps_DevKitRef" />
@@ -3308,7 +3308,7 @@
       </node>
       <node concept="12Em_C" id="464rVAYmlxm" role="12Em$d">
         <property role="TrG5h" value="exports" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="kdzh:hS0KzPOz53" resolve="BuildMps_DevKitExport" />
         <node concept="12Em_x" id="464rVAYmNpJ" role="24w8oo">
           <property role="1a5o8Z" value="BuildMps_DevKitExport" />
@@ -3989,6 +3989,9 @@
   <node concept="12Em_F" id="464rVAYqgfC">
     <property role="TrG5h" value="export_BuildSource_SingleFile" />
     <ref role="12Em$l" to="3ior:4RsV8qJDnFi" resolve="BuildSource_SingleFile" />
+    <node concept="3YeuaO" id="5LjLPzL1dny" role="3YIq9l">
+      <ref role="3YeuaR" node="5LjLPzL1g8y" resolve="export_BuildLayout_FileStub" />
+    </node>
   </node>
   <node concept="12Em_F" id="464rVAYqgg5">
     <property role="TrG5h" value="export_BuildVariableMacro" />
@@ -4390,6 +4393,329 @@
       <property role="12Em_G" value="PUBLIC" />
     </node>
     <node concept="12Em_I" id="464rVB07ILk" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+  </node>
+  <node concept="12Em_F" id="5LjLPzL1g8y">
+    <property role="TrG5h" value="export_BuildLayout_FileStub" />
+    <ref role="12Em$l" to="3ior:6eCuTcwOLGQ" resolve="BuildLayout_FileStub" />
+    <node concept="12Em_C" id="5LjLPzL1g8z" role="12Em$d">
+      <property role="TrG5h" value="fileName" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="5LjLPzL1g8B" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+  </node>
+  <node concept="12Em_F" id="2oJQQRScDt4">
+    <property role="TrG5h" value="export_referenced_BuildMps_IdeaPlugin" />
+    <property role="3GE5qa" value="toplevel.layout.children.SUB-BuildMpsLayout_Plugin::plugin" />
+    <ref role="12Em$l" to="kdzh:5HVSRHdUrHO" resolve="BuildMps_IdeaPlugin" />
+    <node concept="12Em_C" id="2oJQQRScDt5" role="12Em$d">
+      <property role="TrG5h" value="name" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="2oJQQRScDt6" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDt7" role="12Em$d">
+      <property role="TrG5h" value="description" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="2oJQQRScDt8" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDt9" role="12Em$d">
+      <property role="TrG5h" value="containerName" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="2oJQQRScDta" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDtb" role="12Em$d">
+      <property role="TrG5h" value="version" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_x" id="2oJQQRScDtc" role="24w8oo">
+        <property role="1a5o8Z" value="BuildStringNotEmpty" />
+        <ref role="12Em_A" node="464rVAYh51A" resolve="export_BuildStringNotEmpty" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDtd" role="12Em$d">
+      <property role="TrG5h" value="content" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:5HVSRHdUrJF" resolve="BuildMps_IdeaPluginContent" />
+      <node concept="12Em_x" id="2oJQQRScDte" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_IdeaPluginContent" />
+        <ref role="12Em_A" node="2oJQQRScGhi" resolve="export_forReferenced_BuildMps_IdeaPluginContent" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDtf" role="12Em$d">
+      <property role="TrG5h" value="dependencies" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:5HVSRHdUrJj" resolve="BuildMps_IdeaPluginDependency" />
+      <node concept="12Em_x" id="2oJQQRScDtg" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_IdeaPluginDependency" />
+        <ref role="12Em_A" node="464rVAYml_4" resolve="export_BuildMps_IdeaPluginDependency" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDth" role="12Em$d">
+      <property role="TrG5h" value="pluginXml" />
+      <property role="12Em_G" value="IGNORED" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="2oJQQRScDti" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDtj" role="12Em$d">
+      <property role="TrG5h" value="vendor" />
+      <property role="12Em_G" value="IGNORED" />
+      <ref role="12Em$g" to="kdzh:6MNA4JYmRbj" resolve="BuildMps_IdeaPluginVendor" />
+      <node concept="12Em_x" id="2oJQQRScDtk" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_IdeaPluginVendor" />
+        <ref role="12Em_A" node="464rVAYml_e" resolve="export_BuildMps_IdeaPluginVendor" />
+      </node>
+    </node>
+    <node concept="12Em_C" id="2oJQQRScDtl" role="12Em$d">
+      <property role="TrG5h" value="xml" />
+      <property role="12Em_G" value="IGNORED" />
+      <ref role="12Em$g" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
+      <node concept="12Em_x" id="2oJQQRScDtm" role="24w8oo">
+        <property role="1a5o8Z" value="XmlElement" />
+        <ref role="12Em_A" node="464rVAYml$n" resolve="export_XmlElement" />
+      </node>
+    </node>
+    <node concept="12Em_I" id="2oJQQRScDtn" role="12Em$8">
+      <property role="TrG5h" value="id" />
+      <property role="3enqAb" value="qualifiedName" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_I" id="2oJQQRScDto" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+  </node>
+  <node concept="12Em_F" id="2oJQQRScGhi">
+    <property role="TrG5h" value="export_forReferenced_BuildMps_IdeaPluginContent" />
+    <property role="3GE5qa" value="toplevel.layout.children.SUB-BuildMpsLayout_Plugin::plugin" />
+    <ref role="12Em$l" to="kdzh:5HVSRHdUrJF" resolve="BuildMps_IdeaPluginContent" />
+    <node concept="12Em_F" id="2oJQQRScGhj" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_IdeaPluginModule" />
+      <ref role="12Em$l" to="kdzh:5HVSRHdUrJs" resolve="BuildMps_IdeaPluginModule" />
+      <node concept="12Em_I" id="2oJQQRScGhk" role="12Em$8">
+        <property role="TrG5h" value="customPackaging" />
+        <property role="3enqAb" value="boolean" />
+        <property role="12Em_G" value="PUBLIC" />
+      </node>
+      <node concept="12Em_D" id="2oJQQRScGhl" role="12Em$4">
+        <property role="TrG5h" value="target" />
+        <property role="12Em_G" value="PUBLIC" />
+        <ref role="12Em$u" to="kdzh:hS0KzPONfF" resolve="BuildMps_AbstractModule" />
+        <node concept="12Em_x" id="2oJQQRScGhm" role="24w8oo">
+          <property role="1a5o8Z" value="BuildMps_AbstractModule" />
+          <ref role="12Em_A" node="2oJQQRScGhz" resolve="export_forReferenced_BuildMps_AbstractModule" />
+        </node>
+      </node>
+    </node>
+    <node concept="12Em_F" id="2oJQQRScGhn" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_IdeaPluginGroup" />
+      <ref role="12Em$l" to="kdzh:5HVSRHdUL81" resolve="BuildMps_IdeaPluginGroup" />
+      <node concept="12Em_C" id="2oJQQRScGho" role="12Em$d">
+        <property role="TrG5h" value="customPackaging" />
+        <property role="12Em_G" value="PUBLIC" />
+        <ref role="12Em$g" to="kdzh:3vXGXT8byGB" resolve="BuildMps_IdeaPluginGroupCustomModule" />
+        <node concept="12Em_x" id="2oJQQRScGhp" role="24w8oo">
+          <property role="1a5o8Z" value="BuildMps_IdeaPluginGroupCustomModule" />
+          <ref role="12Em_A" node="2oJQQRSePUS" resolve="export_forReferenced_BuildMps_IdeaPluginGroupCustomModule" />
+        </node>
+      </node>
+      <node concept="12Em_D" id="2oJQQRScGhq" role="12Em$4">
+        <property role="TrG5h" value="group" />
+        <property role="12Em_G" value="PUBLIC" />
+        <ref role="12Em$u" to="kdzh:1jjYQYSgYJt" resolve="BuildMps_Group" />
+        <node concept="12Em_x" id="2oJQQRScGhr" role="24w8oo">
+          <property role="1a5o8Z" value="BuildMps_Group" />
+          <ref role="12Em_A" node="2oJQQRSgf7B" resolve="export_forReferenced_BuildMps_Group" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="12Em_F" id="2oJQQRScGhz">
+    <property role="TrG5h" value="export_forReferenced_BuildMps_AbstractModule" />
+    <property role="3GE5qa" value="toplevel.layout.children.SUB-BuildMpsLayout_Plugin::plugin" />
+    <ref role="12Em$l" to="kdzh:hS0KzPONfF" resolve="BuildMps_AbstractModule" />
+    <node concept="12Em_I" id="2oJQQRScGh$" role="12Em$8">
+      <property role="TrG5h" value="uuid" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_I" id="2oJQQRScGh_" role="12Em$8">
+      <property role="TrG5h" value="compact" />
+      <property role="3enqAb" value="boolean" />
+      <property role="12Em_G" value="IGNORED" />
+    </node>
+    <node concept="12Em_C" id="2oJQQRScGhA" role="12Em$d">
+      <property role="TrG5h" value="path" />
+      <property role="12Em_G" value="IGNORED" />
+      <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+      <node concept="12Em_x" id="2oJQQRScGhB" role="24w8oo">
+        <property role="1a5o8Z" value="BuildSourcePath" />
+        <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+      </node>
+    </node>
+    <node concept="12Em_I" id="2oJQQRScGhC" role="12Em$8">
+      <property role="TrG5h" value="name" />
+      <property role="3enqAb" value="string" />
+      <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_F" id="2oJQQRScGhD" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_Module" />
+      <ref role="12Em$l" to="kdzh:4zCbl23cpcc" resolve="BuildMps_Module" />
+      <node concept="12Em_I" id="2oJQQRScGhE" role="12Em$8">
+        <property role="TrG5h" value="doNotCompile" />
+        <property role="3enqAb" value="boolean" />
+        <property role="12Em_G" value="IGNORED" />
+      </node>
+      <node concept="12Em_C" id="2oJQQRScGhF" role="12Em$d">
+        <property role="TrG5h" value="sources" />
+        <property role="12Em_G" value="IGNORED" />
+        <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
+        <node concept="12Em_x" id="2oJQQRScGhG" role="24w8oo">
+          <property role="1a5o8Z" value="BuildMps_ModuleSource" />
+          <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+        </node>
+      </node>
+      <node concept="12Em_C" id="2oJQQRScGhH" role="12Em$d">
+        <property role="TrG5h" value="dependencies" />
+        <property role="12Em_G" value="IGNORED" />
+        <ref role="12Em$g" to="kdzh:4zCbl23d1MR" resolve="BuildMps_ModuleDependency" />
+        <node concept="12Em_x" id="2oJQQRScGhI" role="24w8oo">
+          <property role="1a5o8Z" value="BuildMps_ModuleDependency" />
+          <ref role="12Em_A" node="464rVAYmlvE" resolve="export_BuildMps_ModuleDependency" />
+        </node>
+      </node>
+      <node concept="12Em_I" id="2oJQQRScGhJ" role="12Em$8">
+        <property role="TrG5h" value="name" />
+        <property role="3enqAb" value="string" />
+        <property role="12Em_G" value="IGNORED" />
+      </node>
+      <node concept="12Em_F" id="2oJQQRScGhK" role="12C$m$">
+        <property role="TrG5h" value="Export_BuildMps_Solution" />
+        <ref role="12Em$l" to="kdzh:2L4pT56gD3R" resolve="BuildMps_Solution" />
+        <node concept="12Em_I" id="2oJQQRScGhL" role="12Em$8">
+          <property role="TrG5h" value="sourcesKind" />
+          <property role="3enqAb" value="BuildMps_ModuleSourcesKind" />
+          <property role="12Em_G" value="IGNORED" />
+        </node>
+      </node>
+      <node concept="12Em_F" id="2oJQQRScGhM" role="12C$m$">
+        <property role="TrG5h" value="Export_BuildMps_Language" />
+        <ref role="12Em$l" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
+        <node concept="12Em_C" id="2oJQQRScGhN" role="12Em$d">
+          <property role="TrG5h" value="runtime" />
+          <property role="12Em_G" value="IGNORED" />
+          <ref role="12Em$g" to="kdzh:2L4pT56gSBR" resolve="BuildMps_ModuleRuntime" />
+          <node concept="12Em_x" id="2oJQQRScGhO" role="24w8oo">
+            <property role="1a5o8Z" value="BuildMps_ModuleRuntime" />
+            <ref role="12Em_A" node="464rVAYmlw0" resolve="export_BuildMps_ModuleRuntime" />
+          </node>
+        </node>
+        <node concept="12Em_C" id="2oJQQRScGhP" role="12Em$d">
+          <property role="TrG5h" value="generator" />
+          <property role="12Em_G" value="IGNORED" />
+          <ref role="12Em$g" to="kdzh:4LHG7OIlEyO" resolve="BuildMps_Generator" />
+          <node concept="12Em_x" id="2oJQQRScGhQ" role="24w8oo">
+            <property role="1a5o8Z" value="BuildMps_Generator" />
+            <ref role="12Em_A" node="464rVAYmlw7" resolve="export_BuildMps_Generator" />
+          </node>
+        </node>
+        <node concept="12Em_C" id="2oJQQRScGhR" role="12Em$d">
+          <property role="TrG5h" value="managedGenerators" />
+          <property role="12Em_G" value="IGNORED" />
+          <ref role="12Em$g" to="kdzh:6OtXG9K2II1" resolve="BuildMps_GeneratorRef" />
+          <node concept="12Em_x" id="2oJQQRScGhS" role="24w8oo">
+            <property role="1a5o8Z" value="BuildMps_GeneratorRef" />
+            <ref role="12Em_A" node="464rVAYmlwq" resolve="export_BuildMps_GeneratorRef" />
+          </node>
+        </node>
+      </node>
+      <node concept="12Em_F" id="2oJQQRScGhT" role="12C$m$">
+        <property role="TrG5h" value="Export_BuildMps_Generator" />
+        <ref role="12Em$l" to="kdzh:4LHG7OIlEyO" resolve="BuildMps_Generator" />
+        <node concept="12Em_D" id="2oJQQRScGhU" role="12Em$4">
+          <property role="TrG5h" value="sourceLanguage" />
+          <property role="12Em_G" value="IGNORED" />
+          <ref role="12Em$u" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
+          <node concept="12Em_x" id="2oJQQRScGhV" role="24w8oo">
+            <property role="1a5o8Z" value="BuildMps_Language" />
+            <ref role="12Em_A" node="464rVAYmlww" resolve="export_BuildMps_Language" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="12Em_F" id="2oJQQRScGhW" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_DevKit" />
+      <ref role="12Em$l" to="kdzh:hS0KzPOwoe" resolve="BuildMps_DevKit" />
+      <node concept="12Em_C" id="2oJQQRScGhX" role="12Em$d">
+        <property role="TrG5h" value="extends" />
+        <property role="12Em_G" value="IGNORED" />
+        <ref role="12Em$g" to="kdzh:hS0KzPOz4U" resolve="BuildMps_DevKitRef" />
+        <node concept="12Em_x" id="2oJQQRScGhY" role="24w8oo">
+          <property role="1a5o8Z" value="BuildMps_DevKitRef" />
+          <ref role="12Em_A" node="464rVAYmlwM" resolve="export_BuildMps_DevKitRef" />
+        </node>
+      </node>
+      <node concept="12Em_C" id="2oJQQRScGhZ" role="12Em$d">
+        <property role="TrG5h" value="exports" />
+        <property role="12Em_G" value="IGNORED" />
+        <ref role="12Em$g" to="kdzh:hS0KzPOz53" resolve="BuildMps_DevKitExport" />
+        <node concept="12Em_x" id="2oJQQRScGi0" role="24w8oo">
+          <property role="1a5o8Z" value="BuildMps_DevKitExport" />
+          <ref role="12Em_A" node="464rVAYmlwS" resolve="export_BuildMps_DevKitExport" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="12Em_F" id="2oJQQRSePUS">
+    <property role="TrG5h" value="export_forReferenced_BuildMps_IdeaPluginGroupCustomModule" />
+    <property role="3GE5qa" value="toplevel.layout.children.SUB-BuildMpsLayout_Plugin::plugin" />
+    <ref role="12Em$l" to="kdzh:3vXGXT8byGB" resolve="BuildMps_IdeaPluginGroupCustomModule" />
+    <node concept="12Em_D" id="2oJQQRSePUT" role="12Em$4">
+      <property role="TrG5h" value="target" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$u" to="kdzh:hS0KzPONfF" resolve="BuildMps_AbstractModule" />
+      <node concept="12Em_x" id="2oJQQRSePUU" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_AbstractModule" />
+        <ref role="12Em_A" node="2oJQQRScGhz" resolve="export_forReferenced_BuildMps_AbstractModule" />
+      </node>
+    </node>
+  </node>
+  <node concept="12Em_F" id="2oJQQRSgf7B">
+    <property role="TrG5h" value="export_forReferenced_BuildMps_Group" />
+    <property role="3GE5qa" value="toplevel.layout.children.SUB-BuildMpsLayout_Plugin::plugin" />
+    <ref role="12Em$l" to="kdzh:1jjYQYSgYJt" resolve="BuildMps_Group" />
+    <node concept="12Em_C" id="2oJQQRSgf7C" role="12Em$d">
+      <property role="TrG5h" value="modules" />
+      <property role="12Em_G" value="PUBLIC" />
+      <ref role="12Em$g" to="kdzh:hS0KzPONfF" resolve="BuildMps_AbstractModule" />
+      <node concept="12Em_x" id="2oJQQRSgf7D" role="24w8oo">
+        <property role="1a5o8Z" value="BuildMps_AbstractModule" />
+        <ref role="12Em_A" node="2oJQQRScGhz" resolve="export_forReferenced_BuildMps_AbstractModule" />
+      </node>
+    </node>
+    <node concept="12Em_I" id="2oJQQRSgf7E" role="12Em$8">
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
