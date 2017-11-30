@@ -117,7 +117,7 @@
     </node>
     <node concept="12Em_C" id="jZlUfPeKG8" role="12Em$d">
       <property role="TrG5h" value="layout" />
-      <property role="12Em_G" value="IGNORED" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="3ior:4RPz6WoY4Ck" resolve="BuildLayout" />
       <node concept="12Em_x" id="jZlUfPeROO" role="24w8oo">
         <property role="1a5o8Z" value="BuildLayout" />
