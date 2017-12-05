@@ -1588,19 +1588,6 @@
         </node>
       </node>
     </node>
-    <node concept="2SaL7w" id="1DiYeIES8mP" role="2ZfVeh">
-      <node concept="3clFbS" id="1DiYeIES8mQ" role="2VODD2">
-        <node concept="3clFbF" id="1DiYeIES8yJ" role="3cqZAp">
-          <node concept="2OqwBi" id="1DiYeIES9wj" role="3clFbG">
-            <node concept="2OqwBi" id="1DiYeIES8Ku" role="2Oq$k0">
-              <node concept="2Sf5sV" id="1DiYeIES8yI" role="2Oq$k0" />
-              <node concept="1mfA1w" id="1DiYeIES94B" role="2OqNvi" />
-            </node>
-            <node concept="3w_OXm" id="1DiYeIES9RF" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
 </model>
 

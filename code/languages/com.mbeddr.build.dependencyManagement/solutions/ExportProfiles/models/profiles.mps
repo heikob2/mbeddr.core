@@ -31,7 +31,11 @@
       <concept id="7403597378042616461" name="DependencyAnnotation.structure.IHasExportProfile" flags="ng" index="24w8or">
         <child id="7403597378042616462" name="exportProfile" index="24w8oo" />
       </concept>
-      <concept id="1858315057947172899" name="DependencyAnnotation.structure.CEP_Fetch" flags="ng" index="kumYg" />
+      <concept id="1858315057947172899" name="DependencyAnnotation.structure.CEP_Fetch" flags="ng" index="kumYg">
+        <property id="1858315057947172906" name="applyRuntime" index="kumYp" />
+        <property id="1858315057947177289" name="applyDevel" index="kunVU" />
+        <property id="1896852084146500134" name="byProperty" index="2Lk0Fd" />
+      </concept>
       <concept id="6975379119548985147" name="DependencyAnnotation.structure.ConceptExportProfileReference" flags="ng" index="12Em_x">
         <property id="2044513178620662744" name="conceptName" index="1a5o8Z" />
         <reference id="6975379119548985148" name="conceptExportProfile" index="12Em_A" />
@@ -999,6 +1003,10 @@
         <property role="TrG5h" value="name" />
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
+      </node>
+      <node concept="kumYg" id="1DiYeIF7m2A" role="kunU9">
+        <property role="2Lk0Fd" value="id" />
+        <property role="kumYp" value="PUBLIC" />
       </node>
     </node>
     <node concept="12Em_F" id="jZlUfPeRKe" role="12C$m$">
@@ -3323,7 +3331,11 @@
         </node>
       </node>
     </node>
-    <node concept="kumYg" id="1DiYeIES89s" role="kunU9" />
+    <node concept="kumYg" id="1DiYeIES89s" role="kunU9">
+      <property role="2Lk0Fd" value="uuid" />
+      <property role="kumYp" value="PUBLIC" />
+      <property role="kunVU" value="PUBLIC" />
+    </node>
   </node>
   <node concept="12Em_F" id="464rVAYmlxy">
     <property role="TrG5h" value="export_BuildMps_BrandingCompany" />
