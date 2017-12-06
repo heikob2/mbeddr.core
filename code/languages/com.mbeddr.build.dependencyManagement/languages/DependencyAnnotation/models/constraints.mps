@@ -1048,5 +1048,8 @@
     <property role="3GE5qa" value="concepts" />
     <ref role="1M2myG" to="dnyj:63dx_CypeWV" resolve="ConceptExportProfileReference" />
   </node>
+  <node concept="1M2fIO" id="6OY3pQc8vhI">
+    <ref role="1M2myG" to="dnyj:6OY3pQc8snZ" resolve="ModuleVisibilities" />
+  </node>
 </model>
 

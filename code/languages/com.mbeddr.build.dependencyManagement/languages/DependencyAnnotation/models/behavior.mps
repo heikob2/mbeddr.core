@@ -7295,5 +7295,25 @@
       <node concept="3clFbS" id="6vus7bUvvBd" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="6OY3pQcsniU">
+    <ref role="13h7C2" to="dnyj:6OY3pQc8snZ" resolve="ModuleVisibilities" />
+    <node concept="13hLZK" id="6OY3pQcsniV" role="13h7CW">
+      <node concept="3clFbS" id="6OY3pQcsniW" role="2VODD2">
+        <node concept="3clFbF" id="6OY3pQcsnj6" role="3cqZAp">
+          <node concept="37vLTI" id="6OY3pQcso45" role="3clFbG">
+            <node concept="Xl_RD" id="6OY3pQcso4n" role="37vLTx">
+              <property role="Xl_RC" value="modules_visibilities" />
+            </node>
+            <node concept="2OqwBi" id="6OY3pQcsnqI" role="37vLTJ">
+              <node concept="13iPFW" id="6OY3pQcsnj5" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6OY3pQcsnA7" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

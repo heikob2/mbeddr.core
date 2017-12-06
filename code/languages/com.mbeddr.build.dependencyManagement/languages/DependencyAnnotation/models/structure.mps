@@ -12,6 +12,8 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp4k" ref="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
+    <import index="hypd" ref="r:aa31e43e-9240-4f4d-b6db-5c1c9a86c59e(jetbrains.mps.lang.project.structure)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -784,6 +786,40 @@
       <property role="IQ2nx" value="1896852084146500134" />
       <property role="TrG5h" value="byProperty" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6OY3pQc8snZ">
+    <property role="EcuMT" value="7871744169002255871" />
+    <property role="TrG5h" value="ModuleVisibilities" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6OY3pQc8so0" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="6OY3pQcsniy" role="1TKVEi">
+      <property role="IQ2ns" value="7871744169007477922" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="modules" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6OY3pQc8so9" resolve="MV_Element" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6OY3pQc8so9">
+    <property role="EcuMT" value="7871744169002255881" />
+    <property role="TrG5h" value="MV_Element" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6OY3pQcsprc" role="1TKVEl">
+      <property role="IQ2nx" value="7871744169007486668" />
+      <property role="TrG5h" value="visibility" />
+      <ref role="AX2Wp" node="63dx_CygDCO" resolve="ExportVisibility" />
+    </node>
+    <node concept="1TJgyi" id="6OY3pQcB9YJ" role="1TKVEl">
+      <property role="IQ2nx" value="7871744169010306991" />
+      <property role="TrG5h" value="uuid" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="6OY3pQcB9YG" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
