@@ -66,7 +66,7 @@
           <greater-priority-mapping>
             <generator generatorUID="16b86994-1210-4aee-9800-8cd1e4a22416(DependencyAnnotation_Generator)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:db8a6076-a7af-4a64-b841-c0b8dd38757c(main@generator)" nodeID="360102856917472881" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
@@ -80,13 +80,13 @@
           <greater-priority-mapping>
             <generator generatorUID="16b86994-1210-4aee-9800-8cd1e4a22416(DependencyAnnotation_Generator)" />
             <external-mapping>
-              <mapping-node modelUID="r:db8a6076-a7af-4a64-b841-c0b8dd38757c(main@generator)" nodeID="7871744169002252217" />
+              <mapping-node modelUID="r:db8a6076-a7af-4a64-b841-c0b8dd38757c(main@generator)" nodeID="4461880992250847540" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="39d44af6-f60e-499c-a201-583451e7fad0(jetbrains.mps.build.workflow#2769948622284786808)" />
             <external-mapping>
-              <mapping-node modelUID="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" nodeID="2769948622284786809" />
+              <all-local-mappings />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
