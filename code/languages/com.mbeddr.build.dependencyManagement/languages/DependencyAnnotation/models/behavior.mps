@@ -3882,21 +3882,7 @@
       </node>
     </node>
     <node concept="13hLZK" id="63dx_CyfSB0" role="13h7CW">
-      <node concept="3clFbS" id="63dx_CyfSB1" role="2VODD2">
-        <node concept="3clFbF" id="63dx_CyfTq_" role="3cqZAp">
-          <node concept="37vLTI" id="63dx_CyfVCz" role="3clFbG">
-            <node concept="Xl_RD" id="63dx_CyfVJl" role="37vLTx">
-              <property role="Xl_RC" value="dependencies" />
-            </node>
-            <node concept="2OqwBi" id="63dx_CyfTyR" role="37vLTJ">
-              <node concept="13iPFW" id="63dx_CyfTq$" role="2Oq$k0" />
-              <node concept="3TrcHB" id="63dx_CyfTJQ" role="2OqNvi">
-                <ref role="3TsBF5" to="dnyj:63dx_CyfPYT" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="63dx_CyfSB1" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="5fqw8$FE3hb">

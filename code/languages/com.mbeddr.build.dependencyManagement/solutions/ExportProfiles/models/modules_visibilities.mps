@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:40c441f7-be17-4357-9d25-0f1bad82de1e(ExportProfiles.runtime_dependencies)">
+<model ref="r:40c441f7-be17-4357-9d25-0f1bad82de1e(ExportProfiles.modules_visibilities)">
   <persistence version="9" />
   <languages>
     <use id="8b477472-2f12-434e-8cec-3ed18d0400ee" name="de.itemis.mps.build.incremental" version="0" />
@@ -21,32 +21,15 @@
         <child id="7871744169007477922" name="modules" index="3xjR$Z" />
       </concept>
       <concept id="7871744169002255881" name="DependencyAnnotation.structure.MV_Element" flags="ng" index="3x7WIk">
-        <property id="7871744169011515196" name="namespace" index="3x$gax" />
         <property id="7871744169010306991" name="uuid" index="3xCD8M" />
       </concept>
     </language>
   </registry>
   <node concept="3x7Wxy" id="6OY3pQcADk5">
     <property role="TrG5h" value="modules_visibilities" />
-    <node concept="3x7WIk" id="6OY3pQcIkp$" role="3xjR$Z">
-      <property role="TrG5h" value="jetbrains.mps.lang.checkedName" />
-      <property role="3xCD8M" value="fe9d76d7-5809-45c9-ae28-a40915b4d6ff" />
-      <property role="3x$gax" value="jetbrains.mps.lang.checkedName" />
-    </node>
-    <node concept="3x7WIk" id="6OY3pQcIkpt" role="3xjR$Z">
-      <property role="TrG5h" value="collections_trove.runtime" />
-      <property role="3xCD8M" value="134ef213-c518-42b0-b12c-c109aa13d320" />
-      <property role="3x$gax" value="collections_trove.runtime" />
-    </node>
-    <node concept="3x7WIk" id="6OY3pQcIkpo" role="3xjR$Z">
-      <property role="TrG5h" value="jetbrains.mps.ide" />
-      <property role="3xCD8M" value="019b622b-0aef-4dd3-86d0-4eef01f3f6bb" />
-      <property role="3x$gax" value="jetbrains.mps.ide" />
-    </node>
-    <node concept="3x7WIk" id="6OY3pQcIkpl" role="3xjR$Z">
-      <property role="TrG5h" value="jetbrains.mps.lang.actions#1154466409006" />
-      <property role="3xCD8M" value="018659ff-d3ef-4215-97e0-bcfeeb111145" />
-      <property role="3x$gax" value="jetbrains.mps.lang.actions#1154466409006" />
+    <node concept="3x7WIk" id="3RFMhXlizZC" role="3xjR$Z">
+      <property role="TrG5h" value="MPS.Core" />
+      <property role="3xCD8M" value="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea" />
     </node>
   </node>
 </model>

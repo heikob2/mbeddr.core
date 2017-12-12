@@ -91,16 +91,6 @@
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
     </node>
-    <node concept="1TJgyi" id="63dx_CyfPVU" role="1TKVEl">
-      <property role="IQ2nx" value="6975379119546523386" />
-      <property role="TrG5h" value="internalBase" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="63dx_CyfPYT" role="1TKVEl">
-      <property role="IQ2nx" value="6975379119546523577" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="1Lv$utmi6gu" role="1TKVEl">
       <property role="IQ2nx" value="2044513178620552222" />
       <property role="TrG5h" value="dependencies_file_name" />
@@ -112,6 +102,20 @@
       <property role="20kJfa" value="exportProfile" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="63dx_CypeWL" resolve="ConceptExportProfile" />
+    </node>
+    <node concept="1TJgyj" id="3RFMhXlizPl" role="1TKVEi">
+      <property role="IQ2ns" value="4461880992252706133" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="runtimeModulesVisibilities" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6OY3pQc8snZ" resolve="ModuleVisibilities" />
+    </node>
+    <node concept="1TJgyj" id="3RFMhXlizPq" role="1TKVEi">
+      <property role="IQ2ns" value="4461880992252706138" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="develModulesVisibilities" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6OY3pQc8snZ" resolve="ModuleVisibilities" />
     </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDB_">
@@ -130,6 +134,11 @@
     </node>
     <node concept="PrWs8" id="63dx_CylT5t" role="PzmwI">
       <ref role="PrY4T" node="63dx_CylT5p" resolve="IExportProfile" />
+    </node>
+    <node concept="1TJgyi" id="3RFMhXlfUaa" role="1TKVEl">
+      <property role="IQ2nx" value="4461880992252011146" />
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" node="63dx_CygDCO" resolve="ExportVisibility" />
     </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDCo">
@@ -248,6 +257,20 @@
     <property role="3GE5qa" value="generation" />
     <node concept="PrWs8" id="63dx_CylT5q" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3RFMhXlizXK" role="1TKVEi">
+      <property role="IQ2ns" value="4461880992252706672" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="runtimeMV" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6OY3pQc8snZ" resolve="ModuleVisibilities" />
+    </node>
+    <node concept="1TJgyj" id="3RFMhXlizXN" role="1TKVEi">
+      <property role="IQ2ns" value="4461880992252706675" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="develMV" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6OY3pQc8snZ" resolve="ModuleVisibilities" />
     </node>
   </node>
   <node concept="1TIwiD" id="63dx_CypeWL">
