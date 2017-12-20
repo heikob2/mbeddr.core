@@ -407,12 +407,16 @@
         <node concept="1iCGBv" id="3RFMhXlizWP" role="3EZMnx">
           <ref role="1NtTu8" to="dnyj:3RFMhXlizPl" resolve="runtimeModulesVisibilities" />
           <node concept="1sVBvm" id="3RFMhXlizWR" role="1sWHZn">
-            <node concept="3F0ifn" id="3RFMhXlizX1" role="2wV5jI">
-              <property role="3F0ifm" value="name" />
+            <node concept="3F0A7n" id="5eqg0kb1Xh5" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>
         <node concept="l2Vlx" id="3RFMhXlizVL" role="2iSdaV" />
+        <node concept="pVoyu" id="5eqg0kb12wZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3RFMhXlizTy" role="3EZMnx">
         <node concept="VPM3Z" id="3RFMhXlizT$" role="3F10Kt">
@@ -430,8 +434,9 @@
         <node concept="1iCGBv" id="3RFMhXlizUv" role="3EZMnx">
           <ref role="1NtTu8" to="dnyj:3RFMhXlizPq" resolve="develModulesVisibilities" />
           <node concept="1sVBvm" id="3RFMhXlizUx" role="1sWHZn">
-            <node concept="3F0ifn" id="3RFMhXlizUF" role="2wV5jI">
-              <property role="3F0ifm" value="name" />
+            <node concept="3F0A7n" id="5eqg0kb1Xh9" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>
@@ -1812,6 +1817,12 @@
       </node>
       <node concept="3F0A7n" id="5WjlrMh30rY" role="3EZMnx">
         <ref role="1NtTu8" to="dnyj:5WjlrMgWqEF" resolve="mpsType" />
+      </node>
+      <node concept="3F0ifn" id="5eqg0kb5Sek" role="3EZMnx">
+        <property role="3F0ifm" value="concreteType:" />
+      </node>
+      <node concept="3F0A7n" id="5eqg0kb5Sft" role="3EZMnx">
+        <ref role="1NtTu8" to="dnyj:5eqg0kb5SdA" resolve="concreteType" />
       </node>
       <node concept="3F0ifn" id="5WjlrMh30rZ" role="3EZMnx">
         <property role="3F0ifm" value="structureType:" />

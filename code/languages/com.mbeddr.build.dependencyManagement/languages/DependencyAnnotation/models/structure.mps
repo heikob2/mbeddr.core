@@ -20,6 +20,10 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
+        <child id="7862711839422615224" name="seeAlso" index="t5JxU" />
+      </concept>
+      <concept id="7862711839422615221" name="jetbrains.mps.lang.structure.structure.DocumentationObjectiveRef" flags="ng" index="t5JxR">
+        <reference id="7862711839422615222" name="target" index="t5JxO" />
       </concept>
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv" />
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
@@ -509,6 +513,11 @@
       <property role="TrG5h" value="mpsType" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="5eqg0kb5SdA" role="1TKVEl">
+      <property role="IQ2nx" value="6024197841966564198" />
+      <property role="TrG5h" value="concreteType" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="5WjlrMgWqEO" role="1TKVEi">
       <property role="IQ2ns" value="6850913726534625972" />
       <property role="20lmBu" value="aggregation" />
@@ -825,6 +834,12 @@
       <property role="20kJfa" value="modules" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6OY3pQc8so9" resolve="MV_Element" />
+    </node>
+    <node concept="t5JxF" id="5eqg0kb3tSR" role="lGtFl">
+      <property role="t5JxN" value="@currently-not-used." />
+      <node concept="t5JxR" id="5eqg0kb3tTM" role="t5JxU">
+        <ref role="t5JxO" node="6OY3pQc8so9" resolve="MV_Element" />
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6OY3pQc8so9">

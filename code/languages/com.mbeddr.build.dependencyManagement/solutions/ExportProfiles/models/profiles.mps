@@ -101,7 +101,7 @@
     </node>
     <node concept="12Em_C" id="jZlUfPeKG5" role="12Em$d">
       <property role="TrG5h" value="macros" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:4RPz6WoY4Cv" resolve="BuildMacro" />
       <node concept="12Em_x" id="jZlUfPeRIA" role="24w8oo">
         <property role="1a5o8Z" value="BuildMacro" />
@@ -119,7 +119,7 @@
     </node>
     <node concept="12Em_C" id="jZlUfPeKG7" role="12Em$d">
       <property role="TrG5h" value="aspects" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:34DbxDwRlgt" resolve="BuildAspect" />
       <node concept="12Em_x" id="jZlUfPeROI" role="24w8oo">
         <property role="1a5o8Z" value="BuildAspect" />
@@ -128,7 +128,7 @@
     </node>
     <node concept="12Em_C" id="jZlUfPeKG8" role="12Em$d">
       <property role="TrG5h" value="layout" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:4RPz6WoY4Ck" resolve="BuildLayout" />
       <node concept="12Em_x" id="jZlUfPeROO" role="24w8oo">
         <property role="1a5o8Z" value="BuildLayout" />
@@ -137,7 +137,7 @@
     </node>
     <node concept="12Em_C" id="jZlUfPeKG9" role="12Em$d">
       <property role="TrG5h" value="scriptsDir" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:6mpuAlRavrV" resolve="BuildRelativePath" />
       <node concept="12Em_x" id="jZlUfPeRP6" role="24w8oo">
         <property role="1a5o8Z" value="BuildRelativePath" />
@@ -180,7 +180,7 @@
       <ref role="12Em$l" to="3ior:4lbsKRp2c8w" resolve="BuildProjectDependency" />
       <node concept="12Em_C" id="jZlUfPeRI5" role="12Em$d">
         <property role="TrG5h" value="artifacts" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
         <node concept="12Em_x" id="464rVAYmltT" role="24w8oo">
           <property role="1a5o8Z" value="BuildSourcePath" />
@@ -3016,7 +3016,7 @@
     </node>
     <node concept="12Em_C" id="464rVAYmlwb" role="12Em$d">
       <property role="TrG5h" value="dependencies" />
-      <property role="12Em_G" value="IGNORED" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="kdzh:4zCbl23d1MR" resolve="BuildMps_ModuleDependency" />
       <node concept="12Em_x" id="464rVAYmNr5" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleDependency" />
