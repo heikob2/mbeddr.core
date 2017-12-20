@@ -650,6 +650,39 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbF" id="5eqg0kb9hfD" role="3cqZAp">
+                      <node concept="37vLTI" id="5eqg0kb9hfE" role="3clFbG">
+                        <node concept="2OqwBi" id="5eqg0kb9hfF" role="37vLTx">
+                          <node concept="2GrUjf" id="5eqg0kb9hfG" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="464rVAYHgNS" resolve="propExp" />
+                          </node>
+                          <node concept="3TrcHB" id="5eqg0kb9iqt" role="2OqNvi">
+                            <ref role="3TsBF5" to="dnyj:5WjlrMhjJKR" resolve="dataType" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="5eqg0kb9hfI" role="37vLTJ">
+                          <node concept="2OqwBi" id="5eqg0kb9hfJ" role="2Oq$k0">
+                            <node concept="37vLTw" id="5eqg0kb9hfK" role="2Oq$k0">
+                              <ref role="3cqZAo" node="464rVAYFAbK" resolve="node_" />
+                            </node>
+                            <node concept="3CFZ6_" id="5eqg0kb9hfL" role="2OqNvi">
+                              <node concept="3CFTII" id="5eqg0kb9hfM" role="3CFYIz">
+                                <ref role="3CFTIH" to="dnyj:5WjlrMgQZ1B" resolve="PropertyAnnotation" />
+                                <node concept="25Kdxt" id="5eqg0kb9hfN" role="3CFTIG">
+                                  <node concept="2GrUjf" id="5eqg0kb9hfO" role="25KhWn">
+                                    <ref role="2Gs0qQ" node="464rVAYHhEX" resolve="prop" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="5eqg0kb9hPu" role="2OqNvi">
+                            <ref role="3TsBF5" to="dnyj:5WjlrMhjxwW" resolve="dataType" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="5eqg0kb9heI" role="3cqZAp" />
                   </node>
                 </node>
               </node>

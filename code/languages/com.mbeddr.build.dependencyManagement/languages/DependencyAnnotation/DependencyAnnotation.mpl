@@ -84,10 +84,14 @@
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="39d44af6-f60e-499c-a201-583451e7fad0(jetbrains.mps.build.workflow#2769948622284786808)" />
-            <external-mapping>
-              <all-local-mappings />
-            </external-mapping>
+            <mapping-set>
+              <mapping-set-element>
+                <generator generatorUID="39d44af6-f60e-499c-a201-583451e7fad0(jetbrains.mps.build.workflow#2769948622284786808)" />
+                <external-mapping>
+                  <mapping-node modelUID="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" nodeID="2769948622284786809" />
+                </external-mapping>
+              </mapping-set-element>
+            </mapping-set>
           </lesser-priority-mapping>
         </mapping-priority-rule>
       </mapping-priorities>

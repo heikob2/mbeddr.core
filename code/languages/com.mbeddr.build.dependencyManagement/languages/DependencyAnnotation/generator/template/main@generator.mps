@@ -12,6 +12,7 @@
     <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="e2ed" ref="r:7893f5d8-9abe-4e63-ad67-eefc53b291e2(DependencyAnnotation.generator.DependencyAnnotation_Generator.preprocessing)" />
+    <import index="s0ls" ref="r:417fbc41-356b-43f7-9867-694c8dba54ea(DependencyAnnotation.generator.DependencyAnnotation_Generator.postProcessing)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -2039,6 +2040,28 @@
                     <node concept="30H73N" id="6qYR9rysNlf" role="2Oq$k0" />
                     <node concept="3TrcHB" id="6qYR9rysNKY" role="2OqNvi">
                       <ref role="3TsBF5" to="dnyj:5WjlrMgWqEF" resolve="mpsType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2pNUuL" id="5eqg0kb6AM4" role="2pNNFR">
+        <property role="2pNUuO" value="concreteType" />
+        <node concept="2pMdtt" id="5eqg0kb6B57" role="2pMdts">
+          <property role="2pMdty" value="myConcreteType" />
+          <node concept="17Uvod" id="5eqg0kb6B5a" role="lGtFl">
+            <property role="P4ACc" value="479c7a8c-02f9-43b5-9139-d910cb22f298/6666499814681541919/6666499814681541920" />
+            <property role="2qtEX9" value="text" />
+            <node concept="3zFVjK" id="5eqg0kb6B5b" role="3zH0cK">
+              <node concept="3clFbS" id="5eqg0kb6B5c" role="2VODD2">
+                <node concept="3clFbF" id="5eqg0kb6BdG" role="3cqZAp">
+                  <node concept="2OqwBi" id="5eqg0kb6BuM" role="3clFbG">
+                    <node concept="30H73N" id="5eqg0kb6BdF" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5eqg0kb6BNn" role="2OqNvi">
+                      <ref role="3TsBF5" to="dnyj:5eqg0kb5SdA" resolve="concreteType" />
                     </node>
                   </node>
                 </node>
@@ -5129,6 +5152,9 @@
   </node>
   <node concept="bUwia" id="3RFMhXlbu4O">
     <property role="TrG5h" value="postProcessing" />
+    <node concept="1puMqW" id="5eqg0kbrhjn" role="1puA0r">
+      <ref role="1puQsG" node="5eqg0kba5zr" resolve="postPostGeneration" />
+    </node>
   </node>
   <node concept="1pmfR0" id="3RFMhXlnq9j">
     <property role="TrG5h" value="prePostGeneration" />
@@ -5212,6 +5238,90 @@
               <node concept="JncvC" id="3RFMhXlnsms" role="JncvA">
                 <property role="TrG5h" value="xmlElem" />
                 <node concept="2jxLKc" id="3RFMhXlnsmt" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1pmfR0" id="5eqg0kba5zr">
+    <property role="TrG5h" value="postPostGeneration" />
+    <property role="1v3f2W" value="pre_processing" />
+    <property role="1v3jST" value="true" />
+    <node concept="1pplIY" id="5eqg0kba5zs" role="1pqMTA">
+      <node concept="3clFbS" id="5eqg0kba5zt" role="2VODD2">
+        <node concept="2Gpval" id="5eqg0kba5GL" role="3cqZAp">
+          <node concept="2GrKxI" id="5eqg0kba5GM" role="2Gsz3X">
+            <property role="TrG5h" value="xmlfile" />
+          </node>
+          <node concept="2OqwBi" id="5eqg0kbg8A$" role="2GsD0m">
+            <node concept="1Q6Npb" id="5eqg0kbg8fR" role="2Oq$k0" />
+            <node concept="2RRcyG" id="5eqg0kbg8So" role="2OqNvi">
+              <ref role="2RRcyH" to="iuxj:5M4a$b5j9j0" resolve="XmlFile" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="5eqg0kba5GO" role="2LFqv$">
+            <node concept="Jncv_" id="5eqg0kba7ic" role="3cqZAp">
+              <ref role="JncvD" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
+              <node concept="2OqwBi" id="5eqg0kba7id" role="JncvB">
+                <node concept="2OqwBi" id="5eqg0kba7ie" role="2Oq$k0">
+                  <node concept="2GrUjf" id="5eqg0kba7Lv" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="5eqg0kba5GM" resolve="xmlfile" />
+                  </node>
+                  <node concept="3TrEf2" id="5eqg0kba7ig" role="2OqNvi">
+                    <ref role="3Tt5mk" to="iuxj:5M4a$b5j9j1" resolve="document" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="5eqg0kba7ih" role="2OqNvi">
+                  <ref role="3Tt5mk" to="iuxj:5M4a$b5ikxJ" resolve="rootElement" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="5eqg0kba7ii" role="Jncv$">
+                <node concept="3clFbJ" id="5eqg0kba7ij" role="3cqZAp">
+                  <node concept="2OqwBi" id="5eqg0kba7ik" role="3clFbw">
+                    <node concept="2OqwBi" id="5eqg0kba7il" role="2Oq$k0">
+                      <node concept="Jnkvi" id="5eqg0kba7im" role="2Oq$k0">
+                        <ref role="1M0zk5" node="5eqg0kba7iy" resolve="xmlElem" />
+                      </node>
+                      <node concept="3TrcHB" id="5eqg0kba7in" role="2OqNvi">
+                        <ref role="3TsBF5" to="iuxj:5M4a$b5iL2Q" resolve="tagName" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5eqg0kba7io" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <node concept="Xl_RD" id="5eqg0kba7ip" role="37wK5m">
+                        <property role="Xl_RC" value="dependencies" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="5eqg0kba7iq" role="3clFbx">
+                    <node concept="3clFbF" id="5eqg0kba7Qs" role="3cqZAp">
+                      <node concept="2OqwBi" id="5eqg0kbaacy" role="3clFbG">
+                        <node concept="2ShNRf" id="5eqg0kba7Qg" role="2Oq$k0">
+                          <node concept="HV5vD" id="5eqg0kbaa5A" role="2ShVmc">
+                            <ref role="HV5vE" to="s0ls:5eqg0kba5BC" resolve="PostReduceXmlNoise" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="5eqg0kbaair" role="2OqNvi">
+                          <ref role="37wK5l" to="s0ls:5eqg0kba5Dz" resolve="reduce" />
+                          <node concept="Jnkvi" id="5eqg0kbaaAW" role="37wK5m">
+                            <ref role="1M0zk5" node="5eqg0kba7iy" resolve="xmlElem" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3SKdUt" id="5eqg0kba7iw" role="3cqZAp">
+                      <node concept="3SKdUq" id="5eqg0kba7ix" role="3SKWNk">
+                        <property role="3SKdUp" value="todo: implement post-generation" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="JncvC" id="5eqg0kba7iy" role="JncvA">
+                <property role="TrG5h" value="xmlElem" />
+                <node concept="2jxLKc" id="5eqg0kba7iz" role="1tU5fm" />
               </node>
             </node>
           </node>
