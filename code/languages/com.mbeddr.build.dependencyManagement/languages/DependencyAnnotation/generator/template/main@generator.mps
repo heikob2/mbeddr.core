@@ -4,6 +4,7 @@
   <languages>
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <use id="aa2a0a96-4f86-4df2-84ec-54941b1a2d95" name="DependencyAnnotation" version="0" />
+    <use id="d5033cee-f632-44b6-b308-89d4fbde34ff" name="jetbrains.mps.build.startup" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -16,6 +17,7 @@
     <import index="vbkb" ref="r:08f2b659-8469-4592-93bf-a6edb46ec86d(jetbrains.mps.build.behavior)" />
     <import index="o3n2" ref="r:26eadcf0-f275-4e90-be37-e4432772a74d(jetbrains.mps.build.util)" />
     <import index="g07" ref="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
+    <import index="s7om" ref="r:a930f08c-5447-4203-8f2e-507bb76fab12(jetbrains.mps.build.startup.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -321,6 +323,14 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="d5033cee-f632-44b6-b308-89d4fbde34ff" name="jetbrains.mps.build.startup">
+      <concept id="1731640411964205218" name="jetbrains.mps.build.startup.structure.TextLine" flags="ng" index="2DRAP_">
+        <property id="1731640411964798937" name="text" index="2DPR8u" />
+      </concept>
+      <concept id="1731640411964205180" name="jetbrains.mps.build.startup.structure.TextFile" flags="ng" index="2DRAQV">
+        <child id="1731640411964205233" name="lines" index="2DRAPQ" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -5054,6 +5064,10 @@
         </node>
       </node>
     </node>
+    <node concept="3lhOvk" id="7t_stIAEwyE" role="3lj3bC">
+      <ref role="30HIoZ" to="dnyj:7t_stIADf7Q" resolve="SendData" />
+      <ref role="3lhOvi" node="7t_stIAExxp" resolve="map_SendData" />
+    </node>
     <node concept="aNPBN" id="jZlUfPaPqg" role="aQYdv">
       <ref role="aOQi4" to="dnyj:5WjlrMh3$WF" resolve="RootExportProfileToReduce" />
     </node>
@@ -5330,6 +5344,31 @@
               <node concept="JncvC" id="5eqg0kba7iy" role="JncvA">
                 <property role="TrG5h" value="xmlElem" />
                 <node concept="2jxLKc" id="5eqg0kba7iz" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2DRAQV" id="7t_stIAExxp">
+    <property role="TrG5h" value="map_SendData" />
+    <node concept="n94m4" id="7t_stIAExxq" role="lGtFl">
+      <ref role="n9lRv" to="dnyj:7t_stIADf7Q" resolve="SendData" />
+    </node>
+    <node concept="2DRAP_" id="7t_stIAExLz" role="2DRAPQ">
+      <property role="2DPR8u" value="//TODO: implement!!!" />
+    </node>
+    <node concept="17Uvod" id="7t_stIAHkxg" role="lGtFl">
+      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+      <property role="2qtEX9" value="name" />
+      <node concept="3zFVjK" id="7t_stIAHkxh" role="3zH0cK">
+        <node concept="3clFbS" id="7t_stIAHkxi" role="2VODD2">
+          <node concept="3clFbF" id="7t_stIAHkDO" role="3cqZAp">
+            <node concept="2OqwBi" id="7t_stIAHkQB" role="3clFbG">
+              <node concept="30H73N" id="7t_stIAHkDN" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7t_stIAHl5p" role="2OqNvi">
+                <ref role="3TsBF5" to="dnyj:7t_stIAEp8t" resolve="gradleFileName" />
               </node>
             </node>
           </node>

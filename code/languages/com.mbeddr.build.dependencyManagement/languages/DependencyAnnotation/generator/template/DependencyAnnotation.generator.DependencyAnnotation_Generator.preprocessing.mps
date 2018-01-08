@@ -245,6 +245,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -928,6 +929,139 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="7t_stIAEiVT" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAEkl0" role="3clFbG">
+                <node concept="Xl_RD" id="7t_stIAEkml" role="37vLTx">
+                  <property role="Xl_RC" value="./private_dependencies.xml" />
+                </node>
+                <node concept="2OqwBi" id="7t_stIAElA9" role="37vLTJ">
+                  <node concept="2OqwBi" id="7t_stIAEjLh" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7t_stIAEjl4" role="2Oq$k0">
+                      <node concept="37vLTw" id="7t_stIAEiVR" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                      </node>
+                      <node concept="3CFZ6_" id="7t_stIAEjxm" role="2OqNvi">
+                        <node concept="3CFYIy" id="7t_stIAEjzf" role="3CFYIz">
+                          <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="7t_stIAEk0f" role="2OqNvi">
+                      <ref role="3Tt5mk" to="dnyj:7t_stIADf81" resolve="privateSendData" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="7t_stIAElUe" role="2OqNvi">
+                    <ref role="3TsBF5" to="dnyj:7t_stIADf9q" resolve="depFilePath" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7t_stIAEzZd" role="3cqZAp" />
+            <node concept="3cpWs8" id="7t_stIAF_8Q" role="3cqZAp">
+              <node concept="3cpWsn" id="7t_stIAF_8T" role="3cpWs9">
+                <property role="TrG5h" value="newRoot" />
+                <node concept="3Tqbb2" id="7t_stIAF_8O" role="1tU5fm">
+                  <ref role="ehGHo" to="dnyj:7t_stIADf7Q" resolve="SendData" />
+                </node>
+                <node concept="2OqwBi" id="7t_stIAFAM1" role="33vP2m">
+                  <node concept="2OqwBi" id="7t_stIAFAfh" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7t_stIAF_Rd" role="2Oq$k0">
+                      <node concept="37vLTw" id="7t_stIAF_Js" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                      </node>
+                      <node concept="3CFZ6_" id="7t_stIAF_WQ" role="2OqNvi">
+                        <node concept="3CFYIy" id="7t_stIAFA0H" role="3CFYIz">
+                          <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="7t_stIAFAuy" role="2OqNvi">
+                      <ref role="3Tt5mk" to="dnyj:7t_stIADf81" resolve="privateSendData" />
+                    </node>
+                  </node>
+                  <node concept="3YRAZt" id="7t_stIAFB6k" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAFCiI" role="3cqZAp">
+              <node concept="2OqwBi" id="7t_stIAFCYa" role="3clFbG">
+                <node concept="37vLTw" id="7t_stIAFCiG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JEIfkr8m3A" resolve="model_" />
+                </node>
+                <node concept="liA8E" id="7t_stIAFD9K" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.addRootNode(org.jetbrains.mps.openapi.model.SNode):void" resolve="addRootNode" />
+                  <node concept="37vLTw" id="7t_stIAFDbC" role="37wK5m">
+                    <ref role="3cqZAo" node="7t_stIAF_8T" resolve="newRoot" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7t_stIAE$Ra" role="3cqZAp">
+              <node concept="3cpWsn" id="7t_stIAE$Rd" role="3cpWs9">
+                <property role="TrG5h" value="gradleFileName" />
+                <node concept="17QB3L" id="7t_stIAE$R8" role="1tU5fm" />
+                <node concept="Xl_RD" id="7t_stIAE_th" role="33vP2m">
+                  <property role="Xl_RC" value="send_private.gradle" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEq0a" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAEs9J" role="3clFbG">
+                <node concept="37vLTw" id="7t_stIAE_w8" role="37vLTx">
+                  <ref role="3cqZAo" node="7t_stIAE$Rd" resolve="gradleFileName" />
+                </node>
+                <node concept="2OqwBi" id="7t_stIAFBvN" role="37vLTJ">
+                  <node concept="37vLTw" id="7t_stIAFBjg" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7t_stIAF_8T" resolve="newRoot" />
+                  </node>
+                  <node concept="3TrcHB" id="7t_stIAFBAB" role="2OqNvi">
+                    <ref role="3TsBF5" to="dnyj:7t_stIAEp8t" resolve="gradleFileName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEA8e" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAEATI" role="3clFbG">
+                <node concept="37vLTw" id="7t_stIAEA8c" role="37vLTJ">
+                  <ref role="3cqZAo" node="7t_stIABkny" resolve="filename" />
+                </node>
+                <node concept="3K4zz7" id="7t_stIAEAVt" role="37vLTx">
+                  <node concept="10Nm6u" id="7t_stIAEAVu" role="3K4E3e" />
+                  <node concept="3cpWs3" id="7t_stIAEAVv" role="3K4GZi">
+                    <node concept="3cpWs3" id="7t_stIAEAVw" role="3uHU7B">
+                      <node concept="37vLTw" id="7t_stIAEAVx" role="3uHU7B">
+                        <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
+                      </node>
+                      <node concept="Xl_RD" id="7t_stIAEAVy" role="3uHU7w">
+                        <property role="Xl_RC" value="/" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="7t_stIAEBbY" role="3uHU7w">
+                      <ref role="3cqZAo" node="7t_stIAE$Rd" resolve="gradleFileName" />
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="7t_stIAEAV$" role="3K4Cdx">
+                    <node concept="10Nm6u" id="7t_stIAEAV_" role="3uHU7w" />
+                    <node concept="37vLTw" id="7t_stIAEAVA" role="3uHU7B">
+                      <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEBqD" role="3cqZAp">
+              <node concept="2YIFZM" id="7t_stIAEBqE" role="3clFbG">
+                <ref role="1Pybhc" to="18ew:~CopyFacetUtil" resolve="CopyFacetUtil" />
+                <ref role="37wK5l" to="18ew:~CopyFacetUtil.setTargetPath(org.jetbrains.mps.openapi.model.SNode,java.lang.String):void" resolve="setTargetPath" />
+                <node concept="37vLTw" id="7t_stIAFDle" role="37wK5m">
+                  <ref role="3cqZAo" node="7t_stIAF_8T" resolve="newRoot" />
+                </node>
+                <node concept="37vLTw" id="7t_stIAEBqG" role="37wK5m">
+                  <ref role="3cqZAo" node="7t_stIABkny" resolve="filename" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7t_stIAEzzL" role="3cqZAp" />
             <node concept="3clFbH" id="7t_stIAAkO0" role="3cqZAp" />
             <node concept="3clFbF" id="7t_stIABpdm" role="3cqZAp">
               <node concept="37vLTI" id="7t_stIABpdn" role="3clFbG">
@@ -979,6 +1113,138 @@
                   <ref role="3cqZAo" node="7t_stIAAdps" resolve="copyOutputDest" />
                 </node>
                 <node concept="37vLTw" id="7t_stIABpdH" role="37wK5m">
+                  <ref role="3cqZAo" node="7t_stIABkny" resolve="filename" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEmve" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAEoNi" role="3clFbG">
+                <node concept="Xl_RD" id="7t_stIAEoVk" role="37vLTx">
+                  <property role="Xl_RC" value="./public_dependencies.xml" />
+                </node>
+                <node concept="2OqwBi" id="7t_stIAEo12" role="37vLTJ">
+                  <node concept="2OqwBi" id="7t_stIAEnkW" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7t_stIAEmSp" role="2Oq$k0">
+                      <node concept="37vLTw" id="7t_stIAEmvc" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                      </node>
+                      <node concept="3CFZ6_" id="7t_stIAEn51" role="2OqNvi">
+                        <node concept="3CFYIy" id="7t_stIAEn6U" role="3CFYIz">
+                          <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="7t_stIAEnHV" role="2OqNvi">
+                      <ref role="3Tt5mk" to="dnyj:7t_stIADf8d" resolve="publicSendData" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="7t_stIAEol4" role="2OqNvi">
+                    <ref role="3TsBF5" to="dnyj:7t_stIADf9q" resolve="depFilePath" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7t_stIAECYM" role="3cqZAp" />
+            <node concept="3clFbF" id="7t_stIAHSxH" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAHTdq" role="3clFbG">
+                <node concept="2OqwBi" id="7t_stIAHUsI" role="37vLTx">
+                  <node concept="2OqwBi" id="7t_stIAHTIC" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7t_stIAHTn1" role="2Oq$k0">
+                      <node concept="37vLTw" id="7t_stIAHTfc" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                      </node>
+                      <node concept="3CFZ6_" id="7t_stIAHTsF" role="2OqNvi">
+                        <node concept="3CFYIy" id="7t_stIAHTwk" role="3CFYIz">
+                          <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="7t_stIAHU7R" role="2OqNvi">
+                      <ref role="3Tt5mk" to="dnyj:7t_stIADf8d" resolve="publicSendData" />
+                    </node>
+                  </node>
+                  <node concept="3YRAZt" id="7t_stIAHU_b" role="2OqNvi" />
+                </node>
+                <node concept="37vLTw" id="7t_stIAHSxF" role="37vLTJ">
+                  <ref role="3cqZAo" node="7t_stIAF_8T" resolve="newRoot" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAHVfr" role="3cqZAp">
+              <node concept="2OqwBi" id="7t_stIAHVLV" role="3clFbG">
+                <node concept="37vLTw" id="7t_stIAHVfp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JEIfkr8m3A" resolve="model_" />
+                </node>
+                <node concept="liA8E" id="7t_stIAHW3_" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.addRootNode(org.jetbrains.mps.openapi.model.SNode):void" resolve="addRootNode" />
+                  <node concept="37vLTw" id="7t_stIAHW9T" role="37wK5m">
+                    <ref role="3cqZAo" node="7t_stIAF_8T" resolve="newRoot" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEDB4" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAEEqm" role="3clFbG">
+                <node concept="37vLTw" id="7t_stIAEDB2" role="37vLTJ">
+                  <ref role="3cqZAo" node="7t_stIAE$Rd" resolve="gradleFileName" />
+                </node>
+                <node concept="Xl_RD" id="7t_stIAEEw7" role="37vLTx">
+                  <property role="Xl_RC" value="send_public.gradle" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEsZN" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAEveR" role="3clFbG">
+                <node concept="2OqwBi" id="7t_stIAEuw_" role="37vLTJ">
+                  <node concept="37vLTw" id="7t_stIAHWxT" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7t_stIAF_8T" resolve="newRoot" />
+                  </node>
+                  <node concept="3TrcHB" id="7t_stIAEuOF" role="2OqNvi">
+                    <ref role="3TsBF5" to="dnyj:7t_stIAEp8t" resolve="gradleFileName" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="7t_stIAEEEN" role="37vLTx">
+                  <ref role="3cqZAo" node="7t_stIAE$Rd" resolve="gradleFileName" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEEPk" role="3cqZAp">
+              <node concept="37vLTI" id="7t_stIAEEPl" role="3clFbG">
+                <node concept="37vLTw" id="7t_stIAEEPm" role="37vLTJ">
+                  <ref role="3cqZAo" node="7t_stIABkny" resolve="filename" />
+                </node>
+                <node concept="3K4zz7" id="7t_stIAEEPn" role="37vLTx">
+                  <node concept="10Nm6u" id="7t_stIAEEPo" role="3K4E3e" />
+                  <node concept="3cpWs3" id="7t_stIAEEPp" role="3K4GZi">
+                    <node concept="3cpWs3" id="7t_stIAEEPq" role="3uHU7B">
+                      <node concept="37vLTw" id="7t_stIAEEPr" role="3uHU7B">
+                        <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
+                      </node>
+                      <node concept="Xl_RD" id="7t_stIAEEPs" role="3uHU7w">
+                        <property role="Xl_RC" value="/" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="7t_stIAEEPt" role="3uHU7w">
+                      <ref role="3cqZAo" node="7t_stIAE$Rd" resolve="gradleFileName" />
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="7t_stIAEEPu" role="3K4Cdx">
+                    <node concept="10Nm6u" id="7t_stIAEEPv" role="3uHU7w" />
+                    <node concept="37vLTw" id="7t_stIAEEPw" role="3uHU7B">
+                      <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7t_stIAEEPx" role="3cqZAp">
+              <node concept="2YIFZM" id="7t_stIAEEPy" role="3clFbG">
+                <ref role="1Pybhc" to="18ew:~CopyFacetUtil" resolve="CopyFacetUtil" />
+                <ref role="37wK5l" to="18ew:~CopyFacetUtil.setTargetPath(org.jetbrains.mps.openapi.model.SNode,java.lang.String):void" resolve="setTargetPath" />
+                <node concept="37vLTw" id="7t_stIAHWSj" role="37wK5m">
+                  <ref role="3cqZAo" node="7t_stIAF_8T" resolve="newRoot" />
+                </node>
+                <node concept="37vLTw" id="7t_stIAEEPD" role="37wK5m">
                   <ref role="3cqZAo" node="7t_stIABkny" resolve="filename" />
                 </node>
               </node>
@@ -5046,6 +5312,10 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="7t_stIADeNm">
+    <property role="TrG5h" value="GenerateGradleSendData" />
+    <node concept="3Tm1VV" id="7t_stIADeNn" role="1B3o_S" />
   </node>
 </model>
 

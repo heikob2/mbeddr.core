@@ -121,6 +121,20 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6OY3pQc8snZ" resolve="ModuleVisibilities" />
     </node>
+    <node concept="1TJgyj" id="7t_stIADf81" role="1TKVEi">
+      <property role="IQ2ns" value="8603407851368804865" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="privateSendData" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7t_stIADf7Q" resolve="SendData" />
+    </node>
+    <node concept="1TJgyj" id="7t_stIADf8d" role="1TKVEi">
+      <property role="IQ2ns" value="8603407851368804877" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="publicSendData" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7t_stIADf7Q" resolve="SendData" />
+    </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDB_">
     <property role="EcuMT" value="6975379119546735077" />
@@ -858,6 +872,46 @@
     </node>
     <node concept="PrWs8" id="6OY3pQcB9YG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7t_stIADf7Q">
+    <property role="EcuMT" value="8603407851368804854" />
+    <property role="3GE5qa" value="annotations" />
+    <property role="TrG5h" value="SendData" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7t_stIADf7Y" role="1TKVEl">
+      <property role="IQ2nx" value="8603407851368804862" />
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="7t_stIADf7R" resolve="SendDataEnum" />
+    </node>
+    <node concept="1TJgyi" id="7t_stIADf8r" role="1TKVEl">
+      <property role="IQ2nx" value="8603407851368804891" />
+      <property role="TrG5h" value="toUrl" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7t_stIADf9q" role="1TKVEl">
+      <property role="IQ2nx" value="8603407851368804954" />
+      <property role="TrG5h" value="depFilePath" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7t_stIAEp8t" role="1TKVEl">
+      <property role="IQ2nx" value="8603407851369107997" />
+      <property role="TrG5h" value="gradleFileName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7t_stIADf7R">
+    <property role="3GE5qa" value="annotations" />
+    <property role="TrG5h" value="SendDataEnum" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="7t_stIADf7S" role="M5hS2">
+      <property role="1uS6qv" value="on-build" />
+      <property role="1uS6qo" value="on-build" />
+    </node>
+    <node concept="M4N5e" id="7t_stIADf7T" role="M5hS2">
+      <property role="1uS6qo" value="on-generation" />
+      <property role="1uS6qv" value="on-generation" />
     </node>
   </node>
 </model>
