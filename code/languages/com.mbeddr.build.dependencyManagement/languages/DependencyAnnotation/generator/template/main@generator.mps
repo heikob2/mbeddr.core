@@ -13,6 +13,9 @@
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="e2ed" ref="r:7893f5d8-9abe-4e63-ad67-eefc53b291e2(DependencyAnnotation.generator.DependencyAnnotation_Generator.preprocessing)" />
     <import index="s0ls" ref="r:417fbc41-356b-43f7-9867-694c8dba54ea(DependencyAnnotation.generator.DependencyAnnotation_Generator.postProcessing)" />
+    <import index="vbkb" ref="r:08f2b659-8469-4592-93bf-a6edb46ec86d(jetbrains.mps.build.behavior)" />
+    <import index="o3n2" ref="r:26eadcf0-f275-4e90-be37-e4432772a74d(jetbrains.mps.build.util)" />
+    <import index="g07" ref="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -233,6 +236,9 @@
       <concept id="1088761943574" name="jetbrains.mps.lang.generator.structure.ReferenceMacro" flags="ln" index="1ZhdrF">
         <child id="1167770376702" name="referentFunction" index="3$ytzL" />
       </concept>
+    </language>
+    <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
+      <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -5139,9 +5145,11 @@
                       <node concept="2GrUjf" id="4JEIfkr8gge" role="37wK5m">
                         <ref role="2Gs0qQ" node="4JEIfkr8eGQ" resolve="root" />
                       </node>
+                      <node concept="1iwH7S" id="7t_stIAykpG" role="37wK5m" />
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="7t_stIAxNMy" role="3cqZAp" />
               </node>
             </node>
           </node>
