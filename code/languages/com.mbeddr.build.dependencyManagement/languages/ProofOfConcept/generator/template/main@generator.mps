@@ -7,8 +7,6 @@
   </languages>
   <imports>
     <import index="xtqs" ref="r:98cb149c-315c-458f-9434-b3014ea5f2c6(ProofOfConcept.structure)" />
-    <import index="f45l" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.lang.project.modules/module.jetbrains.mps.core.xml@project_stub)" />
-    <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
