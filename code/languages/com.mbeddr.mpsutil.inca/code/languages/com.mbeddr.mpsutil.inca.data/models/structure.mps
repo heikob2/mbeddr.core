@@ -2,9 +2,8 @@
 <model ref="r:5d05a0a1-0178-4953-8047-22b44c66dcde(com.mbeddr.mpsutil.inca.data.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
-    <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -78,6 +77,9 @@
     <node concept="PrWs8" id="37xW3uCggSD" role="PzmwI">
       <ref role="PrY4T" node="2qfgCZsFkIW" resolve="ILatticeDefinitionModule" />
     </node>
+    <node concept="PrWs8" id="2jl89KELt1m" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:2XlXuxNCQnA" resolve="IJavaContext" />
+    </node>
     <node concept="1irR5M" id="2qfgCZsFOXt" role="rwd14">
       <property role="2$rrk2" value="1" />
       <node concept="1irR9n" id="2qfgCZsFOXu" role="1irR9h">
@@ -148,26 +150,6 @@
     <property role="EcuMT" value="8607574815738005760" />
     <property role="3GE5qa" value="definition" />
     <property role="TrG5h" value="ILatticeDefinitionModuleContent" />
-  </node>
-  <node concept="1TIwiD" id="7tOfV2_EoD2">
-    <property role="EcuMT" value="8607574815738006082" />
-    <property role="TrG5h" value="MeetOperation" />
-    <property role="34LRSv" value="glb" />
-    <property role="3GE5qa" value="definition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7tOfV2_EoDF" role="PzmwI">
-      <ref role="PrY4T" node="7tOfV2_AEhe" resolve="ILatticeElementCombinator" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7tOfV2_EoVl">
-    <property role="EcuMT" value="8607574815738007253" />
-    <property role="TrG5h" value="JoinOperation" />
-    <property role="34LRSv" value="lub" />
-    <property role="3GE5qa" value="definition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7tOfV2_EoVY" role="PzmwI">
-      <ref role="PrY4T" node="7tOfV2_AEhe" resolve="ILatticeElementCombinator" />
-    </node>
   </node>
   <node concept="PlHQZ" id="6fy2FM6rc9J">
     <property role="EcuMT" value="7197326959316877935" />
@@ -291,7 +273,6 @@
   <node concept="1TIwiD" id="5SkQds3jOHc">
     <property role="EcuMT" value="6779281757084535628" />
     <property role="TrG5h" value="PatternMemberElementReference" />
-    <property role="34LRSv" value="&lt;{element}&gt;" />
     <property role="3GE5qa" value="pattern" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="5SkQds3jOHd" role="1TKVEi">
@@ -316,7 +297,6 @@
     <property role="EcuMT" value="3837287384171340388" />
     <property role="3GE5qa" value="adt" />
     <property role="TrG5h" value="DataConstructorCall" />
-    <property role="34LRSv" value="&lt;{dataConstructor}&gt;" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="3l0M8IaBI9I" role="PzmwI">
       <ref role="PrY4T" node="3l0M8IaBI9_" resolve="IDataConstructorCall" />
@@ -334,7 +314,7 @@
       <ref role="20lvS9" node="3l0M8IajV$$" resolve="IDataConstructor" />
     </node>
     <node concept="PrWs8" id="2XlXuxNCRiQ" role="PrDN$">
-      <ref role="PrY4T" to="hqsm:2XlXuxNCQnA" resolve="IExpressionContext" />
+      <ref role="PrY4T" to="hqsm:2XlXuxNCQnA" resolve="IJavaContext" />
     </node>
     <node concept="PrWs8" id="ziWFuXy7Er" role="PrDN$">
       <ref role="PrY4T" to="ebqt:1i65yRAQ7jk" resolve="IExpression" />
@@ -350,7 +330,6 @@
     <property role="EcuMT" value="3837287384171068103" />
     <property role="3GE5qa" value="adt" />
     <property role="TrG5h" value="TypeConstructorType" />
-    <property role="34LRSv" value="&lt;{constructor}&gt;" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="PrWs8" id="3l0M8IaAFH1" role="PzmwI">
       <ref role="PrY4T" node="3l0M8IaAFFW" resolve="ITypeConstructorType" />
@@ -383,7 +362,6 @@
     <property role="EcuMT" value="6779281757084048802" />
     <property role="3GE5qa" value="adt" />
     <property role="TrG5h" value="DataConstructorPatternTypeElement" />
-    <property role="34LRSv" value="&lt;{constructor}&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5SkQds3i3rI" role="1TKVEi">
       <property role="IQ2ns" value="6779281757084071662" />
@@ -439,7 +417,6 @@
     <property role="EcuMT" value="7197326959315955332" />
     <property role="3GE5qa" value="adt" />
     <property role="TrG5h" value="TypeConstructorReference" />
-    <property role="34LRSv" value="&lt;{constructor}&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6fy2FM6nEU5" role="PzmwI">
       <ref role="PrY4T" node="6fy2FM6nET_" resolve="ITypeConstructorReference" />
@@ -549,20 +526,15 @@
     <property role="EcuMT" value="3600735916649583998" />
     <property role="3GE5qa" value="definition" />
     <property role="TrG5h" value="LatticeDefinitionModuleImport" />
-    <property role="34LRSv" value="&lt;{module}&gt;" />
     <ref role="1TJDcQ" to="hqsm:SSjGGIi3iP" resolve="AbstractIncaModuleImport" />
   </node>
   <node concept="1TIwiD" id="7ike8KAHT9k">
     <property role="EcuMT" value="8400401379548959316" />
     <property role="3GE5qa" value="definition" />
     <property role="TrG5h" value="LatticeOperationCall" />
-    <property role="34LRSv" value="&lt;{operation}&gt;" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="54ERyg8MVdv" role="PzmwI">
       <ref role="PrY4T" node="54ERyg8GXCY" resolve="ILatticeOperationCall" />
-    </node>
-    <node concept="PrWs8" id="5ZcZlaf7FbX" role="PzmwI">
-      <ref role="PrY4T" to="hqsm:2XlXuxNCQnA" resolve="IExpressionContext" />
     </node>
   </node>
   <node concept="1TIwiD" id="606mdnYmDzq">
@@ -593,6 +565,9 @@
     </node>
     <node concept="PrWs8" id="54ERyg8J8SK" role="PrDN$">
       <ref role="PrY4T" node="54ERyg8J8SJ" resolve="ILatticeMemberCall" />
+    </node>
+    <node concept="PrWs8" id="7Zw$ExQ6Is0" role="PrDN$">
+      <ref role="PrY4T" to="hqsm:2XlXuxNCQnA" resolve="IJavaContext" />
     </node>
   </node>
   <node concept="1TIwiD" id="54ERyg8J8QQ">
@@ -633,21 +608,33 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
-  <node concept="1TIwiD" id="465N1Z1sbyB">
-    <property role="EcuMT" value="4721404221129275559" />
-    <property role="3GE5qa" value="definition" />
-    <property role="TrG5h" value="NoneOperation" />
-    <property role="34LRSv" value="none" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="465N1Z1sbyC" role="PzmwI">
-      <ref role="PrY4T" node="7tOfV2_AEhe" resolve="ILatticeElementCombinator" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="465N1Z1tAip">
     <property role="EcuMT" value="4721404221129647257" />
     <property role="3GE5qa" value="definition" />
     <property role="TrG5h" value="Lattice" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="1rEZ6Y2nNzy">
+    <property role="EcuMT" value="1651409769243556066" />
+    <property role="3GE5qa" value="definition" />
+    <property role="TrG5h" value="JavaMethodCombinator" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1rEZ6Y2nNzJ" role="1TKVEi">
+      <property role="IQ2ns" value="1651409769243556079" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="3gA3b2_V43J" role="1TKVEi">
+      <property role="IQ2ns" value="3757704891924758767" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="lattice" />
+      <ref role="20lvS9" node="2qfgCZsFkIW" resolve="ILatticeDefinitionModule" />
+    </node>
+    <node concept="PrWs8" id="1rEZ6Y2nNzz" role="PzmwI">
+      <ref role="PrY4T" node="7tOfV2_AEhe" resolve="ILatticeElementCombinator" />
+    </node>
   </node>
 </model>
 

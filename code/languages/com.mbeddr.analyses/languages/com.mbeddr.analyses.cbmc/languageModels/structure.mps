@@ -2,8 +2,8 @@
 <model ref="r:5d65e582-fa41-4818-b31c-b2aee1644b4a(com.mbeddr.analyses.cbmc.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
@@ -14,8 +14,8 @@
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
     <import index="pyey" ref="r:b89a3cc8-64dd-45da-a374-472dedea6945(com.mbeddr.analyses.base.verification_conditions.structure)" />
     <import index="68mc" ref="r:2a10821d-612f-4a73-b7b0-ed6b57106321(com.mbeddr.mpsutil.filepicker.structure)" />
+    <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" implicit="true" />
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
   </imports>
   <registry>
@@ -574,7 +574,7 @@
   </node>
   <node concept="1TIwiD" id="1Qze4b32ew4">
     <property role="3GE5qa" value="configuration.cbmc" />
-    <property role="TrG5h" value="CBMCAnalysisConfiguration" />
+    <property role="TrG5h" value="CBMCAnalysisConfigurationContainer" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Analyses Configuration Container (CBMC)" />
     <property role="R4oN_" value="an analysis configuration container contains multiple analyses" />
@@ -743,7 +743,7 @@
       <property role="20kJfa" value="config" />
       <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="8772310394718172126" />
-      <ref role="20lvS9" node="1Qze4b32ew4" resolve="CBMCAnalysisConfiguration" />
+      <ref role="20lvS9" node="1Qze4b32ew4" resolve="CBMCAnalysisConfigurationContainer" />
       <node concept="asaX9" id="6BJ5EqKuQmh" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="fupCadh9n" role="PzmwI">
@@ -760,7 +760,7 @@
       <property role="20kJfa" value="config" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="7633344798597539200" />
-      <ref role="20lvS9" node="1Qze4b32ew4" resolve="CBMCAnalysisConfiguration" />
+      <ref role="20lvS9" node="1Qze4b32ew4" resolve="CBMCAnalysisConfigurationContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="1$MI$rgzQnB">
@@ -901,6 +901,41 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="yq40:5jmmCdx$f5R" resolve="StringLiteral" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="51BKItOCcGA">
+    <property role="EcuMT" value="5793813744985361190" />
+    <property role="3GE5qa" value="cbmc_macros.predicates" />
+    <property role="TrG5h" value="CPROVERisfinited" />
+    <property role="34LRSv" value="__CPROVER_isfinited" />
+    <ref role="1TJDcQ" node="5KHBa6kV7VF" resolve="CPROVERMacroUnaryExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="51BKItODNUw">
+    <property role="3GE5qa" value="cbmc_macros.predicates" />
+    <property role="TrG5h" value="CPROVERisinfld" />
+    <property role="34LRSv" value="__CPROVER_isinfld" />
+    <property role="EcuMT" value="5793813744985783968" />
+    <ref role="1TJDcQ" node="5KHBa6kV7VF" resolve="CPROVERMacroUnaryExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="51BKItOARSi">
+    <property role="EcuMT" value="5793813744985013778" />
+    <property role="3GE5qa" value="cbmc_macros.predicates" />
+    <property role="TrG5h" value="CPROVERisfinitef" />
+    <property role="34LRSv" value="__CPROVER_isfinitef" />
+    <ref role="1TJDcQ" node="5KHBa6kV7VF" resolve="CPROVERMacroUnaryExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="51BKItODNUv">
+    <property role="3GE5qa" value="cbmc_macros.predicates" />
+    <property role="TrG5h" value="CPROVERisnanld" />
+    <property role="34LRSv" value="__CPROVER_isnanld" />
+    <property role="EcuMT" value="5793813744985783967" />
+    <ref role="1TJDcQ" node="5KHBa6kV7VF" resolve="CPROVERMacroUnaryExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="51BKItOD5Pc">
+    <property role="EcuMT" value="5793813744985595212" />
+    <property role="3GE5qa" value="cbmc_macros.predicates" />
+    <property role="TrG5h" value="CPROVERisfiniteld" />
+    <property role="34LRSv" value="__CPROVER_isfiniteld" />
+    <ref role="1TJDcQ" node="5KHBa6kV7VF" resolve="CPROVERMacroUnaryExpressionBase" />
   </node>
 </model>
 

@@ -7,7 +7,7 @@
     <use id="b8bb702e-43ed-4090-a902-d180d3e5f292" name="de.slisson.mps.conditionalEditor" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -57,7 +57,6 @@
         <reference id="5944657839026714445" name="hint" index="2$4xQ3" />
       </concept>
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
-      <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -142,7 +141,6 @@
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
         <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
       </concept>
-      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -785,14 +783,8 @@
         <node concept="pkWqt" id="59YMGDNQ3Ve" role="3e4ffs">
           <node concept="3clFbS" id="59YMGDNQ3Vf" role="2VODD2">
             <node concept="3clFbF" id="59YMGDNQ3Vg" role="3cqZAp">
-              <node concept="3clFbC" id="59YMGDNQ3Vh" role="3clFbG">
-                <node concept="10Nm6u" id="59YMGDNQ3Vi" role="3uHU7w" />
-                <node concept="2OqwBi" id="59YMGDNQ3Vj" role="3uHU7B">
-                  <node concept="pncrf" id="59YMGDNQ3Vk" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="59YMGDNQ3Vl" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:gOOYy9I" resolve="alias" />
-                  </node>
-                </node>
+              <node concept="3clFbT" id="4lfaaoX1LEY" role="3clFbG">
+                <property role="3clFbU" value="true" />
               </node>
               <node concept="2b32R4" id="59YMGDNQ3Vm" role="lGtFl">
                 <node concept="3JmXsc" id="59YMGDNQ3Vn" role="2P8S$">
@@ -902,14 +894,8 @@
         <node concept="pkWqt" id="6OrbFWF9Gj5" role="3e4ffs">
           <node concept="3clFbS" id="6OrbFWF9Gj6" role="2VODD2">
             <node concept="3clFbF" id="6OrbFWF9Gj7" role="3cqZAp">
-              <node concept="3clFbC" id="6OrbFWF9Gj8" role="3clFbG">
-                <node concept="10Nm6u" id="6OrbFWF9Gj9" role="3uHU7w" />
-                <node concept="2OqwBi" id="6OrbFWF9Gja" role="3uHU7B">
-                  <node concept="pncrf" id="6OrbFWF9Gjb" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="6OrbFWF9Gjc" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:gOOYy9I" resolve="alias" />
-                  </node>
-                </node>
+              <node concept="3clFbT" id="4lfaaoX1M5y" role="3clFbG">
+                <property role="3clFbU" value="true" />
               </node>
               <node concept="2b32R4" id="6OrbFWF9Gjd" role="lGtFl">
                 <node concept="3JmXsc" id="6OrbFWF9Gje" role="2P8S$">

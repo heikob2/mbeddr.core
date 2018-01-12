@@ -7,7 +7,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -538,6 +538,99 @@
                     </node>
                   </node>
                   <node concept="3YRAZt" id="3Bwqh6aQzIq" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="2jl89KEYIhU">
+    <property role="3GE5qa" value="usage" />
+    <property role="TrG5h" value="IIncaModule_ToggleCompilerChecks" />
+    <ref role="2ZfgGC" to="hqsm:Y78e7A6TUt" resolve="IIncaModule" />
+    <node concept="2S6ZIM" id="2jl89KEYIhV" role="2ZfVej">
+      <node concept="3clFbS" id="2jl89KEYIhW" role="2VODD2">
+        <node concept="3clFbJ" id="2jl89KEYIzn" role="3cqZAp">
+          <node concept="3clFbS" id="2jl89KEYIzp" role="3clFbx">
+            <node concept="3cpWs6" id="2jl89KEYM6f" role="3cqZAp">
+              <node concept="Xl_RD" id="2jl89KEYM6g" role="3cqZAk">
+                <property role="Xl_RC" value="Disable Compiler Checks" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="2jl89KEYJDB" role="3clFbw">
+            <node concept="10Nm6u" id="2jl89KEYJE1" role="3uHU7w" />
+            <node concept="2OqwBi" id="2jl89KEYIL1" role="3uHU7B">
+              <node concept="2Sf5sV" id="2jl89KEYIzB" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="2jl89KEYJ2G" role="2OqNvi">
+                <node concept="3CFYIy" id="2jl89KEYJkV" role="3CFYIz">
+                  <ref role="3CFYIx" to="hqsm:2jl89KEYIg_" resolve="DisableCompilerChecks" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2jl89KEYKND" role="9aQIa">
+            <node concept="3clFbS" id="2jl89KEYKNE" role="9aQI4">
+              <node concept="3cpWs6" id="2jl89KEYKYd" role="3cqZAp">
+                <node concept="Xl_RD" id="2jl89KEYL8U" role="3cqZAk">
+                  <property role="Xl_RC" value="Enable Compiler Checks" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2jl89KEYIhX" role="2ZfgGD">
+      <node concept="3clFbS" id="2jl89KEYIhY" role="2VODD2">
+        <node concept="3clFbJ" id="2jl89KEYMhH" role="3cqZAp">
+          <node concept="3clFbS" id="2jl89KEYMhJ" role="3clFbx">
+            <node concept="3clFbF" id="2jl89KEYMSe" role="3cqZAp">
+              <node concept="37vLTI" id="2jl89KEYNEp" role="3clFbG">
+                <node concept="2ShNRf" id="2jl89KEYNHb" role="37vLTx">
+                  <node concept="3zrR0B" id="2jl89KEYNF5" role="2ShVmc">
+                    <node concept="3Tqbb2" id="2jl89KEYNF6" role="3zrR0E">
+                      <ref role="ehGHo" to="hqsm:2jl89KEYIg_" resolve="DisableCompilerChecks" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2jl89KEYNgx" role="37vLTJ">
+                  <node concept="2Sf5sV" id="2jl89KEYMSc" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="2jl89KEYNq2" role="2OqNvi">
+                    <node concept="3CFYIy" id="2jl89KEYNu2" role="3CFYIz">
+                      <ref role="3CFYIx" to="hqsm:2jl89KEYIg_" resolve="DisableCompilerChecks" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="2jl89KEYMPk" role="3clFbw">
+            <node concept="10Nm6u" id="2jl89KEYMPI" role="3uHU7w" />
+            <node concept="2OqwBi" id="2jl89KEYMrl" role="3uHU7B">
+              <node concept="2Sf5sV" id="2jl89KEYMi1" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="2jl89KEYM$U" role="2OqNvi">
+                <node concept="3CFYIy" id="2jl89KEYMCU" role="3CFYIz">
+                  <ref role="3CFYIx" to="hqsm:2jl89KEYIg_" resolve="DisableCompilerChecks" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2jl89KEYNJM" role="9aQIa">
+            <node concept="3clFbS" id="2jl89KEYNJN" role="9aQI4">
+              <node concept="3clFbF" id="2jl89KEYNQw" role="3cqZAp">
+                <node concept="2OqwBi" id="2jl89KEYOkz" role="3clFbG">
+                  <node concept="2OqwBi" id="2jl89KEYNY4" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="2jl89KEYNQv" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="2jl89KEYO7H" role="2OqNvi">
+                      <node concept="3CFYIy" id="2jl89KEYOa4" role="3CFYIz">
+                        <ref role="3CFYIx" to="hqsm:2jl89KEYIg_" resolve="DisableCompilerChecks" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3YRAZt" id="2jl89KEYPbW" role="2OqNvi" />
                 </node>
               </node>
             </node>

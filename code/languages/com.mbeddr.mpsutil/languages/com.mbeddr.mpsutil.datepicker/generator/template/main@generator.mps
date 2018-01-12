@@ -1006,6 +1006,14 @@
                 <node concept="2ShNRf" id="2nIaZ7ixfHL" role="37wK5m">
                   <node concept="1pGfFk" id="2nIaZ7ixfHM" role="2ShVmc">
                     <ref role="37wK5l" to="k0h:2nIaZ7ix0LF" resolve="DatePickerActionListener" />
+                    <node concept="2OqwBi" id="7Xu1QHtTm9W" role="37wK5m">
+                      <node concept="37vLTw" id="7Xu1QHtTlh5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2nIaZ7ixfIn" resolve="editorContext" />
+                      </node>
+                      <node concept="liA8E" id="7Xu1QHtTmNk" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                      </node>
+                    </node>
                     <node concept="2ShNRf" id="2nIaZ7ixfHN" role="37wK5m">
                       <node concept="YeOm9" id="2nIaZ7ixfHO" role="2ShVmc">
                         <node concept="1Y3b0j" id="2nIaZ7ixfHP" role="YeSDq">
@@ -1059,17 +1067,12 @@
                                           </node>
                                         </node>
                                       </node>
-                                      <node concept="3cpWs3" id="35WzcHe2QLL" role="37wK5m">
-                                        <node concept="3cmrfG" id="35WzcHe2QMf" role="3uHU7w">
-                                          <property role="3cmrfH" value="1" />
+                                      <node concept="2OqwBi" id="35WzcHe1KwM" role="37wK5m">
+                                        <node concept="37vLTw" id="35WzcHe1K8P" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="35WzcHe1Gf8" resolve="date" />
                                         </node>
-                                        <node concept="2OqwBi" id="35WzcHe1KwM" role="3uHU7B">
-                                          <node concept="37vLTw" id="35WzcHe1K8P" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="35WzcHe1Gf8" resolve="date" />
-                                          </node>
-                                          <node concept="liA8E" id="35WzcHe1LtE" role="2OqNvi">
-                                            <ref role="37wK5l" to="33ny:~Date.getMonth():int" resolve="getMonth" />
-                                          </node>
+                                        <node concept="liA8E" id="35WzcHe1LtE" role="2OqNvi">
+                                          <ref role="37wK5l" to="33ny:~Date.getMonth():int" resolve="getMonth" />
                                         </node>
                                       </node>
                                       <node concept="2OqwBi" id="35WzcHe1LY7" role="37wK5m">

@@ -2,8 +2,8 @@
 <model ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(com.mbeddr.mpsutil.inca.fun.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(com.mbeddr.mpsutil.inca.core.structure)" />
@@ -292,6 +292,9 @@
     <node concept="PrWs8" id="52HBLukSipF" role="PzmwI">
       <ref role="PrY4T" node="52HBLukRnnV" resolve="ITuple" />
     </node>
+    <node concept="PrWs8" id="4dGlLy5Pl$W" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:4dGlLy5PlyT" resolve="ITypeHintConsumer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="Tz5AFeFYVU">
     <property role="3GE5qa" value="statement" />
@@ -346,9 +349,6 @@
     </node>
     <node concept="PrWs8" id="3oMuSXR7kAQ" role="PzmwI">
       <ref role="PrY4T" node="1i65yRAQ7jk" resolve="IExpression" />
-    </node>
-    <node concept="PrWs8" id="52HBLukNriD" role="PzmwI">
-      <ref role="PrY4T" node="52HBLukNkpc" resolve="ICondition" />
     </node>
   </node>
   <node concept="1TIwiD" id="4IZiQsKumNF">
@@ -474,7 +474,7 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="5813477617635832092" />
-      <ref role="20lvS9" node="RjyNapPkSs" resolve="PatternFunctionCall" />
+      <ref role="20lvS9" node="1i65yRAQ7jk" resolve="IExpression" />
     </node>
     <node concept="PrWs8" id="52HBLukRz4p" role="PzmwI">
       <ref role="PrY4T" node="52HBLukNkpc" resolve="ICondition" />
@@ -492,7 +492,7 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="5746856838774042549" />
-      <ref role="20lvS9" node="RjyNapPkSs" resolve="PatternFunctionCall" />
+      <ref role="20lvS9" node="1i65yRAQ7jk" resolve="IExpression" />
     </node>
     <node concept="PrWs8" id="4Z0VXz29EYM" role="PzmwI">
       <ref role="PrY4T" node="52HBLukNkpc" resolve="ICondition" />
@@ -525,7 +525,6 @@
   <node concept="1TIwiD" id="SSjGGIxddQ">
     <property role="EcuMT" value="1024655549792572278" />
     <property role="TrG5h" value="PatternFunctionModuleImport" />
-    <property role="34LRSv" value="&lt;{module}&gt;" />
     <ref role="1TJDcQ" to="hqsm:SSjGGIi3iP" resolve="AbstractIncaModuleImport" />
   </node>
   <node concept="PlHQZ" id="7a3nU35cEFj">
@@ -537,7 +536,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="hqsm:6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="20lvS9" to="hqsm:6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
     <node concept="1TJgyj" id="7a3nU35cEJP" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -551,10 +550,28 @@
     <property role="EcuMT" value="8060364524184199476" />
     <property role="3GE5qa" value="misc" />
     <property role="TrG5h" value="FunHorizontalLineContent" />
-    <property role="34LRSv" value="hline" />
+    <property role="34LRSv" value="horizontal line" />
     <ref role="1TJDcQ" to="hqsm:6ZsaHh09WeF" resolve="HorizontalLineContent" />
     <node concept="PrWs8" id="6ZsaHh0ae4V" role="PzmwI">
       <ref role="PrY4T" node="5luHlsCrxe_" resolve="IPatternFunctionModuleContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5YhdhgZIEPp">
+    <property role="EcuMT" value="6886343666311015769" />
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="SwitchStatement" />
+    <property role="R4oN_" value="switch statement" />
+    <property role="34LRSv" value="switch" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1ERTnBTmkXe" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="alternatives" />
+      <property role="20lbJX" value="1..n" />
+      <property role="IQ2ns" value="1925259677761359694" />
+      <ref role="20lvS9" node="1ERTnBTmryq" resolve="PatternFunctionBody" />
+    </node>
+    <node concept="PrWs8" id="5YhdhgZIEPq" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCq70i" resolve="IStatement" />
     </node>
   </node>
 </model>

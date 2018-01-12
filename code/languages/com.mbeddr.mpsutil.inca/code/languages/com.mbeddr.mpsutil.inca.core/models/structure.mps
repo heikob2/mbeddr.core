@@ -2,7 +2,8 @@
 <model ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(com.mbeddr.mpsutil.inca.core.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="m373" ref="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" />
@@ -121,7 +122,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="IQ2ns" value="4530729936991365310" />
-      <ref role="20lvS9" node="6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="20lvS9" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
     <node concept="PrWs8" id="3VwoHXNAiyP" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -131,8 +132,8 @@
     </node>
   </node>
   <node concept="PlHQZ" id="6VTlRjrCuQt">
-    <property role="3GE5qa" value="content" />
-    <property role="TrG5h" value="IIncAType" />
+    <property role="3GE5qa" value="type.compileTime" />
+    <property role="TrG5h" value="ICompileTimeIncAType" />
     <property role="EcuMT" value="7996518772785671581" />
     <node concept="PrWs8" id="5xvu2kSi7EA" role="PrDN$">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
@@ -222,9 +223,8 @@
   </node>
   <node concept="1TIwiD" id="RjyNapTFLl">
     <property role="TrG5h" value="ConceptReferenceType" />
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="type.compileTime" />
     <property role="EcuMT" value="996292992025672789" />
-    <property role="34LRSv" value="&lt;{concept}&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hXIxNuN5nr" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -234,24 +234,23 @@
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="PrWs8" id="3VwoHXNBLEE" role="PzmwI">
-      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
   </node>
   <node concept="1TIwiD" id="6VTlRjrCuGI">
-    <property role="3GE5qa" value="content" />
-    <property role="TrG5h" value="DataTypeReference" />
+    <property role="3GE5qa" value="type.compileTime" />
+    <property role="TrG5h" value="DataTypeReferenceType" />
     <property role="EcuMT" value="7996518772785670958" />
-    <property role="34LRSv" value="&lt;{type}&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6VTlRjrCuOl" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="type" />
+      <property role="20kJfa" value="dataTypeDeclaration" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="7996518772785671445" />
       <ref role="20lvS9" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
     </node>
     <node concept="PrWs8" id="3VwoHXNC1L_" role="PzmwI">
-      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
   </node>
   <node concept="1TIwiD" id="3hiszdZDhip">
@@ -275,7 +274,6 @@
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="reference" />
     <property role="EcuMT" value="2281067221947980594" />
-    <property role="34LRSv" value="&lt;{variable}&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="EE49sRYMQu" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -289,6 +287,9 @@
     </node>
     <node concept="PrWs8" id="2J6v22V3oi9" role="PzmwI">
       <ref role="PrY4T" node="2J6v22V3ohT" resolve="IVariableValue" />
+    </node>
+    <node concept="PrWs8" id="4dGlLy5IKXh" role="PzmwI">
+      <ref role="PrY4T" node="4dGlLy5IJCD" resolve="ITypeHintKeyProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="6trdyn5sMcA">
@@ -490,7 +491,6 @@
     <property role="TrG5h" value="PatternCall" />
     <property role="3GE5qa" value="constraints" />
     <property role="EcuMT" value="996292992024566952" />
-    <property role="34LRSv" value="&lt;{pattern}&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3ybyOPMm8im" role="PzmwI">
       <ref role="PrY4T" node="3ybyOPMm8il" resolve="IPatternCall" />
@@ -592,7 +592,10 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="2XlXuxNCQND" role="PzmwI">
-      <ref role="PrY4T" node="2XlXuxNCQnA" resolve="IExpressionContext" />
+      <ref role="PrY4T" node="2XlXuxNCQnA" resolve="IJavaContext" />
+    </node>
+    <node concept="PrWs8" id="7Zw$ExQ6XHr" role="PzmwI">
+      <ref role="PrY4T" node="7Zw$ExQ6Xxe" resolve="IContainsJavaExpression" />
     </node>
   </node>
   <node concept="1TIwiD" id="RjyNapPtyP">
@@ -648,7 +651,10 @@
       <ref role="PrY4T" node="3VwoHXNAdvs" resolve="IPatternBodyContent" />
     </node>
     <node concept="PrWs8" id="2XlXuxNCQFt" role="PzmwI">
-      <ref role="PrY4T" node="2XlXuxNCQnA" resolve="IExpressionContext" />
+      <ref role="PrY4T" node="2XlXuxNCQnA" resolve="IJavaContext" />
+    </node>
+    <node concept="PrWs8" id="7Zw$ExQ6Ydu" role="PzmwI">
+      <ref role="PrY4T" node="7Zw$ExQ6Xxe" resolve="IContainsJavaExpression" />
     </node>
   </node>
   <node concept="1TIwiD" id="4QgsNmKLL_q">
@@ -672,7 +678,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="20lvS9" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
     <node concept="PrWs8" id="1i65yRAUpWB" role="PzmwI">
       <ref role="PrY4T" node="3VwoHXNAdvs" resolve="IPatternBodyContent" />
@@ -826,7 +832,6 @@
   <node concept="1TIwiD" id="39KhnTIfy1V">
     <property role="3GE5qa" value="reference" />
     <property role="TrG5h" value="BaseVariableReference" />
-    <property role="34LRSv" value="&lt;{variable}&gt;" />
     <property role="EcuMT" value="3634481308605751419" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="39KhnTIfy1W" role="1TKVEi">
@@ -838,6 +843,9 @@
     </node>
     <node concept="PrWs8" id="39KhnTIfy4D" role="PzmwI">
       <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
+    </node>
+    <node concept="PrWs8" id="4dGlLy5IJE2" role="PzmwI">
+      <ref role="PrY4T" node="4dGlLy5IJCD" resolve="ITypeHintKeyProvider" />
     </node>
   </node>
   <node concept="PlHQZ" id="4IZiQsKumaj">
@@ -897,7 +905,6 @@
     <property role="EcuMT" value="3909214783373897140" />
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="EnumValue" />
-    <property role="34LRSv" value="&lt;{enum}&gt;" />
     <property role="R4oN_" value="enum value" />
     <ref role="1TJDcQ" node="RjyNapPty$" resolve="AbstractLiteralValue" />
     <node concept="1TJgyj" id="637Y3IJQwST" role="1TKVEi">
@@ -923,7 +930,28 @@
       <property role="IQ2ns" value="8755198369438390018" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="next" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="360F32cu70D" role="1TKVEi">
+      <property role="IQ2ns" value="3567040229392543785" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="prev" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="4wicJwLv0YD" role="1TKVEi">
+      <property role="IQ2ns" value="5193269361875095465" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="first" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="4wicJwLv0YM" role="1TKVEi">
+      <property role="IQ2ns" value="5193269361875095474" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="last" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
@@ -1032,7 +1060,7 @@
   <node concept="PlHQZ" id="2XlXuxNCQnA">
     <property role="EcuMT" value="3410902671524324838" />
     <property role="3GE5qa" value="misc" />
-    <property role="TrG5h" value="IExpressionContext" />
+    <property role="TrG5h" value="IJavaContext" />
   </node>
   <node concept="PlHQZ" id="Y78e7A6TUt">
     <property role="EcuMT" value="1118899187025157789" />
@@ -1089,6 +1117,7 @@
   <node concept="1TIwiD" id="5u4fwtOD5TI">
     <property role="EcuMT" value="6306233579968159342" />
     <property role="TrG5h" value="UserObjectMap" />
+    <property role="3GE5qa" value="typeHint" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="5u4fwtOD63c" role="1TKVEi">
       <property role="IQ2ns" value="6306233579968159948" />
@@ -1107,6 +1136,7 @@
   <node concept="1TIwiD" id="5u4fwtOD5TT">
     <property role="EcuMT" value="6306233579968159353" />
     <property role="TrG5h" value="UserObjectEntry" />
+    <property role="3GE5qa" value="typeHint" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5u4fwtOD5TX" role="1TKVEi">
       <property role="IQ2ns" value="6306233579968159357" />
@@ -1150,7 +1180,7 @@
   </node>
   <node concept="1TIwiD" id="7a3nU34ZPCK">
     <property role="EcuMT" value="8251544086377355824" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="type.compileTime" />
     <property role="TrG5h" value="JoinType" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7a3nU34ZPCO" role="1TKVEi">
@@ -1161,7 +1191,7 @@
       <ref role="20lvS9" node="7a3nU354JVn" resolve="IJoinTypeDef" />
     </node>
     <node concept="PrWs8" id="7a3nU34ZPCL" role="PzmwI">
-      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
   </node>
   <node concept="PlHQZ" id="7a3nU351sZC">
@@ -1187,13 +1217,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="types" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="20lvS9" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
   </node>
   <node concept="1TIwiD" id="1UJP1A0V$Ki">
     <property role="EcuMT" value="2211219148064574482" />
-    <property role="3GE5qa" value="type" />
-    <property role="TrG5h" value="JoinSNodeType" />
+    <property role="3GE5qa" value="type.runtime" />
+    <property role="TrG5h" value="RuntimeJoinType" />
     <property role="34LRSv" value="join" />
     <property role="R4oN_" value="join type" />
     <ref role="1TJDcQ" to="tp25:gzTqbfa" resolve="SNodeType" />
@@ -1203,6 +1233,9 @@
       <property role="20kJfa" value="joinTypeDef" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7a3nU354JVn" resolve="IJoinTypeDef" />
+    </node>
+    <node concept="PrWs8" id="aQnmvHEmTJ" role="PzmwI">
+      <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ZsaHh09WeF">
@@ -1219,8 +1252,63 @@
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="ISynthesisedDataType" />
     <node concept="PrWs8" id="ADbz7un29P" role="PrDN$">
-      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="IIncAType" />
+      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="aQnmvHEm_S">
+    <property role="EcuMT" value="195446334787512696" />
+    <property role="3GE5qa" value="type.runtime" />
+    <property role="TrG5h" value="IRuntimeIncAType" />
+    <node concept="PrWs8" id="aQnmvHEm_T" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="14vNbVhZNjn">
+    <property role="EcuMT" value="1233929942861821143" />
+    <property role="3GE5qa" value="type.compileTime" />
+    <property role="TrG5h" value="BodyIdentifierType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="14vNbVhZNjo" role="PzmwI">
+      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7Zw$ExQ6Xxe">
+    <property role="EcuMT" value="9214526089833732174" />
+    <property role="3GE5qa" value="misc" />
+    <property role="TrG5h" value="IContainsJavaExpression" />
+  </node>
+  <node concept="1TIwiD" id="2jl89KEYIg_">
+    <property role="EcuMT" value="2654063410512847909" />
+    <property role="3GE5qa" value="usage" />
+    <property role="TrG5h" value="DisableCompilerChecks" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="2jl89KEYJeM" role="lGtFl">
+      <property role="Hh88m" value="disableCompilerChecks" />
+      <node concept="tn0Fv" id="2jl89KEYJeP" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="2jl89KEYJeS" role="EQaZv">
+        <ref role="trN6q" node="Y78e7A6TUt" resolve="IIncaModule" />
+      </node>
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4dGlLy5PlyT">
+    <property role="EcuMT" value="4858353860862105785" />
+    <property role="3GE5qa" value="typeHint" />
+    <property role="TrG5h" value="ITypeHintConsumer" />
+  </node>
+  <node concept="PlHQZ" id="4D4o8maaVLo">
+    <property role="EcuMT" value="5351508383888030808" />
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="IGeneratorPathElement" />
+    <node concept="PrWs8" id="4D4o8maaVMb" role="PrDN$">
+      <ref role="PrY4T" node="1ERTnBTmuSC" resolve="IPathElement" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4dGlLy5IJCD">
+    <property role="EcuMT" value="4858353860860377641" />
+    <property role="3GE5qa" value="typeHint" />
+    <property role="TrG5h" value="ITypeHintKeyProvider" />
   </node>
 </model>
 

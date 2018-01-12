@@ -3,8 +3,8 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
@@ -33,8 +33,8 @@
   </registry>
   <node concept="1TIwiD" id="6Wsm6VK0e7v">
     <property role="TrG5h" value="CellModel_Multiline" />
-    <property role="34LRSv" value="{&lt;{propertyDeclaration}&gt;}\n" />
-    <property role="R4oN_" value="multiline property" />
+    <property role="34LRSv" value="multiline" />
+    <property role="R4oN_" value="multiline {&lt;{propertyDeclaration}&gt;}" />
     <property role="EcuMT" value="8006371471054135775" />
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
   </node>
