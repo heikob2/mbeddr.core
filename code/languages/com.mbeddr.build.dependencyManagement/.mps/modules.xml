@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/DependencyAnnotation/DependencyAnnotation.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ProofOfConcept/ProofOfConcept.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DependeciesGathering/DependeciesGathering.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DependencyAnnotation.ProofOfConcept/DependencyAnnotation.ProofOfConcept.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ExportProfiles/ExportProfiles.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/util/util.msd" folder="" />
