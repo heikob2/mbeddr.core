@@ -892,17 +892,39 @@
                 </node>
                 <node concept="3K4zz7" id="7t_stIAy7nv" role="37vLTx">
                   <node concept="10Nm6u" id="7t_stIAy7nw" role="3K4E3e" />
-                  <node concept="3cpWs3" id="7t_stIAy7nx" role="3K4GZi">
-                    <node concept="3cpWs3" id="7t_stIAy7ny" role="3uHU7B">
-                      <node concept="37vLTw" id="7t_stIAy7nz" role="3uHU7B">
-                        <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
-                      </node>
-                      <node concept="Xl_RD" id="7t_stIAy7n$" role="3uHU7w">
-                        <property role="Xl_RC" value="/" />
-                      </node>
+                  <node concept="3cpWs3" id="1MjokfNhJsQ" role="3K4GZi">
+                    <node concept="Xl_RD" id="1MjokfNhJBN" role="3uHU7w">
+                      <property role="Xl_RC" value="_dependencies.xml" />
                     </node>
-                    <node concept="Xl_RD" id="7t_stIACjE7" role="3uHU7w">
-                      <property role="Xl_RC" value="private_dependencies.xml" />
+                    <node concept="3cpWs3" id="1MjokfNhHn$" role="3uHU7B">
+                      <node concept="3cpWs3" id="7t_stIAy7nx" role="3uHU7B">
+                        <node concept="3cpWs3" id="7t_stIAy7ny" role="3uHU7B">
+                          <node concept="37vLTw" id="7t_stIAy7nz" role="3uHU7B">
+                            <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
+                          </node>
+                          <node concept="Xl_RD" id="7t_stIAy7n$" role="3uHU7w">
+                            <property role="Xl_RC" value="/" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="7t_stIACjE7" role="3uHU7w">
+                          <property role="Xl_RC" value="private_" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1MjokfNhInC" role="3uHU7w">
+                        <node concept="2OqwBi" id="1MjokfNhHHi" role="2Oq$k0">
+                          <node concept="37vLTw" id="1MjokfNhHu2" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                          </node>
+                          <node concept="3CFZ6_" id="1MjokfNhHRx" role="2OqNvi">
+                            <node concept="3CFYIy" id="1MjokfNhI2p" role="3CFYIz">
+                              <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="1MjokfNhIPf" role="2OqNvi">
+                          <ref role="3TsBF5" to="dnyj:1Lv$utmi6gu" resolve="dependencies_file_name" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbC" id="7t_stIAy7nC" role="3K4Cdx">
@@ -928,8 +950,30 @@
             </node>
             <node concept="3clFbF" id="7t_stIAEiVT" role="3cqZAp">
               <node concept="37vLTI" id="7t_stIAEkl0" role="3clFbG">
-                <node concept="Xl_RD" id="7t_stIAEkml" role="37vLTx">
-                  <property role="Xl_RC" value="./private_dependencies.xml" />
+                <node concept="3cpWs3" id="1MjokfNhO9U" role="37vLTx">
+                  <node concept="Xl_RD" id="1MjokfNhOlW" role="3uHU7w">
+                    <property role="Xl_RC" value="_dependencies.xml" />
+                  </node>
+                  <node concept="3cpWs3" id="1MjokfNhM5B" role="3uHU7B">
+                    <node concept="Xl_RD" id="7t_stIAEkml" role="3uHU7B">
+                      <property role="Xl_RC" value="./private_" />
+                    </node>
+                    <node concept="2OqwBi" id="1MjokfNhN6q" role="3uHU7w">
+                      <node concept="2OqwBi" id="1MjokfNhMwJ" role="2Oq$k0">
+                        <node concept="37vLTw" id="1MjokfNhM8K" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                        </node>
+                        <node concept="3CFZ6_" id="1MjokfNhMC9" role="2OqNvi">
+                          <node concept="3CFYIy" id="1MjokfNhMK4" role="3CFYIz">
+                            <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="1MjokfNhNxe" role="2OqNvi">
+                        <ref role="3TsBF5" to="dnyj:1Lv$utmi6gu" resolve="dependencies_file_name" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
                 <node concept="2OqwBi" id="7t_stIAElA9" role="37vLTJ">
                   <node concept="2OqwBi" id="7t_stIAEjLh" role="2Oq$k0">
@@ -997,8 +1041,30 @@
               <node concept="3cpWsn" id="7t_stIAE$Rd" role="3cpWs9">
                 <property role="TrG5h" value="gradleFileName" />
                 <node concept="17QB3L" id="7t_stIAE$R8" role="1tU5fm" />
-                <node concept="Xl_RD" id="7t_stIAE_th" role="33vP2m">
-                  <property role="Xl_RC" value="send_private.gradle" />
+                <node concept="3cpWs3" id="1MjokfNhTKz" role="33vP2m">
+                  <node concept="Xl_RD" id="1MjokfNhU2R" role="3uHU7w">
+                    <property role="Xl_RC" value=".gradle" />
+                  </node>
+                  <node concept="3cpWs3" id="1MjokfNhQey" role="3uHU7B">
+                    <node concept="Xl_RD" id="7t_stIAE_th" role="3uHU7B">
+                      <property role="Xl_RC" value="send_private_" />
+                    </node>
+                    <node concept="2OqwBi" id="1MjokfNhSwg" role="3uHU7w">
+                      <node concept="2OqwBi" id="1MjokfNhR7p" role="2Oq$k0">
+                        <node concept="37vLTw" id="1MjokfNhQQC" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                        </node>
+                        <node concept="3CFZ6_" id="1MjokfNhRST" role="2OqNvi">
+                          <node concept="3CFYIy" id="1MjokfNhS7n" role="3CFYIz">
+                            <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="1MjokfNhT5m" role="2OqNvi">
+                        <ref role="3TsBF5" to="dnyj:1Lv$utmi6gu" resolve="dependencies_file_name" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -1080,23 +1146,45 @@
                 </node>
                 <node concept="3K4zz7" id="7t_stIABpdu" role="37vLTx">
                   <node concept="10Nm6u" id="7t_stIABpdv" role="3K4E3e" />
-                  <node concept="3cpWs3" id="7t_stIABpdw" role="3K4GZi">
-                    <node concept="3cpWs3" id="7t_stIABpdx" role="3uHU7B">
-                      <node concept="37vLTw" id="7t_stIABpdy" role="3uHU7B">
-                        <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
-                      </node>
-                      <node concept="Xl_RD" id="7t_stIABpdz" role="3uHU7w">
-                        <property role="Xl_RC" value="/" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="7t_stIACkN8" role="3uHU7w">
-                      <property role="Xl_RC" value="public_dependencies.xml" />
-                    </node>
-                  </node>
                   <node concept="3clFbC" id="7t_stIABpdB" role="3K4Cdx">
                     <node concept="10Nm6u" id="7t_stIABpdC" role="3uHU7w" />
                     <node concept="37vLTw" id="7t_stIABpdD" role="3uHU7B">
                       <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs3" id="1MjokfNhWc_" role="3K4GZi">
+                    <node concept="Xl_RD" id="1MjokfNhWcA" role="3uHU7w">
+                      <property role="Xl_RC" value="_dependencies.xml" />
+                    </node>
+                    <node concept="3cpWs3" id="1MjokfNhWcB" role="3uHU7B">
+                      <node concept="3cpWs3" id="1MjokfNhWcC" role="3uHU7B">
+                        <node concept="3cpWs3" id="1MjokfNhWcD" role="3uHU7B">
+                          <node concept="37vLTw" id="1MjokfNhWcE" role="3uHU7B">
+                            <ref role="3cqZAo" node="7t_stIAy7n0" resolve="scriptsPath" />
+                          </node>
+                          <node concept="Xl_RD" id="1MjokfNhWcF" role="3uHU7w">
+                            <property role="Xl_RC" value="/" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1MjokfNhWcG" role="3uHU7w">
+                          <property role="Xl_RC" value="public_" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1MjokfNhWcH" role="3uHU7w">
+                        <node concept="2OqwBi" id="1MjokfNhWcI" role="2Oq$k0">
+                          <node concept="37vLTw" id="1MjokfNhWcJ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                          </node>
+                          <node concept="3CFZ6_" id="1MjokfNhWcK" role="2OqNvi">
+                            <node concept="3CFYIy" id="1MjokfNhWcL" role="3CFYIz">
+                              <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="1MjokfNhWcM" role="2OqNvi">
+                          <ref role="3TsBF5" to="dnyj:1Lv$utmi6gu" resolve="dependencies_file_name" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -1116,9 +1204,6 @@
             </node>
             <node concept="3clFbF" id="7t_stIAEmve" role="3cqZAp">
               <node concept="37vLTI" id="7t_stIAEoNi" role="3clFbG">
-                <node concept="Xl_RD" id="7t_stIAEoVk" role="37vLTx">
-                  <property role="Xl_RC" value="./public_dependencies.xml" />
-                </node>
                 <node concept="2OqwBi" id="7t_stIAEo12" role="37vLTJ">
                   <node concept="2OqwBi" id="7t_stIAEnkW" role="2Oq$k0">
                     <node concept="2OqwBi" id="7t_stIAEmSp" role="2Oq$k0">
@@ -1137,6 +1222,31 @@
                   </node>
                   <node concept="3TrcHB" id="7t_stIAEol4" role="2OqNvi">
                     <ref role="3TsBF5" to="dnyj:7t_stIADf9q" resolve="depFilePath" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="1MjokfNhWYz" role="37vLTx">
+                  <node concept="Xl_RD" id="1MjokfNhWY$" role="3uHU7w">
+                    <property role="Xl_RC" value="_dependencies.xml" />
+                  </node>
+                  <node concept="3cpWs3" id="1MjokfNhWY_" role="3uHU7B">
+                    <node concept="Xl_RD" id="1MjokfNhWYA" role="3uHU7B">
+                      <property role="Xl_RC" value="./public_" />
+                    </node>
+                    <node concept="2OqwBi" id="1MjokfNhWYB" role="3uHU7w">
+                      <node concept="2OqwBi" id="1MjokfNhWYC" role="2Oq$k0">
+                        <node concept="37vLTw" id="1MjokfNhWYD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                        </node>
+                        <node concept="3CFZ6_" id="1MjokfNhWYE" role="2OqNvi">
+                          <node concept="3CFYIy" id="1MjokfNhWYF" role="3CFYIz">
+                            <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="1MjokfNhWYG" role="2OqNvi">
+                        <ref role="3TsBF5" to="dnyj:1Lv$utmi6gu" resolve="dependencies_file_name" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1185,8 +1295,30 @@
                 <node concept="37vLTw" id="7t_stIAEDB2" role="37vLTJ">
                   <ref role="3cqZAo" node="7t_stIAE$Rd" resolve="gradleFileName" />
                 </node>
-                <node concept="Xl_RD" id="7t_stIAEEw7" role="37vLTx">
-                  <property role="Xl_RC" value="send_public.gradle" />
+                <node concept="3cpWs3" id="1MjokfNhYgr" role="37vLTx">
+                  <node concept="Xl_RD" id="1MjokfNhYgs" role="3uHU7w">
+                    <property role="Xl_RC" value=".gradle" />
+                  </node>
+                  <node concept="3cpWs3" id="1MjokfNhYgt" role="3uHU7B">
+                    <node concept="Xl_RD" id="1MjokfNhYgu" role="3uHU7B">
+                      <property role="Xl_RC" value="send_public_" />
+                    </node>
+                    <node concept="2OqwBi" id="1MjokfNhYgv" role="3uHU7w">
+                      <node concept="2OqwBi" id="1MjokfNhYgw" role="2Oq$k0">
+                        <node concept="37vLTw" id="1MjokfNhYgx" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4JEIfkr8g7x" resolve="base" />
+                        </node>
+                        <node concept="3CFZ6_" id="1MjokfNhYgy" role="2OqNvi">
+                          <node concept="3CFYIy" id="1MjokfNhYgz" role="3CFYIz">
+                            <ref role="3CFYIx" to="dnyj:63dx_CyfN5T" resolve="DependencyAnnotation" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="1MjokfNhYg$" role="2OqNvi">
+                        <ref role="3TsBF5" to="dnyj:1Lv$utmi6gu" resolve="dependencies_file_name" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
