@@ -429,6 +429,11 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3SKdUt" id="2ZyuwMBzXCI" role="3cqZAp">
+                        <node concept="3SKdUq" id="2ZyuwMBzXCK" role="3SKWNk">
+                          <property role="3SKdUp" value="if no login is specified, default(test-)login is used." />
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node concept="3eNFk2" id="2ZyuwMBy0$f" role="3eNLev">
@@ -1293,6 +1298,17 @@
       <node concept="17QB3L" id="2ZyuwMBy4Od" role="1tU5fm" />
       <node concept="Xl_RD" id="2ZyuwMBy4Zq" role="33vP2m">
         <property role="Xl_RC" value="USER" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="2ZyuwMBzCZ0" role="jymVt">
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <property role="TrG5h" value="fileLogin" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="2ZyuwMBzC3H" role="1B3o_S" />
+      <node concept="17QB3L" id="2ZyuwMBzCSi" role="1tU5fm" />
+      <node concept="Xl_RD" id="2ZyuwMBzDAG" role="33vP2m">
+        <property role="Xl_RC" value="FILE" />
       </node>
     </node>
     <node concept="2tJIrI" id="1MjokfNlcGW" role="jymVt" />
@@ -2447,6 +2463,16 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="2ZyuwMBzEe3" role="3cqZAp">
+              <node concept="37vLTI" id="2ZyuwMBzEE7" role="3clFbG">
+                <node concept="37vLTw" id="2ZyuwMBzF1c" role="37vLTx">
+                  <ref role="3cqZAo" node="2ZyuwMBzCZ0" resolve="fileLogin" />
+                </node>
+                <node concept="37vLTw" id="2ZyuwMBzEe1" role="37vLTJ">
+                  <ref role="3cqZAo" node="2ZyuwMBy3zJ" resolve="loginMode" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="2OqwBi" id="2ZyuwMBzdPQ" role="3clFbw">
             <node concept="37vLTw" id="2ZyuwMBzdvO" role="2Oq$k0">
@@ -2483,10 +2509,148 @@
       <property role="od$2w" value="false" />
       <node concept="3Tm1VV" id="1MjokfNlk0n" role="1B3o_S" />
       <node concept="3cqZAl" id="1MjokfNlk0p" role="3clF45" />
-      <node concept="3clFbS" id="1MjokfNlk0q" role="3clF47" />
+      <node concept="3clFbS" id="1MjokfNlk0q" role="3clF47">
+        <node concept="3clFbF" id="2ZyuwMBzHNF" role="3cqZAp">
+          <node concept="1rXfSq" id="2ZyuwMBzHNE" role="3clFbG">
+            <ref role="37wK5l" node="2ZyuwMBzH6r" resolve="testServerReady" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2ZyuwMBzVS0" role="3cqZAp">
+          <node concept="3clFbS" id="2ZyuwMBzVS2" role="3clFbx">
+            <node concept="YS8fn" id="2ZyuwMBzVX2" role="3cqZAp">
+              <node concept="2ShNRf" id="2ZyuwMBzVXN" role="YScLw">
+                <node concept="1pGfFk" id="2ZyuwMBzWa3" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="2ZyuwMBzWc2" role="37wK5m">
+                    <property role="Xl_RC" value="unable to login to server" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="2ZyuwMBzVU6" role="3clFbw">
+            <node concept="1rXfSq" id="2ZyuwMBzVUX" role="3fr31v">
+              <ref role="37wK5l" node="2ZyuwMBzK2X" resolve="doLogin" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="2AHcQZ" id="1MjokfNlk0r" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+    </node>
+    <node concept="2tJIrI" id="2ZyuwMBzFo$" role="jymVt" />
+    <node concept="3clFb_" id="2ZyuwMBzH6r" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="testServerReady" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="2ZyuwMBzH6u" role="3clF47" />
+      <node concept="3Tm6S6" id="2ZyuwMBzGe4" role="1B3o_S" />
+      <node concept="3cqZAl" id="2ZyuwMBzGUF" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="2ZyuwMBzIkc" role="jymVt" />
+    <node concept="3clFb_" id="2ZyuwMBzK2X" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="doLogin" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="2ZyuwMBzK30" role="3clF47">
+        <node concept="3clFbJ" id="2ZyuwMBzLHG" role="3cqZAp">
+          <node concept="2OqwBi" id="2ZyuwMBzMe9" role="3clFbw">
+            <node concept="37vLTw" id="2ZyuwMBzLIp" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ZyuwMBy3zJ" resolve="loginMode" />
+            </node>
+            <node concept="liA8E" id="2ZyuwMBzMng" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="37vLTw" id="2ZyuwMBzMRp" role="37wK5m">
+                <ref role="3cqZAo" node="2ZyuwMBy4ei" resolve="defaultLogin" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="2ZyuwMBzLHI" role="3clFbx">
+            <node concept="3clFbF" id="2ZyuwMBzN6P" role="3cqZAp">
+              <node concept="37vLTI" id="2ZyuwMBzNx6" role="3clFbG">
+                <node concept="2ShNRf" id="2ZyuwMBzNOK" role="37vLTx">
+                  <node concept="1pGfFk" id="2ZyuwMBzO8D" role="2ShVmc">
+                    <ref role="37wK5l" node="2ZyuwMByxsk" resolve="GatheringClient.LoginFile" />
+                    <node concept="Xl_RD" id="2ZyuwMBzOla" role="37wK5m">
+                      <property role="Xl_RC" value="default" />
+                    </node>
+                    <node concept="Xl_RD" id="2ZyuwMBzOT1" role="37wK5m">
+                      <property role="Xl_RC" value="general" />
+                    </node>
+                    <node concept="Xl_RD" id="2ZyuwMBzPnH" role="37wK5m">
+                      <property role="Xl_RC" value="default" />
+                    </node>
+                    <node concept="Xl_RD" id="2ZyuwMBzPQK" role="37wK5m">
+                      <property role="Xl_RC" value="1234" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2ZyuwMBzN6O" role="37vLTJ">
+                  <ref role="3cqZAo" node="2ZyuwMByo7f" resolve="login" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2ZyuwMBzQrS" role="3cqZAp">
+              <node concept="37vLTI" id="2ZyuwMBzQS6" role="3clFbG">
+                <node concept="37vLTw" id="2ZyuwMBzRfh" role="37vLTx">
+                  <ref role="3cqZAo" node="2ZyuwMBzCZ0" resolve="fileLogin" />
+                </node>
+                <node concept="37vLTw" id="2ZyuwMBzQrQ" role="37vLTJ">
+                  <ref role="3cqZAo" node="2ZyuwMBy3zJ" resolve="loginMode" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2ZyuwMBzRvW" role="3cqZAp">
+          <node concept="3clFbS" id="2ZyuwMBzRvY" role="3clFbx">
+            <node concept="3SKdUt" id="2ZyuwMBzSHZ" role="3cqZAp">
+              <node concept="3SKdUq" id="2ZyuwMBzSI1" role="3SKWNk">
+                <property role="3SKdUp" value="do login" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="2ZyuwMBzSIc" role="3cqZAp" />
+            <node concept="3cpWs6" id="2ZyuwMBzSIY" role="3cqZAp">
+              <node concept="3clFbT" id="2ZyuwMBzSJI" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2ZyuwMBzRTW" role="3clFbw">
+            <node concept="37vLTw" id="2ZyuwMBzRzL" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ZyuwMBy3zJ" resolve="loginMode" />
+            </node>
+            <node concept="liA8E" id="2ZyuwMBzS95" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="37vLTw" id="2ZyuwMBzSur" role="37wK5m">
+                <ref role="3cqZAo" node="2ZyuwMBzCZ0" resolve="fileLogin" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2ZyuwMBzUQE" role="9aQIa">
+            <node concept="3clFbS" id="2ZyuwMBzUQF" role="9aQI4">
+              <node concept="3SKdUt" id="2ZyuwMBzVj0" role="3cqZAp">
+                <node concept="3SKdUq" id="2ZyuwMBzVj1" role="3SKWNk">
+                  <property role="3SKdUp" value="do interactive login" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="2ZyuwMBzVje" role="3cqZAp" />
+              <node concept="3cpWs6" id="2ZyuwMBzVjU" role="3cqZAp">
+                <node concept="3clFbT" id="2ZyuwMBzVkG" role="3cqZAk">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="2ZyuwMBzJae" role="1B3o_S" />
+      <node concept="10P_77" id="2ZyuwMBzL9d" role="3clF45" />
     </node>
   </node>
 </model>
