@@ -1819,6 +1819,12 @@
       <node concept="3F0A7n" id="5WjlrMh2Caq" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="3F0ifn" id="5X3sZYCIKoc" role="3EZMnx">
+        <property role="3F0ifm" value="nodeId:" />
+      </node>
+      <node concept="3F0A7n" id="5X3sZYCIKoZ" role="3EZMnx">
+        <ref role="1NtTu8" to="dnyj:5X3sZYCIKnS" resolve="nodeToReduce_nodeId" />
+      </node>
       <node concept="3F0ifn" id="5WjlrMh2Cbe" role="3EZMnx">
         <property role="3F0ifm" value="" />
         <node concept="pVoyu" id="5WjlrMh2CbR" role="3F10Kt">

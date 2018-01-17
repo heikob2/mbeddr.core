@@ -101,6 +101,8 @@
     <property role="TrG5h" value="Alpha" />
     <property role="3GE5qa" value="concepts" />
     <property role="19KtqR" value="true" />
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="7v323FweIK$" resolve="SuperAlpha" />
     <node concept="PrWs8" id="7v323FweILd" role="PzmwI">
       <ref role="PrY4T" node="7v323FweIKG" resolve="IAlpha_First" />

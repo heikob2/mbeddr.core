@@ -151,6 +151,11 @@
       <property role="TrG5h" value="kind" />
       <ref role="AX2Wp" node="63dx_CygDCO" resolve="ExportVisibility" />
     </node>
+    <node concept="1TJgyi" id="5X3sZYCIKnS" role="1TKVEl">
+      <property role="IQ2nx" value="6864457798927451640" />
+      <property role="TrG5h" value="nodeToReduce_nodeId" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="63dx_CygDCo">
     <property role="EcuMT" value="6975379119546735128" />
@@ -873,24 +878,19 @@
     <property role="TrG5h" value="SendData" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7t_stIADf7Y" role="1TKVEl">
-      <property role="IQ2nx" value="8603407851368804862" />
-      <property role="TrG5h" value="type" />
-      <ref role="AX2Wp" node="7t_stIADf7R" resolve="SendDataEnum" />
-    </node>
-    <node concept="1TJgyi" id="7t_stIADf8r" role="1TKVEl">
-      <property role="IQ2nx" value="8603407851368804891" />
-      <property role="TrG5h" value="toUrl" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="7t_stIADf9q" role="1TKVEl">
       <property role="IQ2nx" value="8603407851368804954" />
-      <property role="TrG5h" value="depFilePath" />
+      <property role="TrG5h" value="depXmlFilePath" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="7t_stIAEp8t" role="1TKVEl">
       <property role="IQ2nx" value="8603407851369107997" />
-      <property role="TrG5h" value="gradleFileName" />
+      <property role="TrG5h" value="sendDepFileName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5X3sZYCLSHH" role="1TKVEl">
+      <property role="IQ2nx" value="6864457798928272237" />
+      <property role="TrG5h" value="buildProj_nodeId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
