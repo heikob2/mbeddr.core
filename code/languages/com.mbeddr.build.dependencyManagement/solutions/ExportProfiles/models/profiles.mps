@@ -412,7 +412,7 @@
           <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
           <node concept="12Em_x" id="464rVAYmlvA" role="24w8oo">
             <property role="1a5o8Z" value="BuildMps_ModuleSource" />
-            <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+            <ref role="12Em_A" node="4LWGtXPSRq" resolve="export_BuildMps_ModuleSource_" />
           </node>
         </node>
         <node concept="12Em_C" id="jZlUfPeRJ5" role="12Em$d">
@@ -2270,7 +2270,7 @@
       <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
       <node concept="12Em_x" id="464rVAYqgdL" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleSource" />
-        <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+        <ref role="12Em_A" node="4LWGtXPSRq" resolve="export_BuildMps_ModuleSource_" />
       </node>
     </node>
     <node concept="12Em_C" id="464rVAYmlrq" role="12Em$d">
@@ -2459,7 +2459,7 @@
       <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
       <node concept="12Em_x" id="464rVAYmNt2" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleSource" />
-        <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+        <ref role="12Em_A" node="4LWGtXPSRq" resolve="export_BuildMps_ModuleSource_" />
       </node>
     </node>
     <node concept="12Em_C" id="464rVAYmltv" role="12Em$d">
@@ -2794,60 +2794,6 @@
       </node>
     </node>
   </node>
-  <node concept="12Em_F" id="464rVAYmlvt">
-    <property role="TrG5h" value="export_BuildMps_ModuleSource" />
-    <property role="3GE5qa" value="third" />
-    <ref role="12Em$l" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
-    <node concept="12Em_F" id="464rVAYmlvu" role="12C$m$">
-      <property role="TrG5h" value="Export_BuildMps_ModuleJavaSource" />
-      <ref role="12Em$l" to="kdzh:4zCbl23dbRE" resolve="BuildMps_ModuleJavaSource" />
-      <node concept="12Em_C" id="464rVAYmlvv" role="12Em$d">
-        <property role="TrG5h" value="folder" />
-        <property role="12Em_G" value="PUBLIC" />
-        <ref role="12Em$g" to="3ior:1ZTcb8AgV3Z" resolve="BuildInputSingleFolder" />
-        <node concept="12Em_x" id="464rVAYmNsQ" role="24w8oo">
-          <property role="1a5o8Z" value="BuildInputSingleFolder" />
-          <ref role="12Em_A" node="464rVAYmNsO" resolve="export_BuildInputSingleFolder" />
-        </node>
-      </node>
-      <node concept="12Em_I" id="464rVAYmlvw" role="12Em$8">
-        <property role="TrG5h" value="isGenerated" />
-        <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
-      </node>
-    </node>
-    <node concept="12Em_F" id="464rVAYmlvx" role="12C$m$">
-      <property role="TrG5h" value="Export_BuildMps_ModuleModelRoot" />
-      <ref role="12Em$l" to="kdzh:3HwLahs6lLg" resolve="BuildMps_ModuleModelRoot" />
-      <node concept="12Em_C" id="464rVAYmlvy" role="12Em$d">
-        <property role="TrG5h" value="folder" />
-        <property role="12Em_G" value="PUBLIC" />
-        <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
-        <node concept="12Em_x" id="464rVAYmNsU" role="24w8oo">
-          <property role="1a5o8Z" value="BuildSourcePath" />
-          <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
-        </node>
-      </node>
-    </node>
-    <node concept="12Em_F" id="464rVAYmlvz" role="12C$m$">
-      <property role="TrG5h" value="Export_BuildMps_ModuleTestSource" />
-      <ref role="12Em$l" to="kdzh:24CrdeKWBto" resolve="BuildMps_ModuleTestSource" />
-      <node concept="12Em_I" id="464rVAYmlv$" role="12Em$8">
-        <property role="TrG5h" value="isGenerated" />
-        <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
-      </node>
-      <node concept="12Em_C" id="464rVAYmlv_" role="12Em$d">
-        <property role="TrG5h" value="folder" />
-        <property role="12Em_G" value="PUBLIC" />
-        <ref role="12Em$g" to="3ior:1ZTcb8AgV3Z" resolve="BuildInputSingleFolder" />
-        <node concept="12Em_x" id="464rVAYmNsY" role="24w8oo">
-          <property role="1a5o8Z" value="BuildInputSingleFolder" />
-          <ref role="12Em_A" node="464rVAYmNsO" resolve="export_BuildInputSingleFolder" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="12Em_F" id="464rVAYmlvE">
     <property role="TrG5h" value="export_BuildMps_ModuleDependency" />
     <property role="3GE5qa" value="toplevel.parts" />
@@ -3005,7 +2951,7 @@
       <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
       <node concept="12Em_x" id="464rVAYmNr1" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleSource" />
-        <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+        <ref role="12Em_A" node="4LWGtXPSRq" resolve="export_BuildMps_ModuleSource_" />
       </node>
     </node>
     <node concept="12Em_C" id="464rVAYmlwb" role="12Em$d">
@@ -3103,7 +3049,7 @@
       <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
       <node concept="12Em_x" id="464rVAYmNrT" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleSource" />
-        <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+        <ref role="12Em_A" node="4LWGtXPSRq" resolve="export_BuildMps_ModuleSource_" />
       </node>
     </node>
     <node concept="12Em_C" id="464rVAYmlwA" role="12Em$d">
@@ -3232,7 +3178,7 @@
         <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
         <node concept="12Em_x" id="464rVAYmlAQ" role="24w8oo">
           <property role="1a5o8Z" value="BuildMps_ModuleSource" />
-          <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+          <ref role="12Em_A" node="4LWGtXPSRq" resolve="export_BuildMps_ModuleSource_" />
         </node>
       </node>
       <node concept="12Em_C" id="464rVAYmlxa" role="12Em$d">
@@ -4608,7 +4554,7 @@
         <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
         <node concept="12Em_x" id="2oJQQRScGhG" role="24w8oo">
           <property role="1a5o8Z" value="BuildMps_ModuleSource" />
-          <ref role="12Em_A" node="464rVAYmlvt" resolve="export_BuildMps_ModuleSource" />
+          <ref role="12Em_A" node="4LWGtXPSRq" resolve="export_BuildMps_ModuleSource_" />
         </node>
       </node>
       <node concept="12Em_C" id="2oJQQRScGhH" role="12Em$d">
@@ -4816,6 +4762,78 @@
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
+    </node>
+  </node>
+  <node concept="12Em_F" id="4LWGtXPSRq">
+    <property role="TrG5h" value="export_BuildMps_ModuleSource_" />
+    <property role="3GE5qa" value="third" />
+    <ref role="12Em$l" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
+    <node concept="12Em_F" id="4LWGtXPSRr" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_ModuleJavaSource" />
+      <ref role="12Em$l" to="kdzh:4zCbl23dbRE" resolve="BuildMps_ModuleJavaSource" />
+      <node concept="12Em_C" id="4LWGtXPSRs" role="12Em$d">
+        <property role="TrG5h" value="folder" />
+        <property role="12Em_G" value="PUBLIC" />
+        <ref role="12Em$g" to="3ior:1ZTcb8AgV3Z" resolve="BuildInputSingleFolder" />
+        <node concept="12Em_x" id="4LWGtXPSRU" role="24w8oo">
+          <property role="1a5o8Z" value="BuildInputSingleFolder" />
+          <ref role="12Em_A" node="464rVAYmNsO" resolve="export_BuildInputSingleFolder" />
+        </node>
+      </node>
+      <node concept="12Em_I" id="4LWGtXPSRt" role="12Em$8">
+        <property role="TrG5h" value="isGenerated" />
+        <property role="3enqAb" value="boolean" />
+        <property role="12Em_G" value="PUBLIC" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4LWGtXPSRu" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_ModuleModelRoot" />
+      <ref role="12Em$l" to="kdzh:3HwLahs6lLg" resolve="BuildMps_ModuleModelRoot" />
+      <node concept="12Em_I" id="4LWGtXPSRv" role="12Em$8">
+        <property role="TrG5h" value="deployFolderName" />
+        <property role="3enqAb" value="string" />
+        <property role="12Em_G" value="PUBLIC" />
+      </node>
+      <node concept="12Em_C" id="4LWGtXPSRw" role="12Em$d">
+        <property role="TrG5h" value="folder" />
+        <property role="12Em_G" value="PUBLIC" />
+        <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
+        <node concept="12Em_x" id="4LWGtXPSRX" role="24w8oo">
+          <property role="1a5o8Z" value="BuildSourcePath" />
+          <ref role="12Em_A" node="jZlUfPffx6" resolve="export_BuildSourcePath" />
+        </node>
+      </node>
+    </node>
+    <node concept="12Em_F" id="4LWGtXPSRx" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_ModuleTestSource" />
+      <ref role="12Em$l" to="kdzh:24CrdeKWBto" resolve="BuildMps_ModuleTestSource" />
+      <node concept="12Em_I" id="4LWGtXPSRy" role="12Em$8">
+        <property role="TrG5h" value="isGenerated" />
+        <property role="3enqAb" value="boolean" />
+        <property role="12Em_G" value="PUBLIC" />
+      </node>
+      <node concept="12Em_C" id="4LWGtXPSRz" role="12Em$d">
+        <property role="TrG5h" value="folder" />
+        <property role="12Em_G" value="PUBLIC" />
+        <ref role="12Em$g" to="3ior:1ZTcb8AgV3Z" resolve="BuildInputSingleFolder" />
+        <node concept="12Em_x" id="4LWGtXPSS0" role="24w8oo">
+          <property role="1a5o8Z" value="BuildInputSingleFolder" />
+          <ref role="12Em_A" node="464rVAYmNsO" resolve="export_BuildInputSingleFolder" />
+        </node>
+      </node>
+    </node>
+    <node concept="12Em_F" id="4LWGtXPSR$" role="12C$m$">
+      <property role="TrG5h" value="Export_BuildMps_ModuleResources" />
+      <ref role="12Em$l" to="kdzh:EpEP7hVcc6" resolve="BuildMps_ModuleResources" />
+      <node concept="12Em_C" id="4LWGtXPSR_" role="12Em$d">
+        <property role="TrG5h" value="files" />
+        <property role="12Em_G" value="PUBLIC" />
+        <ref role="12Em$g" to="3ior:4zlO3QT8$m$" resolve="BuildInputFiles" />
+        <node concept="12Em_x" id="4LWGtXPSS3" role="24w8oo">
+          <property role="1a5o8Z" value="BuildInputFiles" />
+          <ref role="12Em_A" node="464rVAYmNve" resolve="export_BuildInputFiles" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -14,7 +14,6 @@
   </dependencies>
   <languageVersions>
     <language slang="l:aa2a0a96-4f86-4df2-84ec-54941b1a2d95:DependencyAnnotation" version="0" />
-    <language slang="l:8b477472-2f12-434e-8cec-3ed18d0400ee:com.mbeddr.mpsutil.build.incremental" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
   </languageVersions>
   <dependencyVersions>
@@ -23,7 +22,6 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="8b477472-2f12-434e-8cec-3ed18d0400ee(de.itemis.mps.build.incremental)" version="0" />
     <module reference="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" version="0" />
     <module reference="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" version="0" />
     <module reference="427a473d-5177-432c-9905-bcbceb71b996(jetbrains.mps.build.mps.runner)" version="0" />
