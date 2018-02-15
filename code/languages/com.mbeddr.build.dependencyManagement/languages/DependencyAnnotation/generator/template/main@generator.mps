@@ -1827,6 +1827,53 @@
     <node concept="3rIKKV" id="6qYR9rynZdY" role="2pMbU3">
       <node concept="2pNNFK" id="6qYR9rypjFD" role="2pNm8H">
         <property role="2pNNFO" value="dependencies" />
+        <node concept="2pNNFK" id="7fwUCIPeEyU" role="3o6s8t">
+          <property role="2pNNFO" value="buildProject" />
+          <node concept="2pNNFK" id="6qYR9ryslZ6" role="3o6s8t">
+            <property role="2pNNFO" value="testelement" />
+            <node concept="1WS0z7" id="6qYR9ryslZb" role="lGtFl">
+              <node concept="3JmXsc" id="6qYR9ryslZe" role="3Jn$fo">
+                <node concept="3clFbS" id="6qYR9ryslZf" role="2VODD2">
+                  <node concept="3clFbF" id="6qYR9ryslZl" role="3cqZAp">
+                    <node concept="2OqwBi" id="6qYR9ryslZg" role="3clFbG">
+                      <node concept="3Tsc0h" id="6qYR9ryslZj" role="2OqNvi">
+                        <ref role="3TtcxE" to="dnyj:5WjlrMgWqFp" resolve="groups_" />
+                      </node>
+                      <node concept="30H73N" id="6qYR9ryslZk" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="5jKBG" id="6qYR9rysxYo" role="lGtFl">
+              <ref role="v9R2y" node="6qYR9rysydT" resolve="reduce_RoledGroup" />
+            </node>
+          </node>
+          <node concept="2pNUuL" id="7fwUCIPeERA" role="2pNNFR">
+            <property role="2pNUuO" value="modelTag" />
+            <node concept="2pMdtt" id="7fwUCIPeERD" role="2pMdts">
+              <property role="2pMdty" value="true" />
+            </node>
+          </node>
+          <node concept="2pNUuL" id="7fwUCIPeERM" role="2pNNFR">
+            <property role="2pNUuO" value="mpsType" />
+            <node concept="2pMdtt" id="7fwUCIPeERT" role="2pMdts">
+              <property role="2pMdty" value="BuildProject" />
+            </node>
+          </node>
+          <node concept="2pNUuL" id="7fwUCIPeERZ" role="2pNNFR">
+            <property role="2pNUuO" value="concreteType" />
+            <node concept="2pMdtt" id="7fwUCIPeESa" role="2pMdts">
+              <property role="2pMdty" value="BuildProject" />
+            </node>
+          </node>
+          <node concept="2pNUuL" id="7fwUCIPeESg" role="2pNNFR">
+            <property role="2pNUuO" value="structureType" />
+            <node concept="2pMdtt" id="7fwUCIPeESv" role="2pMdts">
+              <property role="2pMdty" value="ROOT" />
+            </node>
+          </node>
+        </node>
         <node concept="2pNUuL" id="3RFMhXlf$40" role="2pNNFR">
           <property role="2pNUuO" value="visibility" />
           <node concept="2pMdtt" id="3RFMhXlf$oP" role="2pMdts">
@@ -1923,26 +1970,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="2pNNFK" id="6qYR9ryslZ6" role="3o6s8t">
-          <property role="2pNNFO" value="testelement" />
-          <node concept="1WS0z7" id="6qYR9ryslZb" role="lGtFl">
-            <node concept="3JmXsc" id="6qYR9ryslZe" role="3Jn$fo">
-              <node concept="3clFbS" id="6qYR9ryslZf" role="2VODD2">
-                <node concept="3clFbF" id="6qYR9ryslZl" role="3cqZAp">
-                  <node concept="2OqwBi" id="6qYR9ryslZg" role="3clFbG">
-                    <node concept="3Tsc0h" id="6qYR9ryslZj" role="2OqNvi">
-                      <ref role="3TtcxE" to="dnyj:5WjlrMgWqFp" resolve="groups_" />
-                    </node>
-                    <node concept="30H73N" id="6qYR9ryslZk" role="2Oq$k0" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="5jKBG" id="6qYR9rysxYo" role="lGtFl">
-            <ref role="v9R2y" node="6qYR9rysydT" resolve="reduce_RoledGroup" />
           </node>
         </node>
       </node>
