@@ -11,6 +11,7 @@
     <dependency reexport="false">0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)</dependency>
     <dependency reexport="false">427a473d-5177-432c-9905-bcbceb71b996(jetbrains.mps.build.mps.runner)</dependency>
     <dependency reexport="false">3600cb0a-44dd-4a5b-9968-22924406419e(jetbrains.mps.build.mps.tests)</dependency>
+    <dependency reexport="false">698a8d22-a104-47a0-ba8d-10e3ec237f13(jetbrains.mps.build.workflow)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:aa2a0a96-4f86-4df2-84ec-54941b1a2d95:DependencyAnnotation" version="0" />

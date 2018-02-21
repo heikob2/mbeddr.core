@@ -280,7 +280,8 @@
     <property role="TrG5h" value="ConceptExportProfile" />
     <property role="3GE5qa" value="concepts" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="conceptprofile" />
+    <property role="34LRSv" value="ConceptExportProfile" />
+    <property role="R4oN_" value="configure annotations" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="63dx_CypeXf" role="1TKVEi">
       <property role="IQ2ns" value="6975379119548985167" />

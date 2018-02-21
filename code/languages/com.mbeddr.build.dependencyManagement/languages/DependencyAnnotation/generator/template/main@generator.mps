@@ -10,8 +10,8 @@
   <imports>
     <import index="dnyj" ref="r:3df188a9-b761-4875-b2bc-0c08336ce65f(DependencyAnnotation.structure)" />
     <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
-    <import index="e2ed" ref="r:7893f5d8-9abe-4e63-ad67-eefc53b291e2(DependencyAnnotation.generator.DependencyAnnotation_Generator.preprocessing)" />
-    <import index="s0ls" ref="r:417fbc41-356b-43f7-9867-694c8dba54ea(DependencyAnnotation.generator.DependencyAnnotation_Generator.postProcessing)" />
+    <import index="bgrh" ref="r:062c4049-eb18-4275-a40d-89a326620a02(util_.postProcessing_clone)" />
+    <import index="i6p6" ref="r:6e5d4ffa-fa7f-4dc0-a2ca-ea9cd67590cc(util_.preprocessing_clone)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -5114,12 +5114,12 @@
         <node concept="3cpWs8" id="4JEIfkr80Bj" role="3cqZAp">
           <node concept="3cpWsn" id="4JEIfkr80Bk" role="3cpWs9">
             <property role="TrG5h" value="genUtil" />
-            <node concept="3uibUv" id="4JEIfkr80Bl" role="1tU5fm">
-              <ref role="3uigEE" to="e2ed:4JEIfkr80jP" resolve="GenUtil" />
+            <node concept="3uibUv" id="6HrZlNR3GQd" role="1tU5fm">
+              <ref role="3uigEE" to="i6p6:6HrZlNR38O8" resolve="GenUtil" />
             </node>
             <node concept="2ShNRf" id="4JEIfkr80C$" role="33vP2m">
               <node concept="HV5vD" id="4JEIfkr85SD" role="2ShVmc">
-                <ref role="HV5vE" to="e2ed:4JEIfkr80jP" resolve="GenUtil" />
+                <ref role="HV5vE" to="i6p6:6HrZlNR38O8" resolve="GenUtil" />
               </node>
             </node>
           </node>
@@ -5155,7 +5155,7 @@
                       <ref role="3cqZAo" node="4JEIfkr80Bk" resolve="genUtil" />
                     </node>
                     <node concept="liA8E" id="4JEIfkr89fc" role="2OqNvi">
-                      <ref role="37wK5l" to="e2ed:4JEIfkr80l0" resolve="reduceBaseConcept" />
+                      <ref role="37wK5l" to="i6p6:6HrZlNR38Ok" resolve="reduceBaseConcept" />
                       <node concept="1Q6Npb" id="4JEIfkr9Lv1" role="37wK5m" />
                       <node concept="2GrUjf" id="4JEIfkr8gge" role="37wK5m">
                         <ref role="2Gs0qQ" node="4JEIfkr8eGQ" resolve="root" />
@@ -5240,12 +5240,12 @@
                     <node concept="3cpWs8" id="3RFMhXln$g4" role="3cqZAp">
                       <node concept="3cpWsn" id="3RFMhXln$g5" role="3cpWs9">
                         <property role="TrG5h" value="pgu" />
-                        <node concept="3uibUv" id="3RFMhXln$g6" role="1tU5fm">
-                          <ref role="3uigEE" to="e2ed:3RFMhXlnorv" resolve="PostGenerationUtil" />
+                        <node concept="3uibUv" id="6HrZlNR3GJS" role="1tU5fm">
+                          <ref role="3uigEE" to="i6p6:6HrZlNR39jA" resolve="PostGenerationUtil" />
                         </node>
                         <node concept="2ShNRf" id="3RFMhXln$hQ" role="33vP2m">
                           <node concept="HV5vD" id="3RFMhXlnAx8" role="2ShVmc">
-                            <ref role="HV5vE" to="e2ed:3RFMhXlnorv" resolve="PostGenerationUtil" />
+                            <ref role="HV5vE" to="i6p6:6HrZlNR39jA" resolve="PostGenerationUtil" />
                           </node>
                         </node>
                       </node>
@@ -5323,11 +5323,11 @@
                       <node concept="2OqwBi" id="5eqg0kbaacy" role="3clFbG">
                         <node concept="2ShNRf" id="5eqg0kba7Qg" role="2Oq$k0">
                           <node concept="HV5vD" id="5eqg0kbaa5A" role="2ShVmc">
-                            <ref role="HV5vE" to="s0ls:5eqg0kba5BC" resolve="PostReduceXmlNoise" />
+                            <ref role="HV5vE" to="bgrh:6HrZlNR38nS" resolve="PostReduceXmlNoise" />
                           </node>
                         </node>
                         <node concept="liA8E" id="5eqg0kbaair" role="2OqNvi">
-                          <ref role="37wK5l" to="s0ls:5eqg0kba5Dz" resolve="reduce" />
+                          <ref role="37wK5l" to="bgrh:6HrZlNR38o2" resolve="reduce" />
                           <node concept="Jnkvi" id="5eqg0kbaaAW" role="37wK5m">
                             <ref role="1M0zk5" node="5eqg0kba7iy" resolve="xmlElem" />
                           </node>

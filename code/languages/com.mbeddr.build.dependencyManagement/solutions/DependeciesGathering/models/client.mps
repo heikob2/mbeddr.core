@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
-    <use id="d5033cee-f632-44b6-b308-89d4fbde34ff" name="jetbrains.mps.build.startup" version="0" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -11,7 +10,6 @@
     <import index="g1y6" ref="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1/java:javax.ws.rs.client(DependeciesGathering/)" />
     <import index="om7m" ref="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1/java:javax.ws.rs.core(DependeciesGathering/)" />
     <import index="gy80" ref="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1/java:javax.json(DependeciesGathering/)" />
-    <import index="d0y4" ref="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1/java:org.glassfish.json(DependeciesGathering/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -2124,6 +2122,11 @@
                   </node>
                 </node>
               </node>
+              <node concept="3SKdUt" id="5X_uv6sG4fb" role="3cqZAp">
+                <node concept="3SKdUq" id="5X_uv6sG4fd" role="3SKWNk">
+                  <property role="3SKdUp" value="end test 1, -&gt; Todo: if can be removed" />
+                </node>
+              </node>
               <node concept="3clFbH" id="6iubq47ccEp" role="3cqZAp" />
               <node concept="3clFbH" id="6iubq47ccFo" role="3cqZAp" />
               <node concept="3cpWs8" id="2ZyuwMB$nFn" role="3cqZAp">
@@ -3353,12 +3356,18 @@
                   <property role="3SKdUp" value="do interactive login" />
                 </node>
               </node>
-              <node concept="3clFbH" id="2ZyuwMBzVje" role="3cqZAp" />
-              <node concept="3cpWs6" id="2ZyuwMBzVjU" role="3cqZAp">
-                <node concept="3clFbT" id="2ZyuwMBzVkG" role="3cqZAk">
-                  <property role="3clFbU" value="false" />
+              <node concept="3clFbH" id="5X_uv6sG4n$" role="3cqZAp" />
+              <node concept="YS8fn" id="5X_uv6sG5bm" role="3cqZAp">
+                <node concept="2ShNRf" id="5X_uv6sG5Z8" role="YScLw">
+                  <node concept="1pGfFk" id="5X_uv6sG7WK" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+                    <node concept="Xl_RD" id="5X_uv6sG832" role="37wK5m">
+                      <property role="Xl_RC" value="@GatheringClient::doLogin(): interactive login is currently NOT supported." />
+                    </node>
+                  </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="2ZyuwMBzVje" role="3cqZAp" />
             </node>
           </node>
         </node>
