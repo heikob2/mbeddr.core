@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:ea4888f3-84b5-4cab-803c-894dc38e4dfe(DependencyManagement.build)">
+<model ref="r:f4f42720-4dac-4344-b6d1-a42bab0e5d2f(DependencyManagement.build)">
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
@@ -38,6 +38,7 @@
       </concept>
       <concept id="5617550519002745364" name="jetbrains.mps.build.structure.BuildLayout" flags="ng" index="1l3spV" />
       <concept id="5617550519002745363" name="jetbrains.mps.build.structure.BuildProject" flags="ng" index="1l3spW">
+        <property id="4915877860348071612" name="fileName" index="turDy" />
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
@@ -89,10 +90,6 @@
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
-      <concept id="4278635856200826393" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyJar" flags="ng" index="1BurEX">
-        <child id="4278635856200826394" name="path" index="1BurEY" />
-      </concept>
-      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -106,665 +103,179 @@
       </concept>
     </language>
   </registry>
-  <node concept="1l3spW" id="6HrZlNRnhm8">
-    <property role="TrG5h" value="DependencyManagement" />
+  <node concept="1l3spW" id="6HrZlNRnIdu">
+    <property role="TrG5h" value="DependencyManagement.depAnno.build" />
     <property role="2DA0ip" value="../../" />
-    <node concept="10PD9b" id="6HrZlNRnhm9" role="10PD9s" />
-    <node concept="3b7kt6" id="6HrZlNRnhma" role="10PD9s" />
-    <node concept="398rNT" id="6HrZlNRnhmb" role="1l3spd">
+    <property role="turDy" value="depAnnoBuild.xml" />
+    <node concept="10PD9b" id="6HrZlNRnIdv" role="10PD9s" />
+    <node concept="3b7kt6" id="6HrZlNRnIdw" role="10PD9s" />
+    <node concept="398rNT" id="6HrZlNRnIdx" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
     </node>
-    <node concept="398rNT" id="6HrZlNRnhme" role="1l3spd">
+    <node concept="398rNT" id="6HrZlNRnId$" role="1l3spd">
       <property role="TrG5h" value="mbeddr.github.core.home" />
-      <node concept="55IIr" id="6HrZlNRnhIb" role="398pKh" />
+      <node concept="55IIr" id="6HrZlNRnIhR" role="398pKh" />
     </node>
-    <node concept="2sgV4H" id="6HrZlNRnhmc" role="1l3spa">
+    <node concept="2sgV4H" id="6HrZlNRnIdy" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
-      <node concept="398BVA" id="6HrZlNRnhmd" role="2JcizS">
-        <ref role="398BVh" node="6HrZlNRnhmb" resolve="mps_home" />
+      <node concept="398BVA" id="6HrZlNRnIdz" role="2JcizS">
+        <ref role="398BVh" node="6HrZlNRnIdx" resolve="mps_home" />
       </node>
     </node>
-    <node concept="1l3spV" id="6HrZlNRnhmL" role="1l3spN">
-      <node concept="3981dG" id="6HrZlNRnhmM" role="39821P">
-        <node concept="3_J27D" id="6HrZlNRnhmN" role="Nbhlr">
-          <node concept="3Mxwew" id="6HrZlNRnhmO" role="3MwsjC">
+    <node concept="1l3spV" id="6HrZlNRnIdP" role="1l3spN">
+      <node concept="3981dG" id="6HrZlNRnIdQ" role="39821P">
+        <node concept="3_J27D" id="6HrZlNRnIdR" role="Nbhlr">
+          <node concept="3Mxwew" id="6HrZlNRnIdS" role="3MwsjC">
             <property role="3MwjfP" value="DependencyManagement.zip" />
           </node>
         </node>
-        <node concept="m$_wl" id="6HrZlNRnhmP" role="39821P">
-          <ref role="m_rDy" node="6HrZlNRnhmC" resolve="DependencyManagement" />
+        <node concept="m$_wl" id="6HrZlNRnIdT" role="39821P">
+          <ref role="m_rDy" node="6HrZlNRnIdG" resolve="DependencyManagement" />
         </node>
       </node>
     </node>
-    <node concept="m$_wf" id="6HrZlNRnhmC" role="3989C9">
+    <node concept="m$_wf" id="6HrZlNRnIdG" role="3989C9">
       <property role="m$_wk" value="DependencyManagement" />
-      <node concept="3_J27D" id="6HrZlNRnhmD" role="m$_yQ">
-        <node concept="3Mxwew" id="6HrZlNRnhmE" role="3MwsjC">
+      <node concept="3_J27D" id="6HrZlNRnIdH" role="m$_yQ">
+        <node concept="3Mxwew" id="6HrZlNRnIdI" role="3MwsjC">
           <property role="3MwjfP" value="DependencyManagement" />
         </node>
       </node>
-      <node concept="3_J27D" id="6HrZlNRnhmF" role="m$_w8">
-        <node concept="3Mxwew" id="6HrZlNRnhmG" role="3MwsjC">
+      <node concept="3_J27D" id="6HrZlNRnIdJ" role="m$_w8">
+        <node concept="3Mxwew" id="6HrZlNRnIdK" role="3MwsjC">
           <property role="3MwjfP" value="1.0" />
         </node>
       </node>
-      <node concept="m$f5U" id="6HrZlNRnhmH" role="m$_yh">
-        <ref role="m$f5T" node="6HrZlNRnhmB" resolve="DependencyManagement" />
+      <node concept="m$f5U" id="6HrZlNRnIdL" role="m$_yh">
+        <ref role="m$f5T" node="6HrZlNRnIdF" resolve="DependencyManagement" />
       </node>
-      <node concept="m$_yC" id="6HrZlNRnhmI" role="m$_yJ">
+      <node concept="m$_yC" id="6HrZlNRnIdM" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="3_J27D" id="6HrZlNRnhmJ" role="m_cZH">
-        <node concept="3Mxwew" id="6HrZlNRnhmK" role="3MwsjC">
+      <node concept="m$_yC" id="6HrZlNRqhwr" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
+      <node concept="3_J27D" id="6HrZlNRnIdN" role="m_cZH">
+        <node concept="3Mxwew" id="6HrZlNRnIdO" role="3MwsjC">
           <property role="3MwjfP" value="DependencyManagement" />
         </node>
       </node>
     </node>
-    <node concept="2G$12M" id="6HrZlNRnhmB" role="3989C9">
+    <node concept="2G$12M" id="6HrZlNRnIdF" role="3989C9">
       <property role="TrG5h" value="DependencyManagement" />
-      <node concept="1E1JtD" id="6HrZlNRnhmk" role="2G$12L">
+      <node concept="1E1JtD" id="6HrZlNRnIdE" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="DependencyAnnotation" />
         <property role="3LESm3" value="aa2a0a96-4f86-4df2-84ec-54941b1a2d95" />
         <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="6HrZlNRnhmf" role="3LF7KH">
-          <node concept="2Ry0Ak" id="6HrZlNRnhmg" role="iGT6I">
+        <node concept="55IIr" id="6HrZlNRnId_" role="3LF7KH">
+          <node concept="2Ry0Ak" id="6HrZlNRnIdA" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="6HrZlNRnhmh" role="2Ry0An">
+            <node concept="2Ry0Ak" id="6HrZlNRnIdB" role="2Ry0An">
               <property role="2Ry0Am" value="DependencyAnnotation" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhmi" role="2Ry0An">
+              <node concept="2Ry0Ak" id="6HrZlNRnIdC" role="2Ry0An">
                 <property role="2Ry0Am" value="DependencyAnnotation.mpl" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnhmQ" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhmR" role="1SiIV1">
+        <node concept="1SiIV0" id="6HrZlNRnIdU" role="3bR37C">
+          <node concept="3bR9La" id="6HrZlNRnIdV" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnhmS" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhmT" role="1SiIV1">
+        <node concept="1SiIV0" id="6HrZlNRnIdW" role="3bR37C">
+          <node concept="3bR9La" id="6HrZlNRnIdX" role="1SiIV1">
             <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnhmU" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhmV" role="1SiIV1">
+        <node concept="1SiIV0" id="6HrZlNRnIdY" role="3bR37C">
+          <node concept="3bR9La" id="6HrZlNRnIdZ" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnhmW" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhmX" role="1SiIV1">
+        <node concept="1SiIV0" id="6HrZlNRnIe0" role="3bR37C">
+          <node concept="3bR9La" id="6HrZlNRnIe1" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnhmY" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhmZ" role="1SiIV1">
+        <node concept="1SiIV0" id="6HrZlNRnIe2" role="3bR37C">
+          <node concept="3bR9La" id="6HrZlNRnIe3" role="1SiIV1">
             <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnhn0" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhn1" role="1SiIV1">
+        <node concept="1SiIV0" id="6HrZlNRnIe4" role="3bR37C">
+          <node concept="3bR9La" id="6HrZlNRnIe5" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7pdFgzxlDoI" resolve="jetbrains.mps.build.workflow" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnhn2" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhn3" role="1SiIV1">
+        <node concept="1SiIV0" id="6HrZlNRnIe6" role="3bR37C">
+          <node concept="3bR9La" id="6HrZlNRnIe7" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
-        <node concept="3bR9La" id="6HrZlNRnixD" role="3bR37C">
-          <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
-        </node>
-        <node concept="1yeLz9" id="6HrZlNRnhn4" role="1TViLv">
+        <node concept="1yeLz9" id="6HrZlNRnIe8" role="1TViLv">
           <property role="TrG5h" value="DependencyAnnotation#generator" />
           <property role="3LESm3" value="16b86994-1210-4aee-9800-8cd1e4a22416" />
           <property role="2GAjPV" value="false" />
-          <node concept="1SiIV0" id="6HrZlNRnhn5" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhn6" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIe9" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIea" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhn7" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhn8" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIeb" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIec" role="1SiIV1">
               <property role="3bR36h" value="true" />
               <ref role="3bR37D" to="ffeo:568PkTlOK5Q" resolve="jetbrains.mps.core.xml" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhn9" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhna" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIed" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIee" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhnb" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhnc" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIef" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIeg" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhnd" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhne" role="1SiIV1">
-              <property role="3bR36h" value="false" />
+          <node concept="1SiIV0" id="6HrZlNRnIeh" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIei" role="1SiIV1">
+              <property role="3bR36h" value="true" />
               <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhnf" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhng" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIej" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIek" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhni" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhnh" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIem" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIel" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7YI57w6KjWX" resolve="jetbrains.mps.build.mps#3189788309732033979" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhnk" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhnj" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIeo" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIen" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7YI57w6KjWa" resolve="jetbrains.mps.build.workflow#2769948622284786808" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnhMr" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnhMs" role="1SiIV1">
+          <node concept="1SiIV0" id="6HrZlNRnIie" role="3bR37C">
+            <node concept="3bR9La" id="6HrZlNRnIif" role="1SiIV1">
               <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="6HrZlNRnhmk" resolve="DependencyAnnotation" />
+              <ref role="3bR37D" node="6HrZlNRnIdE" resolve="DependencyAnnotation" />
             </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtA" id="6HrZlNRnhmq" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="util" />
-        <property role="3LESm3" value="c56534c9-d390-4ac2-b0e4-7517c19d079c" />
-        <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="6HrZlNRnhml" role="3LF7KH">
-          <node concept="2Ry0Ak" id="6HrZlNRnhmm" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="6HrZlNRnhmn" role="2Ry0An">
-              <property role="2Ry0Am" value="util" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhmo" role="2Ry0An">
-                <property role="2Ry0Am" value="util.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtA" id="6HrZlNRnhmw" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="DependeciesGathering" />
-        <property role="3LESm3" value="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1" />
-        <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="6HrZlNRnhmr" role="3LF7KH">
-          <node concept="2Ry0Ak" id="6HrZlNRnhms" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="6HrZlNRnhmt" role="2Ry0An">
-              <property role="2Ry0Am" value="DependeciesGathering" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhmu" role="2Ry0An">
-                <property role="2Ry0Am" value="DependeciesGathering.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhny" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhnz" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhN5" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhN6" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhMR" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhMS" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhMT" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhMU" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhMV" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhMW" role="2Ry0An">
-                        <property role="2Ry0Am" value="api" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhMX" role="2Ry0An">
-                          <property role="2Ry0Am" value="javax.ws.rs-api-2.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhNl" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhNm" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhN7" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhN8" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhN9" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhNa" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhNb" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhNc" role="2Ry0An">
-                        <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhNd" role="2Ry0An">
-                          <property role="2Ry0Am" value="jersey-client.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhN_" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhNA" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhNn" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhNo" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhNp" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhNq" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhNr" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhNs" role="2Ry0An">
-                        <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhNt" role="2Ry0An">
-                          <property role="2Ry0Am" value="jersey-common.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhNP" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhNQ" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhNB" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhNC" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhND" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhNE" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhNF" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhNG" role="2Ry0An">
-                        <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhNH" role="2Ry0An">
-                          <property role="2Ry0Am" value="jersey-hk2.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhO5" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhO6" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhNR" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhNS" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhNT" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhNU" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhNV" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhNW" role="2Ry0An">
-                        <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhNX" role="2Ry0An">
-                          <property role="2Ry0Am" value="jersey-server.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhOl" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhOm" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhO7" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhO8" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhO9" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhOa" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhOb" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhOc" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhOd" role="2Ry0An">
-                          <property role="2Ry0Am" value="hk2-api-2.5.0-b42.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhO_" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhOA" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhOn" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhOo" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhOp" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhOq" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhOr" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhOs" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhOt" role="2Ry0An">
-                          <property role="2Ry0Am" value="hk2-locator-2.5.0-b42.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhOP" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhOQ" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhOB" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhOC" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhOD" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhOE" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhOF" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhOG" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhOH" role="2Ry0An">
-                          <property role="2Ry0Am" value="hk2-utils-2.5.0-b42.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhP5" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhP6" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhOR" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhOS" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhOT" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhOU" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhOV" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhOW" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhOX" role="2Ry0An">
-                          <property role="2Ry0Am" value="javax.annotation-api-1.2.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhPl" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhPm" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhP7" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhP8" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhP9" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhPa" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhPb" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhPc" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhPd" role="2Ry0An">
-                          <property role="2Ry0Am" value="javax.inject-2.5.0-b42.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhP_" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhPA" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhPn" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhPo" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhPp" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhPq" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhPr" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhPs" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhPt" role="2Ry0An">
-                          <property role="2Ry0Am" value="javax.json.bind-api-1.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhPP" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhPQ" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhPB" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhPC" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhPD" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhPE" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhPF" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhPG" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhPH" role="2Ry0An">
-                          <property role="2Ry0Am" value="validation-api-1.1.0.Final.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhQ5" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhQ6" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhPR" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhPS" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhPT" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhPU" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhPV" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhPW" role="2Ry0An">
-                        <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhPX" role="2Ry0An">
-                          <property role="2Ry0Am" value="jersey-media-json-binding.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhQl" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhQm" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhQ7" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhQ8" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhQ9" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhQa" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhQb" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhQc" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhQd" role="2Ry0An">
-                          <property role="2Ry0Am" value="javax.json-1.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhQ_" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhQA" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhQn" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhQo" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhQp" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhQq" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhQr" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhQs" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhQt" role="2Ry0An">
-                          <property role="2Ry0Am" value="javax.json-api-1.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhQP" role="3bR37C">
-          <node concept="1BurEX" id="6HrZlNRnhQQ" role="1SiIV1">
-            <node concept="398BVA" id="6HrZlNRnhQB" role="1BurEY">
-              <ref role="398BVh" node="6HrZlNRnhme" resolve="mbeddr.github.core.home" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhQC" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6HrZlNRnhQD" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="6HrZlNRnhQE" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="6HrZlNRnhQF" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="6HrZlNRnhQG" role="2Ry0An">
-                        <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="6HrZlNRnhQH" role="2Ry0An">
-                          <property role="2Ry0Am" value="yasson-1.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtA" id="6HrZlNRnhmA" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="ExportProfiles" />
-        <property role="3LESm3" value="1aa3a629-18b1-44e8-a5b9-913354528d3e" />
-        <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="6HrZlNRnhmx" role="3LF7KH">
-          <node concept="2Ry0Ak" id="6HrZlNRnhmy" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="6HrZlNRnhmz" role="2Ry0An">
-              <property role="2Ry0Am" value="ExportProfiles" />
-              <node concept="2Ry0Ak" id="6HrZlNRnhm$" role="2Ry0An">
-                <property role="2Ry0Am" value="ExportProfiles.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhpS" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhpT" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:3X9rC2XIG0s" resolve="jetbrains.mps.build.mps.tests" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhpU" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhpV" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhpW" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhpX" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7pdFgzxlDoP" resolve="jetbrains.mps.build.mps" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnhpY" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnhpZ" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1Vi5mb_o9f_" resolve="jetbrains.mps.build.mps.runner" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6HrZlNRnka6" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnka7" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7pdFgzxlDoI" resolve="jetbrains.mps.build.workflow" />
           </node>
         </node>
       </node>

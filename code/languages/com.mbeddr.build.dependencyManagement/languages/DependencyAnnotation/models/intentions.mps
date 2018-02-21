@@ -154,6 +154,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1613,6 +1614,29 @@
               </node>
             </node>
             <node concept="3x8VRR" id="5X_uv6sGpvc" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="hKNoOpNib3">
+    <property role="TrG5h" value="removeAnnotation" />
+    <ref role="2ZfgGC" to="dnyj:6qYR9ryjNL1" resolve="IAnnotationVisibility" />
+    <node concept="2S6ZIM" id="hKNoOpNib4" role="2ZfVej">
+      <node concept="3clFbS" id="hKNoOpNib5" role="2VODD2">
+        <node concept="3clFbF" id="hKNoOpNik0" role="3cqZAp">
+          <node concept="Xl_RD" id="hKNoOpNijZ" role="3clFbG">
+            <property role="Xl_RC" value="remove Annotation" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="hKNoOpNib6" role="2ZfgGD">
+      <node concept="3clFbS" id="hKNoOpNib7" role="2VODD2">
+        <node concept="3clFbF" id="hKNoOpNiYE" role="3cqZAp">
+          <node concept="2OqwBi" id="hKNoOpNj5A" role="3clFbG">
+            <node concept="2Sf5sV" id="hKNoOpNiYD" role="2Oq$k0" />
+            <node concept="3YRAZt" id="hKNoOpNjfQ" role="2OqNvi" />
           </node>
         </node>
       </node>

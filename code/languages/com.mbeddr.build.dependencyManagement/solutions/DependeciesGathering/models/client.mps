@@ -763,6 +763,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="hKNoOpWCSV" role="3cqZAp">
+          <node concept="37vLTI" id="hKNoOpWDp1" role="3clFbG">
+            <node concept="37vLTw" id="hKNoOpWCST" role="37vLTJ">
+              <ref role="3cqZAo" node="4LWGtXFr3T" resolve="debugRoot" />
+            </node>
+            <node concept="Xl_RD" id="hKNoOpWDGL" role="37vLTx">
+              <property role="Xl_RC" value="/Users/hbaechmann/repositories/iets3.opensource/build/iets3.opensource" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4LWGtXFtIG" role="3cqZAp">
           <node concept="3cpWsn" id="4LWGtXFtIH" role="3cpWs9">
             <property role="TrG5h" value="debugFile" />
