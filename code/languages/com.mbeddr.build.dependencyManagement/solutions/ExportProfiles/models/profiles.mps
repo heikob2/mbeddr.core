@@ -68,7 +68,7 @@
     <node concept="12Em_I" id="jZlUfPeKG1" role="12Em$8">
       <property role="TrG5h" value="internalBaseDirectory" />
       <property role="3enqAb" value="string" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
     </node>
     <node concept="12Em_I" id="jZlUfPeKG2" role="12Em$8">
       <property role="TrG5h" value="fileName" />
@@ -97,9 +97,8 @@
       <property role="TrG5h" value="macros" />
       <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:4RPz6WoY4Cv" resolve="BuildMacro" />
-      <node concept="12Em_x" id="jZlUfPeRIA" role="24w8oo">
-        <property role="1a5o8Z" value="BuildMacro" />
-        <ref role="12Em_A" node="jZlUfPeRIo" resolve="export_BuildMacro" />
+      <node concept="3fQXxW" id="4MSZG_QJjxA" role="24w8oo">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
       </node>
     </node>
     <node concept="12Em_C" id="jZlUfPeKG6" role="12Em$d">
@@ -115,27 +114,24 @@
       <property role="TrG5h" value="aspects" />
       <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:34DbxDwRlgt" resolve="BuildAspect" />
-      <node concept="12Em_x" id="jZlUfPeROI" role="24w8oo">
-        <property role="1a5o8Z" value="BuildAspect" />
-        <ref role="12Em_A" node="jZlUfPeRNY" resolve="export_BuildAspect" />
+      <node concept="3fQXxW" id="4MSZG_QJjxt" role="24w8oo">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
       </node>
     </node>
     <node concept="12Em_C" id="jZlUfPeKG8" role="12Em$d">
       <property role="TrG5h" value="layout" />
       <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:4RPz6WoY4Ck" resolve="BuildLayout" />
-      <node concept="12Em_x" id="jZlUfPeROO" role="24w8oo">
-        <property role="1a5o8Z" value="BuildLayout" />
-        <ref role="12Em_A" node="jZlUfPeROK" resolve="export_BuildLayout" />
+      <node concept="3fQXxW" id="4MSZG_QJjxw" role="24w8oo">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
       </node>
     </node>
     <node concept="12Em_C" id="jZlUfPeKG9" role="12Em$d">
       <property role="TrG5h" value="scriptsDir" />
       <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:6mpuAlRavrV" resolve="BuildRelativePath" />
-      <node concept="12Em_x" id="jZlUfPeRP6" role="24w8oo">
-        <property role="1a5o8Z" value="BuildRelativePath" />
-        <ref role="12Em_A" node="jZlUfPeROQ" resolve="export_BuildRelativePath" />
+      <node concept="3fQXxW" id="4MSZG_QJjxz" role="24w8oo">
+        <property role="TrG5h" value="Profile is ignored for sub-nodes" />
       </node>
     </node>
     <node concept="12Em_I" id="jZlUfPeKGa" role="12Em$8">
@@ -196,7 +192,7 @@
       <ref role="12Em$l" to="3ior:6eCuTcwOX2$" resolve="BuildExternalLayoutDependency" />
       <node concept="12Em_D" id="jZlUfPeRI8" role="12Em$4">
         <property role="TrG5h" value="layout" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$u" to="3ior:6eCuTcwObZ9" resolve="BuildExternalLayout" />
         <node concept="12Em_x" id="464rVAYmlu8" role="24w8oo">
           <property role="1a5o8Z" value="BuildExternalLayout" />
@@ -205,7 +201,7 @@
       </node>
       <node concept="12Em_C" id="jZlUfPeRI9" role="12Em$d">
         <property role="TrG5h" value="artifacts" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
         <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
         <node concept="12Em_x" id="464rVAYmlu1" role="24w8oo">
           <property role="1a5o8Z" value="BuildSourcePath" />
@@ -328,47 +324,47 @@
       <node concept="12Em_I" id="jZlUfPeRIO" role="12Em$8">
         <property role="TrG5h" value="optionsName" />
         <property role="3enqAb" value="string" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIP" role="12Em$8">
         <property role="TrG5h" value="generateDebugInfo" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIQ" role="12Em$8">
         <property role="TrG5h" value="copyResources" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIR" role="12Em$8">
         <property role="TrG5h" value="heapSize" />
         <property role="3enqAb" value="integer" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIS" role="12Em$8">
         <property role="TrG5h" value="noWarnings" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIT" role="12Em$8">
         <property role="TrG5h" value="compiler" />
         <property role="3enqAb" value="string" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIU" role="12Em$8">
         <property role="TrG5h" value="fork" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIV" role="12Em$8">
         <property role="TrG5h" value="javaLevel" />
         <property role="3enqAb" value="string" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRIW" role="12Em$8">
         <property role="TrG5h" value="compilerOptions" />
         <property role="3enqAb" value="string" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
     </node>
     <node concept="12Em_F" id="jZlUfPeRIX" role="12C$m$">
@@ -382,7 +378,7 @@
       <node concept="12Em_I" id="jZlUfPeRIZ" role="12Em$8">
         <property role="TrG5h" value="compact" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_C" id="jZlUfPeRJ0" role="12Em$d">
         <property role="TrG5h" value="path" />
@@ -404,7 +400,7 @@
         <node concept="12Em_I" id="jZlUfPeRJ3" role="12Em$8">
           <property role="TrG5h" value="doNotCompile" />
           <property role="3enqAb" value="boolean" />
-          <property role="12Em_G" value="PUBLIC" />
+          <property role="12Em_G" value="IGNORED" />
         </node>
         <node concept="12Em_C" id="jZlUfPeRJ4" role="12Em$d">
           <property role="TrG5h" value="sources" />
@@ -417,7 +413,7 @@
         </node>
         <node concept="12Em_C" id="jZlUfPeRJ5" role="12Em$d">
           <property role="TrG5h" value="dependencies" />
-          <property role="12Em_G" value="IGNORED" />
+          <property role="12Em_G" value="PUBLIC" />
           <ref role="12Em$g" to="kdzh:4zCbl23d1MR" resolve="BuildMps_ModuleDependency" />
           <node concept="12Em_x" id="464rVAYmlvW" role="24w8oo">
             <property role="1a5o8Z" value="BuildMps_ModuleDependency" />
@@ -435,7 +431,7 @@
           <node concept="12Em_I" id="jZlUfPeRJ8" role="12Em$8">
             <property role="TrG5h" value="sourcesKind" />
             <property role="3enqAb" value="BuildMps_ModuleSourcesKind" />
-            <property role="12Em_G" value="PUBLIC" />
+            <property role="12Em_G" value="IGNORED" />
           </node>
         </node>
         <node concept="12Em_F" id="jZlUfPeRJ9" role="12C$m$">
@@ -452,7 +448,7 @@
           </node>
           <node concept="12Em_C" id="jZlUfPeRJb" role="12Em$d">
             <property role="TrG5h" value="generator" />
-            <property role="12Em_G" value="IGNORED" />
+            <property role="12Em_G" value="PUBLIC" />
             <ref role="12Em$g" to="kdzh:4LHG7OIlEyO" resolve="BuildMps_Generator" />
             <node concept="12Em_x" id="464rVAYmlwh" role="24w8oo">
               <property role="1a5o8Z" value="BuildMps_Generator" />
@@ -881,22 +877,22 @@
       <node concept="12Em_I" id="jZlUfPeRJX" role="12Em$8">
         <property role="TrG5h" value="major" />
         <property role="3enqAb" value="integer" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRJY" role="12Em$8">
         <property role="TrG5h" value="minor" />
         <property role="3enqAb" value="integer" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRJZ" role="12Em$8">
         <property role="TrG5h" value="bugfixNr" />
         <property role="3enqAb" value="string" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRK0" role="12Em$8">
         <property role="TrG5h" value="eap" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRK1" role="12Em$8">
         <property role="TrG5h" value="name" />
@@ -1009,32 +1005,32 @@
       <node concept="12Em_I" id="jZlUfPeRKf" role="12Em$8">
         <property role="TrG5h" value="strict" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRKg" role="12Em$8">
         <property role="TrG5h" value="parallel" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRKh" role="12Em$8">
         <property role="TrG5h" value="parallelThreads" />
         <property role="3enqAb" value="integer" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRKi" role="12Em$8">
         <property role="TrG5h" value="inplace" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRKj" role="12Em$8">
         <property role="TrG5h" value="hideWarnings" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRKk" role="12Em$8">
         <property role="TrG5h" value="createStaticRefs" />
         <property role="3enqAb" value="boolean" />
-        <property role="12Em_G" value="PUBLIC" />
+        <property role="12Em_G" value="IGNORED" />
       </node>
       <node concept="12Em_I" id="jZlUfPeRKl" role="12Em$8">
         <property role="TrG5h" value="name" />
@@ -4688,7 +4684,7 @@
     <node concept="12Em_I" id="1xIF3KvLRw5" role="12Em$8">
       <property role="TrG5h" value="internalBaseDirectory" />
       <property role="3enqAb" value="string" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
     </node>
     <node concept="12Em_I" id="1xIF3KvLRw6" role="12Em$8">
       <property role="TrG5h" value="fileName" />
