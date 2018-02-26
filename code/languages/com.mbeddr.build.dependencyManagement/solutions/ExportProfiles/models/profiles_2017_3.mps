@@ -197,6 +197,7 @@
   </node>
   <node concept="12Em_F" id="5X_uv6sJ$ly">
     <property role="TrG5h" value="export_BuildSourcePath_2017_3" />
+    <property role="3GE5qa" value="string" />
     <ref role="12Em$l" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
     <node concept="12Em_F" id="5X_uv6sJ$lz" role="12C$m$">
       <property role="TrG5h" value="Export_BuildRelativePath" />
@@ -238,6 +239,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVyy3">
     <property role="TrG5h" value="export_referenced_BuildProject_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="3ior:4RPz6WoY4Cj" resolve="BuildProject" />
     <node concept="12Em_I" id="3adNyZsVyy4" role="12Em$8">
       <property role="TrG5h" value="internalBaseDirectory" />
@@ -305,6 +307,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHkt">
     <property role="TrG5h" value="export_BuildProjectPart_2017_3" />
+    <property role="3GE5qa" value="toplevel" />
     <ref role="12Em$l" to="3ior:6qcrfIJFdK8" resolve="BuildProjectPart" />
     <node concept="12Em_F" id="3adNyZsVHku" role="12C$m$">
       <property role="TrG5h" value="Export_BuildSource_JavaModule" />
@@ -985,6 +988,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHmH">
     <property role="TrG5h" value="export_BuildMps_ModuleDependency_2017_3" />
+    <property role="3GE5qa" value="module" />
     <ref role="12Em$l" to="kdzh:4zCbl23d1MR" resolve="BuildMps_ModuleDependency" />
     <node concept="12Em_F" id="3adNyZsVHmI" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_ModuleDependencyOnModule" />
@@ -1095,9 +1099,11 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHn4">
     <property role="TrG5h" value="export_BuildMps_Generator_2017_3" />
+    <property role="3GE5qa" value="module" />
     <ref role="12Em$l" to="kdzh:4LHG7OIlEyO" resolve="BuildMps_Generator" />
     <node concept="12Em_D" id="3adNyZsVHn5" role="12Em$4">
       <property role="TrG5h" value="sourceLanguage" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$u" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
       <node concept="12Em_x" id="3adNyZsVHZy" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_Language" />
@@ -1117,6 +1123,7 @@
     </node>
     <node concept="12Em_C" id="3adNyZsVHn8" role="12Em$d">
       <property role="TrG5h" value="dependencies" />
+      <property role="12Em_G" value="PUBLIC" />
       <ref role="12Em$g" to="kdzh:4zCbl23d1MR" resolve="BuildMps_ModuleDependency" />
       <node concept="12Em_x" id="3adNyZsVHZs" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleDependency" />
@@ -1152,6 +1159,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHnj">
     <property role="TrG5h" value="export_referenced_BuildMps_Language_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
     <node concept="12Em_C" id="3adNyZsVHnk" role="12Em$d">
       <property role="TrG5h" value="runtime" />
@@ -1221,6 +1229,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHo4">
     <property role="TrG5h" value="export_BuildMps_GeneratorRef_2017_3" />
+    <property role="3GE5qa" value="module" />
     <ref role="12Em$l" to="kdzh:6OtXG9K2II1" resolve="BuildMps_GeneratorRef" />
     <node concept="12Em_D" id="3adNyZsVHo5" role="12Em$4">
       <property role="TrG5h" value="generator" />
@@ -1234,6 +1243,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHoc">
     <property role="TrG5h" value="export_referenced_BuildMps_Generator_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:4LHG7OIlEyO" resolve="BuildMps_Generator" />
     <node concept="12Em_D" id="3adNyZsVHod" role="12Em$4">
       <property role="TrG5h" value="sourceLanguage" />
@@ -1289,6 +1299,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHoM">
     <property role="TrG5h" value="export_BuildMps_DevKitRef_2017_3" />
+    <property role="3GE5qa" value="module" />
     <ref role="12Em$l" to="kdzh:hS0KzPOz4U" resolve="BuildMps_DevKitRef" />
     <node concept="12Em_D" id="3adNyZsVHoN" role="12Em$4">
       <property role="TrG5h" value="devkit" />
@@ -1302,6 +1313,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHoT">
     <property role="TrG5h" value="export_referenced_BuildMps_DevKit_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:hS0KzPOwoe" resolve="BuildMps_DevKit" />
     <node concept="12Em_C" id="3adNyZsVHoU" role="12Em$d">
       <property role="TrG5h" value="extends" />
@@ -1341,6 +1353,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHpk">
     <property role="TrG5h" value="export_BuildMps_DevKitExport_2017_3" />
+    <property role="3GE5qa" value="module" />
     <ref role="12Em$l" to="kdzh:hS0KzPOz53" resolve="BuildMps_DevKitExport" />
     <node concept="12Em_F" id="3adNyZsVHpl" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_DevKitExportLanguage" />
@@ -1371,6 +1384,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHpA">
     <property role="TrG5h" value="export_referenced_BuildMps_Solution_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:2L4pT56gD3R" resolve="BuildMps_Solution" />
     <node concept="12Em_I" id="3adNyZsVHpB" role="12Em$8">
       <property role="TrG5h" value="sourcesKind" />
@@ -1423,6 +1437,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHq6">
     <property role="TrG5h" value="export_BuildMps_AbstractModule_2017_3" />
+    <property role="3GE5qa" value="module" />
     <ref role="12Em$l" to="kdzh:hS0KzPONfF" resolve="BuildMps_AbstractModule" />
     <node concept="12Em_I" id="3adNyZsVHq7" role="12Em$8">
       <property role="TrG5h" value="uuid" />
@@ -1549,6 +1564,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHS9">
     <property role="TrG5h" value="export_BuildString_2017_3" />
+    <property role="3GE5qa" value="string" />
     <ref role="12Em$l" to="3ior:3NagsOfThPf" resolve="BuildString" />
     <node concept="12Em_C" id="3adNyZsVHSa" role="12Em$d">
       <property role="TrG5h" value="parts" />
@@ -1566,6 +1582,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHSh">
     <property role="TrG5h" value="export_BuildMps_BrandingCompany_2017_3" />
+    <property role="3GE5qa" value="branding" />
     <ref role="12Em$l" to="kdzh:FnaIS$F0fo" resolve="BuildMps_BrandingCompany" />
     <node concept="12Em_C" id="3adNyZsVHSi" role="12Em$d">
       <property role="TrG5h" value="name" />
@@ -1588,6 +1605,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHSq">
     <property role="TrG5h" value="export_BuildStringPart_2017_3" />
+    <property role="3GE5qa" value="string" />
     <ref role="12Em$l" to="3ior:4gdvEeQyRNZ" resolve="BuildStringPart" />
     <node concept="12Em_I" id="3adNyZsVHSr" role="12Em$8">
       <property role="TrG5h" value="name" />
@@ -1619,6 +1637,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHSB">
     <property role="TrG5h" value="export_referenced_BuildVariableMacro_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="3ior:3h9a8EwPm3y" resolve="BuildVariableMacro" />
     <node concept="12Em_C" id="3adNyZsVHSC" role="12Em$d">
       <property role="TrG5h" value="initialValue" />
@@ -1637,6 +1656,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHSK">
     <property role="TrG5h" value="export_BuildVariableMacroInitValue_2017_3" />
+    <property role="3GE5qa" value="string" />
     <ref role="12Em$l" to="3ior:2oW$psGOu6E" resolve="BuildVariableMacroInitValue" />
     <node concept="12Em_F" id="3adNyZsVHSL" role="12C$m$">
       <property role="TrG5h" value="Export_BuildVariableMacroInitWithString" />
@@ -1694,6 +1714,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHTi">
     <property role="TrG5h" value="export_BuildStringNotEmpty_2017_3" />
+    <property role="3GE5qa" value="string" />
     <ref role="12Em$l" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
     <node concept="12Em_C" id="3adNyZsVHTj" role="12Em$d">
       <property role="TrG5h" value="parts" />
@@ -1707,6 +1728,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHTS">
     <property role="TrG5h" value="export_BuildMps_IdeaPluginContent_2017_3" />
+    <property role="3GE5qa" value="idea" />
     <ref role="12Em$l" to="kdzh:5HVSRHdUrJF" resolve="BuildMps_IdeaPluginContent" />
     <node concept="12Em_F" id="3adNyZsVHTT" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_IdeaPluginModule" />
@@ -1748,6 +1770,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHU5">
     <property role="TrG5h" value="export_referenced_BuildMps_AbstractModule_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:hS0KzPONfF" resolve="BuildMps_AbstractModule" />
     <node concept="12Em_I" id="3adNyZsVHU6" role="12Em$8">
       <property role="TrG5h" value="uuid" />
@@ -1862,6 +1885,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHUw">
     <property role="TrG5h" value="export_referenced_BuildMps_Group_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:1jjYQYSgYJt" resolve="BuildMps_Group" />
     <node concept="12Em_C" id="3adNyZsVHUx" role="12Em$d">
       <property role="TrG5h" value="modules" />
@@ -1878,6 +1902,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHUN">
     <property role="TrG5h" value="export_BuildMps_IdeaPluginDependency_2017_3" />
+    <property role="3GE5qa" value="idea" />
     <ref role="12Em$l" to="kdzh:5HVSRHdUrJj" resolve="BuildMps_IdeaPluginDependency" />
     <node concept="12Em_D" id="3adNyZsVHUO" role="12Em$4">
       <property role="TrG5h" value="target" />
@@ -1891,6 +1916,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHUV">
     <property role="TrG5h" value="export_referenced_BuildMps_IdeaPlugin_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:5HVSRHdUrHO" resolve="BuildMps_IdeaPlugin" />
     <node concept="12Em_C" id="3adNyZsVHUW" role="12Em$d">
       <property role="TrG5h" value="name" />
@@ -1976,6 +2002,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVHZU">
     <property role="TrG5h" value="export_referenced_BuildMps_Module_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="kdzh:4zCbl23cpcc" resolve="BuildMps_Module" />
     <node concept="12Em_I" id="3adNyZsVHZV" role="12Em$8">
       <property role="TrG5h" value="doNotCompile" />
@@ -2068,6 +2095,7 @@
   </node>
   <node concept="12Em_F" id="3adNyZsVI0A">
     <property role="TrG5h" value="export_referenced_BuildSource_JavaModule_2017_3" />
+    <property role="3GE5qa" value="referenced" />
     <ref role="12Em$l" to="3ior:6qcrfIJFdKS" resolve="BuildSource_JavaModule" />
     <node concept="12Em_C" id="3adNyZsVI0B" role="12Em$d">
       <property role="TrG5h" value="sources" />
