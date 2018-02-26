@@ -2848,7 +2848,7 @@
       <ref role="12Em$l" to="kdzh:3HwLahs6gcI" resolve="BuildMps_ModuleDependencyExtendLanguage" />
       <node concept="12Em_D" id="464rVAYmlvO" role="12Em$4">
         <property role="TrG5h" value="language" />
-        <property role="12Em_G" value="IGNORED" />
+        <property role="12Em_G" value="PUBLIC" />
         <ref role="12Em$u" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
         <node concept="12Em_x" id="464rVAYmNsn" role="24w8oo">
           <property role="1a5o8Z" value="BuildMps_Language" />
@@ -3009,7 +3009,7 @@
     <ref role="12Em$l" to="kdzh:2L4pT56gD3S" resolve="BuildMps_Language" />
     <node concept="12Em_C" id="464rVAYmlwx" role="12Em$d">
       <property role="TrG5h" value="runtime" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="kdzh:2L4pT56gSBR" resolve="BuildMps_ModuleRuntime" />
       <node concept="12Em_x" id="464rVAYmNrH" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleRuntime" />
@@ -3027,7 +3027,7 @@
     </node>
     <node concept="12Em_C" id="464rVAYmlwz" role="12Em$d">
       <property role="TrG5h" value="managedGenerators" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="kdzh:6OtXG9K2II1" resolve="BuildMps_GeneratorRef" />
       <node concept="12Em_x" id="464rVAYmNrP" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_GeneratorRef" />
@@ -3037,11 +3037,11 @@
     <node concept="12Em_I" id="464rVAYmlw$" role="12Em$8">
       <property role="TrG5h" value="doNotCompile" />
       <property role="3enqAb" value="boolean" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
     </node>
     <node concept="12Em_C" id="464rVAYmlw_" role="12Em$d">
       <property role="TrG5h" value="sources" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="kdzh:4zCbl23d1OJ" resolve="BuildMps_ModuleSource" />
       <node concept="12Em_x" id="464rVAYmNrT" role="24w8oo">
         <property role="1a5o8Z" value="BuildMps_ModuleSource" />
@@ -3065,11 +3065,11 @@
     <node concept="12Em_I" id="464rVAYmlwC" role="12Em$8">
       <property role="TrG5h" value="compact" />
       <property role="3enqAb" value="boolean" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
     </node>
     <node concept="12Em_C" id="464rVAYmlwD" role="12Em$d">
       <property role="TrG5h" value="path" />
-      <property role="12Em_G" value="PUBLIC" />
+      <property role="12Em_G" value="IGNORED" />
       <ref role="12Em$g" to="3ior:6qcrfIJFdKY" resolve="BuildSourcePath" />
       <node concept="12Em_x" id="464rVAYmNs1" role="24w8oo">
         <property role="1a5o8Z" value="BuildSourcePath" />
