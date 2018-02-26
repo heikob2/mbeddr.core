@@ -5334,9 +5334,39 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3SKdUt" id="5eqg0kba7iw" role="3cqZAp">
-                      <node concept="3SKdUq" id="5eqg0kba7ix" role="3SKWNk">
-                        <property role="3SKdUp" value="todo: implement post-generation" />
+                  </node>
+                  <node concept="3eNFk2" id="3adNyZtb6qP" role="3eNLev">
+                    <node concept="3clFbS" id="3adNyZtb6qR" role="3eOfB_">
+                      <node concept="3clFbF" id="3adNyZtb7yc" role="3cqZAp">
+                        <node concept="2OqwBi" id="3adNyZtb8HT" role="3clFbG">
+                          <node concept="2ShNRf" id="3adNyZtb7ya" role="2Oq$k0">
+                            <node concept="HV5vD" id="3adNyZtb8C8" role="2ShVmc">
+                              <ref role="HV5vE" to="bgrh:6HrZlNR38nS" resolve="PostReduceXmlNoise" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3adNyZtb8Uo" role="2OqNvi">
+                            <ref role="37wK5l" to="bgrh:6HrZlNR38o2" resolve="reduce" />
+                            <node concept="Jnkvi" id="3adNyZtb8WX" role="37wK5m">
+                              <ref role="1M0zk5" node="5eqg0kba7iy" resolve="xmlElem" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="3adNyZtb6xY" role="3eO9$A">
+                      <node concept="2OqwBi" id="3adNyZtb6xZ" role="2Oq$k0">
+                        <node concept="Jnkvi" id="3adNyZtb6y0" role="2Oq$k0">
+                          <ref role="1M0zk5" node="5eqg0kba7iy" resolve="xmlElem" />
+                        </node>
+                        <node concept="3TrcHB" id="3adNyZtb6y1" role="2OqNvi">
+                          <ref role="3TsBF5" to="iuxj:5M4a$b5iL2Q" resolve="tagName" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3adNyZtb6y2" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <node concept="Xl_RD" id="3adNyZtb6y3" role="37wK5m">
+                          <property role="Xl_RC" value="dependency" />
+                        </node>
                       </node>
                     </node>
                   </node>
