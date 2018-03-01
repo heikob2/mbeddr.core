@@ -34,7 +34,11 @@
         <property id="8618885170173601779" name="head" index="2Ry0Am" />
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
+      <concept id="2591537044435828004" name="jetbrains.mps.build.structure.BuildLayout_CompileOutputOf" flags="ng" index="Saw0i">
+        <reference id="2591537044435828006" name="module" index="Saw0g" />
+      </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
+      <concept id="7389400916848050074" name="jetbrains.mps.build.structure.BuildLayout_Jar" flags="ng" index="3981dx" />
       <concept id="7389400916848050071" name="jetbrains.mps.build.structure.BuildLayout_Zip" flags="ng" index="3981dG" />
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
@@ -59,6 +63,13 @@
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
+      <concept id="1251221292903960366" name="jetbrains.mps.build.structure.BuildLayout_JarManifest" flags="ng" index="3FFNgc">
+        <child id="8563603456895840659" name="parts" index="2FjnpF" />
+      </concept>
+      <concept id="1251221292903960368" name="jetbrains.mps.build.structure.BuildLayout_JarManifest_Attribute" flags="ng" index="3FFNgi">
+        <child id="1251221292903960370" name="value" index="3FFNgg" />
+        <child id="1251221292903960369" name="name" index="3FFNgj" />
+      </concept>
       <concept id="4903714810883702019" name="jetbrains.mps.build.structure.BuildTextStringPart" flags="ng" index="3Mxwew">
         <property id="4903714810883755350" name="text" index="3MwjfP" />
       </concept>
@@ -235,7 +246,45 @@
       </node>
     </node>
     <node concept="1l3spV" id="68ym4SaZR7L" role="1l3spN">
+      <node concept="3981dx" id="68ym4Sb3lum" role="39821P">
+        <node concept="3_J27D" id="68ym4Sb3luo" role="Nbhlr">
+          <node concept="3Mxwew" id="68ym4Sb3lB_" role="3MwsjC">
+            <property role="3MwjfP" value="DepMan.jar" />
+          </node>
+        </node>
+        <node concept="Saw0i" id="68ym4Sb3lBC" role="39821P">
+          <ref role="Saw0g" node="68ym4SaZR7A" resolve="DependeciesGathering" />
+        </node>
+        <node concept="3FFNgc" id="68ym4Sb3lTy" role="39821P">
+          <node concept="3FFNgi" id="68ym4Sb3lTz" role="2FjnpF">
+            <node concept="3_J27D" id="68ym4Sb3lT$" role="3FFNgg">
+              <node concept="3Mxwew" id="68ym4Sb3lT_" role="3MwsjC">
+                <property role="3MwjfP" value="DependeciesGathering.client.ClientStarter" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="68ym4Sb3lTA" role="3FFNgj">
+              <node concept="3Mxwew" id="68ym4Sb3lTB" role="3MwsjC">
+                <property role="3MwjfP" value="Main-Class" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3981dG" id="68ym4SaZR7M" role="39821P">
+        <node concept="3FFNgc" id="68ym4Sb39YQ" role="39821P">
+          <node concept="3FFNgi" id="68ym4Sb39YR" role="2FjnpF">
+            <node concept="3_J27D" id="68ym4Sb39YS" role="3FFNgg">
+              <node concept="3Mxwew" id="68ym4Sb39YT" role="3MwsjC">
+                <property role="3MwjfP" value="DependeciesGathering.client.ClientStarter" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="68ym4Sb39YU" role="3FFNgj">
+              <node concept="3Mxwew" id="68ym4Sb39YV" role="3MwsjC">
+                <property role="3MwjfP" value="Main-Class" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3_J27D" id="68ym4SaZR7N" role="Nbhlr">
           <node concept="3Mxwew" id="68ym4SaZR7O" role="3MwsjC">
             <property role="3MwjfP" value="DependencyManagement.zip" />
@@ -611,6 +660,34 @@
               </node>
             </node>
           </node>
+          <node concept="3FFNgc" id="68ym4Sb2Vhk" role="39821P">
+            <node concept="3FFNgi" id="68ym4Sb2Vqe" role="2FjnpF">
+              <node concept="3_J27D" id="68ym4Sb2Vqg" role="3FFNgg">
+                <node concept="3Mxwew" id="68ym4Sb2Vzk" role="3MwsjC">
+                  <property role="3MwjfP" value="DependeciesGathering.client.ClientStarter" />
+                </node>
+              </node>
+              <node concept="3_J27D" id="68ym4Sb2Vqh" role="3FFNgj">
+                <node concept="3Mxwew" id="68ym4Sb2VuQ" role="3MwsjC">
+                  <property role="3MwjfP" value="Main-Class" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3FFNgc" id="68ym4Sb3apK" role="39821P">
+        <node concept="3FFNgi" id="68ym4Sb3apL" role="2FjnpF">
+          <node concept="3_J27D" id="68ym4Sb3apM" role="3FFNgg">
+            <node concept="3Mxwew" id="68ym4Sb3apN" role="3MwsjC">
+              <property role="3MwjfP" value="DependeciesGathering.client.ClientStarter" />
+            </node>
+          </node>
+          <node concept="3_J27D" id="68ym4Sb3apO" role="3FFNgj">
+            <node concept="3Mxwew" id="68ym4Sb3apP" role="3MwsjC">
+              <property role="3MwjfP" value="Main-Class" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -644,7 +721,7 @@
     <node concept="2G$12M" id="68ym4SaZR7B" role="3989C9">
       <property role="TrG5h" value="DependencyManagement" />
       <node concept="1E1JtA" id="68ym4SaZR7A" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="DependeciesGathering" />
         <property role="3LESm3" value="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1" />
         <property role="2GAjPV" value="false" />
