@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="d5033cee-f632-44b6-b308-89d4fbde34ff" name="jetbrains.mps.build.startup" version="0" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -13,6 +15,7 @@
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
+    <import index="s7om" ref="r:a930f08c-5447-4203-8f2e-507bb76fab12(jetbrains.mps.build.startup.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -260,26 +263,31 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="1MjokfNl9iw" role="1B3o_S" />
       <node concept="17QB3L" id="1MjokfNl9nU" role="1tU5fm" />
-      <node concept="3cpWs3" id="2ZyuwMBzwoy" role="33vP2m">
-        <node concept="Xl_RD" id="2ZyuwMBzwx8" role="3uHU7w">
-          <property role="Xl_RC" value="-lu //interactive user-login" />
+      <node concept="3cpWs3" id="68ym4Sb57og" role="33vP2m">
+        <node concept="Xl_RD" id="68ym4Sb57xO" role="3uHU7w">
+          <property role="Xl_RC" value="-fromfile &lt;filepath&gt; //read config from file" />
         </node>
-        <node concept="3cpWs3" id="2ZyuwMBzu6H" role="3uHU7B">
-          <node concept="3cpWs3" id="2ZyuwMBzoIM" role="3uHU7B">
-            <node concept="3cpWs3" id="2ZyuwMBznio" role="3uHU7B">
-              <node concept="Xl_RD" id="1MjokfNl9tD" role="3uHU7B">
-                <property role="Xl_RC" value="-r &lt;rootfolder&gt; \n" />
+        <node concept="3cpWs3" id="2ZyuwMBzwoy" role="3uHU7B">
+          <node concept="3cpWs3" id="2ZyuwMBzu6H" role="3uHU7B">
+            <node concept="3cpWs3" id="2ZyuwMBzoIM" role="3uHU7B">
+              <node concept="3cpWs3" id="2ZyuwMBznio" role="3uHU7B">
+                <node concept="Xl_RD" id="1MjokfNl9tD" role="3uHU7B">
+                  <property role="Xl_RC" value="-r &lt;rootfolder&gt; \n" />
+                </node>
+                <node concept="Xl_RD" id="2ZyuwMBznqj" role="3uHU7w">
+                  <property role="Xl_RC" value="-u &lt;url&gt; \n" />
+                </node>
               </node>
-              <node concept="Xl_RD" id="2ZyuwMBznqj" role="3uHU7w">
-                <property role="Xl_RC" value="-u &lt;url&gt; \n" />
+              <node concept="Xl_RD" id="2ZyuwMBzp5S" role="3uHU7w">
+                <property role="Xl_RC" value="-public|-private //public- and/or private-mode \n" />
               </node>
             </node>
-            <node concept="Xl_RD" id="2ZyuwMBzp5S" role="3uHU7w">
-              <property role="Xl_RC" value="-public|-private //public- and/or private-mode \n" />
+            <node concept="Xl_RD" id="2ZyuwMBzuf5" role="3uHU7w">
+              <property role="Xl_RC" value="-lf &lt;loginFile&gt; \n" />
             </node>
           </node>
-          <node concept="Xl_RD" id="2ZyuwMBzuf5" role="3uHU7w">
-            <property role="Xl_RC" value="-lf &lt;loginFile&gt; \n" />
+          <node concept="Xl_RD" id="2ZyuwMBzwx8" role="3uHU7w">
+            <property role="Xl_RC" value="-lu //interactive user-login" />
           </node>
         </node>
       </node>
