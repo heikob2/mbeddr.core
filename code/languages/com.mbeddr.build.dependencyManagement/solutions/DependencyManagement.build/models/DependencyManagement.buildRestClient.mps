@@ -33,12 +33,15 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
       <concept id="5617550519002745364" name="jetbrains.mps.build.structure.BuildLayout" flags="ng" index="1l3spV" />
       <concept id="5617550519002745363" name="jetbrains.mps.build.structure.BuildProject" flags="ng" index="1l3spW">
+        <property id="4915877860348071612" name="fileName" index="turDy" />
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
@@ -105,7 +108,8 @@
   </registry>
   <node concept="1l3spW" id="68ym4SaZR7q">
     <property role="TrG5h" value="DependencyManagement" />
-    <property role="2DA0ip" value="../../" />
+    <property role="2DA0ip" value="../../../../../build/com.mbeddr.build.dependencyManagement" />
+    <property role="turDy" value="buildRestClient.xml" />
     <node concept="10PD9b" id="68ym4SaZR7r" role="10PD9s" />
     <node concept="3b7kt6" id="68ym4SaZR7s" role="10PD9s" />
     <node concept="398rNT" id="68ym4SaZR7t" role="1l3spd">
@@ -113,6 +117,26 @@
     </node>
     <node concept="398rNT" id="68ym4SaZR7w" role="1l3spd">
       <property role="TrG5h" value="mbeddr.github.core.home" />
+    </node>
+    <node concept="398rNT" id="68ym4Sb2E_e" role="1l3spd">
+      <property role="TrG5h" value="depMan.home" />
+      <node concept="55IIr" id="68ym4Sb2EFS" role="398pKh">
+        <node concept="2Ry0Ak" id="68ym4Sb2FFh" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="68ym4Sb2FFo" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="68ym4Sb2FFv" role="2Ry0An">
+              <property role="2Ry0Am" value="code" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FFz" role="2Ry0An">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="68ym4Sb2FFE" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.build.dependencyManagement" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="68ym4SaZR7u" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
@@ -130,18 +154,19 @@
         <node concept="m$_wl" id="68ym4SaZR7P" role="39821P">
           <ref role="m_rDy" node="68ym4SaZR7C" resolve="DependencyManagement" />
           <node concept="28jJK3" id="68ym4Sb0PWV" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0PZ8" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0PZ9" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FHQ" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FHY" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0PZa" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FHZ" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0PZb" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FI0" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0PZc" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FI1" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0PZd" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FI2" role="2Ry0An">
                         <property role="2Ry0Am" value="api" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0PZe" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FI3" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.ws.rs-api-2.1.jar" />
                         </node>
                       </node>
@@ -152,18 +177,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0Qtm" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0QvH" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0QvI" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FKr" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FKz" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0QvJ" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FK$" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0QvK" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FK_" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0QvL" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FKA" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0QvM" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FKB" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0QvN" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FKC" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-client.jar" />
                         </node>
                       </node>
@@ -174,18 +200,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0Q$a" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0QAk" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0QAl" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FN0" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FN8" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0QAm" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FN9" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0QAn" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FNa" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0QAo" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FNb" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0QAp" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FNc" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0QAq" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FNd" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-common.jar" />
                         </node>
                       </node>
@@ -196,18 +223,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0QE$" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0QHb" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0QHc" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FP_" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FPH" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0QHd" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FPI" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0QHe" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FPJ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0QHf" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FPK" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0QHg" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FPL" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0QHh" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FPM" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-hk2.jar" />
                         </node>
                       </node>
@@ -218,18 +246,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0QLz" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0QOi" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0QOj" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FSa" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FSi" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0QOk" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FSj" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0QOl" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FSk" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0QOm" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FSl" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0QOn" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FSm" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0QOo" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FSn" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-server.jar" />
                         </node>
                       </node>
@@ -240,18 +269,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0QSM" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0QVD" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0QVE" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FUJ" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FUR" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0QVF" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FUS" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0QVG" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FUT" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0QVH" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FUU" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0QVI" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FUV" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0QVJ" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FUW" role="2Ry0An">
                           <property role="2Ry0Am" value="hk2-api-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -262,18 +292,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0R0A" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0R3g" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0R3h" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FXk" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FXs" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0R3i" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FXt" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0R3j" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FXu" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0R3k" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FXv" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0R3l" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FXw" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0R3m" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FXx" role="2Ry0An">
                           <property role="2Ry0Am" value="hk2-locator-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -284,18 +315,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0R8l" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0Rb7" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0Rb8" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2FZT" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2G01" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0Rb9" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2G02" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0Rba" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2G03" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0Rbb" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2G04" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0Rbc" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2G05" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0Rbd" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2G06" role="2Ry0An">
                           <property role="2Ry0Am" value="hk2-utils-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -306,18 +338,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0Rgk" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0Rje" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0Rjf" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2G2u" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2G2A" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0Rjg" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2G2B" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0Rjh" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2G2C" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0Rji" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2G2D" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0Rjj" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2G2E" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0Rjk" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2G2F" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.annotation-api-1.2.jar" />
                         </node>
                       </node>
@@ -328,18 +361,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0Roz" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0Rr_" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0RrA" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2G53" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2G5b" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0RrB" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2G5c" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0RrC" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2G5d" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0RrD" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2G5e" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0RrE" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2G5f" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0RrF" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2G5g" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.inject-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -350,18 +384,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0Rx2" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0R$c" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0R$d" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2G7C" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2G7K" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0R$e" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2G7L" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0R$f" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2G7M" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0R$g" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2G7N" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0R$h" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2G7O" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0R$i" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2G7P" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.json.bind-api-1.0.jar" />
                         </node>
                       </node>
@@ -372,18 +407,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0RDL" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0RH3" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0RH4" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2Gad" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Gal" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0RH5" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Gam" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0RH6" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Gan" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0RH7" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Gao" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0RH8" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Gap" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0RH9" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Gaq" role="2Ry0An">
                           <property role="2Ry0Am" value="validation-api-1.1.0.Final.jar" />
                         </node>
                       </node>
@@ -394,18 +430,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0RMK" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0RQa" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0RQb" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2GcM" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2GcU" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0RQc" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2GcV" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0RQd" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2GcW" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0RQe" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2GcX" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0RQf" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2GcY" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0RQg" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2GcZ" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-media-json-binding.jar" />
                         </node>
                       </node>
@@ -416,18 +453,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0RVZ" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0RZx" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0RZy" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2Gfn" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Gfv" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0RZz" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Gfw" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0RZ$" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Gfx" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0RZ_" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Gfy" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0RZA" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Gfz" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0RZB" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Gf$" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.json-1.1.jar" />
                         </node>
                       </node>
@@ -438,18 +476,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0S5u" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0S98" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0S99" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2GhW" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Gi4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0S9a" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Gi5" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0S9b" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Gi6" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0S9c" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Gi7" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0S9d" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Gi8" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0S9e" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Gi9" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.json-api-1.1.jar" />
                         </node>
                       </node>
@@ -460,18 +499,19 @@
             </node>
           </node>
           <node concept="28jJK3" id="68ym4Sb0Sfd" role="39821P">
-            <node concept="55IIr" id="68ym4Sb0SiZ" role="28jJRO">
-              <node concept="2Ry0Ak" id="68ym4Sb0Sj0" role="iGT6I">
+            <node concept="398BVA" id="68ym4Sb2Gkx" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2GkD" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb0Sj1" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2GkE" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb0Sj2" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2GkF" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb0Sj3" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2GkG" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb0Sj4" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2GkH" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4Sb0Sj5" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2GkI" role="2Ry0An">
                           <property role="2Ry0Am" value="yasson-1.0.jar" />
                         </node>
                       </node>
@@ -518,12 +558,13 @@
         <property role="TrG5h" value="DependeciesGathering" />
         <property role="3LESm3" value="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1" />
         <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="68ym4SaZR7x" role="3LF7KH">
-          <node concept="2Ry0Ak" id="68ym4SaZR7y" role="iGT6I">
+        <node concept="398BVA" id="68ym4Sb2Fzi" role="3LF7KH">
+          <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+          <node concept="2Ry0Ak" id="68ym4Sb2Fzn" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="68ym4SaZR7z" role="2Ry0An">
+            <node concept="2Ry0Ak" id="68ym4Sb2Fzo" role="2Ry0An">
               <property role="2Ry0Am" value="DependeciesGathering" />
-              <node concept="2Ry0Ak" id="68ym4SaZR7$" role="2Ry0An">
+              <node concept="2Ry0Ak" id="68ym4Sb2Fzp" role="2Ry0An">
                 <property role="2Ry0Am" value="DependeciesGathering.msd" />
               </node>
             </node>
@@ -541,20 +582,21 @@
             <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR81" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR82" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR7U" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR7V" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2FlL" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2FlM" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Flz" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fl$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR7W" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fl_" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR7X" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FlA" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR7Y" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FlB" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR7Z" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FlC" role="2Ry0An">
                         <property role="2Ry0Am" value="api" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR80" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FlD" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.ws.rs-api-2.1.jar" />
                         </node>
                       </node>
@@ -565,20 +607,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR8a" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR8b" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR83" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR84" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fm1" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fm2" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2FlN" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FlO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR85" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FlP" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR86" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FlQ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR87" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FlR" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR88" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FlS" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR89" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FlT" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-client.jar" />
                         </node>
                       </node>
@@ -589,20 +632,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR8j" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR8k" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR8c" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR8d" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fmh" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fmi" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fm3" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fm4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR8e" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fm5" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR8f" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fm6" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR8g" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fm7" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR8h" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Fm8" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR8i" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fm9" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-common.jar" />
                         </node>
                       </node>
@@ -613,20 +657,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR8s" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR8t" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR8l" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR8m" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fmx" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fmy" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fmj" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fmk" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR8n" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fml" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR8o" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fmm" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR8p" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fmn" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR8q" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Fmo" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR8r" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fmp" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-hk2.jar" />
                         </node>
                       </node>
@@ -637,20 +682,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR8_" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR8A" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR8u" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR8v" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2FmL" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2FmM" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fmz" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fm$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR8w" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fm_" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR8x" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FmA" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR8y" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FmB" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR8z" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FmC" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR8$" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FmD" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-server.jar" />
                         </node>
                       </node>
@@ -661,20 +707,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR8I" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR8J" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR8B" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR8C" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fn1" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fn2" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2FmN" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FmO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR8D" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FmP" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR8E" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FmQ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR8F" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FmR" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR8G" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FmS" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR8H" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FmT" role="2Ry0An">
                           <property role="2Ry0Am" value="hk2-api-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -685,20 +732,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR8R" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR8S" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR8K" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR8L" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fnh" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fni" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fn3" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fn4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR8M" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fn5" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR8N" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fn6" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR8O" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fn7" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR8P" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Fn8" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR8Q" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fn9" role="2Ry0An">
                           <property role="2Ry0Am" value="hk2-locator-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -709,20 +757,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR90" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR91" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR8T" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR8U" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fnx" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fny" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fnj" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fnk" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR8V" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fnl" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR8W" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fnm" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR8X" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fnn" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR8Y" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Fno" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR8Z" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fnp" role="2Ry0An">
                           <property role="2Ry0Am" value="hk2-utils-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -733,20 +782,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR99" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR9a" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR92" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR93" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2FnL" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2FnM" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fnz" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fn$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR94" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fn_" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR95" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FnA" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR96" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FnB" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR97" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FnC" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR98" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FnD" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.annotation-api-1.2.jar" />
                         </node>
                       </node>
@@ -757,20 +807,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR9i" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR9j" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR9b" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR9c" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fo1" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fo2" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2FnN" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FnO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR9d" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FnP" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR9e" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FnQ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR9f" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FnR" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR9g" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FnS" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR9h" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FnT" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.inject-2.5.0-b42.jar" />
                         </node>
                       </node>
@@ -781,20 +832,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR9r" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR9s" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR9k" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR9l" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Foh" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Foi" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fo3" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fo4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR9m" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fo5" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR9n" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fo6" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR9o" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fo7" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR9p" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Fo8" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR9q" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fo9" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.json.bind-api-1.0.jar" />
                         </node>
                       </node>
@@ -805,20 +857,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR9$" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR9_" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR9t" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR9u" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fox" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Foy" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Foj" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fok" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR9v" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fol" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR9w" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fom" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR9x" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fon" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR9y" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Foo" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR9z" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fop" role="2Ry0An">
                           <property role="2Ry0Am" value="validation-api-1.1.0.Final.jar" />
                         </node>
                       </node>
@@ -829,20 +882,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR9H" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR9I" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR9A" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR9B" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2FoL" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2FoM" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Foz" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fo$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR9C" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fo_" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR9D" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FoA" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR9E" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FoB" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR9F" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FoC" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR9G" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FoD" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-media-json-binding.jar" />
                         </node>
                       </node>
@@ -853,20 +907,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR9Q" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZR9R" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR9J" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR9K" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fp1" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fp2" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2FoN" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FoO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR9L" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2FoP" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR9M" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2FoQ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR9N" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2FoR" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR9O" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2FoS" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR9P" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2FoT" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.json-1.1.jar" />
                         </node>
                       </node>
@@ -877,20 +932,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZR9Z" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZRa0" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZR9S" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZR9T" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fph" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fpi" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fp3" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fp4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZR9U" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fp5" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZR9V" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fp6" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZR9W" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fp7" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZR9X" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Fp8" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZR9Y" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fp9" role="2Ry0An">
                           <property role="2Ry0Am" value="javax.json-api-1.1.jar" />
                         </node>
                       </node>
@@ -901,20 +957,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="68ym4SaZRa8" role="3bR37C">
-          <node concept="1BurEX" id="68ym4SaZRa9" role="1SiIV1">
-            <node concept="55IIr" id="68ym4SaZRa1" role="1BurEY">
-              <node concept="2Ry0Ak" id="68ym4SaZRa2" role="iGT6I">
+        <node concept="1SiIV0" id="68ym4Sb2Fpx" role="3bR37C">
+          <node concept="1BurEX" id="68ym4Sb2Fpy" role="1SiIV1">
+            <node concept="398BVA" id="68ym4Sb2Fpj" role="1BurEY">
+              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2Fpk" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4SaZRa3" role="2Ry0An">
+                <node concept="2Ry0Ak" id="68ym4Sb2Fpl" role="2Ry0An">
                   <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4SaZRa4" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="68ym4Sb2Fpm" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4SaZRa5" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="68ym4Sb2Fpn" role="2Ry0An">
                       <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4SaZRa6" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="68ym4Sb2Fpo" role="2Ry0An">
                         <property role="2Ry0Am" value="ext" />
-                        <node concept="2Ry0Ak" id="68ym4SaZRa7" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="68ym4Sb2Fpp" role="2Ry0An">
                           <property role="2Ry0Am" value="yasson-1.0.jar" />
                         </node>
                       </node>
