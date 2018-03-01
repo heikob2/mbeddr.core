@@ -124,6 +124,35 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-DependencyAnnotation-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-DependencyAnnotation-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/ExportProfiles.jar" />
+    <mkdir dir="${build.tmp}/default/ExportProfiles.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/ExportProfiles.jar/META-INF/module.xml">
+      <module namespace="ExportProfiles" type="solution" uuid="1aa3a629-18b1-44e8-a5b9-913354528d3e">
+        <dependencies />
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="ExportProfiles-src.jar" descriptor="ExportProfiles.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/DependencyManagement.zip/DependencyManagement/languages/DependencyManagement/ExportProfiles.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/ExportProfiles" />
+      <fileset dir="${mbeddr.github.core.home}/solutions/ExportProfiles/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/ExportProfiles.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-ExportProfiles-models">
+      <fileset dir="${mbeddr.github.core.home}/solutions/ExportProfiles/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/DependencyManagement.zip/DependencyManagement/languages/DependencyManagement/ExportProfiles-src.jar" duplicate="preserve">
+      <fileset dir="${mbeddr.github.core.home}/solutions/ExportProfiles/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/ExportProfiles/ExportProfiles.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-ExportProfiles-models" prefix="module/models" />
+    </jar>
     <zip destfile="${build.layout}/DependencyManagement.zip">
       <fileset dir="${build.tmp}/default/DependencyManagement.zip" />
     </zip>
@@ -141,7 +170,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.DependencyAnnotation, java.compile.DependencyAnnotation#generator" />
+  <target name="compileJava" depends="java.compile.DependencyAnnotation, java.compile.DependencyAnnotation#generator, java.compile.ExportProfiles" />
   
   <target name="processResources" />
   
@@ -234,12 +263,16 @@
       <library file="${artifacts.mps}/lib/mps-tuples.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.runner.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.tests.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.startup.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
       <chunk>
         <module file="${basedir}/languages/DependencyAnnotation/DependencyAnnotation.mpl" />
       </chunk>
-      <chunk />
+      <chunk>
+        <module file="${basedir}/solutions/ExportProfiles/ExportProfiles.msd" />
+      </chunk>
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
@@ -346,8 +379,29 @@
     </javac>
   </target>
   
+  <target name="java.compile.ExportProfiles">
+    <mkdir dir="${mbeddr.github.core.home}/solutions/ExportProfiles/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/ExportProfiles" />
+    <javac destdir="${build.tmp}/java/out/ExportProfiles" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${mbeddr.github.core.home}/solutions/ExportProfiles/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.runner.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.tests.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
+        <fileset file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
   <target name="cleanSources">
     <delete dir="${mbeddr.github.core.home}/languages/DependencyAnnotation/source_gen" />
     <delete dir="${mbeddr.github.core.home}/languages/DependencyAnnotation/generator/source_gen" />
+    <delete dir="${mbeddr.github.core.home}/solutions/ExportProfiles/source_gen" />
   </target>
 </project>
