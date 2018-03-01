@@ -14,8 +14,14 @@
       <concept id="9126048691955220717" name="jetbrains.mps.build.structure.BuildLayout_File" flags="ng" index="28jJK3">
         <child id="9126048691955220762" name="path" index="28jJRO" />
       </concept>
+      <concept id="2755237150521975431" name="jetbrains.mps.build.structure.BuildVariableMacroInitWithString" flags="ng" index="aVJcg">
+        <child id="2755237150521975437" name="value" index="aVJcq" />
+      </concept>
       <concept id="7321017245476976379" name="jetbrains.mps.build.structure.BuildRelativePath" flags="ng" index="iG8Mu">
         <child id="7321017245477039051" name="compositePart" index="iGT6I" />
+      </concept>
+      <concept id="3767587139141066978" name="jetbrains.mps.build.structure.BuildVariableMacro" flags="ng" index="2kB4xC">
+        <child id="2755237150521975432" name="initialValue" index="aVJcv" />
       </concept>
       <concept id="4993211115183325728" name="jetbrains.mps.build.structure.BuildProjectDependency" flags="ng" index="2sgV4H">
         <reference id="5617550519002745380" name="script" index="1l3spb" />
@@ -55,6 +61,9 @@
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
       <concept id="4903714810883702019" name="jetbrains.mps.build.structure.BuildTextStringPart" flags="ng" index="3Mxwew">
         <property id="4903714810883755350" name="text" index="3MwjfP" />
+      </concept>
+      <concept id="4903714810883702017" name="jetbrains.mps.build.structure.BuildVarRefStringPart" flags="ng" index="3Mxwey">
+        <reference id="4903714810883702018" name="macro" index="3Mxwex" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -112,25 +121,42 @@
     <property role="turDy" value="buildRestClient.xml" />
     <node concept="10PD9b" id="68ym4SaZR7r" role="10PD9s" />
     <node concept="3b7kt6" id="68ym4SaZR7s" role="10PD9s" />
-    <node concept="398rNT" id="68ym4SaZR7t" role="1l3spd">
-      <property role="TrG5h" value="mps_home" />
-    </node>
-    <node concept="398rNT" id="68ym4SaZR7w" role="1l3spd">
+    <node concept="398rNT" id="6HrZlNRnId$" role="1l3spd">
       <property role="TrG5h" value="mbeddr.github.core.home" />
-    </node>
-    <node concept="398rNT" id="68ym4Sb2E_e" role="1l3spd">
-      <property role="TrG5h" value="depMan.home" />
-      <node concept="55IIr" id="68ym4Sb2EFS" role="398pKh">
-        <node concept="2Ry0Ak" id="68ym4Sb2FFh" role="iGT6I">
+      <node concept="55IIr" id="6HrZlNRnIhR" role="398pKh">
+        <node concept="2Ry0Ak" id="68ym4Sb2Ll0" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="68ym4Sb2FFo" role="2Ry0An">
+          <node concept="2Ry0Ak" id="68ym4Sb2LlF" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="68ym4Sb2FFv" role="2Ry0An">
-              <property role="2Ry0Am" value="code" />
-              <node concept="2Ry0Ak" id="68ym4Sb2FFz" role="2Ry0An">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="68ym4Sb2FFE" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.mbeddr.build.dependencyManagement" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="68ym4Sb2Lns" role="1l3spd">
+      <property role="TrG5h" value="mps.home" />
+      <node concept="55IIr" id="68ym4Sb2LqB" role="398pKh">
+        <node concept="2Ry0Ak" id="68ym4Sb2Lre" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="68ym4Sb2Luu" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="68ym4Sb2LvY" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="68ym4Sb2Lxx" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="68ym4Sb2LE9" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="68ym4Sb2LI_" role="2Ry0An">
+                    <property role="2Ry0Am" value=".." />
+                    <node concept="2Ry0Ak" id="68ym4Sb2LKl" role="2Ry0An">
+                      <property role="2Ry0Am" value="Applications" />
+                      <node concept="2Ry0Ak" id="68ym4Sb2LLy" role="2Ry0An">
+                        <property role="2Ry0Am" value="mps-2017-3.app" />
+                        <node concept="2Ry0Ak" id="68ym4Sb2LMJ" role="2Ry0An">
+                          <property role="2Ry0Am" value="Contents" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -138,10 +164,74 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="68ym4Sb2LOD" role="1l3spd">
+      <property role="TrG5h" value="artifacts.root" />
+    </node>
+    <node concept="398rNT" id="68ym4Sb2Nph" role="1l3spd">
+      <property role="TrG5h" value="mbeddr.build.depMan.home" />
+      <node concept="398BVA" id="68ym4Sb2MyA" role="398pKh">
+        <ref role="398BVh" node="6HrZlNRnId$" resolve="mbeddr.github.core.home" />
+        <node concept="2Ry0Ak" id="68ym4Sb2MyF" role="iGT6I">
+          <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="68ym4Sb2MyG" role="2Ry0An">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="68ym4Sb2MyH" role="2Ry0An">
+              <property role="2Ry0Am" value="com.mbeddr.build.dependencyManagement" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2kB4xC" id="68ym4Sb2MEU" role="1l3spd">
+      <property role="TrG5h" value="major.version" />
+      <node concept="aVJcg" id="68ym4Sb2MHQ" role="aVJcv">
+        <node concept="NbPM2" id="68ym4Sb2MHP" role="aVJcq">
+          <node concept="3Mxwew" id="68ym4Sb2MHO" role="3MwsjC">
+            <property role="3MwjfP" value="1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2kB4xC" id="68ym4Sb2MJS" role="1l3spd">
+      <property role="TrG5h" value="minor.version" />
+      <node concept="aVJcg" id="68ym4Sb2MO_" role="aVJcv">
+        <node concept="NbPM2" id="68ym4Sb2MO$" role="aVJcq">
+          <node concept="3Mxwew" id="68ym4Sb2MOz" role="3MwsjC">
+            <property role="3MwjfP" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2kB4xC" id="68ym4Sb2MQJ" role="1l3spd">
+      <property role="TrG5h" value="build" />
+      <node concept="aVJcg" id="68ym4Sb2MSP" role="aVJcv">
+        <node concept="NbPM2" id="68ym4Sb2MSO" role="aVJcq">
+          <node concept="3Mxwew" id="68ym4Sb2MSN" role="3MwsjC">
+            <property role="3MwjfP" value="0000" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2kB4xC" id="68ym4Sb2MV7" role="1l3spd">
+      <property role="TrG5h" value="mbeddr.version" />
+      <node concept="aVJcg" id="68ym4Sb2N1a" role="aVJcv">
+        <node concept="NbPM2" id="68ym4Sb2N19" role="aVJcq">
+          <node concept="3Mxwey" id="68ym4Sb2N18" role="3MwsjC">
+            <ref role="3Mxwex" node="68ym4Sb2MEU" resolve="major.version" />
+          </node>
+          <node concept="3Mxwey" id="68ym4Sb2N5J" role="3MwsjC">
+            <ref role="3Mxwex" node="68ym4Sb2MJS" resolve="minor.version" />
+          </node>
+          <node concept="3Mxwey" id="68ym4Sb2NgQ" role="3MwsjC">
+            <ref role="3Mxwex" node="68ym4Sb2MQJ" resolve="build" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2sgV4H" id="68ym4SaZR7u" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="68ym4SaZR7v" role="2JcizS">
-        <ref role="398BVh" node="68ym4SaZR7t" resolve="mps_home" />
+        <ref role="398BVh" node="68ym4Sb2Lns" resolve="mps.home" />
       </node>
     </node>
     <node concept="1l3spV" id="68ym4SaZR7L" role="1l3spN">
@@ -155,7 +245,7 @@
           <ref role="m_rDy" node="68ym4SaZR7C" resolve="DependencyManagement" />
           <node concept="28jJK3" id="68ym4Sb0PWV" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FHQ" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FHY" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FHZ" role="2Ry0An">
@@ -178,7 +268,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0Qtm" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FKr" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FKz" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FK$" role="2Ry0An">
@@ -201,7 +291,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0Q$a" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FN0" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FN8" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FN9" role="2Ry0An">
@@ -224,7 +314,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0QE$" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FP_" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FPH" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FPI" role="2Ry0An">
@@ -247,7 +337,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0QLz" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FSa" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FSi" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FSj" role="2Ry0An">
@@ -270,7 +360,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0QSM" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FUJ" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FUR" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FUS" role="2Ry0An">
@@ -293,7 +383,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0R0A" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FXk" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FXs" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FXt" role="2Ry0An">
@@ -316,7 +406,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0R8l" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FZT" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2G01" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2G02" role="2Ry0An">
@@ -339,7 +429,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0Rgk" role="39821P">
             <node concept="398BVA" id="68ym4Sb2G2u" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2G2A" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2G2B" role="2Ry0An">
@@ -362,7 +452,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0Roz" role="39821P">
             <node concept="398BVA" id="68ym4Sb2G53" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2G5b" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2G5c" role="2Ry0An">
@@ -385,7 +475,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0Rx2" role="39821P">
             <node concept="398BVA" id="68ym4Sb2G7C" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2G7K" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2G7L" role="2Ry0An">
@@ -408,7 +498,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0RDL" role="39821P">
             <node concept="398BVA" id="68ym4Sb2Gad" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Gal" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Gam" role="2Ry0An">
@@ -431,7 +521,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0RMK" role="39821P">
             <node concept="398BVA" id="68ym4Sb2GcM" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2GcU" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2GcV" role="2Ry0An">
@@ -454,7 +544,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0RVZ" role="39821P">
             <node concept="398BVA" id="68ym4Sb2Gfn" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Gfv" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Gfw" role="2Ry0An">
@@ -477,7 +567,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0S5u" role="39821P">
             <node concept="398BVA" id="68ym4Sb2GhW" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Gi4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Gi5" role="2Ry0An">
@@ -500,7 +590,7 @@
           </node>
           <node concept="28jJK3" id="68ym4Sb0Sfd" role="39821P">
             <node concept="398BVA" id="68ym4Sb2Gkx" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2GkD" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2GkE" role="2Ry0An">
@@ -559,7 +649,7 @@
         <property role="3LESm3" value="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="68ym4Sb2Fzi" role="3LF7KH">
-          <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+          <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
           <node concept="2Ry0Ak" id="68ym4Sb2Fzn" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="68ym4Sb2Fzo" role="2Ry0An">
@@ -585,7 +675,7 @@
         <node concept="1SiIV0" id="68ym4Sb2FlL" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2FlM" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Flz" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fl$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fl_" role="2Ry0An">
@@ -610,7 +700,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fm1" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fm2" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2FlN" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FlO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FlP" role="2Ry0An">
@@ -635,7 +725,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fmh" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fmi" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fm3" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fm4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fm5" role="2Ry0An">
@@ -660,7 +750,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fmx" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fmy" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fmj" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fmk" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fml" role="2Ry0An">
@@ -685,7 +775,7 @@
         <node concept="1SiIV0" id="68ym4Sb2FmL" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2FmM" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fmz" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fm$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fm_" role="2Ry0An">
@@ -710,7 +800,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fn1" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fn2" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2FmN" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FmO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FmP" role="2Ry0An">
@@ -735,7 +825,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fnh" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fni" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fn3" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fn4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fn5" role="2Ry0An">
@@ -760,7 +850,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fnx" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fny" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fnj" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fnk" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fnl" role="2Ry0An">
@@ -785,7 +875,7 @@
         <node concept="1SiIV0" id="68ym4Sb2FnL" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2FnM" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fnz" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fn$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fn_" role="2Ry0An">
@@ -810,7 +900,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fo1" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fo2" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2FnN" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FnO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FnP" role="2Ry0An">
@@ -835,7 +925,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Foh" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Foi" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fo3" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fo4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fo5" role="2Ry0An">
@@ -860,7 +950,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fox" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Foy" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Foj" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fok" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fol" role="2Ry0An">
@@ -885,7 +975,7 @@
         <node concept="1SiIV0" id="68ym4Sb2FoL" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2FoM" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Foz" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fo$" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fo_" role="2Ry0An">
@@ -910,7 +1000,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fp1" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fp2" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2FoN" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2FoO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2FoP" role="2Ry0An">
@@ -935,7 +1025,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fph" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fpi" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fp3" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fp4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fp5" role="2Ry0An">
@@ -960,7 +1050,7 @@
         <node concept="1SiIV0" id="68ym4Sb2Fpx" role="3bR37C">
           <node concept="1BurEX" id="68ym4Sb2Fpy" role="1SiIV1">
             <node concept="398BVA" id="68ym4Sb2Fpj" role="1BurEY">
-              <ref role="398BVh" node="68ym4Sb2E_e" resolve="depMan.home" />
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.depMan.home" />
               <node concept="2Ry0Ak" id="68ym4Sb2Fpk" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="68ym4Sb2Fpl" role="2Ry0An">
