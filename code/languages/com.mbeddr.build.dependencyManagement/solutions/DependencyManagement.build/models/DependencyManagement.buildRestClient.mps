@@ -181,6 +181,15 @@
     </node>
     <node concept="398rNT" id="68ym4Sb2LOD" role="1l3spd">
       <property role="TrG5h" value="artifacts.root" />
+      <node concept="398BVA" id="68ym4Sb91Er" role="398pKh">
+        <ref role="398BVh" node="6HrZlNRnId$" resolve="mbeddr.github.core.home" />
+        <node concept="2Ry0Ak" id="68ym4Sb91SA" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="68ym4Sb92ap" role="2Ry0An">
+            <property role="2Ry0Am" value="com.mbeddr.build.dependencyManagement" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="398rNT" id="68ym4Sb2Nph" role="1l3spd">
       <property role="TrG5h" value="mbeddr.build.depMan.home" />
@@ -253,6 +262,50 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="68ym4Sb9h8S" role="1l3spd">
+      <property role="TrG5h" value="dependencyManagement.external" />
+      <node concept="55IIr" id="68ym4Sb9iaR" role="398pKh">
+        <node concept="2Ry0Ak" id="68ym4Sb9iaS" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="68ym4Sb9iaT" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="68ym4Sb9iaU" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="68ym4Sb9iaV" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="68ym4Sb9iaW" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="68ym4Sb9iaX" role="2Ry0An">
+                    <property role="2Ry0Am" value=".." />
+                    <node concept="2Ry0Ak" id="68ym4Sb9iaY" role="2Ry0An">
+                      <property role="2Ry0Am" value="Users" />
+                      <node concept="2Ry0Ak" id="68ym4Sb9iaZ" role="2Ry0An">
+                        <property role="2Ry0Am" value="hbaechmann" />
+                        <node concept="2Ry0Ak" id="68ym4Sb9ib0" role="2Ry0An">
+                          <property role="2Ry0Am" value="repositories" />
+                          <node concept="2Ry0Ak" id="68ym4Sb9ib1" role="2Ry0An">
+                            <property role="2Ry0Am" value="mbeddr.core" />
+                            <node concept="2Ry0Ak" id="68ym4Sb9ib2" role="2Ry0An">
+                              <property role="2Ry0Am" value="code" />
+                              <node concept="2Ry0Ak" id="68ym4Sb9ib3" role="2Ry0An">
+                                <property role="2Ry0Am" value="languages" />
+                                <node concept="2Ry0Ak" id="68ym4Sb9ib4" role="2Ry0An">
+                                  <property role="2Ry0Am" value="com.mbeddr.build.dependencyManagement" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2sgV4H" id="68ym4SaZR7u" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="68ym4SaZR7v" role="2JcizS">
@@ -283,7 +336,7 @@
       <node concept="3981dx" id="68ym4Sb3lum" role="39821P">
         <node concept="3_J27D" id="68ym4Sb3luo" role="Nbhlr">
           <node concept="3Mxwew" id="68ym4Sb3lB_" role="3MwsjC">
-            <property role="3MwjfP" value="DepMan.jar" />
+            <property role="3MwjfP" value="clientstarter.jar" />
           </node>
         </node>
         <node concept="Saw0i" id="68ym4Sb3lBC" role="39821P">

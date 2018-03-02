@@ -8,7 +8,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/DependencyAnnotation.ProofOfConcept/DependencyAnnotation.ProofOfConcept.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DependencyManagement.build/DependencyManagement.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ExportProfiles/ExportProfiles.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/util/util.msd" folder="" />
     </projectModules>
   </component>
 </project>

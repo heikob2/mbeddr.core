@@ -758,81 +758,101 @@
           </node>
         </node>
         <node concept="3clFbH" id="4LWGtXFoK_" role="3cqZAp" />
-        <node concept="3SKdUt" id="4LWGtXFp7H" role="3cqZAp">
-          <node concept="3SKdUq" id="4LWGtXFp7J" role="3SKWNk">
-            <property role="3SKdUp" value="DEBUG" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4LWGtXFr3Q" role="3cqZAp">
-          <node concept="3cpWsn" id="4LWGtXFr3T" role="3cpWs9">
-            <property role="TrG5h" value="debugRoot" />
-            <node concept="17QB3L" id="4LWGtXFr3O" role="1tU5fm" />
-            <node concept="Xl_RD" id="4LWGtXFrmv" role="33vP2m">
-              <property role="Xl_RC" value="/Users/hbaechmann/repositories/de.itemis.mps.build/build/de.itemis.mps.build" />
+        <node concept="3clFbJ" id="68ym4Sb5KVA" role="3cqZAp">
+          <node concept="3clFbS" id="68ym4Sb5KVC" role="3clFbx">
+            <node concept="3SKdUt" id="4LWGtXFp7H" role="3cqZAp">
+              <node concept="3SKdUq" id="4LWGtXFp7J" role="3SKWNk">
+                <property role="3SKdUp" value="DEBUG" />
+              </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="hKNoOpWCSV" role="3cqZAp">
-          <node concept="37vLTI" id="hKNoOpWDp1" role="3clFbG">
-            <node concept="37vLTw" id="hKNoOpWCST" role="37vLTJ">
-              <ref role="3cqZAo" node="4LWGtXFr3T" resolve="debugRoot" />
+            <node concept="3cpWs8" id="4LWGtXFr3Q" role="3cqZAp">
+              <node concept="3cpWsn" id="4LWGtXFr3T" role="3cpWs9">
+                <property role="TrG5h" value="debugRoot" />
+                <node concept="17QB3L" id="4LWGtXFr3O" role="1tU5fm" />
+                <node concept="Xl_RD" id="4LWGtXFrmv" role="33vP2m">
+                  <property role="Xl_RC" value="/Users/hbaechmann/repositories/de.itemis.mps.build/build/de.itemis.mps.build" />
+                </node>
+              </node>
             </node>
-            <node concept="Xl_RD" id="hKNoOpWDGL" role="37vLTx">
-              <property role="Xl_RC" value="/Users/hbaechmann/repositories/iets3.opensource/build/" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4LWGtXFtIG" role="3cqZAp">
-          <node concept="3cpWsn" id="4LWGtXFtIH" role="3cpWs9">
-            <property role="TrG5h" value="debugFile" />
-            <node concept="3uibUv" id="4LWGtXFtII" role="1tU5fm">
-              <ref role="3uigEE" to="guwi:~File" resolve="File" />
-            </node>
-            <node concept="2ShNRf" id="4LWGtXFu0g" role="33vP2m">
-              <node concept="1pGfFk" id="4LWGtXFuhX" role="2ShVmc">
-                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="37vLTw" id="4LWGtXFuiQ" role="37wK5m">
+            <node concept="3clFbF" id="hKNoOpWCSV" role="3cqZAp">
+              <node concept="37vLTI" id="hKNoOpWDp1" role="3clFbG">
+                <node concept="37vLTw" id="hKNoOpWCST" role="37vLTJ">
                   <ref role="3cqZAo" node="4LWGtXFr3T" resolve="debugRoot" />
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4LWGtXFu$_" role="3cqZAp">
-          <node concept="2OqwBi" id="4LWGtXFuZY" role="3clFbG">
-            <node concept="10M0yZ" id="4LWGtXFuO_" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="4LWGtXFvcC" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="2OqwBi" id="4LWGtXFvlQ" role="37wK5m">
-                <node concept="37vLTw" id="4LWGtXFveu" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4LWGtXFtIH" resolve="debugFile" />
-                </node>
-                <node concept="liA8E" id="4LWGtXFvt2" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                <node concept="Xl_RD" id="hKNoOpWDGL" role="37vLTx">
+                  <property role="Xl_RC" value="/Users/hbaechmann/repositories/iets3.opensource/build/" />
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4LWGtXQwlE" role="3cqZAp">
-          <node concept="2OqwBi" id="4LWGtXQw$f" role="3clFbG">
-            <node concept="37vLTw" id="4LWGtXQwlC" role="2Oq$k0">
-              <ref role="3cqZAo" node="1MjokfNkPth" resolve="gc" />
-            </node>
-            <node concept="liA8E" id="4LWGtXQwLM" role="2OqNvi">
-              <ref role="37wK5l" node="1MjokfNlejP" resolve="setRootFolder" />
-              <node concept="37vLTw" id="4LWGtXQwOh" role="37wK5m">
-                <ref role="3cqZAo" node="4LWGtXFr3T" resolve="debugRoot" />
+            <node concept="3cpWs8" id="4LWGtXFtIG" role="3cqZAp">
+              <node concept="3cpWsn" id="4LWGtXFtIH" role="3cpWs9">
+                <property role="TrG5h" value="debugFile" />
+                <node concept="3uibUv" id="4LWGtXFtII" role="1tU5fm">
+                  <ref role="3uigEE" to="guwi:~File" resolve="File" />
+                </node>
+                <node concept="2ShNRf" id="4LWGtXFu0g" role="33vP2m">
+                  <node concept="1pGfFk" id="4LWGtXFuhX" role="2ShVmc">
+                    <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                    <node concept="37vLTw" id="4LWGtXFuiQ" role="37wK5m">
+                      <ref role="3cqZAo" node="4LWGtXFr3T" resolve="debugRoot" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
+            <node concept="3clFbF" id="4LWGtXFu$_" role="3cqZAp">
+              <node concept="2OqwBi" id="4LWGtXFuZY" role="3clFbG">
+                <node concept="10M0yZ" id="4LWGtXFuO_" role="2Oq$k0">
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                </node>
+                <node concept="liA8E" id="4LWGtXFvcC" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="68ym4Sb5J9j" role="37wK5m">
+                    <node concept="Xl_RD" id="68ym4Sb5JhH" role="3uHU7B">
+                      <property role="Xl_RC" value="Using default-debug-file as root-file: " />
+                    </node>
+                    <node concept="2OqwBi" id="4LWGtXFvlQ" role="3uHU7w">
+                      <node concept="37vLTw" id="4LWGtXFveu" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4LWGtXFtIH" resolve="debugFile" />
+                      </node>
+                      <node concept="liA8E" id="4LWGtXFvt2" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4LWGtXQwlE" role="3cqZAp">
+              <node concept="2OqwBi" id="4LWGtXQw$f" role="3clFbG">
+                <node concept="37vLTw" id="4LWGtXQwlC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1MjokfNkPth" resolve="gc" />
+                </node>
+                <node concept="liA8E" id="4LWGtXQwLM" role="2OqNvi">
+                  <ref role="37wK5l" node="1MjokfNlejP" resolve="setRootFolder" />
+                  <node concept="37vLTw" id="4LWGtXQwOh" role="37wK5m">
+                    <ref role="3cqZAo" node="4LWGtXFr3T" resolve="debugRoot" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="4LWGtXFw4y" role="3cqZAp">
+              <node concept="3SKdUq" id="4LWGtXFw4$" role="3SKWNk">
+                <property role="3SKdUp" value="END-DEBUG" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="68ym4Sb5KVB" role="3cqZAp" />
           </node>
-        </node>
-        <node concept="3SKdUt" id="4LWGtXFw4y" role="3cqZAp">
-          <node concept="3SKdUq" id="4LWGtXFw4$" role="3SKWNk">
-            <property role="3SKdUp" value="END-DEBUG" />
+          <node concept="3fqX7Q" id="68ym4Sb5XIj" role="3clFbw">
+            <node concept="2OqwBi" id="68ym4Sb5XIl" role="3fr31v">
+              <node concept="37vLTw" id="68ym4Sb5XIm" role="2Oq$k0">
+                <ref role="3cqZAo" node="1MjokfNkPth" resolve="gc" />
+              </node>
+              <node concept="liA8E" id="68ym4Sb5XIn" role="2OqNvi">
+                <ref role="37wK5l" node="68ym4Sb5R6I" resolve="isRootFolderSet" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="1MjokfNlc8m" role="3cqZAp" />
@@ -1829,6 +1849,26 @@
         <property role="TrG5h" value="rootFolder" />
         <node concept="17QB3L" id="1MjokfNlens" role="1tU5fm" />
       </node>
+    </node>
+    <node concept="2tJIrI" id="68ym4Sb5MOj" role="jymVt" />
+    <node concept="3clFb_" id="68ym4Sb5R6I" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isRootFolderSet" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="68ym4Sb5R6L" role="3clF47">
+        <node concept="3cpWs6" id="68ym4Sb5SyC" role="3cqZAp">
+          <node concept="2OqwBi" id="68ym4Sb5Us$" role="3cqZAk">
+            <node concept="37vLTw" id="68ym4Sb5TrP" role="2Oq$k0">
+              <ref role="3cqZAo" node="1MjokfNlcG3" resolve="rootFolder" />
+            </node>
+            <node concept="17RvpY" id="68ym4Sb5Vnr" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="68ym4Sb5PEt" role="1B3o_S" />
+      <node concept="10P_77" id="68ym4Sb5R55" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="2ZyuwMByclY" role="jymVt" />
     <node concept="3clFb_" id="2ZyuwMBydiA" role="jymVt">

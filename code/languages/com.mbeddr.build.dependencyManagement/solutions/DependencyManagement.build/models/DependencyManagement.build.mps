@@ -388,6 +388,12 @@
               <ref role="3bR37D" node="6HrZlNRnIdE" resolve="DependencyAnnotation" />
             </node>
           </node>
+          <node concept="1SiIV0" id="68ym4Sb8Vte" role="3bR37C">
+            <node concept="3bR9La" id="68ym4Sb8Vtf" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:6hkEqUOoosu" resolve="jetbrains.mps.build.startup" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1E1JtA" id="68ym4Sb0Ubf" role="2G$12L">
