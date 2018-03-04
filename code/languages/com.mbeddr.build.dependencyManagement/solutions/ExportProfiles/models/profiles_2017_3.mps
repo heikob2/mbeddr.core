@@ -9,6 +9,7 @@
     <import index="kdzh" ref="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
     <import index="as3y" ref="r:0f2b4a26-93a1-4327-97ef-ca91b7a4cf5e(jetbrains.mps.build.mps.runner.structure)" />
     <import index="5tjl" ref="r:5315d75f-2eea-4bf2-899f-f3d94810cea5(jetbrains.mps.build.mps.tests.structure)" />
+    <import index="dnyj" ref="r:3df188a9-b761-4875-b2bc-0c08336ce65f(DependencyAnnotation.structure)" />
     <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" implicit="true" />
   </imports>
   <registry>
@@ -40,6 +41,7 @@
         <child id="6975379119548985182" name="referenceExports" index="12Em$4" />
         <child id="6975379119548985170" name="propertyExports" index="12Em$8" />
         <child id="6975379119548985175" name="childExports" index="12Em$d" />
+        <child id="7003859765161112731" name="errorMissingTarget_CEP" index="1e9C72" />
       </concept>
       <concept id="6975379119548985140" name="DependencyAnnotation.structure.ConceptPropertyExport" flags="ng" index="12Em_I">
         <property id="6850913726540741687" name="dataType" index="3enqAb" />
@@ -128,6 +130,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuBs" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="5X_uv6sGmNq">
     <property role="TrG5h" value="export_BuildPlugin_2017_3" />
@@ -136,18 +142,38 @@
     <node concept="12Em_F" id="5X_uv6sGmNr" role="12C$m$">
       <property role="TrG5h" value="Export_BuildJavaPlugin" />
       <ref role="12Em$l" to="3ior:5KZfyKsUqLB" resolve="BuildJavaPlugin" />
+      <node concept="12Em_F" id="4vfc3kCbuBv" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="5X_uv6sGmNs" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMPSPlugin" />
       <ref role="12Em$l" to="kdzh:KbRDZ75DBp" resolve="BuildMPSPlugin" />
+      <node concept="12Em_F" id="4vfc3kCbuBw" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="5X_uv6sGmNt" role="12C$m$">
       <property role="TrG5h" value="Export_BuildSolutionRunnerPlugin" />
       <ref role="12Em$l" to="as3y:3BExUgsJFn6" resolve="BuildSolutionRunnerPlugin" />
+      <node concept="12Em_F" id="4vfc3kCbuBx" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="5X_uv6sGmNu" role="12C$m$">
       <property role="TrG5h" value="Export_BuildModuleTestsPlugin" />
       <ref role="12Em$l" to="5tjl:3umvbTBQuM$" resolve="BuildModuleTestsPlugin" />
+      <node concept="12Em_F" id="4vfc3kCbuBy" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuBu" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="5X_uv6sGmNQ">
@@ -173,6 +199,10 @@
           <ref role="12Em_A" node="3adNyZsVyy3" resolve="export_referenced_BuildProject_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuB_" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="5X_uv6sGmNU" role="12C$m$">
       <property role="TrG5h" value="Export_BuildExternalLayoutDependency" />
@@ -193,6 +223,14 @@
           <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuBA" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuB$" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="5X_uv6sJ$ly">
@@ -219,10 +257,18 @@
             <property role="TrG5h" value="Profile is ignored for sub-nodes" />
           </node>
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuBE" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
       </node>
       <node concept="12Em_F" id="5X_uv6sJ$lB" role="12C$m$">
         <property role="TrG5h" value="Export_BuildSourceProjectRelativePath" />
         <ref role="12Em$l" to="3ior:4Kip2_918YM" resolve="BuildSourceProjectRelativePath" />
+        <node concept="12Em_F" id="4vfc3kCbuBF" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
       </node>
       <node concept="12Em_F" id="5X_uv6sJ$lC" role="12C$m$">
         <property role="TrG5h" value="Export_BuildSourceArchiveRelativePath" />
@@ -234,7 +280,19 @@
             <property role="TrG5h" value="Profile is ignored for sub-nodes" />
           </node>
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuBG" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuBD" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuBC" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVyy3">
@@ -304,6 +362,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuBI" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHkt">
     <property role="TrG5h" value="export_BuildProjectPart_2017_3" />
@@ -343,6 +405,10 @@
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuBL" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHk$" role="12C$m$">
       <property role="TrG5h" value="Export_BuildSource_JavaLibrary" />
@@ -358,6 +424,10 @@
         <property role="TrG5h" value="name" />
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuBM" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHkB" role="12C$m$">
@@ -409,6 +479,10 @@
       <node concept="12Em_I" id="3adNyZsVHkL" role="12Em$8">
         <property role="TrG5h" value="compilerOptions" />
         <property role="3enqAb" value="string" />
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuBN" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHkM" role="12C$m$">
@@ -470,6 +544,10 @@
             <property role="TrG5h" value="sourcesKind" />
             <property role="3enqAb" value="BuildMps_ModuleSourcesKind" />
           </node>
+          <node concept="12Em_F" id="4vfc3kCbuBV" role="1e9C72">
+            <property role="TrG5h" value="ErrorMissingTarget" />
+            <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+          </node>
         </node>
         <node concept="12Em_F" id="3adNyZsVHkY" role="12C$m$">
           <property role="TrG5h" value="Export_BuildMps_Language" />
@@ -499,6 +577,10 @@
               <ref role="12Em_A" node="3adNyZsVHo4" resolve="export_BuildMps_GeneratorRef_2017_3" />
             </node>
           </node>
+          <node concept="12Em_F" id="4vfc3kCbuBW" role="1e9C72">
+            <property role="TrG5h" value="ErrorMissingTarget" />
+            <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+          </node>
         </node>
         <node concept="12Em_F" id="3adNyZsVHl2" role="12C$m$">
           <property role="TrG5h" value="Export_BuildMps_Generator" />
@@ -512,6 +594,14 @@
               <ref role="12Em_A" node="3adNyZsVHnj" resolve="export_referenced_BuildMps_Language_2017_3" />
             </node>
           </node>
+          <node concept="12Em_F" id="4vfc3kCbuBX" role="1e9C72">
+            <property role="TrG5h" value="ErrorMissingTarget" />
+            <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+          </node>
+        </node>
+        <node concept="12Em_F" id="4vfc3kCbuBT" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
         </node>
       </node>
       <node concept="12Em_F" id="3adNyZsVHl4" role="12C$m$">
@@ -535,6 +625,14 @@
             <ref role="12Em_A" node="3adNyZsVHpk" resolve="export_BuildMps_DevKitExport_2017_3" />
           </node>
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuBU" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuBO" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHl7" role="12C$m$">
@@ -553,6 +651,10 @@
         <property role="TrG5h" value="name" />
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuBP" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHla" role="12C$m$">
@@ -862,6 +964,10 @@
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuBQ" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHlR" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_IdeaPlugin" />
@@ -951,6 +1057,10 @@
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuBR" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHm3" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_GeneratorOptions" />
@@ -984,6 +1094,14 @@
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuBS" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuBK" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHmH">
@@ -1007,6 +1125,10 @@
           <ref role="12Em_A" node="3adNyZsVHZU" resolve="export_referenced_BuildMps_Module_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuC0" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHmL" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_ModuleDependencyUseLanguage" />
@@ -1019,6 +1141,10 @@
           <property role="1a5o8Z" value="BuildMps_Language" />
           <ref role="12Em_A" node="3adNyZsVHnj" resolve="export_referenced_BuildMps_Language_2017_3" />
         </node>
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuC1" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHmN" role="12C$m$">
@@ -1038,6 +1164,10 @@
           <ref role="12Em_A" node="3adNyZsVI0A" resolve="export_referenced_BuildSource_JavaModule_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuC2" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHmQ" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_ModuleDependencyExtendLanguage" />
@@ -1050,6 +1180,10 @@
           <property role="1a5o8Z" value="BuildMps_Language" />
           <ref role="12Em_A" node="3adNyZsVHnj" resolve="export_referenced_BuildMps_Language_2017_3" />
         </node>
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuC3" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHmS" role="12C$m$">
@@ -1069,6 +1203,10 @@
           <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuC4" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHmV" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_ModuleDependencyOnDevKit" />
@@ -1081,6 +1219,10 @@
           <property role="1a5o8Z" value="BuildMps_DevKit" />
           <ref role="12Em_A" node="3adNyZsVHoT" resolve="export_referenced_BuildMps_DevKit_2017_3" />
         </node>
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuC5" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHmX" role="12C$m$">
@@ -1095,6 +1237,14 @@
           <ref role="12Em_A" node="3adNyZsVHmH" resolve="export_BuildMps_ModuleDependency_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuC6" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuBZ" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHn4">
@@ -1155,6 +1305,10 @@
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuC8" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHnj">
@@ -1226,6 +1380,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuCa" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHo4">
     <property role="TrG5h" value="export_BuildMps_GeneratorRef_2017_3" />
@@ -1239,6 +1397,10 @@
         <property role="1a5o8Z" value="BuildMps_Generator" />
         <ref role="12Em_A" node="3adNyZsVHoc" resolve="export_referenced_BuildMps_Generator_2017_3" />
       </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCc" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHoc">
@@ -1296,6 +1458,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuCe" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHoM">
     <property role="TrG5h" value="export_BuildMps_DevKitRef_2017_3" />
@@ -1309,6 +1475,10 @@
         <property role="1a5o8Z" value="BuildMps_DevKit" />
         <ref role="12Em_A" node="3adNyZsVHoT" resolve="export_referenced_BuildMps_DevKit_2017_3" />
       </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCg" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHoT">
@@ -1350,6 +1520,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuCi" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHpk">
     <property role="TrG5h" value="export_BuildMps_DevKitExport_2017_3" />
@@ -1367,6 +1541,10 @@
           <ref role="12Em_A" node="3adNyZsVHnj" resolve="export_referenced_BuildMps_Language_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCl" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHpn" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_DevKitExportSolution" />
@@ -1380,6 +1558,14 @@
           <ref role="12Em_A" node="3adNyZsVHpA" resolve="export_referenced_BuildMps_Solution_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCm" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCk" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHpA">
@@ -1433,6 +1619,10 @@
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCo" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHq6">
@@ -1495,6 +1685,10 @@
           <property role="TrG5h" value="sourcesKind" />
           <property role="3enqAb" value="BuildMps_ModuleSourcesKind" />
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuCt" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
       </node>
       <node concept="12Em_F" id="3adNyZsVHqi" role="12C$m$">
         <property role="TrG5h" value="Export_BuildMps_Language" />
@@ -1524,6 +1718,10 @@
             <ref role="12Em_A" node="3adNyZsVHo4" resolve="export_BuildMps_GeneratorRef_2017_3" />
           </node>
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuCu" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
       </node>
       <node concept="12Em_F" id="3adNyZsVHqm" role="12C$m$">
         <property role="TrG5h" value="Export_BuildMps_Generator" />
@@ -1537,6 +1735,14 @@
             <ref role="12Em_A" node="3adNyZsVHnj" resolve="export_referenced_BuildMps_Language_2017_3" />
           </node>
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuCv" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuCr" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHqo" role="12C$m$">
@@ -1560,6 +1766,14 @@
           <ref role="12Em_A" node="3adNyZsVHpk" resolve="export_BuildMps_DevKitExport_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCs" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCq" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHS9">
@@ -1578,6 +1792,14 @@
     <node concept="12Em_F" id="3adNyZsVHSb" role="12C$m$">
       <property role="TrG5h" value="Export_BuildStringNotEmpty" />
       <ref role="12Em$l" to="3ior:IFRVVI5ZTn" resolve="BuildStringNotEmpty" />
+      <node concept="12Em_F" id="4vfc3kCbuCy" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCx" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHSh">
@@ -1602,6 +1824,10 @@
         <ref role="12Em_A" node="3adNyZsVHTi" resolve="export_BuildStringNotEmpty_2017_3" />
       </node>
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuC$" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHSq">
     <property role="TrG5h" value="export_BuildStringPart_2017_3" />
@@ -1624,6 +1850,10 @@
           <ref role="12Em_A" node="3adNyZsVHSB" resolve="export_referenced_BuildVariableMacro_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCB" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHSu" role="12C$m$">
       <property role="TrG5h" value="Export_BuildTextStringPart" />
@@ -1633,6 +1863,14 @@
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCC" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCA" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHSB">
@@ -1653,6 +1891,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuCE" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHSK">
     <property role="TrG5h" value="export_BuildVariableMacroInitValue_2017_3" />
@@ -1670,6 +1912,10 @@
           <ref role="12Em_A" node="3adNyZsVHS9" resolve="export_BuildString_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCH" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHSN" role="12C$m$">
       <property role="TrG5h" value="Export_BuildVariableMacroInitWithDate" />
@@ -1678,6 +1924,10 @@
         <property role="TrG5h" value="pattern" />
         <property role="3enqAb" value="string" />
         <property role="12Em_G" value="PUBLIC" />
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuCI" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHSP" role="12C$m$">
@@ -1697,6 +1947,10 @@
           <ref role="12Em_A" node="5X_uv6sJ$ly" resolve="export_BuildSourcePath_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCJ" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHSS" role="12C$m$">
       <property role="TrG5h" value="Export_BuildVariableMacroInitWithFileContent" />
@@ -1710,6 +1964,14 @@
           <ref role="12Em_A" node="5X_uv6sJ$ly" resolve="export_BuildSourcePath_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCK" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCG" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHTi">
@@ -1724,6 +1986,10 @@
         <property role="1a5o8Z" value="BuildStringPart" />
         <ref role="12Em_A" node="3adNyZsVHSq" resolve="export_BuildStringPart_2017_3" />
       </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCM" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHTS">
@@ -1746,6 +2012,10 @@
           <ref role="12Em_A" node="3adNyZsVHU5" resolve="export_referenced_BuildMps_AbstractModule_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCP" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHTW" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_IdeaPluginGroup" />
@@ -1766,6 +2036,14 @@
           <ref role="12Em_A" node="3adNyZsVHUw" resolve="export_referenced_BuildMps_Group_2017_3" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCQ" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCO" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHU5">
@@ -1826,6 +2104,10 @@
           <property role="TrG5h" value="sourcesKind" />
           <property role="3enqAb" value="BuildMps_ModuleSourcesKind" />
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuCV" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
       </node>
       <node concept="12Em_F" id="3adNyZsVHUh" role="12C$m$">
         <property role="TrG5h" value="Export_BuildMps_Language" />
@@ -1851,6 +2133,10 @@
             <property role="TrG5h" value="Profile is ignored for sub-nodes" />
           </node>
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuCW" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
       </node>
       <node concept="12Em_F" id="3adNyZsVHUl" role="12C$m$">
         <property role="TrG5h" value="Export_BuildMps_Generator" />
@@ -1862,6 +2148,14 @@
             <property role="TrG5h" value="Profile is ignored for sub-nodes" />
           </node>
         </node>
+        <node concept="12Em_F" id="4vfc3kCbuCX" role="1e9C72">
+          <property role="TrG5h" value="ErrorMissingTarget" />
+          <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+        </node>
+      </node>
+      <node concept="12Em_F" id="4vfc3kCbuCT" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
       </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVHUn" role="12C$m$">
@@ -1881,6 +2175,14 @@
           <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuCU" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuCS" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHUw">
@@ -1899,6 +2201,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuCZ" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHUN">
     <property role="TrG5h" value="export_BuildMps_IdeaPluginDependency_2017_3" />
@@ -1912,6 +2218,10 @@
         <property role="1a5o8Z" value="BuildMps_IdeaPlugin" />
         <ref role="12Em_A" node="3adNyZsVHUV" resolve="export_referenced_BuildMps_IdeaPlugin_2017_3" />
       </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuD1" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHUV">
@@ -1999,6 +2309,10 @@
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
     </node>
+    <node concept="12Em_F" id="4vfc3kCbuD3" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+    </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVHZU">
     <property role="TrG5h" value="export_referenced_BuildMps_Module_2017_3" />
@@ -2055,6 +2369,10 @@
         <property role="TrG5h" value="sourcesKind" />
         <property role="3enqAb" value="BuildMps_ModuleSourcesKind" />
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuD6" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVI05" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_Language" />
@@ -2080,6 +2398,10 @@
           <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuD7" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
     </node>
     <node concept="12Em_F" id="3adNyZsVI09" role="12C$m$">
       <property role="TrG5h" value="Export_BuildMps_Generator" />
@@ -2091,6 +2413,14 @@
           <property role="TrG5h" value="Profile is ignored for sub-nodes" />
         </node>
       </node>
+      <node concept="12Em_F" id="4vfc3kCbuD8" role="1e9C72">
+        <property role="TrG5h" value="ErrorMissingTarget" />
+        <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
+      </node>
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuD5" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
   <node concept="12Em_F" id="3adNyZsVI0A">
@@ -2127,6 +2457,10 @@
       <property role="TrG5h" value="name" />
       <property role="3enqAb" value="string" />
       <property role="12Em_G" value="PUBLIC" />
+    </node>
+    <node concept="12Em_F" id="4vfc3kCbuDa" role="1e9C72">
+      <property role="TrG5h" value="ErrorMissingTarget" />
+      <ref role="12Em$l" to="dnyj:68ym4Sbq29Q" resolve="ErrorMissingTarget" />
     </node>
   </node>
 </model>

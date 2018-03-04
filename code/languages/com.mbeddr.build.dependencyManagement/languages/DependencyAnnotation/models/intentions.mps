@@ -119,6 +119,9 @@
       </concept>
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
+      <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
+        <reference id="1171315804605" name="concept" index="2RRcyH" />
+      </concept>
       <concept id="1171500988903" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenOperation" flags="nn" index="32TBzR" />
       <concept id="6973815483243445083" name="jetbrains.mps.lang.smodel.structure.EnumMemberValueRefExpression" flags="nn" index="3f7Wdw">
         <reference id="6973815483243565416" name="member" index="3f7u_j" />
@@ -164,6 +167,14 @@
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
+        <child id="1153944400369" name="variable" index="2Gsz3X" />
+        <child id="1153944424730" name="inputSequence" index="2GsD0m" />
+      </concept>
+      <concept id="1153944193378" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" flags="nr" index="2GrKxI" />
+      <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
+        <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -1637,6 +1648,65 @@
           <node concept="2OqwBi" id="hKNoOpNj5A" role="3clFbG">
             <node concept="2Sf5sV" id="hKNoOpNiYD" role="2Oq$k0" />
             <node concept="3YRAZt" id="hKNoOpNjfQ" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="64MHl$J66B8">
+    <property role="TrG5h" value="migrate_CEP_ErrorMissingTarget" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="dnyj:63dx_CypeWL" resolve="ConceptExportProfile" />
+    <node concept="2S6ZIM" id="64MHl$J66B9" role="2ZfVej">
+      <node concept="3clFbS" id="64MHl$J66Ba" role="2VODD2">
+        <node concept="3clFbF" id="64MHl$J68Hl" role="3cqZAp">
+          <node concept="Xl_RD" id="64MHl$J68Hk" role="3clFbG">
+            <property role="Xl_RC" value="Migrate CEP: ErrorMissingTarget" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="64MHl$J66Bb" role="2ZfgGD">
+      <node concept="3clFbS" id="64MHl$J66Bc" role="2VODD2">
+        <node concept="2Gpval" id="64MHl$Jfb6i" role="3cqZAp">
+          <node concept="2GrKxI" id="64MHl$Jfb6w" role="2Gsz3X">
+            <property role="TrG5h" value="root" />
+          </node>
+          <node concept="2OqwBi" id="64MHl$JfbQI" role="2GsD0m">
+            <node concept="2OqwBi" id="64MHl$Jfbio" role="2Oq$k0">
+              <node concept="2Sf5sV" id="64MHl$Jfb7X" role="2Oq$k0" />
+              <node concept="I4A8Y" id="64MHl$JfbvB" role="2OqNvi" />
+            </node>
+            <node concept="2RRcyG" id="64MHl$Jfc7o" role="2OqNvi">
+              <ref role="2RRcyH" to="dnyj:63dx_CypeWL" resolve="ConceptExportProfile" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="64MHl$Jfb6W" role="2LFqv$">
+            <node concept="3clFbF" id="64MHl$Jfcdc" role="3cqZAp">
+              <node concept="2OqwBi" id="64MHl$JfclO" role="3clFbG">
+                <node concept="2GrUjf" id="64MHl$Jfcdb" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="64MHl$Jfb6w" resolve="root" />
+                </node>
+                <node concept="2qgKlT" id="64MHl$JfcAi" role="2OqNvi">
+                  <ref role="37wK5l" to="9l5y:64MHl$Je_1U" resolve="initErrorMissingTarget" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="64MHl$J66KK" role="2ZfVeh">
+      <node concept="3clFbS" id="64MHl$J66KL" role="2VODD2">
+        <node concept="3clFbF" id="64MHl$J66S6" role="3cqZAp">
+          <node concept="2OqwBi" id="64MHl$J67Ue" role="3clFbG">
+            <node concept="2OqwBi" id="64MHl$J675R" role="2Oq$k0">
+              <node concept="2Sf5sV" id="64MHl$J66S5" role="2Oq$k0" />
+              <node concept="3TrEf2" id="64MHl$J67q9" role="2OqNvi">
+                <ref role="3Tt5mk" to="dnyj:64MHl$J53ir" resolve="errorMissingTarget_CEP" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="64MHl$J68wj" role="2OqNvi" />
           </node>
         </node>
       </node>

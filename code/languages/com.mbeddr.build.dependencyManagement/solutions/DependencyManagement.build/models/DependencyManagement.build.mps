@@ -320,12 +320,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6HrZlNRnIe4" role="3bR37C">
-          <node concept="3bR9La" id="6HrZlNRnIe5" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7pdFgzxlDoI" resolve="jetbrains.mps.build.workflow" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="6HrZlNRnIe6" role="3bR37C">
           <node concept="3bR9La" id="6HrZlNRnIe7" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -382,18 +376,6 @@
               <ref role="3bR37D" to="ffeo:7YI57w6KjWa" resolve="jetbrains.mps.build.workflow#2769948622284786808" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6HrZlNRnIie" role="3bR37C">
-            <node concept="3bR9La" id="6HrZlNRnIif" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="6HrZlNRnIdE" resolve="DependencyAnnotation" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="68ym4Sb8Vte" role="3bR37C">
-            <node concept="3bR9La" id="68ym4Sb8Vtf" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:6hkEqUOoosu" resolve="jetbrains.mps.build.startup" />
-            </node>
-          </node>
         </node>
       </node>
       <node concept="1E1JtA" id="68ym4Sb0Ubf" role="2G$12L">
@@ -441,6 +423,12 @@
           <node concept="3bR9La" id="68ym4Sb0UhV" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1Vi5mb_o9f_" resolve="jetbrains.mps.build.mps.runner" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4NO29HK99UW" role="3bR37C">
+          <node concept="3bR9La" id="4NO29HK99UX" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6HrZlNRnIdE" resolve="DependencyAnnotation" />
           </node>
         </node>
       </node>

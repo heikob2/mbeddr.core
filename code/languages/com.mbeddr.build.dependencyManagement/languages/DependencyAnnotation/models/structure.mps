@@ -11,6 +11,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
         <child id="7862711839422615224" name="seeAlso" index="t5JxU" />
@@ -330,6 +331,17 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fetch" />
       <ref role="20lvS9" node="1Ba3VcdGQ0z" resolve="CEP_Fetch" />
+      <node concept="asaX9" id="64MHl$J53iO" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="64MHl$J53ir" role="1TKVEi">
+      <property role="IQ2ns" value="7003859765161112731" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="errorMissingTarget_CEP" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="63dx_CypeWL" resolve="ConceptExportProfile" />
+      <node concept="t5JxF" id="64MHl$J66A4" role="lGtFl">
+        <property role="t5JxN" value="roundtrip (WriteAccess-Error with Gradle-build) -&gt; Behaviour" />
+      </node>
     </node>
     <node concept="PrWs8" id="63dx_CyqT6J" role="PzmwI">
       <ref role="PrY4T" node="63dx_CypeWU" resolve="IConceptExportProfile" />
