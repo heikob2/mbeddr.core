@@ -24,7 +24,7 @@
   <node concept="2DRAQV" id="68ym4Sb56ok">
     <property role="TrG5h" value="clientstarter.sh" />
     <node concept="2DRAP_" id="68ym4Sb56ol" role="2DRAPQ">
-      <property role="2DPR8u" value="java -jar ./DepMan.jar &quot;-fromfile&quot; &quot;./config.config&quot; &quot;-public&quot;" />
+      <property role="2DPR8u" value="java -jar ./clientstarter.jar &quot;-fromfile &quot; &quot;/Users/hbaechmann/repositories/anno3/iets3.opensource/build/config.config&quot; &quot;-public&quot;" />
     </node>
   </node>
   <node concept="2DRAQV" id="68ym4Sb5izx">
@@ -33,7 +33,7 @@
       <property role="2DPR8u" value="-url §§ http://localhost:4434" />
     </node>
     <node concept="2DRAP_" id="68ym4Sb5izA" role="2DRAPQ">
-      <property role="2DPR8u" value="-root §§ /Users/hbaechmann/repositories/iets3.opensource/build/" />
+      <property role="2DPR8u" value="-root §§ /Users/hbaechmann/repositories/anno3/iets3.opensource/build/" />
     </node>
     <node concept="2DRAP_" id="68ym4Sb5wHl" role="2DRAPQ">
       <property role="2DPR8u" value="//-public" />
