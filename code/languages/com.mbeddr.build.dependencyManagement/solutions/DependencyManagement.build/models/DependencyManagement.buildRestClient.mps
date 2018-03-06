@@ -377,6 +377,85 @@
                 </node>
               </node>
             </node>
+            <node concept="3FFNgi" id="5Z4Fr418NxE" role="2FjnpF">
+              <node concept="3_J27D" id="5Z4Fr418NxF" role="3FFNgg">
+                <node concept="3Mxwew" id="5Z4Fr418NxG" role="3MwsjC">
+                  <property role="3MwjfP" value="dm.lib/javax.ws.rs-api-2.1.jar dm.lib/jersey-client.jar dm.lib/jersey-common.jar dm.lib/jersey-hk2.jar dm.lib/jersey-server.jar dm.lib/hk2-api-2.5.0-b42.jar dm.lib/hk2-locator-2.5.0-b42.jar dm.lib/hk2-utils-2.5.0-b42.jar dm.lib/javax.annotation-api-1.2.jar dm.lib/javax.inject-2.5.0-b42.jar dm.lib/javax.json.bind-api-1.0.jar dm.lib/validation-api-1.1.0.Final.jar dm.lib/jersey-media-json-binding.jar dm.lib/javax.json-1.1.jar dm.lib/javax.json-api-1.1.jar dm.lib/yasson-1.0.jar " />
+                </node>
+              </node>
+              <node concept="3_J27D" id="5Z4Fr418NxH" role="3FFNgj">
+                <node concept="3Mxwew" id="5Z4Fr418NxI" role="3MwsjC">
+                  <property role="3MwjfP" value="Class-Path" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="398223" id="5Z4Fr415tr_" role="39821P">
+          <node concept="2HvfSZ" id="5Z4Fr415tVV" role="39821P">
+            <node concept="398BVA" id="5Z4Fr415tVW" role="2HvfZ0">
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
+              <node concept="2Ry0Ak" id="5Z4Fr415tVX" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5Z4Fr415tVY" role="2Ry0An">
+                  <property role="2Ry0Am" value="DependeciesGathering" />
+                  <node concept="2Ry0Ak" id="5Z4Fr415ulI" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5Z4Fr415usa" role="2Ry0An">
+                      <property role="2Ry0Am" value="jaxrs" />
+                      <node concept="2Ry0Ak" id="5Z4Fr415usn" role="2Ry0An">
+                        <property role="2Ry0Am" value="api" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="5Z4Fr415ust" role="39821P">
+            <node concept="398BVA" id="5Z4Fr415usu" role="2HvfZ0">
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
+              <node concept="2Ry0Ak" id="5Z4Fr415usv" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5Z4Fr415usw" role="2Ry0An">
+                  <property role="2Ry0Am" value="DependeciesGathering" />
+                  <node concept="2Ry0Ak" id="5Z4Fr415usx" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5Z4Fr415usy" role="2Ry0An">
+                      <property role="2Ry0Am" value="jaxrs" />
+                      <node concept="2Ry0Ak" id="5Z4Fr415uFS" role="2Ry0An">
+                        <property role="2Ry0Am" value="ext" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="5Z4Fr415uzT" role="39821P">
+            <node concept="398BVA" id="5Z4Fr415uzU" role="2HvfZ0">
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
+              <node concept="2Ry0Ak" id="5Z4Fr415uzV" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5Z4Fr415uzW" role="2Ry0An">
+                  <property role="2Ry0Am" value="DependeciesGathering" />
+                  <node concept="2Ry0Ak" id="5Z4Fr415uzX" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5Z4Fr415uzY" role="2Ry0An">
+                      <property role="2Ry0Am" value="jaxrs" />
+                      <node concept="2Ry0Ak" id="5Z4Fr415uzZ" role="2Ry0An">
+                        <property role="2Ry0Am" value="lib" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3_J27D" id="5Z4Fr415trB" role="Nbhlr">
+            <node concept="3Mxwew" id="5Z4Fr415tzn" role="3MwsjC">
+              <property role="3MwjfP" value="dm.lib" />
+            </node>
           </node>
         </node>
         <node concept="3_J27D" id="5Z4Fr40VtaD" role="Nbhlr">
@@ -424,6 +503,90 @@
             <node concept="3_J27D" id="68ym4Sb3lTA" role="3FFNgj">
               <node concept="3Mxwew" id="68ym4Sb3lTB" role="3MwsjC">
                 <property role="3MwjfP" value="Main-Class" />
+              </node>
+            </node>
+          </node>
+          <node concept="3FFNgi" id="5Z4Fr415v7a" role="2FjnpF">
+            <node concept="3_J27D" id="5Z4Fr415v7c" role="3FFNgg">
+              <node concept="3Mxwew" id="5Z4Fr415veb" role="3MwsjC">
+                <property role="3MwjfP" value="dm.lib/javax.ws.rs-api-2.1.jar dm.lib/jersey-client.jar dm.lib/jersey-common.jar  " />
+              </node>
+            </node>
+            <node concept="3_J27D" id="5Z4Fr415v7d" role="3FFNgj">
+              <node concept="3Mxwew" id="5Z4Fr415v7e" role="3MwsjC">
+                <property role="3MwjfP" value="Class-Path" />
+              </node>
+            </node>
+          </node>
+          <node concept="3FFNgi" id="5Z4Fr415FDe" role="2FjnpF">
+            <node concept="3_J27D" id="5Z4Fr415FDg" role="3FFNgg">
+              <node concept="3Mxwew" id="5Z4Fr415FKC" role="3MwsjC">
+                <property role="3MwjfP" value="dm.lib/jersey-hk2.jar dm.lib/jersey-server.jar dm.lib/hk2-api-2.5.0-b42.jar" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="5Z4Fr415FDh" role="3FFNgj">
+              <node concept="3Mxwew" id="5Z4Fr415FDi" role="3MwsjC">
+                <property role="3MwjfP" value="Class-Path" />
+              </node>
+            </node>
+          </node>
+          <node concept="3FFNgi" id="5Z4Fr415RRy" role="2FjnpF">
+            <node concept="3_J27D" id="5Z4Fr415RR$" role="3FFNgg">
+              <node concept="3Mxwew" id="5Z4Fr415RZl" role="3MwsjC">
+                <property role="3MwjfP" value="dm.lib/hk2-locator-2.5.0-b42.jar dm.lib/hk2-utils-2.5.0-b42.jar" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="5Z4Fr415RR_" role="3FFNgj">
+              <node concept="3Mxwew" id="5Z4Fr415RRA" role="3MwsjC">
+                <property role="3MwjfP" value="Class-Path" />
+              </node>
+            </node>
+          </node>
+          <node concept="3FFNgi" id="5Z4Fr415SHL" role="2FjnpF">
+            <node concept="3_J27D" id="5Z4Fr415SHN" role="3FFNgg">
+              <node concept="3Mxwew" id="5Z4Fr415SPX" role="3MwsjC">
+                <property role="3MwjfP" value="dm.lib/javax.annotation-api-1.2.jar dm.lib/javax.inject-2.5.0-b42.jar" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="5Z4Fr415SHO" role="3FFNgj">
+              <node concept="3Mxwew" id="5Z4Fr415SHP" role="3MwsjC">
+                <property role="3MwjfP" value="Class-Path" />
+              </node>
+            </node>
+          </node>
+          <node concept="3FFNgi" id="5Z4Fr415SYl" role="2FjnpF">
+            <node concept="3_J27D" id="5Z4Fr415SYn" role="3FFNgg">
+              <node concept="3Mxwew" id="5Z4Fr415T6U" role="3MwsjC">
+                <property role="3MwjfP" value="dm.lib/javax.json.bind-api-1.0.jar dm.lib/validation-api-1.1.0.Final.jar" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="5Z4Fr415SYo" role="3FFNgj">
+              <node concept="3Mxwew" id="5Z4Fr415SYp" role="3MwsjC">
+                <property role="3MwjfP" value="Class-Path" />
+              </node>
+            </node>
+          </node>
+          <node concept="3FFNgi" id="5Z4Fr415TVL" role="2FjnpF">
+            <node concept="3_J27D" id="5Z4Fr415TVN" role="3FFNgg">
+              <node concept="3Mxwew" id="5Z4Fr415UmB" role="3MwsjC">
+                <property role="3MwjfP" value="dm.lib/jersey-media-json-binding.jar dm.lib/javax.json-1.1.jar" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="5Z4Fr415TVO" role="3FFNgj">
+              <node concept="3Mxwew" id="5Z4Fr415TVP" role="3MwsjC">
+                <property role="3MwjfP" value="Class-Path" />
+              </node>
+            </node>
+          </node>
+          <node concept="3FFNgi" id="5Z4Fr415UvL" role="2FjnpF">
+            <node concept="3_J27D" id="5Z4Fr415UvN" role="3FFNgg">
+              <node concept="3Mxwew" id="5Z4Fr415UD8" role="3MwsjC">
+                <property role="3MwjfP" value="dm.lib/javax.json-api-1.1.jar dm.lib/yasson-1.0.jar" />
+              </node>
+            </node>
+            <node concept="3_J27D" id="5Z4Fr415UvO" role="3FFNgj">
+              <node concept="3Mxwew" id="5Z4Fr415UvP" role="3MwsjC">
+                <property role="3MwjfP" value="Class-Path" />
               </node>
             </node>
           </node>
