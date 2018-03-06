@@ -166,7 +166,7 @@
       <property role="TrG5h" value="artifacts.root" />
     </node>
     <node concept="398rNT" id="68ym4Sb2E_e" role="1l3spd">
-      <property role="TrG5h" value="mbeddr.build.depMan.home" />
+      <property role="TrG5h" value="mbeddr.build.dm.home" />
       <node concept="398BVA" id="68ym4Sb2MyA" role="398pKh">
         <ref role="398BVh" node="6HrZlNRnId$" resolve="mbeddr.github.core.home" />
         <node concept="2Ry0Ak" id="68ym4Sb2MyF" role="iGT6I">
@@ -279,7 +279,7 @@
         <property role="3LESm3" value="aa2a0a96-4f86-4df2-84ec-54941b1a2d95" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="68ym4Sb2Fgj" role="3LF7KH">
-          <ref role="398BVh" node="68ym4Sb2E_e" resolve="mbeddr.build.depMan.home" />
+          <ref role="398BVh" node="68ym4Sb2E_e" resolve="mbeddr.build.dm.home" />
           <node concept="2Ry0Ak" id="68ym4Sb2Fgo" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
             <node concept="2Ry0Ak" id="68ym4Sb2Fgp" role="2Ry0An">
@@ -384,7 +384,7 @@
         <property role="3LESm3" value="1aa3a629-18b1-44e8-a5b9-913354528d3e" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="68ym4Sb2F9T" role="3LF7KH">
-          <ref role="398BVh" node="68ym4Sb2E_e" resolve="mbeddr.build.depMan.home" />
+          <ref role="398BVh" node="68ym4Sb2E_e" resolve="mbeddr.build.dm.home" />
           <node concept="2Ry0Ak" id="68ym4Sb2Fbi" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="68ym4Sb2Fcf" role="2Ry0An">

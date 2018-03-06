@@ -308,7 +308,7 @@
       </node>
     </node>
     <node concept="2kB4xC" id="5Z4Fr40Vr5X" role="1l3spd">
-      <property role="TrG5h" value="destination.dm.restClient.ant" />
+      <property role="TrG5h" value="destination.dm.restClient" />
       <node concept="aVJcg" id="5Z4Fr40VrQw" role="aVJcv">
         <node concept="NbPM2" id="5Z4Fr40VrQv" role="aVJcq">
           <node concept="3Mxwew" id="5Z4Fr40Vs3k" role="3MwsjC">
@@ -460,7 +460,7 @@
         </node>
         <node concept="3_J27D" id="5Z4Fr40VtaD" role="Nbhlr">
           <node concept="3Mxwey" id="5Z4Fr40Vtu7" role="3MwsjC">
-            <ref role="3Mxwex" node="5Z4Fr40Vr5X" resolve="destination.dm.restClient.ant" />
+            <ref role="3Mxwex" node="5Z4Fr40Vr5X" resolve="destination.dm.restClient" />
           </node>
         </node>
       </node>
