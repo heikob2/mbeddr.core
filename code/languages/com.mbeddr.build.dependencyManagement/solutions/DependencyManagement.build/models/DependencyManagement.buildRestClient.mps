@@ -15,6 +15,9 @@
       <concept id="9126048691955220717" name="jetbrains.mps.build.structure.BuildLayout_File" flags="ng" index="28jJK3">
         <child id="9126048691955220762" name="path" index="28jJRO" />
       </concept>
+      <concept id="9126048691954557131" name="jetbrains.mps.build.structure.BuildLayout_Comment" flags="ng" index="28u9K_">
+        <property id="9126048691954700811" name="text" index="28hIV_" />
+      </concept>
       <concept id="2755237150521975431" name="jetbrains.mps.build.structure.BuildVariableMacroInitWithString" flags="ng" index="aVJcg">
         <child id="2755237150521975437" name="value" index="aVJcq" />
       </concept>
@@ -30,6 +33,7 @@
       </concept>
       <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
         <child id="2750015747481074432" name="path" index="2HvfZ0" />
+        <child id="2750015747481074433" name="parameters" index="2HvfZ1" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -74,6 +78,9 @@
       <concept id="1251221292903960368" name="jetbrains.mps.build.structure.BuildLayout_JarManifest_Attribute" flags="ng" index="3FFNgi">
         <child id="1251221292903960370" name="value" index="3FFNgg" />
         <child id="1251221292903960369" name="name" index="3FFNgj" />
+      </concept>
+      <concept id="5248329904288051111" name="jetbrains.mps.build.structure.BuildFileExcludeSelector" flags="ng" index="3LWZYq">
+        <property id="5248329904288051112" name="pattern" index="3LWZYl" />
       </concept>
       <concept id="4903714810883702019" name="jetbrains.mps.build.structure.BuildTextStringPart" flags="ng" index="3Mxwew">
         <property id="4903714810883755350" name="text" index="3MwjfP" />
@@ -120,7 +127,9 @@
       <concept id="4278635856200826393" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyJar" flags="ng" index="1BurEX">
         <child id="4278635856200826394" name="path" index="1BurEY" />
       </concept>
-      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
+        <property id="269707337715731330" name="sourcesKind" index="aoJFB" />
+      </concept>
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -336,20 +345,17 @@
     <node concept="1l3spV" id="68ym4SaZR7L" role="1l3spN">
       <node concept="398223" id="5Z4Fr40VtaB" role="39821P">
         <node concept="2HvfSZ" id="5Z4Fr40VEkl" role="39821P">
+          <node concept="3LWZYq" id="5ZtcpAA3AqU" role="2HvfZ1">
+            <property role="3LWZYl" value="copy" />
+          </node>
           <node concept="398BVA" id="5Z4Fr40VEkm" role="2HvfZ0">
             <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
             <node concept="2Ry0Ak" id="5Z4Fr40VEkn" role="iGT6I">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="5Z4Fr40VEko" role="2Ry0An">
                 <property role="2Ry0Am" value="DependeciesGathering" />
-                <node concept="2Ry0Ak" id="5Z4Fr40VEkp" role="2Ry0An">
-                  <property role="2Ry0Am" value="source_gen" />
-                  <node concept="2Ry0Ak" id="5Z4Fr40VEkq" role="2Ry0An">
-                    <property role="2Ry0Am" value="DependeciesGathering" />
-                    <node concept="2Ry0Ak" id="5Z4Fr40VEkr" role="2Ry0An">
-                      <property role="2Ry0Am" value="shell" />
-                    </node>
-                  </node>
+                <node concept="2Ry0Ak" id="5ZtcpAA0GDS" role="2Ry0An">
+                  <property role="2Ry0Am" value="shell" />
                 </node>
               </node>
             </node>
@@ -463,6 +469,9 @@
             <ref role="3Mxwex" node="5Z4Fr40Vr5X" resolve="destination.dm.restClient" />
           </node>
         </node>
+      </node>
+      <node concept="28u9K_" id="5ZtcpA_Z6BW" role="39821P">
+        <property role="28hIV_" value="check if can be remove from here to end of file" />
       </node>
       <node concept="2HvfSZ" id="68ym4Sb48m2" role="39821P">
         <node concept="398BVA" id="68ym4Sb48vP" role="2HvfZ0">
@@ -614,29 +623,6 @@
         </node>
         <node concept="m$_wl" id="68ym4SaZR7P" role="39821P">
           <ref role="m_rDy" node="68ym4SaZR7C" resolve="DependencyManagement" />
-          <node concept="28jJK3" id="68ym4Sb0PWV" role="39821P">
-            <node concept="398BVA" id="68ym4Sb2FHQ" role="28jJRO">
-              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
-              <node concept="2Ry0Ak" id="68ym4Sb2FHY" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="68ym4Sb2FHZ" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependeciesGathering" />
-                  <node concept="2Ry0Ak" id="68ym4Sb2FI0" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="68ym4Sb2FI1" role="2Ry0An">
-                      <property role="2Ry0Am" value="jaxrs" />
-                      <node concept="2Ry0Ak" id="68ym4Sb2FI2" role="2Ry0An">
-                        <property role="2Ry0Am" value="api" />
-                        <node concept="2Ry0Ak" id="68ym4Sb2FI3" role="2Ry0An">
-                          <property role="2Ry0Am" value="javax.ws.rs-api-2.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="28jJK3" id="68ym4Sb0Qtm" role="39821P">
             <node concept="398BVA" id="68ym4Sb2FKr" role="28jJRO">
               <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
@@ -652,6 +638,29 @@
                         <property role="2Ry0Am" value="lib" />
                         <node concept="2Ry0Ak" id="68ym4Sb2FKC" role="2Ry0An">
                           <property role="2Ry0Am" value="jersey-client.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="68ym4Sb0PWV" role="39821P">
+            <node concept="398BVA" id="68ym4Sb2FHQ" role="28jJRO">
+              <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
+              <node concept="2Ry0Ak" id="68ym4Sb2FHY" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="68ym4Sb2FHZ" role="2Ry0An">
+                  <property role="2Ry0Am" value="DependeciesGathering" />
+                  <node concept="2Ry0Ak" id="68ym4Sb2FI0" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="68ym4Sb2FI1" role="2Ry0An">
+                      <property role="2Ry0Am" value="jaxrs" />
+                      <node concept="2Ry0Ak" id="68ym4Sb2FI2" role="2Ry0An">
+                        <property role="2Ry0Am" value="api" />
+                        <node concept="2Ry0Ak" id="68ym4Sb2FI3" role="2Ry0An">
+                          <property role="2Ry0Am" value="javax.ws.rs-api-2.1.jar" />
                         </node>
                       </node>
                     </node>
@@ -1047,6 +1056,7 @@
         <property role="TrG5h" value="DependeciesGathering" />
         <property role="3LESm3" value="641f22a3-1c14-4f79-bc3c-5c9b6c50fbb1" />
         <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources" />
         <node concept="398BVA" id="68ym4Sb2Fzi" role="3LF7KH">
           <ref role="398BVh" node="68ym4Sb2Nph" resolve="mbeddr.build.dm.home" />
           <node concept="2Ry0Ak" id="68ym4Sb2Fzn" role="iGT6I">
