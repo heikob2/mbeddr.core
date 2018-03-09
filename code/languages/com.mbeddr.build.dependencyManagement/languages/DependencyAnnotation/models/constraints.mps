@@ -185,7 +185,6 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -367,13 +366,18 @@
               <node concept="2jxLKc" id="1Lv$utmJg$V" role="1tU5fm" />
             </node>
           </node>
+          <node concept="3clFbH" id="2pG6Gx22wmm" role="3cqZAp" />
           <node concept="3SKdUt" id="1Lv$utmKjei" role="3cqZAp">
             <node concept="3SKdUq" id="1Lv$utmKjek" role="3SKWNk">
-              <property role="3SKdUp" value="TODO: maybe for InterfaceConceptDeclaration" />
+              <property role="3SKdUp" value="TODO: check what to do and is necessary for InterfaceConceptDeclaration" />
             </node>
           </node>
           <node concept="3clFbH" id="1Lv$utmJ4UI" role="3cqZAp" />
-          <node concept="3clFbH" id="63dx_Cym38H" role="3cqZAp" />
+          <node concept="3SKdUt" id="2pG6Gx20mbD" role="3cqZAp">
+            <node concept="3SKdUq" id="2pG6Gx20mbF" role="3SKWNk">
+              <property role="3SKdUp" value="set property-, child- and reference-export-configurations" />
+            </node>
+          </node>
           <node concept="2Gpval" id="63dx_Cyi0gY" role="3cqZAp">
             <node concept="2GrKxI" id="63dx_Cyi0h3" role="2Gsz3X">
               <property role="TrG5h" value="child" />
@@ -681,6 +685,11 @@
             </node>
           </node>
           <node concept="3clFbH" id="63dx_CyihCx" role="3cqZAp" />
+          <node concept="3SKdUt" id="2pG6Gx20U95" role="3cqZAp">
+            <node concept="3SKdUq" id="2pG6Gx20U97" role="3SKWNk">
+              <property role="3SKdUp" value="include subconcepts: create inline-ConceptExportProfiles" />
+            </node>
+          </node>
           <node concept="Jncv_" id="1Lv$utmGHXB" role="3cqZAp">
             <ref role="JncvD" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
             <node concept="3khVwk" id="1Lv$utmGVKy" role="JncvB" />
@@ -1037,17 +1046,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="1M2fIO" id="63dx_CyolhR">
-    <property role="3GE5qa" value="generation" />
-    <ref role="1M2myG" to="dnyj:63dx_CygDCo" resolve="ChildExport" />
-  </node>
-  <node concept="1M2fIO" id="1Lv$utmo6Wn">
-    <property role="3GE5qa" value="concepts" />
-    <ref role="1M2myG" to="dnyj:63dx_CypeWV" resolve="ConceptExportProfileReference" />
-  </node>
-  <node concept="1M2fIO" id="6OY3pQc8vhI">
-    <ref role="1M2myG" to="dnyj:6OY3pQc8snZ" resolve="ModuleVisibilities" />
   </node>
 </model>
 

@@ -52,6 +52,12 @@
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
       </concept>
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -229,10 +235,14 @@
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
@@ -665,16 +675,20 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="6vus7bUvIxd" role="3cqZAp" />
-                <node concept="3clFbF" id="6vus7bUvIKc" role="3cqZAp">
-                  <node concept="2OqwBi" id="6vus7bUvJdL" role="3clFbG">
-                    <node concept="10M0yZ" id="6vus7bUvILp" role="2Oq$k0">
-                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                    </node>
-                    <node concept="liA8E" id="6vus7bUvJHY" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                      <node concept="Xl_RD" id="6vus7bUvJJ1" role="37wK5m">
-                        <property role="Xl_RC" value="applied fetch" />
+                <node concept="1X3_iC" id="2pG6Gx22W9K" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="6vus7bUvIKc" role="8Wnug">
+                    <node concept="2OqwBi" id="6vus7bUvJdL" role="3clFbG">
+                      <node concept="10M0yZ" id="6vus7bUvILp" role="2Oq$k0">
+                        <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      </node>
+                      <node concept="liA8E" id="6vus7bUvJHY" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="Xl_RD" id="6vus7bUvJJ1" role="37wK5m">
+                          <property role="Xl_RC" value="applied fetch" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -2531,6 +2545,30 @@
         <property role="TrG5h" value="expProfile" />
         <node concept="3Tqbb2" id="464rVAYFAkw" role="1tU5fm">
           <ref role="ehGHo" to="dnyj:63dx_CypeWU" resolve="IConceptExportProfile" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="2pG6Gx22KxK" role="lGtFl">
+        <node concept="TZ5HA" id="2pG6Gx22KxL" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx22KxM" role="1dT_Ay">
+            <property role="1dT_AB" value="Attach recursively dependency-annotations to parent_ and its properties, children and references." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2pG6Gx22L4R" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx22L4S" role="1dT_Ay">
+            <property role="1dT_AB" value="expProfile defines how to do this." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2pG6Gx22KxN" role="3nqlJM">
+          <property role="TUZQ4" value="the node to which attach dependency-annotations." />
+          <node concept="zr_55" id="2pG6Gx22KxP" role="zr_5Q">
+            <ref role="zr_51" node="464rVAYFAkt" resolve="parent_" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2pG6Gx22KxQ" role="3nqlJM">
+          <property role="TUZQ4" value="the ICEP used for the attachment of the dependency-annotations." />
+          <node concept="zr_55" id="2pG6Gx22KxS" role="zr_5Q">
+            <ref role="zr_51" node="464rVAYFAkv" resolve="expProfile" />
+          </node>
         </node>
       </node>
     </node>
@@ -6354,6 +6392,14 @@
           <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
         </node>
       </node>
+      <node concept="P$JXv" id="2pG6Gx23fdT" role="lGtFl">
+        <node concept="TZ5HI" id="2pG6Gx23fdU" role="3nqlJM">
+          <node concept="TZ5HA" id="2pG6Gx23fdV" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2pG6Gx23fdW" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="13i0hz" id="64MHl$Je_1U" role="13h7CS">
       <property role="TrG5h" value="initErrorMissingTarget" />
@@ -8329,13 +8375,6 @@
         </node>
       </node>
       <node concept="10P_77" id="464rVAZduq2" role="3clF45" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="6vus7bUvvBb">
-    <property role="3GE5qa" value="annotations" />
-    <ref role="13h7C2" to="dnyj:1Ba3VcdGQ0z" resolve="CEP_Fetch" />
-    <node concept="13hLZK" id="6vus7bUvvBc" role="13h7CW">
-      <node concept="3clFbS" id="6vus7bUvvBd" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="6OY3pQcsniU">
