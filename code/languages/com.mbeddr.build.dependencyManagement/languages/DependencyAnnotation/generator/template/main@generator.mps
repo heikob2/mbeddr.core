@@ -298,6 +298,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -1824,6 +1825,7 @@
   </node>
   <node concept="2pMbU2" id="6qYR9rynZdX">
     <property role="TrG5h" value="map_ExportProfile" />
+    <property role="3GE5qa" value="used" />
     <node concept="3rIKKV" id="6qYR9rynZdY" role="2pMbU3">
       <node concept="2pNNFK" id="6qYR9rypjFD" role="2pNm8H">
         <property role="2pNNFO" value="dependencies" />
@@ -4969,6 +4971,7 @@
   <node concept="bUwia" id="jZlUfPaPpL">
     <property role="TrG5h" value="main" />
     <property role="3$yP7D" value="true" />
+    <property role="3GE5qa" value="mapping_config" />
     <node concept="3aamgX" id="jZlUfPaPpN" role="3acgRq">
       <ref role="30HIoZ" to="dnyj:5WjlrMgWqFQ" resolve="ExportProfileToReduce" />
       <node concept="j$656" id="jZlUfPaPpO" role="1lVwrX">
@@ -5005,11 +5008,20 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbH" id="2pG6Gx1WS_$" role="3cqZAp" />
+          <node concept="3SKdUt" id="2pG6Gx1WSOt" role="3cqZAp">
+            <node concept="3SKdUq" id="2pG6Gx1WSOu" role="3SKWNk">
+              <property role="3SKdUp" value="Seems not to be used anymore" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="2pG6Gx1WSH4" role="3cqZAp" />
+          <node concept="3clFbH" id="2pG6Gx1WS_G" role="3cqZAp" />
           <node concept="3clFbF" id="4JEIfkr8nCy" role="3cqZAp">
             <node concept="3clFbT" id="4JEIfkr8nCx" role="3clFbG">
               <property role="3clFbU" value="false" />
             </node>
           </node>
+          <node concept="3clFbH" id="2pG6Gx1WSue" role="3cqZAp" />
         </node>
       </node>
     </node>
@@ -5019,6 +5031,12 @@
       <ref role="3lhOvi" node="1Lv$utlC_ZR" resolve="reduce_root_ExportProfileToReduce" />
       <node concept="30G5F_" id="jZlUfPaPq2" role="30HLyM">
         <node concept="3clFbS" id="jZlUfPaPq3" role="2VODD2">
+          <node concept="3SKdUt" id="2pG6Gx1WSbH" role="3cqZAp">
+            <node concept="3SKdUq" id="2pG6Gx1WSbJ" role="3SKWNk">
+              <property role="3SKdUp" value="Seems not to be used anymore" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="2pG6Gx1WS1s" role="3cqZAp" />
           <node concept="Jncv_" id="jZlUfPaPq4" role="3cqZAp">
             <ref role="JncvD" to="dnyj:63dx_CypeWL" resolve="ConceptExportProfile" />
             <node concept="2OqwBi" id="jZlUfPaPq5" role="JncvB">
@@ -5109,6 +5127,7 @@
     <property role="1v3f2W" value="pre_processing" />
     <property role="1v3jST" value="true" />
     <property role="TrG5h" value="preProcessInput" />
+    <property role="3GE5qa" value="used" />
     <node concept="1pplIY" id="4JEIfkr80lt" role="1pqMTA">
       <node concept="3clFbS" id="4JEIfkr80lu" role="2VODD2">
         <node concept="3cpWs8" id="4JEIfkr80Bj" role="3cqZAp">
@@ -5175,6 +5194,7 @@
   </node>
   <node concept="bUwia" id="3RFMhXlbu4O">
     <property role="TrG5h" value="postProcessing" />
+    <property role="3GE5qa" value="mapping_config" />
     <node concept="1puMqW" id="5eqg0kbrhjn" role="1puA0r">
       <ref role="1puQsG" node="5eqg0kba5zr" resolve="postPostGeneration" />
     </node>
@@ -5272,8 +5292,16 @@
     <property role="TrG5h" value="postPostGeneration" />
     <property role="1v3f2W" value="pre_processing" />
     <property role="1v3jST" value="true" />
+    <property role="3GE5qa" value="used" />
     <node concept="1pplIY" id="5eqg0kba5zs" role="1pqMTA">
       <node concept="3clFbS" id="5eqg0kba5zt" role="2VODD2">
+        <node concept="3clFbH" id="2pG6Gx1WJxw" role="3cqZAp" />
+        <node concept="3SKdUt" id="2pG6Gx1WJSQ" role="3cqZAp">
+          <node concept="3SKdUq" id="2pG6Gx1WJSS" role="3SKWNk">
+            <property role="3SKdUp" value="Reduce xml-noise after generation" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2pG6Gx1WJL3" role="3cqZAp" />
         <node concept="2Gpval" id="5eqg0kba5GL" role="3cqZAp">
           <node concept="2GrKxI" id="5eqg0kba5GM" role="2Gsz3X">
             <property role="TrG5h" value="xmlfile" />
@@ -5384,6 +5412,7 @@
   </node>
   <node concept="2DRAQV" id="7t_stIAExxp">
     <property role="TrG5h" value="map_SendData" />
+    <property role="3GE5qa" value="used" />
     <node concept="n94m4" id="7t_stIAExxq" role="lGtFl">
       <ref role="n9lRv" to="dnyj:7t_stIADf7Q" resolve="SendData" />
     </node>

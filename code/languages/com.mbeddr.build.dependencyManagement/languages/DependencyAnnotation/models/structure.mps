@@ -562,6 +562,10 @@
     <node concept="PrWs8" id="5WjlrMgWqES" role="PzmwI">
       <ref role="PrY4T" node="63dx_CypeWU" resolve="IConceptExportProfile" />
     </node>
+    <node concept="asaX9" id="2pG6Gx1USxp" role="lGtFl" />
+    <node concept="t5JxF" id="2pG6Gx1USxr" role="lGtFl">
+      <property role="t5JxN" value="seems, that it can be removed" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5WjlrMgWqEV">
     <property role="EcuMT" value="6850913726534625979" />
@@ -577,6 +581,10 @@
       <property role="20kJfa" value="nodeToGenerate" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="asaX9" id="2pG6Gx1V21v" role="lGtFl" />
+    <node concept="t5JxF" id="2pG6Gx1V21x" role="lGtFl">
+      <property role="t5JxN" value="seems, that it can be removed" />
     </node>
   </node>
   <node concept="1TIwiD" id="5WjlrMgWqFQ">
@@ -807,6 +815,9 @@
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="63dx_CypeWL" resolve="ConceptExportProfile" />
     </node>
+    <node concept="t5JxF" id="2pG6Gx1V20F" role="lGtFl">
+      <property role="t5JxN" value="seems, that use-cases could exist for this, but none occured/tested until now. KEEP this!" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1Ba3VcdGQ0z">
     <property role="EcuMT" value="1858315057947172899" />
@@ -830,6 +841,10 @@
       <property role="TrG5h" value="byProperty" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="asaX9" id="2pG6Gx1UipF" role="lGtFl" />
+    <node concept="t5JxF" id="2pG6Gx1UipH" role="lGtFl">
+      <property role="t5JxN" value="check if can be removed" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6OY3pQc8snZ">
     <property role="EcuMT" value="7871744169002255871" />
@@ -846,8 +861,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6OY3pQc8so9" resolve="MV_Element" />
     </node>
+    <node concept="asaX9" id="2pG6Gx1Uipu" role="lGtFl" />
     <node concept="t5JxF" id="5eqg0kb3tSR" role="lGtFl">
-      <property role="t5JxN" value="@currently-not-used." />
+      <property role="t5JxN" value="check if can be removed, @currently-not-used." />
       <node concept="t5JxR" id="5eqg0kb3tTM" role="t5JxU">
         <ref role="t5JxO" node="6OY3pQc8so9" resolve="MV_Element" />
       </node>
@@ -869,6 +885,10 @@
     </node>
     <node concept="PrWs8" id="6OY3pQcB9YG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="asaX9" id="2pG6Gx1Uipp" role="lGtFl" />
+    <node concept="t5JxF" id="2pG6Gx1Uipr" role="lGtFl">
+      <property role="t5JxN" value="check if can be removed" />
     </node>
   </node>
   <node concept="1TIwiD" id="7t_stIADf7Q">
@@ -905,6 +925,7 @@
       <property role="1uS6qo" value="on-generation" />
       <property role="1uS6qv" value="on-generation" />
     </node>
+    <node concept="asaX9" id="2pG6Gx1UipK" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="68ym4Sbq29Q">
     <property role="EcuMT" value="7071311457147167350" />

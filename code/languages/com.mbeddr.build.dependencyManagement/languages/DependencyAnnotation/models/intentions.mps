@@ -191,7 +191,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="63dx_CyfWah">
-    <property role="TrG5h" value="add_dependency_annotation" />
+    <property role="TrG5h" value="BuildProject_add_dependency_annotation" />
     <ref role="2ZfgGC" to="3ior:4RPz6WoY4Cj" resolve="BuildProject" />
     <node concept="2S6ZIM" id="63dx_CyfWai" role="2ZfVej">
       <node concept="3clFbS" id="63dx_CyfWaj" role="2VODD2">
@@ -1529,7 +1529,7 @@
       <node concept="3clFbS" id="1Ba3VcdGU1p" role="2VODD2">
         <node concept="3clFbF" id="1Ba3VcdGUaK" role="3cqZAp">
           <node concept="Xl_RD" id="1Ba3VcdGUaJ" role="3clFbG">
-            <property role="Xl_RC" value="Apply Fetch Runtime and Devel Dependencies" />
+            <property role="Xl_RC" value="@Deprecated??? Apply Fetch Runtime and Devel Dependencies" />
           </node>
         </node>
       </node>
@@ -1592,7 +1592,7 @@
       <node concept="3clFbS" id="5X_uv6sGmTt" role="2VODD2">
         <node concept="3clFbF" id="5X_uv6sGn2E" role="3cqZAp">
           <node concept="Xl_RD" id="5X_uv6sGn2D" role="3clFbG">
-            <property role="Xl_RC" value="detach CEP" />
+            <property role="Xl_RC" value="@Deprecated??? detach CEP" />
           </node>
         </node>
       </node>
