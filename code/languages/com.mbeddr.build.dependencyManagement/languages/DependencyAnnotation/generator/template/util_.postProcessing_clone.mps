@@ -113,9 +113,6 @@
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
       </concept>
-      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
-        <child id="1079359253376" name="expression" index="1eOMHV" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -182,18 +179,8 @@
       <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -933,7 +920,6 @@
             <ref role="3cqZAo" node="2pG6Gx1VGWX" resolve="DEBUGMODE" />
           </node>
         </node>
-        <node concept="3clFbH" id="6HrZlNR38pr" role="3cqZAp" />
         <node concept="3clFbH" id="6HrZlNR38ps" role="3cqZAp" />
         <node concept="3cpWs8" id="6HrZlNR38pt" role="3cqZAp">
           <node concept="3cpWsn" id="6HrZlNR38pW" role="3cpWs9">
@@ -1027,7 +1013,6 @@
                 <ref role="3cqZAo" node="2pG6Gx1VGWX" resolve="DEBUGMODE" />
               </node>
             </node>
-            <node concept="3clFbH" id="6HrZlNR38qK" role="3cqZAp" />
             <node concept="3clFbH" id="6HrZlNR38qL" role="3cqZAp" />
             <node concept="3cpWs8" id="6HrZlNR38qM" role="3cqZAp">
               <node concept="3cpWsn" id="6HrZlNR38ry" role="3cpWs9">
@@ -1144,8 +1129,14 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2pG6Gx2fYqz" role="3cqZAp" />
         <node concept="3clFbJ" id="3adNyZtbq1i" role="3cqZAp">
           <node concept="3clFbS" id="3adNyZtbq1k" role="3clFbx">
+            <node concept="3SKdUt" id="2pG6Gx2fYXh" role="3cqZAp">
+              <node concept="3SKdUq" id="2pG6Gx2fYXj" role="3SKWNk">
+                <property role="3SKdUp" value="TODO: check/test if reexport is stable for this case." />
+              </node>
+            </node>
             <node concept="3cpWs8" id="3adNyZtbuas" role="3cqZAp">
               <node concept="3cpWsn" id="3adNyZtbuav" role="3cpWs9">
                 <property role="TrG5h" value="reexport" />
@@ -1270,6 +1261,7 @@
                 <node concept="3x8VRR" id="3adNyZtbUZv" role="2OqNvi" />
               </node>
             </node>
+            <node concept="3clFbH" id="2pG6Gx2fYLl" role="3cqZAp" />
             <node concept="3clFbF" id="3adNyZtbVyg" role="3cqZAp">
               <node concept="2OqwBi" id="3adNyZtbXHb" role="3clFbG">
                 <node concept="2OqwBi" id="3adNyZtbVMN" role="2Oq$k0">
@@ -1344,7 +1336,7 @@
                         <ref role="3cqZAo" node="3adNyZtbpEy" resolve="concrType" />
                       </node>
                       <node concept="Xl_RD" id="3adNyZtbten" role="3uHU7B">
-                        <property role="Xl_RC" value="REDUCTION for this type is not supported currently: " />
+                        <property role="Xl_RC" value="ERROR: REDUCTION for this type is not supported currently: " />
                       </node>
                     </node>
                   </node>
@@ -1440,6 +1432,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="2pG6Gx2fZ4d" role="3cqZAp" />
             </node>
           </node>
           <node concept="3eNFk2" id="3adNyZu3W2D" role="3eNLev">
@@ -1455,13 +1448,28 @@
               </node>
             </node>
             <node concept="3clFbS" id="3adNyZu3W2F" role="3eOfB_">
+              <node concept="3clFbH" id="2pG6Gx2fZYS" role="3cqZAp" />
+              <node concept="3SKdUt" id="2pG6Gx2g0fc" role="3cqZAp">
+                <node concept="3SKdUq" id="2pG6Gx2g0fe" role="3SKWNk">
+                  <property role="3SKdUp" value="reduce noise because of strange-formed &quot;concept&quot; (elem)." />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2pG6Gx2g0A8" role="3cqZAp">
+                <node concept="3SKdUq" id="2pG6Gx2g0Aa" role="3SKWNk">
+                  <property role="3SKdUp" value="pull-up language and replace elem with language." />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2pG6Gx2g0X8" role="3cqZAp">
+                <node concept="3SKdUq" id="2pG6Gx2g0Xa" role="3SKWNk">
+                  <property role="3SKdUp" value="add extend-attribute to language." />
+                </node>
+              </node>
               <node concept="3cpWs8" id="3adNyZu45n_" role="3cqZAp">
                 <node concept="3cpWsn" id="3adNyZu45nA" role="3cpWs9">
                   <property role="TrG5h" value="extend" />
                   <node concept="3Tqbb2" id="3adNyZu45nB" role="1tU5fm">
                     <ref role="ehGHo" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
                   </node>
-                  <node concept="10Nm6u" id="3adNyZu45nC" role="33vP2m" />
                 </node>
               </node>
               <node concept="3cpWs8" id="3adNyZu45nD" role="3cqZAp">
@@ -2002,7 +2010,16 @@
                 </node>
               </node>
               <node concept="3clFbH" id="3adNyZu49xw" role="3cqZAp" />
-              <node concept="3clFbH" id="3adNyZu4Yqi" role="3cqZAp" />
+              <node concept="3SKdUt" id="2pG6Gx2g1FF" role="3cqZAp">
+                <node concept="3SKdUq" id="2pG6Gx2g1FH" role="3SKWNk">
+                  <property role="3SKdUp" value="replace languages mpsType &quot;BuildMps_Language&quot; with &quot;BuildMps_Module&quot;," />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2pG6Gx2g22L" role="3cqZAp">
+                <node concept="3SKdUq" id="2pG6Gx2g22N" role="3SKWNk">
+                  <property role="3SKdUp" value="which is the target-type of the containing member." />
+                </node>
+              </node>
               <node concept="2Gpval" id="3adNyZu4Z73" role="3cqZAp">
                 <node concept="2GrKxI" id="3adNyZu4Z75" role="2Gsz3X">
                   <property role="TrG5h" value="attr_" />
@@ -2175,7 +2192,7 @@
               <node concept="2OqwBi" id="6HrZlNR38rC" role="JncvB">
                 <node concept="2OqwBi" id="6HrZlNR38ss" role="2Oq$k0">
                   <node concept="Jnkvi" id="6HrZlNR38t5" role="2Oq$k0">
-                    <ref role="1M0zk5" node="6HrZlNR38q5" resolve="text" />
+                    <ref role="1M0zk5" node="6HrZlNR38q5" resolve="xmlElem" />
                   </node>
                   <node concept="3Tsc0h" id="6HrZlNR38t6" role="2OqNvi">
                     <ref role="3TtcxE" to="iuxj:1q3yNZeA$$y" resolve="content" />
@@ -2202,7 +2219,7 @@
             </node>
           </node>
           <node concept="JncvC" id="6HrZlNR38q5" role="JncvA">
-            <property role="TrG5h" value="text" />
+            <property role="TrG5h" value="xmlElem" />
             <node concept="2jxLKc" id="6HrZlNR38qV" role="1tU5fm" />
           </node>
         </node>
@@ -2362,10 +2379,13 @@
                           </node>
                           <node concept="3clFbJ" id="Y3n0_Gw6o3" role="3cqZAp">
                             <node concept="3clFbS" id="Y3n0_Gw6o5" role="3clFbx">
-                              <node concept="YS8fn" id="Y3n0_Gw82G" role="3cqZAp">
-                                <node concept="2ShNRf" id="Y3n0_Gw83S" role="YScLw">
-                                  <node concept="1pGfFk" id="Y3n0_Gw8ao" role="2ShVmc">
-                                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+                              <node concept="YS8fn" id="2pG6Gx2g7sV" role="3cqZAp">
+                                <node concept="2ShNRf" id="2pG6Gx2g7sW" role="YScLw">
+                                  <node concept="1pGfFk" id="2pG6Gx2g7sX" role="2ShVmc">
+                                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                                    <node concept="Xl_RD" id="2pG6Gx2g7sY" role="37wK5m">
+                                      <property role="Xl_RC" value="@PostReduceXmlNoise::valueFrom_BuildVarRefStringPart(): ERROR." />
+                                    </node>
                                   </node>
                                 </node>
                               </node>
@@ -2402,51 +2422,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3SKdUt" id="6HrZlNR38r0" role="3cqZAp">
-              <node concept="3SKdUq" id="6HrZlNR38rL" role="3SKWNk">
-                <property role="3SKdUp" value="maybe decide cases of hierarchy here for BuildVariableMacroInitValue." />
-              </node>
-            </node>
-            <node concept="1X3_iC" id="Y3n0_Gvapn" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3cpWs6" id="6HrZlNR38r1" role="8Wnug">
-                <node concept="1rXfSq" id="6HrZlNR38rM" role="3cqZAk">
-                  <ref role="37wK5l" node="6HrZlNR38oe" resolve="valueFrom_BuildTextStringPart" />
-                  <node concept="10QFUN" id="6HrZlNR38s_" role="37wK5m">
-                    <node concept="3Tqbb2" id="6HrZlNR38tb" role="10QFUM">
-                      <ref role="ehGHo" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
-                    </node>
-                    <node concept="2OqwBi" id="6HrZlNR38tc" role="10QFUP">
-                      <node concept="2OqwBi" id="6HrZlNR38tD" role="2Oq$k0">
-                        <node concept="1eOMI4" id="6HrZlNR38tX" role="2Oq$k0">
-                          <node concept="10QFUN" id="6HrZlNR38ua" role="1eOMHV">
-                            <node concept="3Tqbb2" id="6HrZlNR38ul" role="10QFUM">
-                              <ref role="ehGHo" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
-                            </node>
-                            <node concept="2OqwBi" id="6HrZlNR38um" role="10QFUP">
-                              <node concept="2OqwBi" id="6HrZlNR38ut" role="2Oq$k0">
-                                <node concept="37vLTw" id="6HrZlNR38uv" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="6HrZlNR38rH" resolve="initialValue" />
-                                </node>
-                                <node concept="3Tsc0h" id="6HrZlNR38uw" role="2OqNvi">
-                                  <ref role="3TtcxE" to="iuxj:1q3yNZeA$$y" resolve="content" />
-                                </node>
-                              </node>
-                              <node concept="1uHKPH" id="6HrZlNR38uu" role="2OqNvi" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="3Tsc0h" id="6HrZlNR38tY" role="2OqNvi">
-                          <ref role="3TtcxE" to="iuxj:1q3yNZeA$$y" resolve="content" />
-                        </node>
-                      </node>
-                      <node concept="1uHKPH" id="6HrZlNR38tE" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs6" id="Y3n0_GvbNO" role="3cqZAp">
               <node concept="3cpWs3" id="Y3n0_Gwb6A" role="3cqZAk">
                 <node concept="Xl_RD" id="Y3n0_GwbQH" role="3uHU7w">
@@ -2474,15 +2449,11 @@
         <node concept="YS8fn" id="Y3n0_GuJyQ" role="3cqZAp">
           <node concept="2ShNRf" id="Y3n0_GuKyt" role="YScLw">
             <node concept="1pGfFk" id="Y3n0_GuLFU" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="2pG6Gx2g6li" role="37wK5m">
+                <property role="Xl_RC" value="@PostReduceXmlNoise::valueFrom_BuildVarRefStringPart(): ERROR." />
+              </node>
             </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="Y3n0_GuLHD" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs6" id="6HrZlNR38p_" role="8Wnug">
-            <node concept="10Nm6u" id="6HrZlNR38qa" role="3cqZAk" />
           </node>
         </node>
       </node>
@@ -2556,7 +2527,7 @@
                   <node concept="1pGfFk" id="Y3n0_Gv0HY" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
                     <node concept="Xl_RD" id="Y3n0_Gv0Lt" role="37wK5m">
-                      <property role="Xl_RC" value="todo implement" />
+                      <property role="Xl_RC" value="@PostReduceXmlNoise::valueFrom_BuildVariableMacroInitValue(): TODO: implement for other cases!!!" />
                     </node>
                   </node>
                 </node>
@@ -2589,17 +2560,6 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="Y3n0_Gv3x8" role="3clF47">
-        <node concept="1X3_iC" id="Y3n0_Gvrol" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="Y3n0_Gv9bP" role="8Wnug">
-            <node concept="3cpWsn" id="Y3n0_Gv9bS" role="3cpWs9">
-              <property role="TrG5h" value="valueBuildString" />
-              <node concept="17QB3L" id="Y3n0_Gv9bN" role="1tU5fm" />
-              <node concept="10Nm6u" id="Y3n0_Gv9iJ" role="33vP2m" />
-            </node>
-          </node>
-        </node>
         <node concept="2Gpval" id="Y3n0_Gv7oz" role="3cqZAp">
           <node concept="2GrKxI" id="Y3n0_Gv7o$" role="2Gsz3X">
             <property role="TrG5h" value="cont" />
@@ -2637,20 +2597,6 @@
                     </node>
                   </node>
                   <node concept="3clFbS" id="Y3n0_Gv7oN" role="3clFbx">
-                    <node concept="1X3_iC" id="Y3n0_Gvi$Q" role="lGtFl">
-                      <property role="3V$3am" value="statement" />
-                      <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                      <node concept="3clFbF" id="Y3n0_Gv7oO" role="8Wnug">
-                        <node concept="37vLTI" id="Y3n0_Gv7oP" role="3clFbG">
-                          <node concept="Jnkvi" id="Y3n0_Gv7oQ" role="37vLTx">
-                            <ref role="1M0zk5" node="Y3n0_Gv7oS" resolve="value" />
-                          </node>
-                          <node concept="37vLTw" id="Y3n0_Gv7oR" role="37vLTJ">
-                            <ref role="3cqZAo" node="6HrZlNR38rH" resolve="initialValue" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
                     <node concept="3cpWs6" id="Y3n0_GviEY" role="3cqZAp">
                       <node concept="1rXfSq" id="Y3n0_Gvo4U" role="3cqZAk">
                         <ref role="37wK5l" node="Y3n0_GvmzN" resolve="valueFrom_BuildString" />
@@ -2672,7 +2618,10 @@
         <node concept="YS8fn" id="Y3n0_GvqgN" role="3cqZAp">
           <node concept="2ShNRf" id="Y3n0_Gvra_" role="YScLw">
             <node concept="1pGfFk" id="Y3n0_GvrkM" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="2pG6Gx2gdyZ" role="37wK5m">
+                <property role="Xl_RC" value="@PostReduceXmlNoise::valueFrom_BuildVariableMacroInitWithString(): ERROR" />
+              </node>
             </node>
           </node>
         </node>
@@ -2763,7 +2712,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="Y3n0_GvsGg" role="3cqZAp" />
         <node concept="3clFbH" id="Y3n0_GvsGt" role="3cqZAp" />
         <node concept="3cpWs6" id="Y3n0_GvsHX" role="3cqZAp">
           <node concept="37vLTw" id="Y3n0_GvDYJ" role="3cqZAk">
@@ -2852,7 +2800,7 @@
                   <node concept="1pGfFk" id="Y3n0_GvOW3" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
                     <node concept="Xl_RD" id="Y3n0_GvOZQ" role="37wK5m">
-                      <property role="Xl_RC" value="todo implement" />
+                      <property role="Xl_RC" value="@PostReduceXmlNoise::valueFrom_BuildStringPart(): TODO: implement for other cases" />
                     </node>
                   </node>
                 </node>
