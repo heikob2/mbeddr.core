@@ -4688,6 +4688,11 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="2pG6Gx2dQkq" role="3cqZAp">
+          <node concept="3SKdUq" id="2pG6Gx2dQks" role="3SKWNk">
+            <property role="3SKdUp" value="request the CEP for cd which should be under this as CEP::subConcepts" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="464rVAYwIOX" role="3cqZAp">
           <node concept="3cpWsn" id="464rVAYwIP0" role="3cpWs9">
             <property role="TrG5h" value="current" />
@@ -4703,6 +4708,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2pG6Gx2eaHS" role="3cqZAp">
+          <node concept="3SKdUq" id="2pG6Gx2eaHU" role="3SKWNk">
+            <property role="3SKdUp" value="Gather all CREs for super-concepts of cd's concrete CEP" />
           </node>
         </node>
         <node concept="2$JKZl" id="464rVAYwJBX" role="3cqZAp">
@@ -4761,6 +4771,29 @@
         <node concept="3Tqbb2" id="464rVAYwEFX" role="1tU5fm">
           <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
         </node>
+      </node>
+      <node concept="P$JXv" id="2pG6Gx2eebm" role="lGtFl">
+        <node concept="TZ5HA" id="2pG6Gx2eebn" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx2eebo" role="1dT_Ay">
+            <property role="1dT_AB" value="Request the CEP for cd, which should be this CEP or a CEP (recursively) in this::subConcepts." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2pG6Gx2eg27" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx2eg28" role="1dT_Ay">
+            <property role="1dT_AB" value="Then all CREs are gathered from cd's concrete CEP and its transitive super-concepts." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2pG6Gx2eg2n" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx2eg2o" role="1dT_Ay">
+            <property role="1dT_AB" value="(a CRE defines how a reference is exported)" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2pG6Gx2eebp" role="3nqlJM">
+          <node concept="zr_55" id="2pG6Gx2eebr" role="zr_5Q">
+            <ref role="zr_51" node="464rVAYwEFY" resolve="cd" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2pG6Gx2eebs" role="3nqlJM" />
       </node>
     </node>
     <node concept="13i0hz" id="464rVAYyZOy" role="13h7CS">
@@ -6737,6 +6770,39 @@
       <node concept="37vLTG" id="1Lv$utls7Ho" role="3clF46">
         <property role="TrG5h" value="kind_" />
         <node concept="17QB3L" id="1Lv$utls7HT" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="2pG6Gx2ei9p" role="lGtFl">
+        <node concept="TZ5HA" id="2pG6Gx2ei9q" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx2ei9r" role="1dT_Ay">
+            <property role="1dT_AB" value="If an reference in parent_ matches the CRE refCep and is visible respective to kind_," />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2pG6Gx2eik6" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx2eik7" role="1dT_Ay">
+            <property role="1dT_AB" value="then create a RoledReferenceToReduce. This is an intermediate-step to export a reference" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2pG6Gx2eikq" role="TZ5H$">
+          <node concept="1dT_AC" id="2pG6Gx2eikr" role="1dT_Ay">
+            <property role="1dT_AB" value="in parent_ respective to refCep and kind_. It will be reduced later in the process." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2pG6Gx2ei9s" role="3nqlJM">
+          <node concept="zr_55" id="2pG6Gx2ei9u" role="zr_5Q">
+            <ref role="zr_51" node="1Lv$utls7EK" resolve="parent_" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2pG6Gx2ei9v" role="3nqlJM">
+          <node concept="zr_55" id="2pG6Gx2ei9x" role="zr_5Q">
+            <ref role="zr_51" node="1Lv$utls7Ft" resolve="refCep" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2pG6Gx2ei9y" role="3nqlJM">
+          <node concept="zr_55" id="2pG6Gx2ei9$" role="zr_5Q">
+            <ref role="zr_51" node="1Lv$utls7Ho" resolve="kind_" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2pG6Gx2ei9_" role="3nqlJM" />
       </node>
     </node>
     <node concept="13hLZK" id="1Lv$utls17V" role="13h7CW">

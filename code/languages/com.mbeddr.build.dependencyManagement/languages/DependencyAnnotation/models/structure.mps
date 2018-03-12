@@ -267,6 +267,7 @@
       <property role="20kJfa" value="runtimeMV" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6OY3pQc8snZ" resolve="ModuleVisibilities" />
+      <node concept="asaX9" id="2pG6Gx2dmv3" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="3RFMhXlizXN" role="1TKVEi">
       <property role="IQ2ns" value="4461880992252706675" />
@@ -274,6 +275,7 @@
       <property role="20kJfa" value="develMV" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6OY3pQc8snZ" resolve="ModuleVisibilities" />
+      <node concept="asaX9" id="2pG6Gx2dmv5" role="lGtFl" />
     </node>
   </node>
   <node concept="1TIwiD" id="63dx_CypeWL">
@@ -613,12 +615,16 @@
       <property role="IQ2nx" value="6850913726536503080" />
       <property role="TrG5h" value="kind" />
       <ref role="AX2Wp" node="63dx_CygDCO" resolve="ExportVisibility" />
+      <node concept="t5JxF" id="2pG6Gx2c$tQ" role="lGtFl">
+        <property role="t5JxN" value="visibility-kind, determines how the (sub)nodes in nodeToReduce are exported." />
+      </node>
     </node>
     <node concept="1TJgyj" id="1DiYeIEYE0Q" role="1TKVEi">
       <property role="IQ2ns" value="1896852084145954870" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fetchDependencies" />
       <ref role="20lvS9" node="1Ba3VcdGQ0z" resolve="CEP_Fetch" />
+      <node concept="asaX9" id="2pG6Gx2dzuw" role="lGtFl" />
     </node>
   </node>
   <node concept="1TIwiD" id="5WjlrMh3$WF">
@@ -739,6 +745,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fetchDependencies" />
       <ref role="20lvS9" node="1Ba3VcdGQ0z" resolve="CEP_Fetch" />
+      <node concept="asaX9" id="2pG6Gx2eHRi" role="lGtFl" />
     </node>
   </node>
   <node concept="PlHQZ" id="6qYR9ryf_Ed">
