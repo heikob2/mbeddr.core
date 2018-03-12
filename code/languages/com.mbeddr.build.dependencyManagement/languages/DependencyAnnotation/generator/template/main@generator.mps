@@ -1773,6 +1773,32 @@
         <property role="2qtEX8" value="nodeToReduce" />
         <node concept="3$xsQk" id="1Lv$utm1ZDg" role="3$ytzL">
           <node concept="3clFbS" id="1Lv$utm1ZDh" role="2VODD2">
+            <node concept="3cpWs8" id="2pG6Gx2lFnw" role="3cqZAp">
+              <node concept="3cpWsn" id="2pG6Gx2lFnz" role="3cpWs9">
+                <property role="TrG5h" value="test" />
+                <node concept="10P_77" id="2pG6Gx2lFns" role="1tU5fm" />
+                <node concept="3clFbT" id="2pG6Gx2lFuI" role="33vP2m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="2pG6Gx2lFxK" role="3cqZAp">
+              <node concept="3clFbS" id="2pG6Gx2lFxM" role="3clFbx">
+                <node concept="YS8fn" id="2pG6Gx2lF_9" role="3cqZAp">
+                  <node concept="2ShNRf" id="2pG6Gx2lFAB" role="YScLw">
+                    <node concept="1pGfFk" id="2pG6Gx2lFIp" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="Xl_RD" id="2pG6Gx2lFQB" role="37wK5m">
+                        <property role="Xl_RC" value="used: reduce BaseConcept" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="2pG6Gx2lFzP" role="3clFbw">
+                <ref role="3cqZAo" node="2pG6Gx2lFnz" resolve="test" />
+              </node>
+            </node>
             <node concept="3clFbF" id="1Lv$utm1ZJY" role="3cqZAp">
               <node concept="30H73N" id="1Lv$utm1ZJX" role="3clFbG" />
             </node>
@@ -5203,6 +5229,7 @@
     <property role="TrG5h" value="prePostGeneration" />
     <property role="1v3f2W" value="pre_processing" />
     <property role="1v3jST" value="true" />
+    <property role="3GE5qa" value="not-used" />
     <node concept="1pplIY" id="3RFMhXlnq9k" role="1pqMTA">
       <node concept="3clFbS" id="3RFMhXlnq9l" role="2VODD2">
         <node concept="3clFbH" id="3RFMhXlnq9u" role="3cqZAp" />
